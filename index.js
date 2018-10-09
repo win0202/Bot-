@@ -427,6 +427,23 @@ bot.on("message", async message => {
   
   
   
+    if (cmd === `${prefix}병종`){
+      if (args ===`보병`){
+         message.channel.send("```asciidoc\n[보병]\n공Ⓑ 정Ⓑ 방Ⓢ 순Ⓑ 사Ⓐ\nHP 798  MP 109  이동력 5\n\n부대 효과\n- 방어력 보조 (9%)\n- HP 보조 (15%)\n- 간접 피해 감소 (40%)\n\n장수 효과\n- HP 보조 (4%/9%)\n- 간접 피해 감소 (3%/7%)\n- 물리 피해 반사 (3%/7%)\n- 책략 피해 반사 (3%/7%)\n- 부동 공격 (5%/15%) ```")
+      }
+    
+/* 
+    if (args ===`제갈량`){
+      message.channel.send("```asciidoc\n ```")
+     }
+*/    
+  }
+  
+  
+  
+  
+  
+  
   
   if (cmd === `${prefix}보물`){
     if (args ===`백학선`){
