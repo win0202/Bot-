@@ -136,9 +136,13 @@ let args = messageArray[1];
   if (cmd === `${prefix}코스트`){
     message.channel.send("https://jojo.jy.is/cost/");
   }
-
+  if (cmd === `${prefix}전장순서`){
+    message.channel.send("산지 -> 설원 -> 초원 -> 사막 -> 도성 -> 장강 -> 산지");
+  }if (cmd === `${prefix}지형`){
+    message.channel.send("https://cdn.discordapp.com/attachments/499127352798871552/499133975306960916/ECA084ECB2B4.jpg");
+  }
   if (cmd === `${prefix}?`){
-    message.channel.send("/번역 [이름] or /tr [name] : 아이템 or 장수 이름 번역 ex)/번역 제갈량\n/특성 [특성 이름] : 특성 검색 ex)/특성 연속 책략\n/장수 [장수 이름] : 장수 검색 ex)/장수 제갈량\n/보물 [보물 이름] : 보물 검색 ex)/보물 백학선\n/위키 : 조조전 온라인 나무위키\n/네이버 : 네이버 공식 카페\n/플러그 or /plug: 글로벌서버 공식 페이지\n/코스트 : 코스트 계산기");
+    message.channel.send("/번역 [이름] or /tr [name] : 아이템 or 장수 이름 번역 ex)/번역 제갈량\n/특성 [특성 이름] : 특성 검색 ex)/특성 연속 책략\n/장수 [장수 이름] : 장수 검색 ex)/장수 제갈량\n/보물 [보물 이름] : 보물 검색 ex)/보물 백학선\n/위키 : 조조전 온라인 나무위키\n/네이버 : 네이버 공식 카페\n/플러그 or /plug: 글로벌서버 공식 페이지\n/코스트 : 코스트 계산기\n/전장순서 : 섬멸전 전장 순서\n/지형 : 지형별 상성표");
   }
 
 });
