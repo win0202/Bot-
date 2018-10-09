@@ -47,7 +47,7 @@ bot.on("message", async message => {
   }
 
   if (cmd === `${prefix}?`){
-    message.channel.send("!번역 [이름] : 아이템 or 장수 이름 번역 ex)!번역 제갈량");
+    message.channel.send("!번역 [이름] : 아이템 or 장수 이름 번역 ex)!번역 제갈량\n dd");
     message.channel.send("!특성 [특성 이름] : 특성 검색 ex)!특성 연속 책략");
     message.channel.send("!장수 [장수 이름] : 장수 검색 ex)!장수 제갈량");
     message.channel.send("!보물 [보물 이름] : 보물 검색 ex)!보물 백학선");
