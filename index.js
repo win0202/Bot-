@@ -654,7 +654,7 @@ bot.on("message", async message => {
     message.channel.send("https://cdn.discordapp.com/attachments/499127352798871552/499133975306960916/ECA084ECB2B4.jpg");
   }
   
-  
+  //계보, 코스트, 군주효과, 태수효과
   
   
   if (cmd === `${prefix}?`){
