@@ -15,8 +15,10 @@ bot.on("message", async message => {
   let messageArray = message.content.split(" ");
   let cmd = messageArray[0];
 //  let args = messageArray.slice(1);
-let args = messageArray[1];
-
+  let args = messageArray[1];
+  let _args = messageArray[2];
+  
+  
   if (cmd === `${prefix}ping`){
     message.channel.send("Pong!");
   }
@@ -119,14 +121,19 @@ let args = messageArray[1];
     
     
   }
+  if (cmd === `${prefix}장수`){
+    if (args ===`제갈량`){
+  }
   if (cmd === `${prefix}특성`){
-    if (args ===`연속 책략`){
+    if (args ===`연속책략`|| (args === '연속' && _args === '책략'){
        message.channel.send("장수\n번쾌 (검사)\n주유 (도독)\n곽가 (도사)\n대교 (무희)\n순욱 (책사)\n전풍 (책사)\n채염 (책사)\n방통 (현자)\n아린 (현자)\n장각 (현자)\n\n\n\n 보물\n 무귀보도 ★7 (보도)\n백학선 ★7 (선)");
     }
   }
   if (cmd === `${prefix}보물`){
     if (args ===`백학선`){
        message.channel.send("백학선  ★7\n종류: 무기(선)\n능력: 정신력(95), 사기(10)\n효과: 연속 책략\n설명: 신비로운 힘을 가진 접부채. 신기한 요술을 부릴 수 있다고 한다.");
+    }if (args ===`무귀보도`){
+       message.channel.send("무귀보도  ★7\n종류: 무기(보도)\n능력: 정신력(86), 순발력(10)\n효과: 연속 책략\n설명: 무귀도에서 귀법을 사용할 때 쓰이는 주술용 무기.");
     }
   }
    if (cmd === `${prefix}위키`){
