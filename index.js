@@ -408,11 +408,9 @@ bot.on("message", async message => {
       message.channel.send("```asciidoc\n[제갈량 (마왕)]\nCOST - 22\n능력치 - 34/100/98/77/96\n30lv - 연속 책략 강화\n50lv - 풍계 책략 특화% (20%)\n70lv - 사신 보옥 착용\n90lv - 상태이상 면역\n태수효과 - 징세의 달인\n군주효과 - 전 약탈 보조\n계보 - 마왕패도```")
       message.channel.send("```asciidoc\n[제갈량 (현자)]\nCOST - 21\n능력치 - 34/100/98/77/96\n30lv - 연속 책략 강화\n50lv - 지계 책략 강화% (15%)\n70lv - 책략 지형 무시\n90lv - 상태이상 면역\n태수효과 - 군량 징세 특화\n군주효과 - 전 징세 보조\n계보 - 와룡공명```")
     }
-
     if (args ===`강보`){
       message.channel.send("```asciidoc\n[강보 (보병)]\nCOST - 14\n능력치 - 60/70/80/60/60\n30lv - 전 방어율 증가 (5%)\n50lv - HP 보조% (15%)\n70lv - 주위 견고\n90lv - 일치단결\n태수효과 - 시장 특화\n군주효과 - 무역 상점 보조\n계보 - 난세간웅 ```")
     }
-
     if (args ===`악진`){
       message.channel.send("```asciidoc\n[악진 (보병)]\nCOST - 20\n능력치 - 84/54/80/76/86\n30lv - 전 방어율 증가 (10%)\n50lv - 분노 축적% (20%)\n70lv - HP 보조% (20%)\n90lv - 주동 공격\n태수효과 - 경작 특화\n군주효과 - 청주 약탈 보조\n계보 - 난세간웅] ```")
     }
@@ -669,16 +667,22 @@ bot.on("message", async message => {
   } if (cmd === `${prefix}플러그` || cmd === `${prefix}plug`){
     message.channel.send("https://www.plug.game/OfficialCaocao_nexon");
   } 
+  
+  
+  
   if (cmd === `${prefix}코스트`){
     message.channel.send("https://jojo.jy.is/cost/");
   }
+  if (cmd === `${prefix}cost`){
+    message.channel.send("https://johansen.software/rotk-tools/");
+  }
   
+
   
   
   if (cmd === `${prefix}maprot`){
     message.channel.send("Mountain -> Snowy Field -> Grassland Desert -> Castle -> Yangtze -> Mountain");
-  }
-  
+  }  
   if (cmd === `${prefix}전장순서`){
     message.channel.send("산지 -> 설원 -> 초원 -> 사막 -> 도성 -> 장강 -> 산지");
   }
@@ -700,7 +704,7 @@ bot.on("message", async message => {
     message.channel.send("```/번역 [이름] : 보물/장수/병종/특성 번역 ex)/번역 제갈량\n/특성 [이름] : 특성 검색 ex)/특성 연속 책략\n/장수 [이름] : 장수 상세 정보 ex)/장수 제갈량\n/병종 [이름] : 병종 상세 정보 ex)/병종 보병\n/병종 장수 [이름] : 병종 검색 ex)/병종 장수 보병\n/보물 [이름] : 보물 상세 정보 ex)/보물 백학선\n/위키 : 조조전 온라인 나무위키\n/네이버 : 네이버 공식 카페\n/플러그 : 글로벌서버 공식 페이지\n/코스트 : 코스트 계산기\n/전장순서 : 섬멸전 전장 순서\n/지형 : 지형별 상성표\n/?? : in Eng```");
   }
   if (cmd === `${prefix}??`){
-    message.channel.send("```/tr [name] : Translate name of artifact/commander/class/passive ex)/tr jiangfu\n/pa [name] : Passive Search ex)/pa doubletactics\n/cm [name] : Commander Description ex)/co jiangfu\n/cl [name] : Class Description ex)/cl footman\n/cl commanders [name] : Class Search ex)/cl commanders footman\n/ar [name] : Artifacts Description ex)/ar soulstaff\n/plug\n/maprot : Annihilation Map Rotation \n/bonus : Terrain Bonus\n/? : in Kor```");
+    message.channel.send("```/tr [name] : Translate name of artifact/commander/class/passive ex)/tr jiangfu\n/pa [name] : Passive Search ex)/pa doubletactics\n/cm [name] : Commander Description ex)/co jiangfu\n/cl [name] : Class Description ex)/cl footman\n/cl commanders [name] : Class Search ex)/cl commanders footman\n/ar [name] : Artifacts Description ex)/ar soulstaff\n/plug\n/cost : Team builder by Wolfgard\n/maprot : Annihilation Map Rotation \n/bonus : Terrain Bonus\n/? : in Kor```");
   }
 });
 
