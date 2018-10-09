@@ -23,100 +23,105 @@ bot.on("message", async message => {
 
   if (cmd === `${prefix}번역` || cmd === `${prefix}tr`){
     if (args ===`강보`){
-       message.channel.send("JiangFu");
+       message.channel.send("```JiangFu```");
     }
     if (args ===`JiangFu`){
-       message.channel.send("강보");
+       message.channel.send("```강보```");
     }if (args ===`만기`){
-       message.channel.send("Manji");
+       message.channel.send("```Manji```");
     }
     if (args ===`Manji`){
-       message.channel.send("만기");
+       message.channel.send("```만기```");
     }if (args ===`유궁`){
-       message.channel.send("LiuGong");
+       message.channel.send("```LiuGong```");
     }
     if (args ===`LiuGong`){
-       message.channel.send("유궁");
+       message.channel.send("```유궁```");
     }if (args ===`하후연`){
-       message.channel.send("XiahouYuan");
+       message.channel.send("```XiahouYuan```");
     }
     if (args ===`XiahouYuan`){
-       message.channel.send("하후연");
+       message.channel.send("```하후연```");
     }if (args ===`하후돈`){
-       message.channel.send("XiahouDun");
+       message.channel.send("```XiahouDun```");
     }
     if (args ===`XiahouDun`){
-       message.channel.send("하후돈");
+       message.channel.send("```하후돈```");
     }if (args ===`악진`){
-       message.channel.send("YueJin");
+       message.channel.send("```YueJin```");
     }
     if (args ===`YueJin`){
-       message.channel.send("악진");
+       message.channel.send("```악진```");
     }if (args ===`이전`){
-       message.channel.send("LiDian");
+       message.channel.send("```LiDian```");
     }
     if (args ===`Lidian`){
-       message.channel.send("이전");
+       message.channel.send("```이전```");
     }if (args ===`조홍`){
-       message.channel.send("CaoHong");
+       message.channel.send("```CaoHong```");
     }
     if (args ===`CaoHong`){
-       message.channel.send("조홍");
+       message.channel.send("```조홍```");
     }if (args ===`조인`){
-       message.channel.send("CaoRen");
+       message.channel.send("```CaoRen```");
     }
     if (args ===`CaoRen`){
-       message.channel.send("조인");
+       message.channel.send("```조인```");
     }if (args ===`전위`){
-       message.channel.send("DianWei");
+       message.channel.send("```DianWei```");
     }
     if (args ===`DianWei`){
-       message.channel.send("전위");
+       message.channel.send("```전위```");
     }if (args ===`순욱`){
-       message.channel.send("XunYu");
+       message.channel.send("```XunYu```");
     }
     if (args ===`XunYu`){
-       message.channel.send("순욱");
+       message.channel.send("```순욱```");
     }if (args ===`순유`){
-       message.channel.send("XunYou");
+       message.channel.send("```XunYou```");
     }
     if (args ===`XunYou`){
-       message.channel.send("순유");
+       message.channel.send("```순유```");
     }if (args ===`조조`){
-       message.channel.send("CaoCao");
+       message.channel.send("```CaoCao```");
     }
     if (args ===`CaoCao`){
-       message.channel.send("조조");
+       message.channel.send("```조조```");
     }if (args ===`곽가`){
-       message.channel.send("GuoJia");
+       message.channel.send("```GuoJia```");
     }
     if (args ===`GuoJia`){
-       message.channel.send("곽가");
+       message.channel.send("```곽가```");
     }if (args ===`정욱`){
-       message.channel.send("ChengYu");
+       message.channel.send("```ChengYu```");
     }
     if (args ===`ChengYu`){
-       message.channel.send("정욱");
+       message.channel.send("```정욱```");
     }if (args ===`우금`){
-       message.channel.send("YuJin");
+       message.channel.send("```YuJin```");
     }
     if (args ===`YuJin`){
-       message.channel.send("우금");
+       message.channel.send("```우금```");
     }if (args ===`유엽`){
-       message.channel.send("LiuYe");
+       message.channel.send("```LiuYe```");
     }
     if (args ===`LiuYe`){
-       message.channel.send("유엽");
+       message.channel.send("```유엽```");
     }if (args ===`허저`){
-       message.channel.send("XuChu");
+       message.channel.send("```XuChu```");
     }
     if (args ===`XuChu`){
-       message.channel.send("허저");
+       message.channel.send("```허저```");
     }
     
-    
-    
-    
+/*    
+    if (args ===`허저`){
+       message.channel.send("```XuChu```");
+    }
+    if (args ===`XuChu`){
+       message.channel.send("```허저```");
+    }
+*/    
     
   }
   if (cmd === `${prefix}장수`){
@@ -124,26 +129,51 @@ bot.on("message", async message => {
       message.channel.send("```asciidoc\n[제갈량 (마왕)]\nCOST - 22\n능력치 - 34/100/98/77/96\n30lv - 연속 책략 강화\n50lv - 풍계 책략 특화% (20%)\n70lv - 사신 보옥 착용\n90lv - 상태이상 면역\n태수효과 - 징세의 달인\n군주효과 - 전 약탈 보조\n계보 - 마왕패도```")
       message.channel.send("```asciidoc\n[제갈량 (현자)]\nCOST - 21\n능력치 - 34/100/98/77/96\n30lv - 연속 책략 강화\n50lv - 지계 책략 강화% (15%)\n70lv - 책략 지형 무시\n90lv - 상태이상 면역\n태수효과 - 군량 징세 특화\n군주효과 - 전 징세 보조\n계보 - 와룡공명```")
     }
+    
+/* 
+    if (args ===`제갈량`){
+      message.channel.send("```asciidoc\n ```")
+     }
+*/    
   }
+  
+  
+  
   if (cmd === `${prefix}특성`){
     if (args ===`연속책략`){
-       message.channel.send("장수\n번쾌 (검사)\n주유 (도독)\n곽가 (도사)\n대교 (무희)\n순욱 (책사)\n전풍 (책사)\n채염 (책사)\n방통 (현자)\n아린 (현자)\n장각 (현자)\n\n\n\n 보물\n 무귀보도 ★7 (보도)\n백학선 ★7 (선)");
+       message.channel.send("```asciidoc\n[장수]\n번쾌 (검사)\n주유 (도독)\n곽가 (도사)\n대교 (무희)\n순욱 (책사)\n전풍 (책사)\n채염 (책사)\n방통 (현자)\n아린 (현자)\n장각 (현자)``` ```asciidoc\n[보물]\n 무귀보도 ★7 (보도)\n백학선 ★7 (선)```");
     }
     if (args === `연속`){
       let _args = messageArray[2];
       if (_args === `책략`){
-         message.channel.send("장수\n번쾌 (검사)\n주유 (도독)\n곽가 (도사)\n대교 (무희)\n순욱 (책사)\n전풍 (책사)\n채염 (책사)\n방통 (현자)\n아린 (현자)\n장각 (현자)\n\n\n\n 보물\n 무귀보도 ★7 (보도)\n백학선 ★7 (선)");
+         message.channel.send("```asciidoc\n[장수]\n번쾌 (검사)\n주유 (도독)\n곽가 (도사)\n대교 (무희)\n순욱 (책사)\n전풍 (책사)\n채염 (책사)\n방통 (현자)\n아린 (현자)\n장각 (현자)``` ```asciidoc\n[보물]\n 무귀보도 ★7 (보도)\n백학선 ★7 (선)```");
       }
     } 
-
+/* 
+    if (args ===`제갈량`){
+      message.channel.send("```asciidoc\n ```")
+     }
+*/    
   }
+  
+  
+  
+  
   if (cmd === `${prefix}보물`){
     if (args ===`백학선`){
-       message.channel.send("백학선  ★7\n종류: 무기(선)\n능력: 정신력(95), 사기(10)\n효과: 연속 책략\n설명: 신비로운 힘을 가진 접부채. 신기한 요술을 부릴 수 있다고 한다.");
+       message.channel.send("```asciidoc\n[백학선]  ★7\n종류: 무기(선)\n능력: 정신력(95), 사기(10)\n효과: 연속 책략\n설명: 신비로운 힘을 가진 접부채. 신기한 요술을 부릴 수 있다고 한다.```");
     }if (args ===`무귀보도`){
-       message.channel.send("무귀보도  ★7\n종류: 무기(보도)\n능력: 정신력(86), 순발력(10)\n효과: 연속 책략\n설명: 무귀도에서 귀법을 사용할 때 쓰이는 주술용 무기.");
+       message.channel.send("```asciidoc\n[무귀보도]  ★7\n종류: 무기(보도)\n능력: 정신력(86), 순발력(10)\n효과: 연속 책략\n설명: 무귀도에서 귀법을 사용할 때 쓰이는 주술용 무기.```");
     }
   }
+  
+/* 
+    if (args ===`제갈량`){
+      message.channel.send("```asciidoc\n ```")
+     }
+*/      
+  
+  
    if (cmd === `${prefix}위키`){
     message.channel.send("https://bit.ly/2J2MXNu");
   }
