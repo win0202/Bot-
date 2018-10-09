@@ -17,10 +17,20 @@ bot.on("message", async message => {
 //  let args = messageArray.slice(1);
   let args = messageArray[1];
  
-  if (cmd === `${prefix}ping`){
-    message.channel.send("Pong!");
+  if (cmd === `${prefix}Olleh`){
+      message.channel.send("hellO");
   }
-
+  if (cmd === `${prefix}olleh`){
+      message.channel.send("hello");
+  } 
+  if (cmd === `${prefix}Hello`){
+      message.channel.send("olleH");
+  }
+  if (cmd === `${prefix}hello`){
+      message.channel.send("olleh");
+  }
+  
+  
   if (cmd === `${prefix}번역` || cmd === `${prefix}tr`){
     if (args ===`강보`){
        message.channel.send("```JiangFu```");
