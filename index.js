@@ -483,7 +483,7 @@ bot.on("message", async message => {
   
   
   if (cmd === `${prefix}?`){
-    message.channel.send("```/번역 [이름] : 보물/장수/병종/특성 번역 ex)/번역 제갈량\n/특성 [특성 이름] : 특성 검색 ex)/특성 연속 책략\n/장수 [장수 이름] : 장수 상세 정보 ex)/장수 제갈량\n/병종 [병종 이름] : 병종 상세 정보 ex)/병종 보병\n/보물 [보물 이름] : 보물 상세 정보 ex)/보물 백학선\n/위키 : 조조전 온라인 나무위키\n/네이버 : 네이버 공식 카페\n/플러그 or /plug: 글로벌서버 공식 페이지\n/코스트 : 코스트 계산기\n/전장순서 : 섬멸전 전장 순서\n/지형 : 지형별 상성표\n/?? : in Eng```");
+    message.channel.send("```/번역 [이름] : 보물/장수/병종/특성 번역 ex)/번역 제갈량\n/특성 [이름] : 특성 검색 ex)/특성 연속 책략\n/장수 [이름] : 장수 상세 정보 ex)/장수 제갈량\n/병종 [이름] : 병종 상세 정보 ex)/병종 보병\n/보물 [이름] : 보물 상세 정보 ex)/보물 백학선\n/위키 : 조조전 온라인 나무위키\n/네이버 : 네이버 공식 카페\n/플러그 : 글로벌서버 공식 페이지\n/코스트 : 코스트 계산기\n/전장순서 : 섬멸전 전장 순서\n/지형 : 지형별 상성표\n/?? : in Eng```");
   }
   if (cmd === `${prefix}??`){
     message.channel.send("```/tr [name] : Translate the name of artifacts/commanders/classes/passive ex)/tr jiangfu\n/pa [name] : Passive Search ex)/pa doubletactics\n/co [name] : Commander Description ex)/co jiangfu\n/cl [name] : Class Description ex)/cl footman\n/ar [name] : Artifacts Description ex)/ar soulstaff\n/plug\n/maprot : Annihilation Map Rotation \n//bonus : Terrain Bonus\n/? : in Kor```");
