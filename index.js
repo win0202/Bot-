@@ -1456,7 +1456,7 @@ bot.on("message", async message => {
       message.channel.send("```asciidoc\n[번쾌 (검사)]\nCOST - 23\n능력치 - 97/45/85/86/84\n30lv - 신출귀몰\n50lv - 책략 명중률 증가 (15%)\n70lv - EP 절약% (30%)\n90lv - 연속 책략\n태수효과 - 공방 특화\n군주효과 - 전 약탈 보조\n계보 - 태조고제 ```")
      }
     if (args ===`조조`){
-      message.channel.send("```asciidoc\n[조조 (군주)]\nCOST - 21\n능력치 - 75/96/97/73/76\n30lv - 구사일생\n50lv - \n형 효과 보조\n70lv - 일치단결\n90lv - 재반격\n태수효과 - 군량 징세 특화\n군주효과 - 출진 군량 보조\n계보 - 난세간웅 ```")
+      message.channel.send("```asciidoc\n[조조 (군주)]\nCOST - 21\n능력치 - 75/96/97/73/76\n30lv - 구사일생\n50lv - 지형 효과 보조\n70lv - 일치단결\n90lv - 재반격\n태수효과 - 군량 징세 특화\n군주효과 - 출진 군량 보조\n계보 - 난세간웅 ```")
       message.channel.send("```asciidoc\n[조조 (검사)]\nCOST - 24\n능력치 - 82/92/98/80/84\n30lv - 반격 강화\n50lv - 책략 방어율 관통 (15%)\n70lv - 맹독 공격% (50%)\n90lv - 재반격\n태수효과 - 징세의 달인\n군주효과 - 출진 군량 보조\n계보 - 풍운아만 ```")
      }
     if (args ===`하후돈`){
