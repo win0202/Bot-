@@ -1597,15 +1597,8 @@ if (args ===`이래`){
 if (args ===`유화`){
        message.channel.send("```LiuHe```");
     }
-if (args ===`
-`){
-       message.channel.send("```XiahouDun```");
-    }
 if (args ===`변월향`){
        message.channel.send("```BianYueXiang```");
-    }
-if (args ===`조조`){
-       message.channel.send("```CaoCao```");
     }
 if (args ===`관영`){
        message.channel.send("```GuanYing```");
@@ -1796,9 +1789,6 @@ if (args ===`GuanHai` ||args ===`guanhai` ||args ===`Guanhai`){
     }
 if (args ===`LiuPi` ||args ===`liupi` ||args ===`Liupi`){
        message.channel.send("```유벽```");
-    }
-if (args ===`ZhangLiang` ||args ===`zhangliang` ||args ===`Zhangliang`){
-       message.channel.send("```장량```");
     }
 if (args ===`ZhangBao` ||args ===`zhangbao` ||args ===`Zhangbao`){
        message.channel.send("```장보```");
@@ -2913,9 +2903,6 @@ if (args ===`GuanXing` ||args ===`guanxing` ||args ===`Guanxing`){
 if (args ===`JiangWei` ||args ===`jiangwei` ||args ===`Jiangwei`){
        message.channel.send("```강유```");
     }
-if (args ===`ZhugeLiang` ||args ===`zhugeliang` ||args ===`Zhugeliang`){
-       message.channel.send("```제갈량```");
-    }
 if (args ===`MaoJie` ||args ===`maojie` ||args ===`Maojie`){
        message.channel.send("```모개```");
     }
@@ -3069,8 +3056,14 @@ if (args ===`UiRe` ||args ===`uire` ||args ===`Uire`){
 if (args ===`LiuHe` ||args ===`liuhe` ||args ===`Liuhe`){
        message.channel.send("```유화```");
     }
+if (args ===`XiahouDun` ||args ===`xiahoudun` ||args ===`Xiahoudun`){
+       message.channel.send("```하후돈```");
+    }
 if (args ===`BianYueXiang` ||args ===`bianyuexiang` ||args ===`Bianyuexiang`){
        message.channel.send("```변월향```");
+    }
+if (args ===`CaoCao` ||args ===`caocao` ||args ===`Caocao`){
+       message.channel.send("```조조```");
     }
 if (args ===`GuanYing` ||args ===`guanying` ||args ===`Guanying`){
        message.channel.send("```관영```");
@@ -3104,6 +3097,9 @@ if (args ===`FanKuai` ||args ===`fankuai` ||args ===`Fankuai`){
     }
 if (args ===`HanXin` ||args ===`hanxin` ||args ===`Hanxin`){
        message.channel.send("```한신```");
+    }
+if (args ===`ZhangLiang` ||args ===`zhangliang` ||args ===`Zhangliang`){
+       message.channel.send("```장량```");
     }
 if (args ===`LiuBang` ||args ===`liubang` ||args ===`Liubang`){
        message.channel.send("```유방```");
@@ -3785,6 +3781,9 @@ if (args ===`KuaiLiang`||args ===`kuailiang`||args ===`Kuailiang`){
 if (args ===`JiLing`||args ===`jiling`||args ===`Jiling`){
       message.channel.send("```asciidoc\n[Ji Ling (Heavy Cavalry)]\nCost - 18\nStat - 83/51/78/72/67\n30lv - Ranged DMG -% (10)\n50lv - Physical Damage Reflection % (12)\n70lv - DEF- Attack\n90lv - Second Wind % (25)\nPrefect - Farm\nWarlord - Jingzhou-N Tax\nBanner - Pang Tong```");
     }
+if (args ===`LuZhi`||args ===`luzhi`||args ===`Luzhi`){
+      message.channel.send("```asciidoc\n[Lu Zhi (Footman)]\nCost - 18\nStat - 54/82/88/77/88\n30lv - Physical Damage -% (10)\n50lv - Double Tactics Immunity\n70lv - Reach WIS-\n90lv - Veteran (35)\nPrefect - Ration Tax\nWarlord - Yongzhou-W Tax\nBanner - Pang Tong```");
+    }
 if (args ===`KuaiYue`||args ===`kuaiyue`||args ===`Kuaiyue`){
       message.channel.send("```asciidoc\n[Kuai Yue (Taoist)]\nCost - 16\nStat - 40/83/76/80/71\n30lv - Tactics Damage Reflection % (10)\n50lv - Interrupt Tactics +% (10)\n70lv - Reach WIS-\n90lv - Status Effect Immunity\nPrefect - Pig Farm\nWarlord - Jingzhou-S Loot\nBanner - Pang Tong```");
     }
@@ -4022,6 +4021,9 @@ if (args ===`HuangQuan`||args ===`huangquan`||args ===`Huangquan`){
 if (args ===`ZhangXingcai`||args ===`zhangxingcai`||args ===`Zhangxingcai`){
       message.channel.send("```asciidoc\n[Zhang Xingcai (Light Cavalry)]\nCost - 21\nStat - 86/55/81/92/63\n30lv - Terrain Effect +\n50lv - Physical Attack +% (12)\n70lv - Infinite Guiding Attack\n90lv - Unstoppable\nPrefect - Ration Tax\nWarlord - Silver Coin Loot\nBanner - Zhang Fei```");
     }
+if (args ===`ZhangBao`||args ===`zhangbao`||args ===`Zhangbao`){
+      message.channel.send("```asciidoc\n[Zhang Bao (Light Cavalry)]\nCost - 19\nStat - 87/48/78/81/70\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Lifesteal Attack % (7)\n90lv - Reach ATK-\nPrefect - Ration Tax\nWarlord - Occupation\nBanner - Zhang Fei```");
+    }
 if (args ===`GuanYinping`||args ===`guanyinping`||args ===`Guanyinping`){
       message.channel.send("```asciidoc\n[Guan Yinping (Light Cavalry)]\nCost - 20\nStat - 84/75/79/63/88\n30lv - Double Tactics Immunity\n50lv - Double Counter\n70lv - DEF- Attack\n90lv - Oppressive Assault\nPrefect - Silver Coin Tax\nWarlord - Ration Loot\nBanner - Zhang Fei```");
     }
@@ -4094,6 +4096,9 @@ if (args ===`XunChen`||args ===`xunchen`||args ===`Xunchen`){
 if (args ===`ChenJiao`||args ===`chenjiao`||args ===`Chenjiao`){
       message.channel.send("```asciidoc\n[Chen Jiao (Catapult)]\nCost - 16\nStat - 54/80/58/62/77\n30lv - Self AGI+\n50lv - Double Tactics Immunity\n70lv - Attack ACC + (17)\n90lv - Double ATK Immunity\nPrefect - Fruit Grove\nWarlord - Xuzhou Loot\nBanner - Demon```");
     }
+if (args ===`ZhangJi`||args ===`zhangji`||args ===`Zhangji`){
+      message.channel.send("```asciidoc\n[Zhang Ji (Light Cavalry)]\nCost - 14\nStat - 67/55/70/73/67\n30lv - Reach WIS-\n50lv - Enhanced Double ATK % (15)\n70lv - Physical Attack +% (12)\n90lv - Mounted ATK +% (15)\nPrefect - Master Tax\nWarlord - Yongzhou-W Loot\nBanner - Demon```");
+    }
 if (args ===`CaoShuang`||args ===`caoshuang`||args ===`Caoshuang`){
       message.channel.send("```asciidoc\n[Cao Shuang (Warlord)]\nCost - 14\nStat - 69/63/71/61/71\n30lv - AGI Boost % (10)\n50lv - Counterattack+\n70lv - Reach ATK+\n90lv - Status Effect Reflection\nPrefect - Farm\nWarlord - Qingzhou Tax\nBanner - Demon```");
     }
@@ -4135,6 +4140,12 @@ if (args ===`Huche'er`||args ===`huche'er`||args ===`Huche'Er`){
     }
 if (args ===`WeiYan`||args ===`weiyan`||args ===`Weiyan`){
       message.channel.send("```asciidoc\n[Wei Yan (Soldier)]\nCost - 21\nStat - 94/73/85/91/66\n30lv - Counterattack+\n50lv - SPD- Attack\n70lv - Good from Evil\n90lv - Reversal\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot\nBanner - Demon```");
+    }
+if (args ===`ZhangXiu`||args ===`zhangxiu`||args ===`Zhangxiu`){
+      message.channel.send("```asciidoc\n[Zhang Xiu (Warlord)]\nCost - 16\nStat - 75/64/80/78/61\n30lv - Reach MRL+\n50lv - Counterattack+\n70lv - Critical Attack+ (30)\n90lv - Terrain Effect +\nPrefect - Fruit Grove\nWarlord - Yizhou-N Loot\nBanner - Demon```");
+    }
+if (args ===`ZhugeLiang`||args ===`zhugeliang`||args ===`Zhugeliang`){
+      message.channel.send("```asciidoc\n[Zhuge Liang (Demon)]\nCost - 22\nStat - 34/100/98/77/96\n30lv - Double Tactics +%\n50lv - Ignore Tactics Weather\n70lv - Lifesteal Attack % (7)\n90lv - Seduce ACC + (20)\nPrefect - Master Tax\nWarlord - All Loot\nBanner - Demon```");
     }
 if (args ===`EheShaoge`||args ===`eheshaoge`||args ===`Eheshaoge`){
       message.channel.send("```asciidoc\n[Ehe Shaoge (Chariot)]\nCost - 15\nStat - 78/12/61/56/68\n30lv - Reach DEF-\n50lv - ATK DEF Rate + (20)\n70lv - DEF Boost % (11)\n90lv - Forceful Blow\nPrefect - Market\nWarlord - Practice Battle\nBanner - Meng Huo```");
