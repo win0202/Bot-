@@ -2226,7 +2226,7 @@ bot.on("message", async message => {
   
   
    if (cmd === `${prefix}위키`){
-    message.channel.send("https://bit.ly/2J2MXNu");
+    message.channel.send("https://namu.wiki/w/삼국지%20조조전%20온라인");
   }
   if (cmd === `${prefix}네이버`){
     message.channel.send("https://cafe.naver.com/nexonjojo");
@@ -2263,7 +2263,7 @@ bot.on("message", async message => {
     message.channel.send("https://cdn.discordapp.com/attachments/499127352798871552/499133975306960916/ECA084ECB2B4.jpg");
   }
   
-  //계보, 코스트, 군주효과, 태수효과
+  //계보, 코스트, 군주효과, 태수효과, 공략
   
   
   if (cmd === `${prefix}?`){
