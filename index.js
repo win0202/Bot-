@@ -4794,12 +4794,2059 @@ if (args ===`XiangYu` ||args ===`xiangyu` ||args ===`Xiangyu`){
   
   
   
-  if (cmd === `${prefix}보물`){
+  if (cmd === `${prefix}보물` || cmd === `${prefix}ar`){
     if (args ===`백학선`){
        message.channel.send("```asciidoc\n[백학선]  ★7\n종류: 무기(선)\n능력: 정신력(95), 사기(10)\n효과: 연속 책략\n설명: 신비로운 힘을 가진 접부채. 신기한 요술을 부릴 수 있다고 한다.```");
     }if (args ===`무귀보도`){
        message.channel.send("```asciidoc\n[무귀보도]  ★7\n종류: 무기(보도)\n능력: 정신력(86), 순발력(10)\n효과: 연속 책략\n설명: 무귀도에서 귀법을 사용할 때 쓰이는 주술용 무기.```");
     }
+    
+    
+    
+    
+    
+    
+    // artifact 
+    
+    
+    if (args ===`blackblood ` || args ===`Blackblood` || args ===`BlackBlood `){
+       message.channel.send("```asciidoc\nBlack Blood] 6★\n  Type : Accessory\n  Stat : ATK 21 INT 0 DEX 0 AGI 7 MRL 7\n Effect : % Charge Attack (1)```");
+    }
+if (args ===`orchidperfume  ` || args ===`Orchidperfume ` || args ===`OrchidPerfume  `){
+       message.channel.send("```asciidoc\nOrchid Perfume] 6★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 21 AGI 7 MRL 7\n Effect : Attack ACC + (15)```");
+    }
+if (args ===`shengxie ` || args ===`Shengxie` || args ===`Shengxie `){
+       message.channel.send("```asciidoc\nShengxie] 6★\n Type : Sword\n  Stat : ATK 86 INT 7 DEX 0 AGI 7 MRL 0\n Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`giantmountainaxe ` || args ===`Giantmountainaxe` || args ===`GiantMountainAxe `){
+       message.channel.send("```asciidoc\nGiant Mountain Axe] 6★\n Type : Spear\n  Stat : ATK 95 INT 0 DEX 0 AGI 14 MRL 0\n  Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`apricotflowerbow ` || args ===`Apricotflowerbow` || args ===`ApricotFlowerBow `){
+       message.channel.send("```asciidoc\nApricot Flower Bow] 6★\n Type : Bow\n  Stat : ATK 103 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`plumcrossbow ` || args ===`Plumcrossbow` || args ===`PlumCrossbow `){
+       message.channel.send("```asciidoc\nPlum Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 5 DEX 0 AGI 0 MRL 7\n  Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`talentednunchucks  ` || args ===`Talentednunchucks ` || args ===`TalentedNunchucks  `){
+       message.channel.send("```asciidoc\nTalented Nunchucks] 6★\n Type : Staff\n  Stat : ATK 87 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`borderedwhitearmor ` || args ===`Borderedwhitearmor` || args ===`BorderedWhiteArmor `){
+       message.channel.send("```asciidoc\nBordered White Armor] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 7 MRL 7\n Effect : AGI Boost % (10)```");
+    }
+if (args ===`red&bluesuit ` || args ===`Red&Bluesuit` || args ===`Red&BlueSuit `){
+       message.channel.send("```asciidoc\nRed & Blue Suit] 6★\n  Type : Dress\n  Stat : ATK 0 INT 5 DEX 61 AGI 0 MRL 0\n Effect : AGI Boost % (10)```");
+    }
+if (args ===`swallowrobe  ` || args ===`Swallowrobe ` || args ===`SwallowRobe  `){
+       message.channel.send("```asciidoc\nSwallow Robe] 6★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 71 AGI 3 MRL 5\n Effect : AGI Boost % (10)```");
+    }
+if (args ===`silverbreastplate  ` || args ===`Silverbreastplate ` || args ===`SilverBreastplate  `){
+       message.channel.send("```asciidoc\nSilver Breastplate] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 12 MRL 0\n  Effect : All DEF Rate + (10)```");
+    }
+if (args ===`trianglesuit ` || args ===`Trianglesuit` || args ===`TriangleSuit `){
+       message.channel.send("```asciidoc\nTriangle Suit] 6★\n  Type : Dress\n  Stat : ATK 0 INT 5 DEX 63 AGI 0 MRL 0\n Effect : All DEF Rate + (10)```");
+    }
+if (args ===`waterbuffaloskinrobe ` || args ===`Waterbuffaloskinrobe` || args ===`WaterBuffaloSkinRobe `){
+       message.channel.send("```asciidoc\nWater Buffalo Skin Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 7 MRL 0\n Effect : All DEF Rate + (10)```");
+    }
+if (args ===`unstoppableironguard ` || args ===`Unstoppableironguard` || args ===`UnstoppableIronguard `){
+       message.channel.send("```asciidoc\nUnstoppable Ironguard] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 7 MRL 0\n Effect : ATK DEF Rate + (15)```");
+    }
+if (args ===`phoenixsuit  ` || args ===`Phoenixsuit ` || args ===`PhoenixSuit  `){
+       message.channel.send("```asciidoc\nPhoenix Suit] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 66 AGI 7 MRL 0\n Effect : ATK DEF Rate + (15)```");
+    }
+if (args ===`mongolianrobe  ` || args ===`Mongolianrobe ` || args ===`MongolianRobe  `){
+       message.channel.send("```asciidoc\nMongolian Robe] 6★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 0 MRL 7\n Effect : ATK DEF Rate + (20)```");
+    }
+if (args ===`jadewhitehorse ` || args ===`Jadewhitehorse` || args ===`JadeWhiteHorse `){
+       message.channel.send("```asciidoc\nJade White Horse] 6★\n Type : Accessory\n  Stat : ATK 14 INT 0 DEX 0 AGI 14 MRL 7\n  Effect : Charge Move```");
+    }
+if (args ===`imperialstudies  ` || args ===`Imperialstudies ` || args ===`ImperialStudies  `){
+       message.channel.send("```asciidoc\nImperial Studies] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Earth Tactics+ % (20)```");
+    }
+if (args ===`xiaojingzhuan  ` || args ===`Xiaojingzhuan ` || args ===`XiaoJingZhuan  `){
+       message.channel.send("```asciidoc\nXiao Jing Zhuan] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 28 DEX 0 AGI 0 MRL 7\n Effect : Elemental Tactics +% (15)```");
+    }
+if (args ===`bookoflordshang  ` || args ===`Bookoflordshang ` || args ===`BookofLordShang  `){
+       message.channel.send("```asciidoc\nBook of Lord Shang] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Fire Tactics +% (20)```");
+    }
+if (args ===`soldierblade ` || args ===`Soldierblade` || args ===`SoldierBlade `){
+       message.channel.send("```asciidoc\nSoldier Blade] 6★\n  Type : Sword\n  Stat : ATK 107 INT 7 DEX 0 AGI 0 MRL 0\n  Effect : Confusion Attack % (20)```");
+    }
+if (args ===`stallionfury ` || args ===`Stallionfury` || args ===`StallionFury `){
+       message.channel.send("```asciidoc\nStallion Fury] 6★\n  Type : Spear\n  Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 14\n  Effect : Confusion Attack % (20)```");
+    }
+if (args ===`spiritbow  ` || args ===`Spiritbow ` || args ===`SpiritBow  `){
+       message.channel.send("```asciidoc\nSpirit Bow] 6★\n Type : Bow\n  Stat : ATK 107 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Confusion Attack % (20)```");
+    }
+if (args ===`spikedcrossbow ` || args ===`Spikedcrossbow` || args ===`SpikedCrossbow `){
+       message.channel.send("```asciidoc\nSpiked Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 7\n  Effect : Confusion Attack % (20)```");
+    }
+if (args ===`spiritstaff  ` || args ===`Spiritstaff ` || args ===`SpiritStaff  `){
+       message.channel.send("```asciidoc\nSpirit Staff] 6★\n Type : Staff\n  Stat : ATK 92 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Confusion Attack % (20)```");
+    }
+if (args ===`trianglewoodenwagon  ` || args ===`Trianglewoodenwagon ` || args ===`TriangleWoodenWagon  `){
+       message.channel.send("```asciidoc\nTriangle Wooden Wagon] 6★\n  Type : Catapult\n Stat : ATK 85 INT 0 DEX 0 AGI 5 MRL 0\n Effect : Confusion Attack % (20)```");
+    }
+if (args ===`kouya'skingbane  ` || args ===`Kouya'Skingbane ` || args ===`Kouya'sKingbane  `){
+       message.channel.send("```asciidoc\nKouya's Kingbane] 6★\n Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 0 MRL 7\n Effect : Confusion Attack % (20)```");
+    }
+if (args ===`gaoshun'sbelt  ` || args ===`Gaoshun'Sbelt ` || args ===`GaoShun'sBelt  `){
+       message.channel.send("```asciidoc\nGao Shun's Belt] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 0 DEX 0 AGI 28 MRL 7\n Effect : HP Boost (100)```");
+    }
+if (args ===`doubledragonsword  ` || args ===`Doubledragonsword ` || args ===`DoubleDragonSword  `){
+       message.channel.send("```asciidoc\nDouble Dragon Sword] 6★\n  Type : Sword\n  Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`xudouhatchet ` || args ===`Xudouhatchet` || args ===`XudouHatchet `){
+       message.channel.send("```asciidoc\nXudou Hatchet] 6★\n  Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 0 MRL 7\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`torchbow ` || args ===`Torchbow` || args ===`TorchBow `){
+       message.channel.send("```asciidoc\nTorch Bow] 6★\n  Type : Bow\n  Stat : ATK 81 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`yangyoujicrossbow  ` || args ===`Yangyoujicrossbow ` || args ===`YangYoujiCrossbow  `){
+       message.channel.send("```asciidoc\nYang Youji Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`universering ` || args ===`Universering` || args ===`UniverseRing `){
+       message.channel.send("```asciidoc\nUniverse Ring] 6★\n  Type : Staff\n  Stat : ATK 86 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`counterweighttrebuchet ` || args ===`Counterweighttrebuchet` || args ===`CounterweightTrebuchet `){
+       message.channel.send("```asciidoc\nCounterweight Trebuchet] 6★\n  Type : Catapult\n Stat : ATK 99 INT 0 DEX 0 AGI 0 MRL 7\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`juque  ` || args ===`Juque ` || args ===`Juque  `){
+       message.channel.send("```asciidoc\nJuque] 6★\n  Type : Sword\n  Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 7\n Effect : Daze Attack % (20)```");
+    }
+if (args ===`crescentmoonspade  ` || args ===`Crescentmoonspade ` || args ===`CrescentMoonSpade  `){
+       message.channel.send("```asciidoc\nCrescent Moon Spade] 6★\n  Type : Spear\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Daze Attack % (20)```");
+    }
+if (args ===`quietbow ` || args ===`Quietbow` || args ===`QuietBow `){
+       message.channel.send("```asciidoc\nQuiet Bow] 6★\n  Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Daze Attack % (20)```");
+    }
+if (args ===`quietcrossbow  ` || args ===`Quietcrossbow ` || args ===`QuietCrossbow  `){
+       message.channel.send("```asciidoc\nQuiet Crossbow] 6★\n Type : Crossbow\n Stat : ATK 100 INT 5 DEX 0 AGI 0 MRL 7\n  Effect : Daze Attack % (20)```");
+    }
+if (args ===`steelhandji  ` || args ===`Steelhandji ` || args ===`SteelHandJi  `){
+       message.channel.send("```asciidoc\nSteel Hand Ji] 6★\n  Type : Staff\n  Stat : ATK 92 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Daze Attack % (20)```");
+    }
+if (args ===`five-facingwhirlwindcannon ` || args ===`Five-Facingwhirlwindcannon` || args ===`Five-FacingWhirlwindCannon `){
+       message.channel.send("```asciidoc\nFive-Facing Whirlwind Cannon] 6★\n Type : Catapult\n Stat : ATK 99 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Daze Attack % (20)```");
+    }
+if (args ===`divineearthsword ` || args ===`Divineearthsword` || args ===`DivineEarthSword `){
+       message.channel.send("```asciidoc\nDivine Earth Sword] 6★\n Type : Sword\n  Stat : ATK 105 INT 7 DEX 0 AGI 0 MRL 0\n  Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`poisonousspear ` || args ===`Poisonousspear` || args ===`PoisonousSpear `){
+       message.channel.send("```asciidoc\nPoisonous Spear] 6★\n  Type : Spear\n  Stat : ATK 104 INT 0 DEX 0 AGI 7 MRL 5\n  Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`secretvenom  ` || args ===`Secretvenom ` || args ===`SecretVenom  `){
+       message.channel.send("```asciidoc\nSecret Venom] 6★\n Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`venomouscrossbow ` || args ===`Venomouscrossbow` || args ===`VenomousCrossbow `){
+       message.channel.send("```asciidoc\nVenomous Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 5 DEX 0 AGI 0 MRL 7\n  Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`venomousji ` || args ===`Venomousji` || args ===`VenomousJi `){
+       message.channel.send("```asciidoc\nVenomous Ji] 6★\n  Type : Staff\n  Stat : ATK 91 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`purewhitebelt  ` || args ===`Purewhitebelt ` || args ===`PureWhiteBelt  `){
+       message.channel.send("```asciidoc\nPure White Belt] 6★\n  Type : Accessory\n  Stat : ATK 7 INT 0 DEX 0 AGI 21 MRL 7\n Effect : HP Boost (100)```");
+    }
+if (args ===`vermillionfan  ` || args ===`Vermillionfan ` || args ===`VermillionFan  `){
+       message.channel.send("```asciidoc\nVermillion Fan] 6★\n Type : Fan\n  Stat : ATK 0 INT 95 DEX 0 AGI 0 MRL 0\n Effect : Double Tactics +%```");
+    }
+if (args ===`tiger'spurity  ` || args ===`Tiger'Spurity ` || args ===`Tiger'sPurity  `){
+       message.channel.send("```asciidoc\nTiger's Purity] 6★\n Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 7 MRL 0\n Effect : Double Tactics +%```");
+    }
+if (args ===`jiaxu'sbelt  ` || args ===`Jiaxu'Sbelt ` || args ===`JiaXu'sBelt  `){
+       message.channel.send("```asciidoc\nJia Xu's Belt] 6★\n  Type : Accessory\n  Stat : ATK 7 INT 0 DEX 0 AGI 14 MRL 14\n  Effect : HP Boost (100)```");
+    }
+if (args ===`woodencart ` || args ===`Woodencart` || args ===`WoodenCart `){
+       message.channel.send("```asciidoc\nWooden Cart] 6★\n  Type : Accessory\n  Stat : ATK 14 INT 0 DEX 7 AGI 7 MRL 7\n Effect : HP Recovery % (4)```");
+    }
+if (args ===`oldstatestheory  ` || args ===`Oldstatestheory ` || args ===`OldStatesTheory  `){
+       message.channel.send("```asciidoc\nOld States Theory] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Interrupt Tactics +% (20)```");
+    }
+if (args ===`silver-eyedhorse ` || args ===`Silver-Eyedhorse` || args ===`Silver-EyedHorse `){
+       message.channel.send("```asciidoc\nSilver-Eyed Horse] 6★\n  Type : Accessory\n  Stat : ATK 7 INT 7 DEX 7 AGI 7 MRL 7\n  Effect : Item Range +```");
+    }
+if (args ===`kingwu'sfan  ` || args ===`Kingwu'Sfan ` || args ===`KingWu'sFan  `){
+       message.channel.send("```asciidoc\nKing Wu's Fan] 6★\n  Type : Fan\n  Stat : ATK 0 INT 90 DEX 0 AGI 0 MRL 7\n Effect : Elemental Tactics +% (5)```");
+    }
+if (args ===`oxtailsaber  ` || args ===`Oxtailsaber ` || args ===`OxtailSaber  `){
+       message.channel.send("```asciidoc\nOxtail Saber] 6★\n Type : Sword\n  Stat : ATK 95 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`serpentspear ` || args ===`Serpentspear` || args ===`SerpentSpear `){
+       message.channel.send("```asciidoc\nSerpent Spear] 6★\n  Type : Spear\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`sleevebow  ` || args ===`Sleevebow ` || args ===`SleeveBow  `){
+       message.channel.send("```asciidoc\nSleeve Bow] 6★\n Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`spiritcrossbow ` || args ===`Spiritcrossbow` || args ===`SpiritCrossbow `){
+       message.channel.send("```asciidoc\nSpirit Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 7\n  Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`swallowmeteorhammer  ` || args ===`Swallowmeteorhammer ` || args ===`SwallowMeteorHammer  `){
+       message.channel.send("```asciidoc\nSwallow Meteor Hammer] 6★\n  Type : Staff\n  Stat : ATK 86 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`caverncart ` || args ===`Caverncart` || args ===`CavernCart `){
+       message.channel.send("```asciidoc\nCavern Cart] 6★\n  Type : Catapult\n Stat : ATK 90 INT 0 DEX 0 AGI 5 MRL 0\n Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`sevenstarsbelt ` || args ===`Sevenstarsbelt` || args ===`SevenStarsBelt `){
+       message.channel.send("```asciidoc\nSeven Stars Belt] 6★\n Type : Accessory\n  Stat : ATK 7 INT 0 DEX 7 AGI 14 MRL 14\n  Effect : Mounted ATK +% (15)```");
+    }
+if (args ===`spyglass ` || args ===`Spyglass` || args ===`Spyglass `){
+       message.channel.send("```asciidoc\nSpyglass] 6★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 0 AGI 28 MRL 7\n Effect : MP Boost (50)```");
+    }
+if (args ===`darkflowermirror ` || args ===`Darkflowermirror` || args ===`DarkFlowerMirror `){
+       message.channel.send("```asciidoc\nDark Flower Mirror] 6★\n Type : Accessory\n  Stat : ATK 0 INT 7 DEX 0 AGI 21 MRL 7\n Effect : MP Boost (50)```");
+    }
+if (args ===`borderedyellowarmor  ` || args ===`Borderedyellowarmor ` || args ===`BorderedYellowArmor  `){
+       message.channel.send("```asciidoc\nBordered Yellow Armor] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 105 AGI 0 MRL 7\n  Effect : HP Boost (100)```");
+    }
+if (args ===`whitedragonsuit  ` || args ===`Whitedragonsuit ` || args ===`WhiteDragonSuit  `){
+       message.channel.send("```asciidoc\nWhite Dragon Suit] 6★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 65 AGI 0 MRL 0\n Effect : HP Boost (100)```");
+    }
+if (args ===`whiteflowerrobe  ` || args ===`Whiteflowerrobe ` || args ===`WhiteFlowerRobe  `){
+       message.channel.send("```asciidoc\nWhite Flower Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 3 MRL 5\n Effect : HP Boost (100)```");
+    }
+if (args ===`westernlightmirror ` || args ===`Westernlightmirror` || args ===`WesternLightMirror `){
+       message.channel.send("```asciidoc\nWestern Light Mirror] 6★\n Type : Accessory\n  Stat : ATK 0 INT 7 DEX 0 AGI 14 MRL 14\n  Effect : MP Boost (50)```");
+    }
+if (args ===`abacus ` || args ===`Abacus` || args ===`Abacus `){
+       message.channel.send("```asciidoc\nAbacus] 6★\n Type : Accessory\n  Stat : ATK 0 INT 14 DEX 7 AGI 7 MRL 7\n Effect : MP Recovery % (4)```");
+    }
+if (args ===`fiveformationtalisman  ` || args ===`Fiveformationtalisman ` || args ===`FiveFormationTalisman  `){
+       message.channel.send("```asciidoc\nFive Formation Talisman] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 35 DEX 0 AGI 0 MRL 0\n Effect : Offensive Tactics +% (10)```");
+    }
+if (args ===`rootincense  ` || args ===`Rootincense ` || args ===`RootIncense  `){
+       message.channel.send("```asciidoc\nRoot Incense] 6★\n Type : Accessory\n  Stat : ATK 14 INT 7 DEX 14 AGI 0 MRL 0\n  Effect : Rage +% (10)```");
+    }
+if (args ===`siminyue ` || args ===`Siminyue` || args ===`SiMinYue `){
+       message.channel.send("```asciidoc\nSi Min Yue] 6★\n Type : Accessory\n  Stat : ATK 7 INT 0 DEX 14 AGI 7 MRL 7\n Effect : Reach HP Restore % (1)```");
+    }
+if (args ===`liubiao'sgoldencrown ` || args ===`Liubiao'Sgoldencrown` || args ===`LiuBiao'sGoldenCrown `){
+       message.channel.send("```asciidoc\nLiu Biao's Golden Crown] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 7 DEX 14 AGI 7 MRL 7\n Effect : Reach MP Restore % (1)```");
+    }
+if (args ===`bronzescalearmor ` || args ===`Bronzescalearmor` || args ===`BronzeScaleArmor `){
+       message.channel.send("```asciidoc\nBronze Scale Armor] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 85 AGI 7 MRL 12\n  Effect : HP Recovery % (10)```");
+    }
+if (args ===`bronzesilkrobe ` || args ===`Bronzesilkrobe` || args ===`BronzeSilkRobe `){
+       message.channel.send("```asciidoc\nBronze Silk Robe] 6★\n Type : Dress\n  Stat : ATK 0 INT 5 DEX 65 AGI 10 MRL 0\n  Effect : HP Recovery % (10)```");
+    }
+if (args ===`savagetigerrobe  ` || args ===`Savagetigerrobe ` || args ===`SavageTigerRobe  `){
+       message.channel.send("```asciidoc\nSavage Tiger Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 75 AGI 3 MRL 5\n Effect : HP Recovery % (10)```");
+    }
+if (args ===`whitedragon  ` || args ===`Whitedragon ` || args ===`WhiteDragon  `){
+       message.channel.send("```asciidoc\nWhite Dragon] 6★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 14 AGI 7 MRL 14\n  Effect : Rough Terrain Move```");
+    }
+if (args ===`blackdalma ` || args ===`Blackdalma` || args ===`BlackDalma `){
+       message.channel.send("```asciidoc\nBlack Dalma] 6★\n  Type : Accessory\n  Stat : ATK 7 INT 7 DEX 7 AGI 7 MRL 7\n  Effect : SPD Boost (2)```");
+    }
+if (args ===`yuchang  ` || args ===`Yuchang ` || args ===`Yuchang  `){
+       message.channel.send("```asciidoc\nYuchang] 6★\n  Type : Sword\n  Stat : ATK 86 INT 7 DEX 0 AGI 0 MRL 7\n Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`swiftbatpolearm  ` || args ===`Swiftbatpolearm ` || args ===`SwiftBatPolearm  `){
+       message.channel.send("```asciidoc\nSwift Bat Polearm] 6★\n  Type : Spear\n  Stat : ATK 89 INT 0 DEX 0 AGI 7 MRL 14\n  Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`entanglingbow  ` || args ===`Entanglingbow ` || args ===`EntanglingBow  `){
+       message.channel.send("```asciidoc\nEntangling Bow] 6★\n Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`tripledragoncrossbow ` || args ===`Tripledragoncrossbow` || args ===`TripleDragonCrossbow `){
+       message.channel.send("```asciidoc\nTriple Dragon Crossbow] 6★\n Type : Crossbow\n Stat : ATK 90 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`quietmeteorhammer  ` || args ===`Quietmeteorhammer ` || args ===`QuietMeteorHammer  `){
+       message.channel.send("```asciidoc\nQuiet Meteor Hammer] 6★\n  Type : Staff\n  Stat : ATK 92 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`assaultcart  ` || args ===`Assaultcart ` || args ===`AssaultCart  `){
+       message.channel.send("```asciidoc\nAssault Cart] 6★\n Type : Catapult\n Stat : ATK 84 INT 0 DEX 0 AGI 5 MRL 0\n Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`drycalendaressay ` || args ===`Drycalendaressay` || args ===`DryCalendarEssay `){
+       message.channel.send("```asciidoc\nDry Calendar Essay] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Supply Tactics +% (20)```");
+    }
+if (args ===`lingbaojing  ` || args ===`Lingbaojing ` || args ===`LingbaoJing  `){
+       message.channel.send("```asciidoc\nLingbao Jing] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Water Tactics+ % (20)```");
+    }
+if (args ===`springandautumnannals  ` || args ===`Springandautumnannals ` || args ===`SpringandAutumnAnnals  `){
+       message.channel.send("```asciidoc\nSpring and Autumn Annals] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Wind Tactics +% (20)```");
+    }
+if (args ===`supremecommander'ssword  ` || args ===`Supremecommander'Ssword ` || args ===`SupremeCommander'sSword  `){
+       message.channel.send("```asciidoc\nSupreme Commander's Sword] 6★\n  Type : Sword\n  Stat : ATK 90 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Lifesteal Attack % (10)```");
+    }
+if (args ===`fiercedragon ` || args ===`Fiercedragon` || args ===`FierceDragon `){
+       message.channel.send("```asciidoc\nFierce Dragon] 6★\n  Type : Spear\n  Stat : ATK 89 INT 0 DEX 0 AGI 14 MRL 7\n  Effect : Lifesteal Attack % (10)```");
+    }
+if (args ===`spikedironmace ` || args ===`Spikedironmace` || args ===`SpikedIronMace `){
+       message.channel.send("```asciidoc\nSpiked Iron Mace] 6★\n Type : Staff\n  Stat : ATK 81 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Lifesteal Attack % (10)```");
+    }
+if (args ===`plainwhitearmor  ` || args ===`Plainwhitearmor ` || args ===`PlainWhiteArmor  `){
+       message.channel.send("```asciidoc\nPlain White Armor] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 100 AGI 5 MRL 0\n  Effect : MP Boost % (10)```");
+    }
+if (args ===`golddragonsuit ` || args ===`Golddragonsuit` || args ===`GoldDragonSuit `){
+       message.channel.send("```asciidoc\nGold Dragon Suit] 6★\n Type : Dress\n  Stat : ATK 0 INT 5 DEX 64 AGI 0 MRL 0\n Effect : MP Boost % (10)```");
+    }
+if (args ===`azuredragonrobe  ` || args ===`Azuredragonrobe ` || args ===`AzureDragonRobe  `){
+       message.channel.send("```asciidoc\nAzure Dragon Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 73 AGI 3 MRL 5\n Effect : MP Boost % (10)```");
+    }
+if (args ===`fivemingfan  ` || args ===`Fivemingfan ` || args ===`FiveMingFan  `){
+       message.channel.send("```asciidoc\nFive Ming Fan] 6★\n  Type : Fan\n  Stat : ATK 0 INT 90 DEX 0 AGI 7 MRL 0\n Effect : MP Saving % (20)```");
+    }
+if (args ===`dragon'spurity ` || args ===`Dragon'Spurity` || args ===`Dragon'sPurity `){
+       message.channel.send("```asciidoc\nDragon's Purity] 6★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 86 DEX 0 AGI 0 MRL 0\n Effect : MP Saving % (20)```");
+    }
+if (args ===`sage'srepose ` || args ===`Sage'Srepose` || args ===`Sage'sRepose `){
+       message.channel.send("```asciidoc\nSage's Repose] 6★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 77 DEX 0 AGI 14 MRL 0\n  Effect : Offensive Tactics +% (3)```");
+    }
+if (args ===`cavalryvest  ` || args ===`Cavalryvest ` || args ===`CavalryVest  `){
+       message.channel.send("```asciidoc\nCavalry Vest] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 86 AGI 14 MRL 0\n  Effect : Physical Damage -% (20)```");
+    }
+if (args ===`emperor'sfinery  ` || args ===`Emperor'Sfinery ` || args ===`Emperor'sFinery  `){
+       message.channel.send("```asciidoc\nEmperor's Finery] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 63 AGI 7 MRL 0\n Effect : Physical Damage -% (30)```");
+    }
+if (args ===`silkroadvestments  ` || args ===`Silkroadvestments ` || args ===`SilkRoadVestments  `){
+       message.channel.send("```asciidoc\nSilk Road Vestments] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 7 MRL 0\n Effect : Physical Damage -% (30)```");
+    }
+if (args ===`shashiyi'smirror ` || args ===`Shashiyi'Smirror` || args ===`Shashiyi'sMirror `){
+       message.channel.send("```asciidoc\nShashiyi's Mirror] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 0 MRL 0\n Effect : Physical Damage Reflection % (10)```");
+    }
+if (args ===`kiku'sdismissal  ` || args ===`Kiku'Sdismissal ` || args ===`Kiku'sDismissal  `){
+       message.channel.send("```asciidoc\nKiku's Dismissal] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 60 AGI 7 MRL 7\n Effect : Physical Damage Reflection % (10)```");
+    }
+if (args ===`hezhetribalattire  ` || args ===`Hezhetribalattire ` || args ===`HezheTribalAttire  `){
+       message.channel.send("```asciidoc\nHezhe Tribal Attire] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 0 MRL 0\n Effect : Physical Damage Reflection % (10)```");
+    }
+if (args ===`southernsaber  ` || args ===`Southernsaber ` || args ===`SouthernSaber  `){
+       message.channel.send("```asciidoc\nSouthern Saber] 6★\n Type : Sword\n  Stat : ATK 102 INT 5 DEX 0 AGI 0 MRL 7\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`viperaxe ` || args ===`Viperaxe` || args ===`ViperAxe `){
+       message.channel.send("```asciidoc\nViper Axe] 6★\n  Type : Spear\n  Stat : ATK 103 INT 0 DEX 0 AGI 7 MRL 5\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`viperbow ` || args ===`Viperbow` || args ===`ViperBow `){
+       message.channel.send("```asciidoc\nViper Bow] 6★\n  Type : Bow\n  Stat : ATK 113 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`vipercrossbow  ` || args ===`Vipercrossbow ` || args ===`ViperCrossbow  `){
+       message.channel.send("```asciidoc\nViper Crossbow] 6★\n Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 7\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`vipermeteorhammer  ` || args ===`Vipermeteorhammer ` || args ===`ViperMeteorHammer  `){
+       message.channel.send("```asciidoc\nViper Meteor Hammer] 6★\n  Type : Staff\n  Stat : ATK 95 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Poison Attack % (20)```");
+    }
+if (args ===`whirlwindwagon ` || args ===`Whirlwindwagon` || args ===`WhirlwindWagon `){
+       message.channel.send("```asciidoc\nWhirlwind Wagon] 6★\n  Type : Catapult\n Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`shiningarmor ` || args ===`Shiningarmor` || args ===`ShiningArmor `){
+       message.channel.send("```asciidoc\nShining Armor] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 86 AGI 0 MRL 14\n  Effect : Ranged DMG -% (20)```");
+    }
+if (args ===`ceremonialtravelrobe ` || args ===`Ceremonialtravelrobe` || args ===`CeremonialTravelRobe `){
+       message.channel.send("```asciidoc\nCeremonial Travel Robe] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 63 AGI 0 MRL 7\n Effect : Ranged DMG -% (30)```");
+    }
+if (args ===`camelhidecoat  ` || args ===`Camelhidecoat ` || args ===`CamelHideCoat  `){
+       message.channel.send("```asciidoc\nCamel Hide Coat] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 0 MRL 0\n Effect : Ranged DMG -% (30)```");
+    }
+if (args ===`chunjun  ` || args ===`Chunjun ` || args ===`Chunjun  `){
+       message.channel.send("```asciidoc\nChunjun] 6★\n  Type : Sword\n  Stat : ATK 86 INT 0 DEX 0 AGI 7 MRL 7\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`refinedsteellance  ` || args ===`Refinedsteellance ` || args ===`RefinedSteelLance  `){
+       message.channel.send("```asciidoc\nRefined Steel Lance] 6★\n  Type : Spear\n  Stat : ATK 95 INT 0 DEX 0 AGI 7 MRL 7\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`goldenbowofxian  ` || args ===`Goldenbowofxian ` || args ===`GoldenBowofXian  `){
+       message.channel.send("```asciidoc\nGolden Bow of Xian] 6★\n Type : Bow\n  Stat : ATK 86 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`crowncrossbow  ` || args ===`Crowncrossbow ` || args ===`CrownCrossbow  `){
+       message.channel.send("```asciidoc\nCrown Crossbow] 6★\n Type : Crossbow\n Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 7\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`silvermysticmace ` || args ===`Silvermysticmace` || args ===`SilverMysticMace `){
+       message.channel.send("```asciidoc\nSilver Mystic Mace] 6★\n Type : Staff\n  Stat : ATK 92 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`zhanlu ` || args ===`Zhanlu` || args ===`Zhanlu `){
+       message.channel.send("```asciidoc\nZhanlu] 6★\n Type : Sword\n  Stat : ATK 90 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`burningaxe ` || args ===`Burningaxe` || args ===`BurningAxe `){
+       message.channel.send("```asciidoc\nBurning Axe] 6★\n  Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`skillfulbow  ` || args ===`Skillfulbow ` || args ===`SkillfulBow  `){
+       message.channel.send("```asciidoc\nSkillful Bow] 6★\n Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`talentedcrossbow ` || args ===`Talentedcrossbow` || args ===`TalentedCrossbow `){
+       message.channel.send("```asciidoc\nTalented Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`chainstaff ` || args ===`Chainstaff` || args ===`ChainStaff `){
+       message.channel.send("```asciidoc\nChain Staff] 6★\n  Type : Staff\n  Stat : ATK 81 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`phoenixcannon  ` || args ===`Phoenixcannon ` || args ===`PhoenixCannon  `){
+       message.channel.send("```asciidoc\nPhoenix Cannon] 6★\n Type : Catapult\n Stat : ATK 85 INT 0 DEX 0 AGI 5 MRL 0\n Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`tenpetalparasol  ` || args ===`Tenpetalparasol ` || args ===`TenPetalParasol  `){
+       message.channel.send("```asciidoc\nTen Petal Parasol] 6★\n  Type : Fan\n  Stat : ATK 0 INT 86 DEX 0 AGI 7 MRL 7\n Effect : Tactics ACC + (15)```");
+    }
+if (args ===`manjushri'srazor ` || args ===`Manjushri'Srazor` || args ===`Manjushri'sRazor `){
+       message.channel.send("```asciidoc\nManjushri's Razor] 6★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 77 DEX 0 AGI 0 MRL 14\n  Effect : Tactics ACC + (15)```");
+    }
+if (args ===`general'slamellar  ` || args ===`General'Slamellar ` || args ===`General'sLamellar  `){
+       message.channel.send("```asciidoc\nGeneral's Lamellar] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 0 MRL 7\n Effect : Tactics Damage -% (20)```");
+    }
+if (args ===`courtlyattire  ` || args ===`Courtlyattire ` || args ===`CourtlyAttire  `){
+       message.channel.send("```asciidoc\nCourtly Attire] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 67 AGI 0 MRL 0\n Effect : Tactics Damage -% (30)```");
+    }
+if (args ===`cloudsatinvestments  ` || args ===`Cloudsatinvestments ` || args ===`CloudSatinVestments  `){
+       message.channel.send("```asciidoc\nCloud Satin Vestments] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 69 AGI 14 MRL 0\n  Effect : Tactics Damage -% (30)```");
+    }
+if (args ===`virudhaka'scare  ` || args ===`Virudhaka'Scare ` || args ===`Virudhaka'sCare  `){
+       message.channel.send("```asciidoc\nVirudhaka's Care] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 86 AGI 7 MRL 7\n Effect : Tactics Damage Reflection % (10)```");
+    }
+if (args ===`circle-patternedsuit ` || args ===`Circle-Patternedsuit` || args ===`Circle-PatternedSuit `){
+       message.channel.send("```asciidoc\nCircle-Patterned Suit] 6★\n  Type : Dress\n  Stat : ATK 0 INT 5 DEX 63 AGI 0 MRL 0\n Effect : Tactics Damage Reflection % (10)```");
+    }
+if (args ===`five-coloreddress  ` || args ===`Five-Coloreddress ` || args ===`Five-ColoredDress  `){
+       message.channel.send("```asciidoc\nFive-Colored Dress] 6★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 0 MRL 7\n Effect : Tactics Damage Reflection % (10)```");
+    }
+if (args ===`bronzeleatherarmor ` || args ===`Bronzeleatherarmor` || args ===`BronzeLeatherArmor `){
+       message.channel.send("```asciidoc\nBronze Leather Armor] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 85 AGI 15 MRL 0\n  Effect : Tactics DEF Rate + (20)```");
+    }
+if (args ===`redgauzesuit ` || args ===`Redgauzesuit` || args ===`RedGauzeSuit `){
+       message.channel.send("```asciidoc\nRed Gauze Suit] 6★\n Type : Dress\n  Stat : ATK 0 INT 5 DEX 64 AGI 0 MRL 0\n Effect : Tactics DEF Rate + (20)```");
+    }
+if (args ===`rhinoskinrobe  ` || args ===`Rhinoskinrobe ` || args ===`RhinoSkinRobe  `){
+       message.channel.send("```asciidoc\nRhino Skin Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 69 AGI 0 MRL 14\n  Effect : Tactics DEF Rate + (20)```");
+    }
+if (args ===`chrysanthemumcrossbow  ` || args ===`Chrysanthemumcrossbow ` || args ===`ChrysanthemumCrossbow  `){
+       message.channel.send("```asciidoc\nChrysanthemum Crossbow] 7★\n Type : Crossbow\n Stat : ATK 100 INT 7 DEX 0 AGI 0 MRL 10\n Effect : Abnormality ATK % (30)```");
+    }
+if (args ===`drakemaw ` || args ===`Drakemaw` || args ===`DrakeMaw `){
+       message.channel.send("```asciidoc\nDrake Maw] 7★\n  Type : Sword\n  Stat : ATK 90 INT 10 DEX 0 AGI 10 MRL 0\n Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`moonlightfangspear ` || args ===`Moonlightfangspear` || args ===`MoonlightFangSpear `){
+       message.channel.send("```asciidoc\nMoonlight Fang Spear] 7★\n Type : Spear\n  Stat : ATK 94 INT 0 DEX 0 AGI 10 MRL 20\n Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`chrysanthemumbow ` || args ===`Chrysanthemumbow` || args ===`ChrysanthemumBow `){
+       message.channel.send("```asciidoc\nChrysanthemum Bow] 7★\n  Type : Bow\n  Stat : ATK 104 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`geniusji ` || args ===`Geniusji` || args ===`GeniusJi `){
+       message.channel.send("```asciidoc\nGenius Ji] 7★\n  Type : Staff\n  Stat : ATK 92 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`flamegeysertank  ` || args ===`Flamegeysertank ` || args ===`FlameGeyserTank  `){
+       message.channel.send("```asciidoc\nFlame Geyser Tank] 7★\n  Type : Catapult\n Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`plainnavyarmor ` || args ===`Plainnavyarmor` || args ===`PlainNavyArmor `){
+       message.channel.send("```asciidoc\nPlain Navy Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 7 MRL 0\n Effect : AGI Boost % (15)```");
+    }
+if (args ===`green&goldsuit ` || args ===`Green&Goldsuit` || args ===`Green&GoldSuit `){
+       message.channel.send("```asciidoc\nGreen & Gold Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 68 AGI 0 MRL 10\n  Effect : AGI Boost % (15)```");
+    }
+if (args ===`eaglerobe  ` || args ===`Eaglerobe ` || args ===`EagleRobe  `){
+       message.channel.send("```asciidoc\nEagle Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 74 AGI 7 MRL 10\n  Effect : AGI Boost % (15)```");
+    }
+if (args ===`goldbreastplate  ` || args ===`Goldbreastplate ` || args ===`GoldBreastplate  `){
+       message.channel.send("```asciidoc\nGold Breastplate] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 7 MRL 0\n Effect : All DEF Rate + (20)```");
+    }
+if (args ===`squaresuit ` || args ===`Squaresuit` || args ===`SquareSuit `){
+       message.channel.send("```asciidoc\nSquare Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 66 AGI 0 MRL 10\n  Effect : All DEF Rate + (20)```");
+    }
+if (args ===`elephantskinrobe ` || args ===`Elephantskinrobe` || args ===`ElephantSkinRobe `){
+       message.channel.send("```asciidoc\nElephant Skin Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 80 AGI 0 MRL 0\n Effect : All DEF Rate + (20)```");
+    }
+if (args ===`flyingdragonsuit ` || args ===`Flyingdragonsuit` || args ===`FlyingDragonSuit `){
+       message.channel.send("```asciidoc\nFlying Dragon Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 71 AGI 10 MRL 10\n Effect : ATK DEF Rate + (20)```");
+    }
+if (args ===`sagaciousdao ` || args ===`Sagaciousdao` || args ===`SagaciousDao `){
+       message.channel.send("```asciidoc\nSagacious Dao] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 10 MRL 10\n Effect : Attack Stat Switch```");
+    }
+if (args ===`hundredtemperedsword ` || args ===`Hundredtemperedsword` || args ===`HundredTemperedSword `){
+       message.channel.send("```asciidoc\nHundred Tempered Sword] 7★\n Type : Sword\n  Stat : ATK 96 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Chain Attack```");
+    }
+if (args ===`phoenixspear ` || args ===`Phoenixspear` || args ===`PhoenixSpear `){
+       message.channel.send("```asciidoc\nPhoenix Spear] 7★\n  Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 20 MRL 0\n  Effect : Chain Attack```");
+    }
+if (args ===`azuredragonbow ` || args ===`Azuredragonbow` || args ===`AzureDragonBow `){
+       message.channel.send("```asciidoc\nAzure Dragon Bow] 7★\n Type : Bow\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Chain Attack```");
+    }
+if (args ===`azuredragoncrossbow  ` || args ===`Azuredragoncrossbow ` || args ===`AzureDragonCrossbow  `){
+       message.channel.send("```asciidoc\nAzure Dragon Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Chain Attack```");
+    }
+if (args ===`azuredragonmace  ` || args ===`Azuredragonmace ` || args ===`AzureDragonMace  `){
+       message.channel.send("```asciidoc\nAzure Dragon Mace] 7★\n  Type : Staff\n  Stat : ATK 81 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Chain Attack```");
+    }
+if (args ===`goldcannon ` || args ===`Goldcannon` || args ===`GoldCannon `){
+       message.channel.send("```asciidoc\nGold Cannon] 7★\n  Type : Catapult\n Stat : ATK 70 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Chain Attack```");
+    }
+if (args ===`porcupinecrossbow  ` || args ===`Porcupinecrossbow ` || args ===`PorcupineCrossbow  `){
+       message.channel.send("```asciidoc\nPorcupine Crossbow] 7★\n Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 7 MRL 10\n Effect : Confusion Attack % (30)```");
+    }
+if (args ===`bewilderingfalchion  ` || args ===`Bewilderingfalchion ` || args ===`BewilderingFalchion  `){
+       message.channel.send("```asciidoc\nBewildering Falchion] 7★\n Type : Sword\n  Stat : ATK 112 INT 10 DEX 0 AGI 5 MRL 0\n Effect : Confusion Attack % (35)```");
+    }
+if (args ===`soulbow  ` || args ===`Soulbow ` || args ===`SoulBow  `){
+       message.channel.send("```asciidoc\nSoul Bow] 7★\n Type : Bow\n  Stat : ATK 108 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Confusion Attack % (35)```");
+    }
+if (args ===`soulstaff  ` || args ===`Soulstaff ` || args ===`SoulStaff  `){
+       message.channel.send("```asciidoc\nSoul Staff] 7★\n Type : Staff\n  Stat : ATK 97 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Confusion Attack % (35)```");
+    }
+if (args ===`trianglestonewagon ` || args ===`Trianglestonewagon` || args ===`TriangleStoneWagon `){
+       message.channel.send("```asciidoc\nTriangle Stone Wagon] 7★\n Type : Catapult\n Stat : ATK 87 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Confusion Attack % (35)```");
+    }
+if (args ===`canopybender ` || args ===`Canopybender` || args ===`CanopyBender `){
+       message.channel.send("```asciidoc\nCanopy Bender] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 20 MRL 0\n  Effect : Confusion Attack % (35)```");
+    }
+if (args ===`chiyouarmor  ` || args ===`Chiyouarmor ` || args ===`ChiyouArmor  `){
+       message.channel.send("```asciidoc\nChiyou Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 20 MRL 0\n  Effect : Confusion Immunity```");
+    }
+if (args ===`beastfacesuit  ` || args ===`Beastfacesuit ` || args ===`BeastFaceSuit  `){
+       message.channel.send("```asciidoc\nBeast Face Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 68 AGI 0 MRL 10\n  Effect : Confusion Immunity```");
+    }
+if (args ===`time-dilatingrobe  ` || args ===`Time-Dilatingrobe ` || args ===`Time-DilatingRobe  `){
+       message.channel.send("```asciidoc\nTime-Dilating Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 10 MRL 0\n  Effect : Confusion Immunity```");
+    }
+if (args ===`infantryarmor  ` || args ===`Infantryarmor ` || args ===`InfantryArmor  `){
+       message.channel.send("```asciidoc\nInfantry Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 10 MRL 0\n  Effect : Critical Attack Immunity```");
+    }
+if (args ===`longcranerobe  ` || args ===`Longcranerobe ` || args ===`LongCraneRobe  `){
+       message.channel.send("```asciidoc\nLong Crane Robe] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 63 AGI 10 MRL 10\n Effect : Critical Attack Immunity```");
+    }
+if (args ===`bluemountainrobe ` || args ===`Bluemountainrobe` || args ===`BlueMountainRobe `){
+       message.channel.send("```asciidoc\nBlue Mountain Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 77 AGI 10 MRL 0\n  Effect : Critical Attack Immunity```");
+    }
+if (args ===`kurikarasword  ` || args ===`Kurikarasword ` || args ===`KurikaraSword  `){
+       message.channel.send("```asciidoc\nKurikara Sword] 7★\n Type : Sword\n  Stat : ATK 90 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`fishbonespear  ` || args ===`Fishbonespear ` || args ===`FishBoneSpear  `){
+       message.channel.send("```asciidoc\nFish Bone Spear] 7★\n  Type : Spear\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 10\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`8-bannerarmor  ` || args ===`8-Bannerarmor ` || args ===`8-BannerArmor  `){
+       message.channel.send("```asciidoc\n8-Banner Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 85 AGI 15 MRL 0\n  Effect : Damage Transfer```");
+    }
+if (args ===`official'scap&suit ` || args ===`Official'Scap&Suit` || args ===`Official'sCap&Suit `){
+       message.channel.send("```asciidoc\nOfficial's Cap & Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 60 AGI 0 MRL 10\n  Effect : Damage Transfer```");
+    }
+if (args ===`blacktortoiserobe  ` || args ===`Blacktortoiserobe ` || args ===`BlackTortoiseRobe  `){
+       message.channel.send("```asciidoc\nBlack Tortoise Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 71 AGI 10 MRL 20\n Effect : Damage Transfer```");
+    }
+if (args ===`silencebow ` || args ===`Silencebow` || args ===`SilenceBow `){
+       message.channel.send("```asciidoc\nSilence Bow] 7★\n  Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Daze Attack % (30)```");
+    }
+if (args ===`silentcrossbow ` || args ===`Silentcrossbow` || args ===`SilentCrossbow `){
+       message.channel.send("```asciidoc\nSilent Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 100 INT 7 DEX 0 AGI 0 MRL 10\n Effect : Daze Attack % (30)```");
+    }
+if (args ===`steellongji  ` || args ===`Steellongji ` || args ===`SteelLongJi  `){
+       message.channel.send("```asciidoc\nSteel Long Ji] 7★\n  Type : Staff\n  Stat : ATK 97 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Daze Attack % (30)```");
+    }
+if (args ===`divineprotectionsword  ` || args ===`Divineprotectionsword ` || args ===`DivineProtectionSword  `){
+       message.channel.send("```asciidoc\nDivine Protection Sword] 7★\n  Type : Sword\n  Stat : ATK 120 INT 0 DEX 0 AGI 7 MRL 0\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`golddragonscimitar ` || args ===`Golddragonscimitar` || args ===`GoldDragonScimitar `){
+       message.channel.send("```asciidoc\nGold Dragon Scimitar] 7★\n Type : Spear\n  Stat : ATK 125 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`thunderboltbow ` || args ===`Thunderboltbow` || args ===`ThunderboltBow `){
+       message.channel.send("```asciidoc\nThunderbolt Bow] 7★\n  Type : Bow\n  Stat : ATK 115 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`fixedcrossbow  ` || args ===`Fixedcrossbow ` || args ===`FixedCrossbow  `){
+       message.channel.send("```asciidoc\nFixed Crossbow] 7★\n Type : Crossbow\n Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 7\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`diamondgreataxe  ` || args ===`Diamondgreataxe ` || args ===`DiamondGreatAxe  `){
+       message.channel.send("```asciidoc\nDiamond Great Axe] 7★\n  Type : Staff\n  Stat : ATK 115 INT 0 DEX 7 AGI 7 MRL 0\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`earthcannon  ` || args ===`Earthcannon ` || args ===`EarthCannon  `){
+       message.channel.send("```asciidoc\nEarth Cannon] 7★\n Type : Catapult\n Stat : ATK 105 INT 0 DEX 0 AGI 7 MRL 7\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`poisonouscrossbow  ` || args ===`Poisonouscrossbow ` || args ===`PoisonousCrossbow  `){
+       message.channel.send("```asciidoc\nPoisonous Crossbow] 7★\n Type : Crossbow\n Stat : ATK 100 INT 7 DEX 0 AGI 0 MRL 10\n Effect : Deadly Poison Attack % (30)```");
+    }
+if (args ===`willowhidesword  ` || args ===`Willowhidesword ` || args ===`WillowHideSword  `){
+       message.channel.send("```asciidoc\nWillow Hide Sword] 7★\n  Type : Sword\n  Stat : ATK 115 INT 10 DEX 0 AGI 0 MRL 0\n Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`venomousscimitar ` || args ===`Venomousscimitar` || args ===`VenomousScimitar `){
+       message.channel.send("```asciidoc\nVenomous Scimitar] 7★\n  Type : Spear\n  Stat : ATK 114 INT 0 DEX 0 AGI 14 MRL 10\n  Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`secretpoison ` || args ===`Secretpoison` || args ===`SecretPoison `){
+       message.channel.send("```asciidoc\nSecret Poison] 7★\n  Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`poisonousji  ` || args ===`Poisonousji ` || args ===`PoisonousJi  `){
+       message.channel.send("```asciidoc\nPoisonous Ji] 7★\n Type : Staff\n  Stat : ATK 96 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`pangucannon  ` || args ===`Pangucannon ` || args ===`PanguCannon  `){
+       message.channel.send("```asciidoc\nPangu Cannon] 7★\n Type : Catapult\n Stat : ATK 105 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`liucheng'sfortune  ` || args ===`Liucheng'Sfortune ` || args ===`LiuCheng'sFortune  `){
+       message.channel.send("```asciidoc\nLiu Cheng's Fortune] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 67 AGI 10 MRL 0\n  Effect : Defense Stat Switch```");
+    }
+if (args ===`bronzechainarmor ` || args ===`Bronzechainarmor` || args ===`BronzeChainArmor `){
+       message.channel.send("```asciidoc\nBronze Chain Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 5 MRL 12\n  Effect : Double ATK Immunity```");
+    }
+if (args ===`cicadawingregalia  ` || args ===`Cicadawingregalia ` || args ===`CicadaWingRegalia  `){
+       message.channel.send("```asciidoc\nCicada Wing Regalia] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 67 AGI 0 MRL 10\n  Effect : Double ATK Immunity```");
+    }
+if (args ===`dianwei'srobe  ` || args ===`Dianwei'Srobe ` || args ===`DianWei'sRobe  `){
+       message.channel.send("```asciidoc\nDian Wei's Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 0 MRL 10\n  Effect : Double ATK Immunity```");
+    }
+if (args ===`chixiao  ` || args ===`Chixiao ` || args ===`ChiXiao  `){
+       message.channel.send("```asciidoc\nChi Xiao] 7★\n Type : Sword\n  Stat : ATK 95 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Double Counter```");
+    }
+if (args ===`vermilionbirdaxe ` || args ===`Vermilionbirdaxe` || args ===`VermilionBirdAxe `){
+       message.channel.send("```asciidoc\nVermilion Bird Axe] 7★\n Type : Spear\n  Stat : ATK 103 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Double Counter```");
+    }
+if (args ===`vermilionbirdbow ` || args ===`Vermilionbirdbow` || args ===`VermilionBirdBow `){
+       message.channel.send("```asciidoc\nVermilion Bird Bow] 7★\n Type : Bow\n  Stat : ATK 115 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Double Counter```");
+    }
+if (args ===`vermilionbirdcrossbow  ` || args ===`Vermilionbirdcrossbow ` || args ===`VermilionBirdCrossbow  `){
+       message.channel.send("```asciidoc\nVermilion Bird Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Double Counter```");
+    }
+if (args ===`demonserpentspear  ` || args ===`Demonserpentspear ` || args ===`DemonSerpentSpear  `){
+       message.channel.send("```asciidoc\nDemon Serpent Spear] 7★\n  Type : Staff\n  Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Double Counter```");
+    }
+if (args ===`blackcannon  ` || args ===`Blackcannon ` || args ===`BlackCannon  `){
+       message.channel.send("```asciidoc\nBlack Cannon] 7★\n Type : Catapult\n Stat : ATK 85 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Double Counter```");
+    }
+if (args ===`whitecranefan  ` || args ===`Whitecranefan ` || args ===`WhiteCraneFan  `){
+       message.channel.send("```asciidoc\nWhite Crane Fan] 7★\n  Type : Fan\n  Stat : ATK 0 INT 95 DEX 0 AGI 0 MRL 10\n  Effect : Double Tactics```");
+    }
+if (args ===`howlingghostawakener ` || args ===`Howlingghostawakener` || args ===`HowlingGhostAwakener `){
+       message.channel.send("```asciidoc\nHowling Ghost Awakener] 7★\n Type : Legendary Sword\n  Stat : ATK 0 INT 86 DEX 0 AGI 10 MRL 0\n  Effect : Double Tactics```");
+    }
+if (args ===`lacqueredplatearmor  ` || args ===`Lacqueredplatearmor ` || args ===`LacqueredPlateArmor  `){
+       message.channel.send("```asciidoc\nLacquered Plate Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 85 AGI 5 MRL 12\n  Effect : Double Tactics Immunity```");
+    }
+if (args ===`hanclothing  ` || args ===`Hanclothing ` || args ===`HanClothing  `){
+       message.channel.send("```asciidoc\nHan Clothing] 7★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 68 AGI 0 MRL 10\n  Effect : Double Tactics Immunity```");
+    }
+if (args ===`purplesatinvestments ` || args ===`Purplesatinvestments` || args ===`PurpleSatinVestments `){
+       message.channel.send("```asciidoc\nPurple Satin Vestments] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 10 MRL 0\n  Effect : Double Tactics Immunity```");
+    }
+if (args ===`goosefeathersaber  ` || args ===`Goosefeathersaber ` || args ===`GooseFeatherSaber  `){
+       message.channel.send("```asciidoc\nGoose Feather Saber] 7★\n  Type : Sword\n  Stat : ATK 100 INT 0 DEX 0 AGI 7 MRL 5\n  Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`mountainspear  ` || args ===`Mountainspear ` || args ===`MountainSpear  `){
+       message.channel.send("```asciidoc\nMountain Spear] 7★\n Type : Spear\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`apricotflowersleevebow ` || args ===`Apricotflowersleevebow` || args ===`ApricotFlowerSleeveBow `){
+       message.channel.send("```asciidoc\nApricot Flower Sleeve Bow] 7★\n  Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`soulcrossbow ` || args ===`Soulcrossbow` || args ===`SoulCrossbow `){
+       message.channel.send("```asciidoc\nSoul Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 7 MRL 10\n Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`eaglemeteorhammer  ` || args ===`Eaglemeteorhammer ` || args ===`EagleMeteorHammer  `){
+       message.channel.send("```asciidoc\nEagle Meteor Hammer] 7★\n  Type : Staff\n  Stat : ATK 91 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`cowhidecaverncart  ` || args ===`Cowhidecaverncart ` || args ===`CowHideCavernCart  `){
+       message.channel.send("```asciidoc\nCow Hide Cavern Cart] 7★\n Type : Catapult\n Stat : ATK 90 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`xuan-yuansword ` || args ===`Xuan-Yuansword` || args ===`Xuan-YuanSword `){
+       message.channel.send("```asciidoc\nXuan-Yuan Sword] 7★\n  Type : Sword\n  Stat : ATK 95 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Expand AoE (4)```");
+    }
+if (args ===`longserpentspear ` || args ===`Longserpentspear` || args ===`LongSerpentSpear `){
+       message.channel.send("```asciidoc\nLong Serpent Spear] 7★\n Type : Spear\n  Stat : ATK 105 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Expand AoE (4)```");
+    }
+if (args ===`enhancedmaekbow  ` || args ===`Enhancedmaekbow ` || args ===`EnhancedMaekBow  `){
+       message.channel.send("```asciidoc\nEnhanced Maek Bow] 7★\n  Type : Bow\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Expand AoE (4)```");
+    }
+if (args ===`fiercecrossbow ` || args ===`Fiercecrossbow` || args ===`FierceCrossbow `){
+       message.channel.send("```asciidoc\nFierce Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Expand AoE (4)```");
+    }
+if (args ===`silverlance  ` || args ===`Silverlance ` || args ===`SilverLance  `){
+       message.channel.send("```asciidoc\nSilver Lance] 7★\n Type : Staff\n  Stat : ATK 80 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Expand AoE (4)```");
+    }
+if (args ===`huang'sbow ` || args ===`Huang'Sbow` || args ===`Huang'sBow `){
+       message.channel.send("```asciidoc\nHuang's Bow] 7★\n  Type : Bow\n  Stat : ATK 102 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Expand ATK RNG (29)```");
+    }
+if (args ===`cloudbeamsword ` || args ===`Cloudbeamsword` || args ===`CloudBeamSword `){
+       message.channel.send("```asciidoc\nCloud Beam Sword] 7★\n Type : Sword\n  Stat : ATK 80 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Expand ATK RNG (7)```");
+    }
+if (args ===`longtrident  ` || args ===`Longtrident ` || args ===`LongTrident  `){
+       message.channel.send("```asciidoc\nLong Trident] 7★\n Type : Spear\n  Stat : ATK 98 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Expand ATK RNG (7)```");
+    }
+if (args ===`ruyijingubang  ` || args ===`Ruyijingubang ` || args ===`RuyiJinguBang  `){
+       message.channel.send("```asciidoc\nRuyi Jingu Bang] 7★\n  Type : Staff\n  Stat : ATK 86 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Expand ATK RNG (7)```");
+    }
+if (args ===`thousandagesword ` || args ===`Thousandagesword` || args ===`ThousandAgeSword `){
+       message.channel.send("```asciidoc\nThousand Age Sword] 7★\n Type : Sword\n  Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : First Strike```");
+    }
+if (args ===`heroicaxe  ` || args ===`Heroicaxe ` || args ===`HeroicAxe  `){
+       message.channel.send("```asciidoc\nHeroic Axe] 7★\n Type : Spear\n  Stat : ATK 101 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : First Strike```");
+    }
+if (args ===`donghuibow ` || args ===`Donghuibow` || args ===`DonghuiBow `){
+       message.channel.send("```asciidoc\nDonghui Bow] 7★\n  Type : Bow\n  Stat : ATK 86 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : First Strike```");
+    }
+if (args ===`flyingkitecrossbow ` || args ===`Flyingkitecrossbow` || args ===`FlyingKiteCrossbow `){
+       message.channel.send("```asciidoc\nFlying Kite Crossbow] 7★\n Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : First Strike```");
+    }
+if (args ===`vermilionbirdmace  ` || args ===`Vermilionbirdmace ` || args ===`VermilionBirdMace  `){
+       message.channel.send("```asciidoc\nVermilion Bird Mace] 7★\n  Type : Staff\n  Stat : ATK 83 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : First Strike```");
+    }
+if (args ===`cloudladder  ` || args ===`Cloudladder ` || args ===`CloudLadder  `){
+       message.channel.send("```asciidoc\nCloud Ladder] 7★\n Type : Catapult\n Stat : ATK 80 INT 0 DEX 0 AGI 0 MRL 0\n Effect : First Strike```");
+    }
+if (args ===`divineheavensword  ` || args ===`Divineheavensword ` || args ===`DivineHeavenSword  `){
+       message.channel.send("```asciidoc\nDivine Heaven Sword] 7★\n  Type : Sword\n  Stat : ATK 97 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Guiding Attack```");
+    }
+if (args ===`wardragon  ` || args ===`Wardragon ` || args ===`WarDragon  `){
+       message.channel.send("```asciidoc\nWar Dragon] 7★\n Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Guiding Attack```");
+    }
+if (args ===`yinyangbow ` || args ===`Yinyangbow` || args ===`YinYangBow `){
+       message.channel.send("```asciidoc\nYin Yang Bow] 7★\n Type : Bow\n  Stat : ATK 109 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Guiding Attack```");
+    }
+if (args ===`yinyangcrossbow  ` || args ===`Yinyangcrossbow ` || args ===`YinYangCrossbow  `){
+       message.channel.send("```asciidoc\nYin Yang Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Guiding Attack```");
+    }
+if (args ===`yinyangmace  ` || args ===`Yinyangmace ` || args ===`YinYangMace  `){
+       message.channel.send("```asciidoc\nYin Yang Mace] 7★\n  Type : Staff\n  Stat : ATK 86 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Guiding Attack```");
+    }
+if (args ===`plainyellowarmor ` || args ===`Plainyellowarmor` || args ===`PlainYellowArmor `){
+       message.channel.send("```asciidoc\nPlain Yellow Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 110 AGI 12 MRL 7\n Effect : HP Boost (150)```");
+    }
+if (args ===`blackdragonsuit  ` || args ===`Blackdragonsuit ` || args ===`BlackDragonSuit  `){
+       message.channel.send("```asciidoc\nBlack Dragon Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 70 AGI 0 MRL 10\n  Effect : HP Boost (150)```");
+    }
+if (args ===`apricotflowerrobe  ` || args ===`Apricotflowerrobe ` || args ===`ApricotFlowerRobe  `){
+       message.channel.send("```asciidoc\nApricot Flower Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 7 MRL 10\n  Effect : HP Boost (150)```");
+    }
+if (args ===`ironscalearmor ` || args ===`Ironscalearmor` || args ===`IronScaleArmor `){
+       message.channel.send("```asciidoc\nIron Scale Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 12 MRL 0\n  Effect : HP Recovery % (15)```");
+    }
+if (args ===`silversilkrobe ` || args ===`Silversilkrobe` || args ===`SilverSilkRobe `){
+       message.channel.send("```asciidoc\nSilver Silk Robe] 7★\n Type : Dress\n  Stat : ATK 0 INT 7 DEX 68 AGI 10 MRL 10\n Effect : HP Recovery % (15)```");
+    }
+if (args ===`whitetigerrobe ` || args ===`Whitetigerrobe` || args ===`WhiteTigerRobe `){
+       message.channel.send("```asciidoc\nWhite Tiger Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 79 AGI 7 MRL 10\n  Effect : HP Recovery % (15)```");
+    }
+if (args ===`shogun'sdecree ` || args ===`Shogun'Sdecree` || args ===`Shogun'sDecree `){
+       message.channel.send("```asciidoc\nShogun's Decree] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 86 DEX 0 AGI 0 MRL 10\n  Effect : Ignore Tactics Terrain```");
+    }
+if (args ===`swordofgoujian ` || args ===`Swordofgoujian` || args ===`SwordofGoujian `){
+       message.channel.send("```asciidoc\nSword of Goujian] 7★\n Type : Sword\n  Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 10\n  Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`bindingbow ` || args ===`Bindingbow` || args ===`BindingBow `){
+       message.channel.send("```asciidoc\nBinding Bow] 7★\n  Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`crowcall ` || args ===`Crowcall` || args ===`CrowCall `){
+       message.channel.send("```asciidoc\nCrow Call] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 10\n  Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`silentmeteorhammer ` || args ===`Silentmeteorhammer` || args ===`SilentMeteorHammer `){
+       message.channel.send("```asciidoc\nSilent Meteor Hammer] 7★\n Type : Staff\n  Stat : ATK 97 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`armoredtower ` || args ===`Armoredtower` || args ===`ArmoredTower `){
+       message.channel.send("```asciidoc\nArmored Tower] 7★\n  Type : Catapult\n Stat : ATK 86 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`goldenplatearmor ` || args ===`Goldenplatearmor` || args ===`GoldenPlateArmor `){
+       message.channel.send("```asciidoc\nGolden Plate Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 12 MRL 0\n  Effect : Immobilization Immunity```");
+    }
+if (args ===`squarespiralsuit ` || args ===`Squarespiralsuit` || args ===`SquareSpiralSuit `){
+       message.channel.send("```asciidoc\nSquare Spiral Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 68 AGI 0 MRL 10\n  Effect : Immobilization Immunity```");
+    }
+if (args ===`preciousfoxrobe  ` || args ===`Preciousfoxrobe ` || args ===`PreciousFoxRobe  `){
+       message.channel.send("```asciidoc\nPrecious Fox Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 0 MRL 20\n  Effect : Immobilization Immunity```");
+    }
+if (args ===`dapple ` || args ===`Dapple` || args ===`Dapple `){
+       message.channel.send("```asciidoc\nDapple] 7★\n Type : Accessory\n  Stat : ATK 27 INT 0 DEX 0 AGI 9 MRL 9\n Effect : % Charge Attack (3)```");
+    }
+if (args ===`heavenlysword  ` || args ===`Heavenlysword ` || args ===`HeavenlySword  `){
+       message.channel.send("```asciidoc\nHeavenly Sword] 7★\n Type : Sword\n  Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Leading Attack```");
+    }
+if (args ===`whitetigeraxe  ` || args ===`Whitetigeraxe ` || args ===`WhiteTigerAxe  `){
+       message.channel.send("```asciidoc\nWhite Tiger Axe] 7★\n  Type : Spear\n  Stat : ATK 91 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Leading Attack```");
+    }
+if (args ===`whitetigerbow  ` || args ===`Whitetigerbow ` || args ===`WhiteTigerBow  `){
+       message.channel.send("```asciidoc\nWhite Tiger Bow] 7★\n  Type : Bow\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Leading Attack```");
+    }
+if (args ===`whitetigercrossbow ` || args ===`Whitetigercrossbow` || args ===`WhiteTigerCrossbow `){
+       message.channel.send("```asciidoc\nWhite Tiger Crossbow] 7★\n Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Leading Attack```");
+    }
+if (args ===`whitetigermace ` || args ===`Whitetigermace` || args ===`WhiteTigerMace `){
+       message.channel.send("```asciidoc\nWhite Tiger Mace] 7★\n Type : Staff\n  Stat : ATK 87 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Leading Attack```");
+    }
+if (args ===`woodenshieldwagon  ` || args ===`Woodenshieldwagon ` || args ===`WoodenShieldWagon  `){
+       message.channel.send("```asciidoc\nWooden Shield Wagon] 7★\n  Type : Catapult\n Stat : ATK 80 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Leading Attack```");
+    }
+if (args ===`mountainslayer ` || args ===`Mountainslayer` || args ===`MountainSlayer `){
+       message.channel.send("```asciidoc\nMountain Slayer] 7★\n  Type : Sword\n  Stat : ATK 90 INT 10 DEX 0 AGI 0 MRL 10\n Effect : Lifesteal Attack % (20)```");
+    }
+if (args ===`skydivider ` || args ===`Skydivider` || args ===`SkyDivider `){
+       message.channel.send("```asciidoc\nSky Divider] 7★\n  Type : Spear\n  Stat : ATK 94 INT 0 DEX 0 AGI 20 MRL 10\n Effect : Lifesteal Attack % (20)```");
+    }
+if (args ===`whitetigerarmor  ` || args ===`Whitetigerarmor ` || args ===`WhiteTigerArmor  `){
+       message.channel.send("```asciidoc\nWhite Tiger Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 7 DEX 115 AGI 0 MRL 7\n  Effect : Mental Exhaustion (20)```");
+    }
+if (args ===`whitelotussuit ` || args ===`Whitelotussuit` || args ===`WhiteLotusSuit `){
+       message.channel.send("```asciidoc\nWhite Lotus Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 15 DEX 75 AGI 0 MRL 0\n  Effect : Mental Exhaustion (20)```");
+    }
+if (args ===`kirinrobe  ` || args ===`Kirinrobe ` || args ===`KirinRobe  `){
+       message.channel.send("```asciidoc\nKirin Robe] 7★\n Type : Robe\n Stat : ATK 7 INT 0 DEX 80 AGI 7 MRL 0\n Effect : Mental Exhaustion (20)```");
+    }
+if (args ===`muskincense  ` || args ===`Muskincense ` || args ===`MuskIncense  `){
+       message.channel.send("```asciidoc\nMusk Incense] 7★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 27 AGI 9 MRL 9\n Effect : Attack ACC + (30)```");
+    }
+if (args ===`ravendragon  ` || args ===`Ravendragon ` || args ===`RavenDragon  `){
+       message.channel.send("```asciidoc\nRaven Dragon] 7★\n Type : Accessory\n  Stat : ATK 18 INT 0 DEX 0 AGI 18 MRL 9\n  Effect : Charge Move```");
+    }
+if (args ===`jadefan  ` || args ===`Jadefan ` || args ===`JadeFan  `){
+       message.channel.send("```asciidoc\nJade Fan] 7★\n Type : Fan\n  Stat : ATK 0 INT 95 DEX 0 AGI 10 MRL 0\n  Effect : MP Attack (10)```");
+    }
+if (args ===`crimsonmidnightscimitar  ` || args ===`Crimsonmidnightscimitar ` || args ===`CrimsonMidnightScimitar  `){
+       message.channel.send("```asciidoc\nCrimson Midnight Scimitar] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 90 DEX 0 AGI 0 MRL 0\n Effect : MP Attack (10)```");
+    }
+if (args ===`imperialseal ` || args ===`Imperialseal` || args ===`ImperialSeal `){
+       message.channel.send("```asciidoc\nImperial Seal] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 0 DEX 0 AGI 18 MRL 18\n  Effect : Critical Attack```");
+    }
+if (args ===`heartsutra ` || args ===`Heartsutra` || args ===`HeartSutra `){
+       message.channel.send("```asciidoc\nHeart Sutra] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 36 DEX 9 AGI 0 MRL 0\n Effect : Decrease Area Tactics Damage (70)```");
+    }
+if (args ===`yinboyangbo  ` || args ===`Yinboyangbo ` || args ===`YinBoYangBo  `){
+       message.channel.send("```asciidoc\nYin Bo Yang Bo] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Earth Tactics+ % (35)```");
+    }
+if (args ===`mozi ` || args ===`Mozi` || args ===`Mozi `){
+       message.channel.send("```asciidoc\nMozi] 7★\n Type : Accessory\n  Stat : ATK 0 INT 36 DEX 0 AGI 0 MRL 9\n Effect : Elemental Tactics +% (25)```");
+    }
+if (args ===`shanghanlun  ` || args ===`Shanghanlun ` || args ===`ShanghanLun  `){
+       message.channel.send("```asciidoc\nShanghan Lun] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Fire Tactics +% (35)```");
+    }
+if (args ===`grinningdemonshield  ` || args ===`Grinningdemonshield ` || args ===`GrinningDemonShield  `){
+       message.channel.send("```asciidoc\nGrinning Demon Shield] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 0 DEX 27 AGI 9 MRL 9\n Effect : Guard (10)```");
+    }
+if (args ===`plaincrimsonarmor  ` || args ===`Plaincrimsonarmor ` || args ===`PlainCrimsonArmor  `){
+       message.channel.send("```asciidoc\nPlain Crimson Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 105 AGI 12 MRL 5\n Effect : MP Boost % (15)```");
+    }
+if (args ===`reddragonsuit  ` || args ===`Reddragonsuit ` || args ===`RedDragonSuit  `){
+       message.channel.send("```asciidoc\nRed Dragon Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 67 AGI 0 MRL 10\n  Effect : MP Boost % (15)```");
+    }
+if (args ===`golddragonrobe ` || args ===`Golddragonrobe` || args ===`GoldDragonRobe `){
+       message.channel.send("```asciidoc\nGold Dragon Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 77 AGI 7 MRL 10\n  Effect : MP Boost % (15)```");
+    }
+if (args ===`brassscalearmor  ` || args ===`Brassscalearmor ` || args ===`BrassScaleArmor  `){
+       message.channel.send("```asciidoc\nBrass Scale Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 100 AGI 0 MRL 0\n  Effect : MP Defense```");
+    }
+if (args ===`silvercoatedsuit ` || args ===`Silvercoatedsuit` || args ===`SilverCoatedSuit `){
+       message.channel.send("```asciidoc\nSilver Coated Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 7 DEX 61 AGI 0 MRL 0\n Effect : MP Defense```");
+    }
+if (args ===`whitedragonrobe  ` || args ===`Whitedragonrobe ` || args ===`WhiteDragonRobe  `){
+       message.channel.send("```asciidoc\nWhite Dragon Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 75 AGI 7 MRL 7\n Effect : MP Defense```");
+    }
+if (args ===`menghuo'sbelt  ` || args ===`Menghuo'Sbelt ` || args ===`MengHuo'sBelt  `){
+       message.channel.send("```asciidoc\nMeng Huo's Belt] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 0 DEX 0 AGI 36 MRL 9\n Effect : HP Boost (150)```");
+    }
+if (args ===`sixfishbelt  ` || args ===`Sixfishbelt ` || args ===`SixFishBelt  `){
+       message.channel.send("```asciidoc\nSix Fish Belt] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 0 DEX 0 AGI 27 MRL 9\n Effect : HP Boost (150)```");
+    }
+if (args ===`teafan ` || args ===`Teafan` || args ===`TeaFan `){
+       message.channel.send("```asciidoc\nTea Fan] 7★\n  Type : Fan\n  Stat : ATK 0 INT 100 DEX 0 AGI 0 MRL 0\n  Effect : MP Saving % (40)```");
+    }
+if (args ===`enlighteningprajnablade  ` || args ===`Enlighteningprajnablade ` || args ===`EnlighteningPrajnaBlade  `){
+       message.channel.send("```asciidoc\nEnlightening Prajna Blade] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 0 MRL 20\n  Effect : MP Saving % (40)```");
+    }
+if (args ===`ganning'sbelt  ` || args ===`Ganning'Sbelt ` || args ===`GanNing'sBelt  `){
+       message.channel.send("```asciidoc\nGan Ning's Belt] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 0 DEX 0 AGI 18 MRL 18\n  Effect : HP Boost (150)```");
+    }
+if (args ===`gold&silverwagon ` || args ===`Gold&Silverwagon` || args ===`Gold&SilverWagon `){
+       message.channel.send("```asciidoc\nGold & Silver Wagon] 7★\n  Type : Accessory\n  Stat : ATK 18 INT 0 DEX 9 AGI 9 MRL 9\n Effect : HP Recovery % (5)```");
+    }
+if (args ===`sharpscimitar  ` || args ===`Sharpscimitar ` || args ===`SharpScimitar  `){
+       message.channel.send("```asciidoc\nSharp Scimitar] 7★\n Type : Sword\n  Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Oppressive Assault```");
+    }
+if (args ===`bluemoondragon ` || args ===`Bluemoondragon` || args ===`BlueMoonDragon `){
+       message.channel.send("```asciidoc\nBlue Moon Dragon] 7★\n Type : Spear\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Oppressive Assault```");
+    }
+if (args ===`blacktortoisebow ` || args ===`Blacktortoisebow` || args ===`BlackTortoiseBow `){
+       message.channel.send("```asciidoc\nBlack Tortoise Bow] 7★\n Type : Bow\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Oppressive Assault```");
+    }
+if (args ===`blacktortoisecrossbow  ` || args ===`Blacktortoisecrossbow ` || args ===`BlackTortoiseCrossbow  `){
+       message.channel.send("```asciidoc\nBlack Tortoise Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Oppressive Assault```");
+    }
+if (args ===`panguaxe ` || args ===`Panguaxe` || args ===`PanguAxe `){
+       message.channel.send("```asciidoc\nPangu Axe] 7★\n  Type : Staff\n  Stat : ATK 86 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Oppressive Assault```");
+    }
+if (args ===`smallcart  ` || args ===`Smallcart ` || args ===`SmallCart  `){
+       message.channel.send("```asciidoc\nSmall Cart] 7★\n Type : Catapult\n Stat : ATK 82 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Oppressive Assault```");
+    }
+if (args ===`jiangweisword  ` || args ===`Jiangweisword ` || args ===`JiangWeiSword  `){
+       message.channel.send("```asciidoc\nJiang Wei Sword] 7★\n  Type : Sword\n  Stat : ATK 98 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Penetration Attack```");
+    }
+if (args ===`fire-tipspear  ` || args ===`Fire-Tipspear ` || args ===`Fire-TipSpear  `){
+       message.channel.send("```asciidoc\nFire-Tip Spear] 7★\n Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 0 MRL 20\n  Effect : Penetration Attack```");
+    }
+if (args ===`blacktortoisenunchucks ` || args ===`Blacktortoisenunchucks` || args ===`BlackTortoiseNunchucks `){
+       message.channel.send("```asciidoc\nBlack Tortoise Nunchucks] 7★\n Type : Staff\n  Stat : ATK 84 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Penetration Attack```");
+    }
+if (args ===`bestialarmor ` || args ===`Bestialarmor` || args ===`BestialArmor `){
+       message.channel.send("```asciidoc\nBestial Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 10 MRL 10\n Effect : Physical Damage -% (35)```");
+    }
+if (args ===`lubu'srobe ` || args ===`Lubu'Srobe` || args ===`LuBu'sRobe `){
+       message.channel.send("```asciidoc\nLu Bu's Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 20 MRL 0\n  Effect : Physical Damage Reflection % (20)```");
+    }
+if (args ===`venomdragoncrossbow  ` || args ===`Venomdragoncrossbow ` || args ===`VenomDragonCrossbow  `){
+       message.channel.send("```asciidoc\nVenom Dragon Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 7 MRL 10\n Effect : Poison Attack % (30)```");
+    }
+if (args ===`northernsaber  ` || args ===`Northernsaber ` || args ===`NorthernSaber  `){
+       message.channel.send("```asciidoc\nNorthern Saber] 7★\n Type : Sword\n  Stat : ATK 112 INT 10 DEX 0 AGI 0 MRL 10\n  Effect : Poison Attack % (35)```");
+    }
+if (args ===`venomdragonspear ` || args ===`Venomdragonspear` || args ===`VenomDragonSpear `){
+       message.channel.send("```asciidoc\nVenom Dragon Spear] 7★\n Type : Spear\n  Stat : ATK 113 INT 0 DEX 0 AGI 14 MRL 10\n  Effect : Poison Attack % (35)```");
+    }
+if (args ===`venomdragonbow ` || args ===`Venomdragonbow` || args ===`VenomDragonBow `){
+       message.channel.send("```asciidoc\nVenom Dragon Bow] 7★\n Type : Bow\n  Stat : ATK 114 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Poison Attack % (35)```");
+    }
+if (args ===`venomdragonmeteorhammer  ` || args ===`Venomdragonmeteorhammer ` || args ===`VenomDragonMeteorHammer  `){
+       message.channel.send("```asciidoc\nVenom Dragon Meteor Hammer] 7★\n Type : Staff\n  Stat : ATK 100 INT 10 DEX 0 AGI 0 MRL 0\n Effect : Poison Attack % (35)```");
+    }
+if (args ===`venomengine  ` || args ===`Venomengine ` || args ===`VenomEngine  `){
+       message.channel.send("```asciidoc\nVenom Engine] 7★\n Type : Catapult\n Stat : ATK 99 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Poison Attack % (35)```");
+    }
+if (args ===`blacksteelarmor  ` || args ===`Blacksteelarmor ` || args ===`BlackSteelArmor  `){
+       message.channel.send("```asciidoc\nBlack Steel Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 0 MRL 10\n  Effect : Poison Immunity```");
+    }
+if (args ===`bavinsuit  ` || args ===`Bavinsuit ` || args ===`BavinSuit  `){
+       message.channel.send("```asciidoc\nBavin Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 68 AGI 0 MRL 10\n  Effect : Poison Immunity```");
+    }
+if (args ===`menghuo'srobe  ` || args ===`Menghuo'Srobe ` || args ===`MengHuo'sRobe  `){
+       message.channel.send("```asciidoc\nMeng Huo's Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 80 AGI 0 MRL 0\n Effect : Poison Immunity```");
+    }
+if (args ===`weistrategies  ` || args ===`Weistrategies ` || args ===`WeiStrategies  `){
+       message.channel.send("```asciidoc\nWei Strategies] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Interrupt Tactics +% (35)```");
+    }
+if (args ===`soyuhorse  ` || args ===`Soyuhorse ` || args ===`SoyuHorse  `){
+       message.channel.send("```asciidoc\nSoyu Horse] 7★\n Type : Accessory\n  Stat : ATK 9 INT 9 DEX 9 AGI 9 MRL 9\n  Effect : Item Range +```");
+    }
+if (args ===`mirrorplate  ` || args ===`Mirrorplate ` || args ===`MirrorPlate  `){
+       message.channel.send("```asciidoc\nMirror Plate] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 0 MRL 20\n  Effect : Ranged DMG -% (35)```");
+    }
+if (args ===`brilliantlionheadbelt  ` || args ===`Brilliantlionheadbelt ` || args ===`BrilliantLionHeadBelt  `){
+       message.channel.send("```asciidoc\nBrilliant Lion Head Belt] 7★\n Type : Accessory\n  Stat : ATK 9 INT 0 DEX 9 AGI 18 MRL 18\n  Effect : Mounted ATK +% (20)```");
+    }
+if (args ===`beautyflowermirror ` || args ===`Beautyflowermirror` || args ===`BeautyFlowerMirror `){
+       message.channel.send("```asciidoc\nBeauty Flower Mirror] 7★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 0 AGI 36 MRL 9\n Effect : MP Boost (80)```");
+    }
+if (args ===`beautywatermirror  ` || args ===`Beautywatermirror ` || args ===`BeautyWaterMirror  `){
+       message.channel.send("```asciidoc\nBeauty Water Mirror] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 9 DEX 0 AGI 27 MRL 9\n Effect : MP Boost (80)```");
+    }
+if (args ===`multimirror  ` || args ===`Multimirror ` || args ===`MultiMirror  `){
+       message.channel.send("```asciidoc\nMulti Mirror] 7★\n Type : Accessory\n  Stat : ATK 0 INT 9 DEX 0 AGI 18 MRL 18\n  Effect : MP Boost (80)```");
+    }
+if (args ===`strength&virtue  ` || args ===`Strength&Virtue ` || args ===`Strength&Virtue  `){
+       message.channel.send("```asciidoc\nStrength & Virtue] 7★\n  Type : Sword\n  Stat : ATK 85 INT 10 DEX 0 AGI 10 MRL 10\n  Effect : Reversal```");
+    }
+if (args ===`azuredragonaxe ` || args ===`Azuredragonaxe` || args ===`AzureDragonAxe `){
+       message.channel.send("```asciidoc\nAzure Dragon Axe] 7★\n Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`utilitybow ` || args ===`Utilitybow` || args ===`UtilityBow `){
+       message.channel.send("```asciidoc\nUtility Bow] 7★\n  Type : Bow\n  Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`steadfastcrossbow  ` || args ===`Steadfastcrossbow ` || args ===`SteadfastCrossbow  `){
+       message.channel.send("```asciidoc\nSteadfast Crossbow] 7★\n Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`dualrods ` || args ===`Dualrods` || args ===`DualRods `){
+       message.channel.send("```asciidoc\nDual Rods] 7★\n  Type : Staff\n  Stat : ATK 81 INT 10 DEX 0 AGI 10 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`eight-arrowhandcannon  ` || args ===`Eight-Arrowhandcannon ` || args ===`Eight-ArrowHandCannon  `){
+       message.channel.send("```asciidoc\nEight-Arrow Hand Cannon] 7★\n  Type : Catapult\n Stat : ATK 80 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`bluechenopodstaff  ` || args ===`Bluechenopodstaff ` || args ===`BlueChenopodStaff  `){
+       message.channel.send("```asciidoc\nBlue Chenopod Staff] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 18 DEX 9 AGI 9 MRL 9\n Effect : MP Recovery % (5)```");
+    }
+if (args ===`sunbin'sartofwar ` || args ===`Sunbin'Sartofwar` || args ===`SunBin'sArtofWar `){
+       message.channel.send("```asciidoc\nSun Bin's Art of War] 7★\n Type : Accessory\n  Stat : ATK 0 INT 45 DEX 0 AGI 0 MRL 0\n Effect : Offensive Tactics +% (20)```");
+    }
+if (args ===`goldmysticmace ` || args ===`Goldmysticmace` || args ===`GoldMysticMace `){
+       message.channel.send("```asciidoc\nGold Mystic Mace] 7★\n Type : Staff\n  Stat : ATK 97 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Silence Attack % (35)```");
+    }
+if (args ===`goldensilencer ` || args ===`Goldensilencer` || args ===`GoldenSilencer `){
+       message.channel.send("```asciidoc\nGolden Silencer] 7★\n  Type : Catapult\n Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 10\n Effect : Silence Attack % (35)```");
+    }
+if (args ===`agarwoodincense  ` || args ===`Agarwoodincense ` || args ===`AgarwoodIncense  `){
+       message.channel.send("```asciidoc\nAgarwood Incense] 7★\n Type : Accessory\n  Stat : ATK 18 INT 9 DEX 18 AGI 0 MRL 0\n  Effect : Rage +% (20)```");
+    }
+if (args ===`spiritrealmscriptures  ` || args ===`Spiritrealmscriptures ` || args ===`SpiritRealmScriptures  `){
+       message.channel.send("```asciidoc\nSpirit Realm Scriptures] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 0 DEX 18 AGI 9 MRL 9\n Effect : Reach HP Restore % (3)```");
+    }
+if (args ===`kongming'sturban ` || args ===`Kongming'Sturban` || args ===`Kongming'sTurban `){
+       message.channel.send("```asciidoc\nKongming's Turban] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 9 DEX 18 AGI 9 MRL 9\n Effect : Reach MP Restore % (3)```");
+    }
+if (args ===`geniuscrossbow ` || args ===`Geniuscrossbow` || args ===`GeniusCrossbow `){
+       message.channel.send("```asciidoc\nGenius Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 10\n Effect : Status Effect ATK % (30)```");
+    }
+if (args ===`geniusbow  ` || args ===`Geniusbow ` || args ===`GeniusBow  `){
+       message.channel.send("```asciidoc\nGenius Bow] 7★\n Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Status Effect ATK % (35)```");
+    }
+if (args ===`dragoncannon ` || args ===`Dragoncannon` || args ===`DragonCannon `){
+       message.channel.send("```asciidoc\nDragon Cannon] 7★\n  Type : Catapult\n Stat : ATK 87 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Status Effect ATK % (35)```");
+    }
+if (args ===`verticalplatearmor ` || args ===`Verticalplatearmor` || args ===`VerticalPlateArmor `){
+       message.channel.send("```asciidoc\nVertical Plate Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 80 AGI 12 MRL 12\n Effect : Status Effect Reflection```");
+    }
+if (args ===`twilightepiphany ` || args ===`Twilightepiphany` || args ===`TwilightEpiphany `){
+       message.channel.send("```asciidoc\nTwilight Epiphany] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 70 AGI 0 MRL 0\n Effect : Status Effect Reflection```");
+    }
+if (args ===`vermilionbirdrobe  ` || args ===`Vermilionbirdrobe ` || args ===`VermilionBirdRobe  `){
+       message.channel.send("```asciidoc\nVermilion Bird Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 77 AGI 10 MRL 0\n  Effect : Status Effect Reflection```");
+    }
+if (args ===`hexmark  ` || args ===`Hexmark ` || args ===`HexMark  `){
+       message.channel.send("```asciidoc\nHex Mark] 7★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 18 AGI 9 MRL 18\n  Effect : Rough Terrain Move```");
+    }
+if (args ===`blackwind  ` || args ===`Blackwind ` || args ===`BlackWind  `){
+       message.channel.send("```asciidoc\nBlack Wind] 7★\n Type : Accessory\n  Stat : ATK 36 INT 0 DEX 0 AGI 5 MRL 5\n Effect : Smash (30)```");
+    }
+if (args ===`brilliantsword ` || args ===`Brilliantsword` || args ===`BrilliantSword `){
+       message.channel.send("```asciidoc\nBrilliant Sword] 7★\n  Type : Sword\n  Stat : ATK 110 INT 0 DEX 0 AGI 10 MRL 10\n  Effect : Surprise Attack (3)```");
+    }
+if (args ===`sharpmantisspear ` || args ===`Sharpmantisspear` || args ===`SharpMantisSpear `){
+       message.channel.send("```asciidoc\nSharp Mantis Spear] 7★\n Type : Spear\n  Stat : ATK 125 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Surprise Attack (3)```");
+    }
+if (args ===`heavenbreaker  ` || args ===`Heavenbreaker ` || args ===`HeavenBreaker  `){
+       message.channel.send("```asciidoc\nHeaven Breaker] 7★\n Type : Bow\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Surprise Attack (3)```");
+    }
+if (args ===`stormcrossbow  ` || args ===`Stormcrossbow ` || args ===`StormCrossbow  `){
+       message.channel.send("```asciidoc\nStorm Crossbow] 7★\n Type : Crossbow\n Stat : ATK 90 INT 0 DEX 10 AGI 10 MRL 10\n  Effect : Surprise Attack (3)```");
+    }
+if (args ===`lightningmace  ` || args ===`Lightningmace ` || args ===`LightningMace  `){
+       message.channel.send("```asciidoc\nLightning Mace] 7★\n Type : Staff\n  Stat : ATK 105 INT 0 DEX 10 AGI 10 MRL 10\n Effect : Surprise Attack (3)```");
+    }
+if (args ===`giantcannon  ` || args ===`Giantcannon ` || args ===`GiantCannon  `){
+       message.channel.send("```asciidoc\nGiant Cannon] 7★\n Type : Catapult\n Stat : ATK 95 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Surprise Attack (3)```");
+    }
+if (args ===`vaisravana'swealth ` || args ===`Vaisravana'Swealth` || args ===`Vaisravana'sWealth `){
+       message.channel.send("```asciidoc\nVaisravana's Wealth] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 100 AGI 0 MRL 0\n  Effect : Tactics Damage -% (35)```");
+    }
+if (args ===`doublecircle-patternedsuit ` || args ===`Doublecircle-Patternedsuit` || args ===`DoubleCircle-PatternedSuit `){
+       message.channel.send("```asciidoc\nDouble Circle-Patterned Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 7 DEX 66 AGI 0 MRL 10\n  Effect : Tactics Damage Reflection % (20)```");
+    }
+if (args ===`emperor'shonor ` || args ===`Emperor'Shonor` || args ===`Emperor'sHonor `){
+       message.channel.send("```asciidoc\nEmperor's Honor] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 10 MRL 10\n Effect : Tactics Damage Reflection % (20)```");
+    }
+if (args ===`ironleatherarmor ` || args ===`Ironleatherarmor` || args ===`IronLeatherArmor `){
+       message.channel.send("```asciidoc\nIron Leather Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 12 MRL 0\n  Effect : Tactics DEF Rate + (30)```");
+    }
+if (args ===`bluegauzesuit  ` || args ===`Bluegauzesuit ` || args ===`BlueGauzeSuit  `){
+       message.channel.send("```asciidoc\nBlue Gauze Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 68 AGI 0 MRL 10\n  Effect : Tactics DEF Rate + (30)```");
+    }
+if (args ===`blackfeatherfan  ` || args ===`Blackfeatherfan ` || args ===`BlackFeatherFan  `){
+       message.channel.send("```asciidoc\nBlack Feather Fan] 7★\n  Type : Fan\n  Stat : ATK 0 INT 100 DEX 0 AGI 0 MRL 0\n  Effect : Tactics DEF Rate Pierce (15)```");
+    }
+if (args ===`flurrysword  ` || args ===`Flurrysword ` || args ===`FlurrySword  `){
+       message.channel.send("```asciidoc\nFlurry Sword] 7★\n Type : Legendary Sword\n  Stat : ATK 0 INT 90 DEX 7 AGI 7 MRL 7\n Effect : Tactics DEF Rate Pierce (15)```");
+    }
+if (args ===`heavenlytortoisecrossbow ` || args ===`Heavenlytortoisecrossbow` || args ===`HeavenlyTortoiseCrossbow `){
+       message.channel.send("```asciidoc\nHeavenly Tortoise Crossbow] 7★\n Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Unlimited Counterattack```");
+    }
+if (args ===`shadowrunner ` || args ===`Shadowrunner` || args ===`ShadowRunner `){
+       message.channel.send("```asciidoc\nShadow Runner] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 9 DEX 9 AGI 9 MRL 9\n  Effect : SPD Boost (2)```");
+    }
+if (args ===`zhugeliangcollection ` || args ===`Zhugeliangcollection` || args ===`ZhugeLiangCollection `){
+       message.channel.send("```asciidoc\nZhuge Liang Collection] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Supply Tactics +% (35)```");
+    }
+if (args ===`mapofwesternshu  ` || args ===`Mapofwesternshu ` || args ===`MapofWesternShu  `){
+       message.channel.send("```asciidoc\nMap of Western Shu] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Water Tactics+ % (35)```");
+    }
+if (args ===`classicofmountainsandseas  ` || args ===`Classicofmountainsandseas ` || args ===`ClassicofMountainsandSeas  `){
+       message.channel.send("```asciidoc\nClassic of Mountains and Seas] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Wind```");
+    } if (args ===`blackblood ` || args ===`Blackblood` || args ===`BlackBlood `){
+       message.channel.send("```asciidoc\nBlack Blood] 6★\n  Type : Accessory\n  Stat : ATK 21 INT 0 DEX 0 AGI 7 MRL 7\n Effect : % Charge Attack (1)```");
+    }
+if (args ===`orchidperfume  ` || args ===`Orchidperfume ` || args ===`OrchidPerfume  `){
+       message.channel.send("```asciidoc\nOrchid Perfume] 6★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 21 AGI 7 MRL 7\n Effect : Attack ACC + (15)```");
+    }
+if (args ===`shengxie ` || args ===`Shengxie` || args ===`Shengxie `){
+       message.channel.send("```asciidoc\nShengxie] 6★\n Type : Sword\n  Stat : ATK 86 INT 7 DEX 0 AGI 7 MRL 0\n Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`giantmountainaxe ` || args ===`Giantmountainaxe` || args ===`GiantMountainAxe `){
+       message.channel.send("```asciidoc\nGiant Mountain Axe] 6★\n Type : Spear\n  Stat : ATK 95 INT 0 DEX 0 AGI 14 MRL 0\n  Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`apricotflowerbow ` || args ===`Apricotflowerbow` || args ===`ApricotFlowerBow `){
+       message.channel.send("```asciidoc\nApricot Flower Bow] 6★\n Type : Bow\n  Stat : ATK 103 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`plumcrossbow ` || args ===`Plumcrossbow` || args ===`PlumCrossbow `){
+       message.channel.send("```asciidoc\nPlum Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 5 DEX 0 AGI 0 MRL 7\n  Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`talentednunchucks  ` || args ===`Talentednunchucks ` || args ===`TalentedNunchucks  `){
+       message.channel.send("```asciidoc\nTalented Nunchucks] 6★\n Type : Staff\n  Stat : ATK 87 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Abnormality ATK % (20)```");
+    }
+if (args ===`borderedwhitearmor ` || args ===`Borderedwhitearmor` || args ===`BorderedWhiteArmor `){
+       message.channel.send("```asciidoc\nBordered White Armor] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 7 MRL 7\n Effect : AGI Boost % (10)```");
+    }
+if (args ===`red&bluesuit ` || args ===`Red&Bluesuit` || args ===`Red&BlueSuit `){
+       message.channel.send("```asciidoc\nRed & Blue Suit] 6★\n  Type : Dress\n  Stat : ATK 0 INT 5 DEX 61 AGI 0 MRL 0\n Effect : AGI Boost % (10)```");
+    }
+if (args ===`swallowrobe  ` || args ===`Swallowrobe ` || args ===`SwallowRobe  `){
+       message.channel.send("```asciidoc\nSwallow Robe] 6★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 71 AGI 3 MRL 5\n Effect : AGI Boost % (10)```");
+    }
+if (args ===`silverbreastplate  ` || args ===`Silverbreastplate ` || args ===`SilverBreastplate  `){
+       message.channel.send("```asciidoc\nSilver Breastplate] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 12 MRL 0\n  Effect : All DEF Rate + (10)```");
+    }
+if (args ===`trianglesuit ` || args ===`Trianglesuit` || args ===`TriangleSuit `){
+       message.channel.send("```asciidoc\nTriangle Suit] 6★\n  Type : Dress\n  Stat : ATK 0 INT 5 DEX 63 AGI 0 MRL 0\n Effect : All DEF Rate + (10)```");
+    }
+if (args ===`waterbuffaloskinrobe ` || args ===`Waterbuffaloskinrobe` || args ===`WaterBuffaloSkinRobe `){
+       message.channel.send("```asciidoc\nWater Buffalo Skin Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 7 MRL 0\n Effect : All DEF Rate + (10)```");
+    }
+if (args ===`unstoppableironguard ` || args ===`Unstoppableironguard` || args ===`UnstoppableIronguard `){
+       message.channel.send("```asciidoc\nUnstoppable Ironguard] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 7 MRL 0\n Effect : ATK DEF Rate + (15)```");
+    }
+if (args ===`phoenixsuit  ` || args ===`Phoenixsuit ` || args ===`PhoenixSuit  `){
+       message.channel.send("```asciidoc\nPhoenix Suit] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 66 AGI 7 MRL 0\n Effect : ATK DEF Rate + (15)```");
+    }
+if (args ===`mongolianrobe  ` || args ===`Mongolianrobe ` || args ===`MongolianRobe  `){
+       message.channel.send("```asciidoc\nMongolian Robe] 6★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 0 MRL 7\n Effect : ATK DEF Rate + (20)```");
+    }
+if (args ===`jadewhitehorse ` || args ===`Jadewhitehorse` || args ===`JadeWhiteHorse `){
+       message.channel.send("```asciidoc\nJade White Horse] 6★\n Type : Accessory\n  Stat : ATK 14 INT 0 DEX 0 AGI 14 MRL 7\n  Effect : Charge Move```");
+    }
+if (args ===`imperialstudies  ` || args ===`Imperialstudies ` || args ===`ImperialStudies  `){
+       message.channel.send("```asciidoc\nImperial Studies] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Earth Tactics+ % (20)```");
+    }
+if (args ===`xiaojingzhuan  ` || args ===`Xiaojingzhuan ` || args ===`XiaoJingZhuan  `){
+       message.channel.send("```asciidoc\nXiao Jing Zhuan] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 28 DEX 0 AGI 0 MRL 7\n Effect : Elemental Tactics +% (15)```");
+    }
+if (args ===`bookoflordshang  ` || args ===`Bookoflordshang ` || args ===`BookofLordShang  `){
+       message.channel.send("```asciidoc\nBook of Lord Shang] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Fire Tactics +% (20)```");
+    }
+if (args ===`soldierblade ` || args ===`Soldierblade` || args ===`SoldierBlade `){
+       message.channel.send("```asciidoc\nSoldier Blade] 6★\n  Type : Sword\n  Stat : ATK 107 INT 7 DEX 0 AGI 0 MRL 0\n  Effect : Confusion Attack % (20)```");
+    }
+if (args ===`stallionfury ` || args ===`Stallionfury` || args ===`StallionFury `){
+       message.channel.send("```asciidoc\nStallion Fury] 6★\n  Type : Spear\n  Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 14\n  Effect : Confusion Attack % (20)```");
+    }
+if (args ===`spiritbow  ` || args ===`Spiritbow ` || args ===`SpiritBow  `){
+       message.channel.send("```asciidoc\nSpirit Bow] 6★\n Type : Bow\n  Stat : ATK 107 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Confusion Attack % (20)```");
+    }
+if (args ===`spikedcrossbow ` || args ===`Spikedcrossbow` || args ===`SpikedCrossbow `){
+       message.channel.send("```asciidoc\nSpiked Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 7\n  Effect : Confusion Attack % (20)```");
+    }
+if (args ===`spiritstaff  ` || args ===`Spiritstaff ` || args ===`SpiritStaff  `){
+       message.channel.send("```asciidoc\nSpirit Staff] 6★\n Type : Staff\n  Stat : ATK 92 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Confusion Attack % (20)```");
+    }
+if (args ===`trianglewoodenwagon  ` || args ===`Trianglewoodenwagon ` || args ===`TriangleWoodenWagon  `){
+       message.channel.send("```asciidoc\nTriangle Wooden Wagon] 6★\n  Type : Catapult\n Stat : ATK 85 INT 0 DEX 0 AGI 5 MRL 0\n Effect : Confusion Attack % (20)```");
+    }
+if (args ===`kouya'skingbane  ` || args ===`Kouya'Skingbane ` || args ===`Kouya'sKingbane  `){
+       message.channel.send("```asciidoc\nKouya's Kingbane] 6★\n Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 0 MRL 7\n Effect : Confusion Attack % (20)```");
+    }
+if (args ===`gaoshun'sbelt  ` || args ===`Gaoshun'Sbelt ` || args ===`GaoShun'sBelt  `){
+       message.channel.send("```asciidoc\nGao Shun's Belt] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 0 DEX 0 AGI 28 MRL 7\n Effect : HP Boost (100)```");
+    }
+if (args ===`doubledragonsword  ` || args ===`Doubledragonsword ` || args ===`DoubleDragonSword  `){
+       message.channel.send("```asciidoc\nDouble Dragon Sword] 6★\n  Type : Sword\n  Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`xudouhatchet ` || args ===`Xudouhatchet` || args ===`XudouHatchet `){
+       message.channel.send("```asciidoc\nXudou Hatchet] 6★\n  Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 0 MRL 7\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`torchbow ` || args ===`Torchbow` || args ===`TorchBow `){
+       message.channel.send("```asciidoc\nTorch Bow] 6★\n  Type : Bow\n  Stat : ATK 81 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`yangyoujicrossbow  ` || args ===`Yangyoujicrossbow ` || args ===`YangYoujiCrossbow  `){
+       message.channel.send("```asciidoc\nYang Youji Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`universering ` || args ===`Universering` || args ===`UniverseRing `){
+       message.channel.send("```asciidoc\nUniverse Ring] 6★\n  Type : Staff\n  Stat : ATK 86 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`counterweighttrebuchet ` || args ===`Counterweighttrebuchet` || args ===`CounterweightTrebuchet `){
+       message.channel.send("```asciidoc\nCounterweight Trebuchet] 6★\n  Type : Catapult\n Stat : ATK 99 INT 0 DEX 0 AGI 0 MRL 7\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`juque  ` || args ===`Juque ` || args ===`Juque  `){
+       message.channel.send("```asciidoc\nJuque] 6★\n  Type : Sword\n  Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 7\n Effect : Daze Attack % (20)```");
+    }
+if (args ===`crescentmoonspade  ` || args ===`Crescentmoonspade ` || args ===`CrescentMoonSpade  `){
+       message.channel.send("```asciidoc\nCrescent Moon Spade] 6★\n  Type : Spear\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Daze Attack % (20)```");
+    }
+if (args ===`quietbow ` || args ===`Quietbow` || args ===`QuietBow `){
+       message.channel.send("```asciidoc\nQuiet Bow] 6★\n  Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Daze Attack % (20)```");
+    }
+if (args ===`quietcrossbow  ` || args ===`Quietcrossbow ` || args ===`QuietCrossbow  `){
+       message.channel.send("```asciidoc\nQuiet Crossbow] 6★\n Type : Crossbow\n Stat : ATK 100 INT 5 DEX 0 AGI 0 MRL 7\n  Effect : Daze Attack % (20)```");
+    }
+if (args ===`steelhandji  ` || args ===`Steelhandji ` || args ===`SteelHandJi  `){
+       message.channel.send("```asciidoc\nSteel Hand Ji] 6★\n  Type : Staff\n  Stat : ATK 92 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Daze Attack % (20)```");
+    }
+if (args ===`five-facingwhirlwindcannon ` || args ===`Five-Facingwhirlwindcannon` || args ===`Five-FacingWhirlwindCannon `){
+       message.channel.send("```asciidoc\nFive-Facing Whirlwind Cannon] 6★\n Type : Catapult\n Stat : ATK 99 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Daze Attack % (20)```");
+    }
+if (args ===`divineearthsword ` || args ===`Divineearthsword` || args ===`DivineEarthSword `){
+       message.channel.send("```asciidoc\nDivine Earth Sword] 6★\n Type : Sword\n  Stat : ATK 105 INT 7 DEX 0 AGI 0 MRL 0\n  Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`poisonousspear ` || args ===`Poisonousspear` || args ===`PoisonousSpear `){
+       message.channel.send("```asciidoc\nPoisonous Spear] 6★\n  Type : Spear\n  Stat : ATK 104 INT 0 DEX 0 AGI 7 MRL 5\n  Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`secretvenom  ` || args ===`Secretvenom ` || args ===`SecretVenom  `){
+       message.channel.send("```asciidoc\nSecret Venom] 6★\n Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`venomouscrossbow ` || args ===`Venomouscrossbow` || args ===`VenomousCrossbow `){
+       message.channel.send("```asciidoc\nVenomous Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 5 DEX 0 AGI 0 MRL 7\n  Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`venomousji ` || args ===`Venomousji` || args ===`VenomousJi `){
+       message.channel.send("```asciidoc\nVenomous Ji] 6★\n  Type : Staff\n  Stat : ATK 91 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Deadly Poison Attack % (20)```");
+    }
+if (args ===`purewhitebelt  ` || args ===`Purewhitebelt ` || args ===`PureWhiteBelt  `){
+       message.channel.send("```asciidoc\nPure White Belt] 6★\n  Type : Accessory\n  Stat : ATK 7 INT 0 DEX 0 AGI 21 MRL 7\n Effect : HP Boost (100)```");
+    }
+if (args ===`vermillionfan  ` || args ===`Vermillionfan ` || args ===`VermillionFan  `){
+       message.channel.send("```asciidoc\nVermillion Fan] 6★\n Type : Fan\n  Stat : ATK 0 INT 95 DEX 0 AGI 0 MRL 0\n Effect : Double Tactics +%```");
+    }
+if (args ===`tiger'spurity  ` || args ===`Tiger'Spurity ` || args ===`Tiger'sPurity  `){
+       message.channel.send("```asciidoc\nTiger's Purity] 6★\n Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 7 MRL 0\n Effect : Double Tactics +%```");
+    }
+if (args ===`jiaxu'sbelt  ` || args ===`Jiaxu'Sbelt ` || args ===`JiaXu'sBelt  `){
+       message.channel.send("```asciidoc\nJia Xu's Belt] 6★\n  Type : Accessory\n  Stat : ATK 7 INT 0 DEX 0 AGI 14 MRL 14\n  Effect : HP Boost (100)```");
+    }
+if (args ===`woodencart ` || args ===`Woodencart` || args ===`WoodenCart `){
+       message.channel.send("```asciidoc\nWooden Cart] 6★\n  Type : Accessory\n  Stat : ATK 14 INT 0 DEX 7 AGI 7 MRL 7\n Effect : HP Recovery % (4)```");
+    }
+if (args ===`oldstatestheory  ` || args ===`Oldstatestheory ` || args ===`OldStatesTheory  `){
+       message.channel.send("```asciidoc\nOld States Theory] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Interrupt Tactics +% (20)```");
+    }
+if (args ===`silver-eyedhorse ` || args ===`Silver-Eyedhorse` || args ===`Silver-EyedHorse `){
+       message.channel.send("```asciidoc\nSilver-Eyed Horse] 6★\n  Type : Accessory\n  Stat : ATK 7 INT 7 DEX 7 AGI 7 MRL 7\n  Effect : Item Range +```");
+    }
+if (args ===`kingwu'sfan  ` || args ===`Kingwu'Sfan ` || args ===`KingWu'sFan  `){
+       message.channel.send("```asciidoc\nKing Wu's Fan] 6★\n  Type : Fan\n  Stat : ATK 0 INT 90 DEX 0 AGI 0 MRL 7\n Effect : Elemental Tactics +% (5)```");
+    }
+if (args ===`oxtailsaber  ` || args ===`Oxtailsaber ` || args ===`OxtailSaber  `){
+       message.channel.send("```asciidoc\nOxtail Saber] 6★\n Type : Sword\n  Stat : ATK 95 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`serpentspear ` || args ===`Serpentspear` || args ===`SerpentSpear `){
+       message.channel.send("```asciidoc\nSerpent Spear] 6★\n  Type : Spear\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`sleevebow  ` || args ===`Sleevebow ` || args ===`SleeveBow  `){
+       message.channel.send("```asciidoc\nSleeve Bow] 6★\n Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`spiritcrossbow ` || args ===`Spiritcrossbow` || args ===`SpiritCrossbow `){
+       message.channel.send("```asciidoc\nSpirit Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 7\n  Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`swallowmeteorhammer  ` || args ===`Swallowmeteorhammer ` || args ===`SwallowMeteorHammer  `){
+       message.channel.send("```asciidoc\nSwallow Meteor Hammer] 6★\n  Type : Staff\n  Stat : ATK 86 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`caverncart ` || args ===`Caverncart` || args ===`CavernCart `){
+       message.channel.send("```asciidoc\nCavern Cart] 6★\n  Type : Catapult\n Stat : ATK 90 INT 0 DEX 0 AGI 5 MRL 0\n Effect : Enhanced Double ATK % (10)```");
+    }
+if (args ===`sevenstarsbelt ` || args ===`Sevenstarsbelt` || args ===`SevenStarsBelt `){
+       message.channel.send("```asciidoc\nSeven Stars Belt] 6★\n Type : Accessory\n  Stat : ATK 7 INT 0 DEX 7 AGI 14 MRL 14\n  Effect : Mounted ATK +% (15)```");
+    }
+if (args ===`spyglass ` || args ===`Spyglass` || args ===`Spyglass `){
+       message.channel.send("```asciidoc\nSpyglass] 6★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 0 AGI 28 MRL 7\n Effect : MP Boost (50)```");
+    }
+if (args ===`darkflowermirror ` || args ===`Darkflowermirror` || args ===`DarkFlowerMirror `){
+       message.channel.send("```asciidoc\nDark Flower Mirror] 6★\n Type : Accessory\n  Stat : ATK 0 INT 7 DEX 0 AGI 21 MRL 7\n Effect : MP Boost (50)```");
+    }
+if (args ===`borderedyellowarmor  ` || args ===`Borderedyellowarmor ` || args ===`BorderedYellowArmor  `){
+       message.channel.send("```asciidoc\nBordered Yellow Armor] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 105 AGI 0 MRL 7\n  Effect : HP Boost (100)```");
+    }
+if (args ===`whitedragonsuit  ` || args ===`Whitedragonsuit ` || args ===`WhiteDragonSuit  `){
+       message.channel.send("```asciidoc\nWhite Dragon Suit] 6★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 65 AGI 0 MRL 0\n Effect : HP Boost (100)```");
+    }
+if (args ===`whiteflowerrobe  ` || args ===`Whiteflowerrobe ` || args ===`WhiteFlowerRobe  `){
+       message.channel.send("```asciidoc\nWhite Flower Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 3 MRL 5\n Effect : HP Boost (100)```");
+    }
+if (args ===`westernlightmirror ` || args ===`Westernlightmirror` || args ===`WesternLightMirror `){
+       message.channel.send("```asciidoc\nWestern Light Mirror] 6★\n Type : Accessory\n  Stat : ATK 0 INT 7 DEX 0 AGI 14 MRL 14\n  Effect : MP Boost (50)```");
+    }
+if (args ===`abacus ` || args ===`Abacus` || args ===`Abacus `){
+       message.channel.send("```asciidoc\nAbacus] 6★\n Type : Accessory\n  Stat : ATK 0 INT 14 DEX 7 AGI 7 MRL 7\n Effect : MP Recovery % (4)```");
+    }
+if (args ===`fiveformationtalisman  ` || args ===`Fiveformationtalisman ` || args ===`FiveFormationTalisman  `){
+       message.channel.send("```asciidoc\nFive Formation Talisman] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 35 DEX 0 AGI 0 MRL 0\n Effect : Offensive Tactics +% (10)```");
+    }
+if (args ===`rootincense  ` || args ===`Rootincense ` || args ===`RootIncense  `){
+       message.channel.send("```asciidoc\nRoot Incense] 6★\n Type : Accessory\n  Stat : ATK 14 INT 7 DEX 14 AGI 0 MRL 0\n  Effect : Rage +% (10)```");
+    }
+if (args ===`siminyue ` || args ===`Siminyue` || args ===`SiMinYue `){
+       message.channel.send("```asciidoc\nSi Min Yue] 6★\n Type : Accessory\n  Stat : ATK 7 INT 0 DEX 14 AGI 7 MRL 7\n Effect : Reach HP Restore % (1)```");
+    }
+if (args ===`liubiao'sgoldencrown ` || args ===`Liubiao'Sgoldencrown` || args ===`LiuBiao'sGoldenCrown `){
+       message.channel.send("```asciidoc\nLiu Biao's Golden Crown] 6★\n  Type : Accessory\n  Stat : ATK 0 INT 7 DEX 14 AGI 7 MRL 7\n Effect : Reach MP Restore % (1)```");
+    }
+if (args ===`bronzescalearmor ` || args ===`Bronzescalearmor` || args ===`BronzeScaleArmor `){
+       message.channel.send("```asciidoc\nBronze Scale Armor] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 85 AGI 7 MRL 12\n  Effect : HP Recovery % (10)```");
+    }
+if (args ===`bronzesilkrobe ` || args ===`Bronzesilkrobe` || args ===`BronzeSilkRobe `){
+       message.channel.send("```asciidoc\nBronze Silk Robe] 6★\n Type : Dress\n  Stat : ATK 0 INT 5 DEX 65 AGI 10 MRL 0\n  Effect : HP Recovery % (10)```");
+    }
+if (args ===`savagetigerrobe  ` || args ===`Savagetigerrobe ` || args ===`SavageTigerRobe  `){
+       message.channel.send("```asciidoc\nSavage Tiger Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 75 AGI 3 MRL 5\n Effect : HP Recovery % (10)```");
+    }
+if (args ===`whitedragon  ` || args ===`Whitedragon ` || args ===`WhiteDragon  `){
+       message.channel.send("```asciidoc\nWhite Dragon] 6★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 14 AGI 7 MRL 14\n  Effect : Rough Terrain Move```");
+    }
+if (args ===`blackdalma ` || args ===`Blackdalma` || args ===`BlackDalma `){
+       message.channel.send("```asciidoc\nBlack Dalma] 6★\n  Type : Accessory\n  Stat : ATK 7 INT 7 DEX 7 AGI 7 MRL 7\n  Effect : SPD Boost (2)```");
+    }
+if (args ===`yuchang  ` || args ===`Yuchang ` || args ===`Yuchang  `){
+       message.channel.send("```asciidoc\nYuchang] 6★\n  Type : Sword\n  Stat : ATK 86 INT 7 DEX 0 AGI 0 MRL 7\n Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`swiftbatpolearm  ` || args ===`Swiftbatpolearm ` || args ===`SwiftBatPolearm  `){
+       message.channel.send("```asciidoc\nSwift Bat Polearm] 6★\n  Type : Spear\n  Stat : ATK 89 INT 0 DEX 0 AGI 7 MRL 14\n  Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`entanglingbow  ` || args ===`Entanglingbow ` || args ===`EntanglingBow  `){
+       message.channel.send("```asciidoc\nEntangling Bow] 6★\n Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`tripledragoncrossbow ` || args ===`Tripledragoncrossbow` || args ===`TripleDragonCrossbow `){
+       message.channel.send("```asciidoc\nTriple Dragon Crossbow] 6★\n Type : Crossbow\n Stat : ATK 90 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`quietmeteorhammer  ` || args ===`Quietmeteorhammer ` || args ===`QuietMeteorHammer  `){
+       message.channel.send("```asciidoc\nQuiet Meteor Hammer] 6★\n  Type : Staff\n  Stat : ATK 92 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`assaultcart  ` || args ===`Assaultcart ` || args ===`AssaultCart  `){
+       message.channel.send("```asciidoc\nAssault Cart] 6★\n Type : Catapult\n Stat : ATK 84 INT 0 DEX 0 AGI 5 MRL 0\n Effect : Immobilization ATK % (20)```");
+    }
+if (args ===`drycalendaressay ` || args ===`Drycalendaressay` || args ===`DryCalendarEssay `){
+       message.channel.send("```asciidoc\nDry Calendar Essay] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Supply Tactics +% (20)```");
+    }
+if (args ===`lingbaojing  ` || args ===`Lingbaojing ` || args ===`LingbaoJing  `){
+       message.channel.send("```asciidoc\nLingbao Jing] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Water Tactics+ % (20)```");
+    }
+if (args ===`springandautumnannals  ` || args ===`Springandautumnannals ` || args ===`SpringandAutumnAnnals  `){
+       message.channel.send("```asciidoc\nSpring and Autumn Annals] 6★\n Type : Accessory\n  Stat : ATK 0 INT 21 DEX 0 AGI 7 MRL 7\n Effect : Wind Tactics +% (20)```");
+    }
+if (args ===`supremecommander'ssword  ` || args ===`Supremecommander'Ssword ` || args ===`SupremeCommander'sSword  `){
+       message.channel.send("```asciidoc\nSupreme Commander's Sword] 6★\n  Type : Sword\n  Stat : ATK 90 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Lifesteal Attack % (10)```");
+    }
+if (args ===`fiercedragon ` || args ===`Fiercedragon` || args ===`FierceDragon `){
+       message.channel.send("```asciidoc\nFierce Dragon] 6★\n  Type : Spear\n  Stat : ATK 89 INT 0 DEX 0 AGI 14 MRL 7\n  Effect : Lifesteal Attack % (10)```");
+    }
+if (args ===`spikedironmace ` || args ===`Spikedironmace` || args ===`SpikedIronMace `){
+       message.channel.send("```asciidoc\nSpiked Iron Mace] 6★\n Type : Staff\n  Stat : ATK 81 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Lifesteal Attack % (10)```");
+    }
+if (args ===`plainwhitearmor  ` || args ===`Plainwhitearmor ` || args ===`PlainWhiteArmor  `){
+       message.channel.send("```asciidoc\nPlain White Armor] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 100 AGI 5 MRL 0\n  Effect : MP Boost % (10)```");
+    }
+if (args ===`golddragonsuit ` || args ===`Golddragonsuit` || args ===`GoldDragonSuit `){
+       message.channel.send("```asciidoc\nGold Dragon Suit] 6★\n Type : Dress\n  Stat : ATK 0 INT 5 DEX 64 AGI 0 MRL 0\n Effect : MP Boost % (10)```");
+    }
+if (args ===`azuredragonrobe  ` || args ===`Azuredragonrobe ` || args ===`AzureDragonRobe  `){
+       message.channel.send("```asciidoc\nAzure Dragon Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 73 AGI 3 MRL 5\n Effect : MP Boost % (10)```");
+    }
+if (args ===`fivemingfan  ` || args ===`Fivemingfan ` || args ===`FiveMingFan  `){
+       message.channel.send("```asciidoc\nFive Ming Fan] 6★\n  Type : Fan\n  Stat : ATK 0 INT 90 DEX 0 AGI 7 MRL 0\n Effect : MP Saving % (20)```");
+    }
+if (args ===`dragon'spurity ` || args ===`Dragon'Spurity` || args ===`Dragon'sPurity `){
+       message.channel.send("```asciidoc\nDragon's Purity] 6★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 86 DEX 0 AGI 0 MRL 0\n Effect : MP Saving % (20)```");
+    }
+if (args ===`sage'srepose ` || args ===`Sage'Srepose` || args ===`Sage'sRepose `){
+       message.channel.send("```asciidoc\nSage's Repose] 6★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 77 DEX 0 AGI 14 MRL 0\n  Effect : Offensive Tactics +% (3)```");
+    }
+if (args ===`cavalryvest  ` || args ===`Cavalryvest ` || args ===`CavalryVest  `){
+       message.channel.send("```asciidoc\nCavalry Vest] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 86 AGI 14 MRL 0\n  Effect : Physical Damage -% (20)```");
+    }
+if (args ===`emperor'sfinery  ` || args ===`Emperor'Sfinery ` || args ===`Emperor'sFinery  `){
+       message.channel.send("```asciidoc\nEmperor's Finery] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 63 AGI 7 MRL 0\n Effect : Physical Damage -% (30)```");
+    }
+if (args ===`silkroadvestments  ` || args ===`Silkroadvestments ` || args ===`SilkRoadVestments  `){
+       message.channel.send("```asciidoc\nSilk Road Vestments] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 7 MRL 0\n Effect : Physical Damage -% (30)```");
+    }
+if (args ===`shashiyi'smirror ` || args ===`Shashiyi'Smirror` || args ===`Shashiyi'sMirror `){
+       message.channel.send("```asciidoc\nShashiyi's Mirror] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 0 MRL 0\n Effect : Physical Damage Reflection % (10)```");
+    }
+if (args ===`kiku'sdismissal  ` || args ===`Kiku'Sdismissal ` || args ===`Kiku'sDismissal  `){
+       message.channel.send("```asciidoc\nKiku's Dismissal] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 60 AGI 7 MRL 7\n Effect : Physical Damage Reflection % (10)```");
+    }
+if (args ===`hezhetribalattire  ` || args ===`Hezhetribalattire ` || args ===`HezheTribalAttire  `){
+       message.channel.send("```asciidoc\nHezhe Tribal Attire] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 0 MRL 0\n Effect : Physical Damage Reflection % (10)```");
+    }
+if (args ===`southernsaber  ` || args ===`Southernsaber ` || args ===`SouthernSaber  `){
+       message.channel.send("```asciidoc\nSouthern Saber] 6★\n Type : Sword\n  Stat : ATK 102 INT 5 DEX 0 AGI 0 MRL 7\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`viperaxe ` || args ===`Viperaxe` || args ===`ViperAxe `){
+       message.channel.send("```asciidoc\nViper Axe] 6★\n  Type : Spear\n  Stat : ATK 103 INT 0 DEX 0 AGI 7 MRL 5\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`viperbow ` || args ===`Viperbow` || args ===`ViperBow `){
+       message.channel.send("```asciidoc\nViper Bow] 6★\n  Type : Bow\n  Stat : ATK 113 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`vipercrossbow  ` || args ===`Vipercrossbow ` || args ===`ViperCrossbow  `){
+       message.channel.send("```asciidoc\nViper Crossbow] 6★\n Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 7\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`vipermeteorhammer  ` || args ===`Vipermeteorhammer ` || args ===`ViperMeteorHammer  `){
+       message.channel.send("```asciidoc\nViper Meteor Hammer] 6★\n  Type : Staff\n  Stat : ATK 95 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Poison Attack % (20)```");
+    }
+if (args ===`whirlwindwagon ` || args ===`Whirlwindwagon` || args ===`WhirlwindWagon `){
+       message.channel.send("```asciidoc\nWhirlwind Wagon] 6★\n  Type : Catapult\n Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Poison Attack % (20)```");
+    }
+if (args ===`shiningarmor ` || args ===`Shiningarmor` || args ===`ShiningArmor `){
+       message.channel.send("```asciidoc\nShining Armor] 6★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 86 AGI 0 MRL 14\n  Effect : Ranged DMG -% (20)```");
+    }
+if (args ===`ceremonialtravelrobe ` || args ===`Ceremonialtravelrobe` || args ===`CeremonialTravelRobe `){
+       message.channel.send("```asciidoc\nCeremonial Travel Robe] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 63 AGI 0 MRL 7\n Effect : Ranged DMG -% (30)```");
+    }
+if (args ===`camelhidecoat  ` || args ===`Camelhidecoat ` || args ===`CamelHideCoat  `){
+       message.channel.send("```asciidoc\nCamel Hide Coat] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 0 MRL 0\n Effect : Ranged DMG -% (30)```");
+    }
+if (args ===`chunjun  ` || args ===`Chunjun ` || args ===`Chunjun  `){
+       message.channel.send("```asciidoc\nChunjun] 6★\n  Type : Sword\n  Stat : ATK 86 INT 0 DEX 0 AGI 7 MRL 7\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`refinedsteellance  ` || args ===`Refinedsteellance ` || args ===`RefinedSteelLance  `){
+       message.channel.send("```asciidoc\nRefined Steel Lance] 6★\n  Type : Spear\n  Stat : ATK 95 INT 0 DEX 0 AGI 7 MRL 7\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`goldenbowofxian  ` || args ===`Goldenbowofxian ` || args ===`GoldenBowofXian  `){
+       message.channel.send("```asciidoc\nGolden Bow of Xian] 6★\n Type : Bow\n  Stat : ATK 86 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`crowncrossbow  ` || args ===`Crowncrossbow ` || args ===`CrownCrossbow  `){
+       message.channel.send("```asciidoc\nCrown Crossbow] 6★\n Type : Crossbow\n Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 7\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`silvermysticmace ` || args ===`Silvermysticmace` || args ===`SilverMysticMace `){
+       message.channel.send("```asciidoc\nSilver Mystic Mace] 6★\n Type : Staff\n  Stat : ATK 92 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Silence Attack % (20)```");
+    }
+if (args ===`zhanlu ` || args ===`Zhanlu` || args ===`Zhanlu `){
+       message.channel.send("```asciidoc\nZhanlu] 6★\n Type : Sword\n  Stat : ATK 90 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`burningaxe ` || args ===`Burningaxe` || args ===`BurningAxe `){
+       message.channel.send("```asciidoc\nBurning Axe] 6★\n  Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 7 MRL 0\n Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`skillfulbow  ` || args ===`Skillfulbow ` || args ===`SkillfulBow  `){
+       message.channel.send("```asciidoc\nSkillful Bow] 6★\n Type : Bow\n  Stat : ATK 111 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`talentedcrossbow ` || args ===`Talentedcrossbow` || args ===`TalentedCrossbow `){
+       message.channel.send("```asciidoc\nTalented Crossbow] 6★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`chainstaff ` || args ===`Chainstaff` || args ===`ChainStaff `){
+       message.channel.send("```asciidoc\nChain Staff] 6★\n  Type : Staff\n  Stat : ATK 81 INT 7 DEX 0 AGI 0 MRL 0\n Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`phoenixcannon  ` || args ===`Phoenixcannon ` || args ===`PhoenixCannon  `){
+       message.channel.send("```asciidoc\nPhoenix Cannon] 6★\n Type : Catapult\n Stat : ATK 85 INT 0 DEX 0 AGI 5 MRL 0\n Effect : Status Effect ATK % (20)```");
+    }
+if (args ===`tenpetalparasol  ` || args ===`Tenpetalparasol ` || args ===`TenPetalParasol  `){
+       message.channel.send("```asciidoc\nTen Petal Parasol] 6★\n  Type : Fan\n  Stat : ATK 0 INT 86 DEX 0 AGI 7 MRL 7\n Effect : Tactics ACC + (15)```");
+    }
+if (args ===`manjushri'srazor ` || args ===`Manjushri'Srazor` || args ===`Manjushri'sRazor `){
+       message.channel.send("```asciidoc\nManjushri's Razor] 6★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 77 DEX 0 AGI 0 MRL 14\n  Effect : Tactics ACC + (15)```");
+    }
+if (args ===`general'slamellar  ` || args ===`General'Slamellar ` || args ===`General'sLamellar  `){
+       message.channel.send("```asciidoc\nGeneral's Lamellar] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 0 MRL 7\n Effect : Tactics Damage -% (20)```");
+    }
+if (args ===`courtlyattire  ` || args ===`Courtlyattire ` || args ===`CourtlyAttire  `){
+       message.channel.send("```asciidoc\nCourtly Attire] 6★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 67 AGI 0 MRL 0\n Effect : Tactics Damage -% (30)```");
+    }
+if (args ===`cloudsatinvestments  ` || args ===`Cloudsatinvestments ` || args ===`CloudSatinVestments  `){
+       message.channel.send("```asciidoc\nCloud Satin Vestments] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 69 AGI 14 MRL 0\n  Effect : Tactics Damage -% (30)```");
+    }
+if (args ===`virudhaka'scare  ` || args ===`Virudhaka'Scare ` || args ===`Virudhaka'sCare  `){
+       message.channel.send("```asciidoc\nVirudhaka's Care] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 86 AGI 7 MRL 7\n Effect : Tactics Damage Reflection % (10)```");
+    }
+if (args ===`circle-patternedsuit ` || args ===`Circle-Patternedsuit` || args ===`Circle-PatternedSuit `){
+       message.channel.send("```asciidoc\nCircle-Patterned Suit] 6★\n  Type : Dress\n  Stat : ATK 0 INT 5 DEX 63 AGI 0 MRL 0\n Effect : Tactics Damage Reflection % (10)```");
+    }
+if (args ===`five-coloreddress  ` || args ===`Five-Coloreddress ` || args ===`Five-ColoredDress  `){
+       message.channel.send("```asciidoc\nFive-Colored Dress] 6★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 0 MRL 7\n Effect : Tactics Damage Reflection % (10)```");
+    }
+if (args ===`bronzeleatherarmor ` || args ===`Bronzeleatherarmor` || args ===`BronzeLeatherArmor `){
+       message.channel.send("```asciidoc\nBronze Leather Armor] 6★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 85 AGI 15 MRL 0\n  Effect : Tactics DEF Rate + (20)```");
+    }
+if (args ===`redgauzesuit ` || args ===`Redgauzesuit` || args ===`RedGauzeSuit `){
+       message.channel.send("```asciidoc\nRed Gauze Suit] 6★\n Type : Dress\n  Stat : ATK 0 INT 5 DEX 64 AGI 0 MRL 0\n Effect : Tactics DEF Rate + (20)```");
+    }
+if (args ===`rhinoskinrobe  ` || args ===`Rhinoskinrobe ` || args ===`RhinoSkinRobe  `){
+       message.channel.send("```asciidoc\nRhino Skin Robe] 6★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 69 AGI 0 MRL 14\n  Effect : Tactics DEF Rate + (20)```");
+    }
+if (args ===`chrysanthemumcrossbow  ` || args ===`Chrysanthemumcrossbow ` || args ===`ChrysanthemumCrossbow  `){
+       message.channel.send("```asciidoc\nChrysanthemum Crossbow] 7★\n Type : Crossbow\n Stat : ATK 100 INT 7 DEX 0 AGI 0 MRL 10\n Effect : Abnormality ATK % (30)```");
+    }
+if (args ===`drakemaw ` || args ===`Drakemaw` || args ===`DrakeMaw `){
+       message.channel.send("```asciidoc\nDrake Maw] 7★\n  Type : Sword\n  Stat : ATK 90 INT 10 DEX 0 AGI 10 MRL 0\n Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`moonlightfangspear ` || args ===`Moonlightfangspear` || args ===`MoonlightFangSpear `){
+       message.channel.send("```asciidoc\nMoonlight Fang Spear] 7★\n Type : Spear\n  Stat : ATK 94 INT 0 DEX 0 AGI 10 MRL 20\n Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`chrysanthemumbow ` || args ===`Chrysanthemumbow` || args ===`ChrysanthemumBow `){
+       message.channel.send("```asciidoc\nChrysanthemum Bow] 7★\n  Type : Bow\n  Stat : ATK 104 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`geniusji ` || args ===`Geniusji` || args ===`GeniusJi `){
+       message.channel.send("```asciidoc\nGenius Ji] 7★\n  Type : Staff\n  Stat : ATK 92 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`flamegeysertank  ` || args ===`Flamegeysertank ` || args ===`FlameGeyserTank  `){
+       message.channel.send("```asciidoc\nFlame Geyser Tank] 7★\n  Type : Catapult\n Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Abnormality ATK % (35)```");
+    }
+if (args ===`plainnavyarmor ` || args ===`Plainnavyarmor` || args ===`PlainNavyArmor `){
+       message.channel.send("```asciidoc\nPlain Navy Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 7 MRL 0\n Effect : AGI Boost % (15)```");
+    }
+if (args ===`green&goldsuit ` || args ===`Green&Goldsuit` || args ===`Green&GoldSuit `){
+       message.channel.send("```asciidoc\nGreen & Gold Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 68 AGI 0 MRL 10\n  Effect : AGI Boost % (15)```");
+    }
+if (args ===`eaglerobe  ` || args ===`Eaglerobe ` || args ===`EagleRobe  `){
+       message.channel.send("```asciidoc\nEagle Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 74 AGI 7 MRL 10\n  Effect : AGI Boost % (15)```");
+    }
+if (args ===`goldbreastplate  ` || args ===`Goldbreastplate ` || args ===`GoldBreastplate  `){
+       message.channel.send("```asciidoc\nGold Breastplate] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 7 MRL 0\n Effect : All DEF Rate + (20)```");
+    }
+if (args ===`squaresuit ` || args ===`Squaresuit` || args ===`SquareSuit `){
+       message.channel.send("```asciidoc\nSquare Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 66 AGI 0 MRL 10\n  Effect : All DEF Rate + (20)```");
+    }
+if (args ===`elephantskinrobe ` || args ===`Elephantskinrobe` || args ===`ElephantSkinRobe `){
+       message.channel.send("```asciidoc\nElephant Skin Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 80 AGI 0 MRL 0\n Effect : All DEF Rate + (20)```");
+    }
+if (args ===`flyingdragonsuit ` || args ===`Flyingdragonsuit` || args ===`FlyingDragonSuit `){
+       message.channel.send("```asciidoc\nFlying Dragon Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 71 AGI 10 MRL 10\n Effect : ATK DEF Rate + (20)```");
+    }
+if (args ===`sagaciousdao ` || args ===`Sagaciousdao` || args ===`SagaciousDao `){
+       message.channel.send("```asciidoc\nSagacious Dao] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 10 MRL 10\n Effect : Attack Stat Switch```");
+    }
+if (args ===`hundredtemperedsword ` || args ===`Hundredtemperedsword` || args ===`HundredTemperedSword `){
+       message.channel.send("```asciidoc\nHundred Tempered Sword] 7★\n Type : Sword\n  Stat : ATK 96 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Chain Attack```");
+    }
+if (args ===`phoenixspear ` || args ===`Phoenixspear` || args ===`PhoenixSpear `){
+       message.channel.send("```asciidoc\nPhoenix Spear] 7★\n  Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 20 MRL 0\n  Effect : Chain Attack```");
+    }
+if (args ===`azuredragonbow ` || args ===`Azuredragonbow` || args ===`AzureDragonBow `){
+       message.channel.send("```asciidoc\nAzure Dragon Bow] 7★\n Type : Bow\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Chain Attack```");
+    }
+if (args ===`azuredragoncrossbow  ` || args ===`Azuredragoncrossbow ` || args ===`AzureDragonCrossbow  `){
+       message.channel.send("```asciidoc\nAzure Dragon Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Chain Attack```");
+    }
+if (args ===`azuredragonmace  ` || args ===`Azuredragonmace ` || args ===`AzureDragonMace  `){
+       message.channel.send("```asciidoc\nAzure Dragon Mace] 7★\n  Type : Staff\n  Stat : ATK 81 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Chain Attack```");
+    }
+if (args ===`goldcannon ` || args ===`Goldcannon` || args ===`GoldCannon `){
+       message.channel.send("```asciidoc\nGold Cannon] 7★\n  Type : Catapult\n Stat : ATK 70 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Chain Attack```");
+    }
+if (args ===`porcupinecrossbow  ` || args ===`Porcupinecrossbow ` || args ===`PorcupineCrossbow  `){
+       message.channel.send("```asciidoc\nPorcupine Crossbow] 7★\n Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 7 MRL 10\n Effect : Confusion Attack % (30)```");
+    }
+if (args ===`bewilderingfalchion  ` || args ===`Bewilderingfalchion ` || args ===`BewilderingFalchion  `){
+       message.channel.send("```asciidoc\nBewildering Falchion] 7★\n Type : Sword\n  Stat : ATK 112 INT 10 DEX 0 AGI 5 MRL 0\n Effect : Confusion Attack % (35)```");
+    }
+if (args ===`soulbow  ` || args ===`Soulbow ` || args ===`SoulBow  `){
+       message.channel.send("```asciidoc\nSoul Bow] 7★\n Type : Bow\n  Stat : ATK 108 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Confusion Attack % (35)```");
+    }
+if (args ===`soulstaff  ` || args ===`Soulstaff ` || args ===`SoulStaff  `){
+       message.channel.send("```asciidoc\nSoul Staff] 7★\n Type : Staff\n  Stat : ATK 97 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Confusion Attack % (35)```");
+    }
+if (args ===`trianglestonewagon ` || args ===`Trianglestonewagon` || args ===`TriangleStoneWagon `){
+       message.channel.send("```asciidoc\nTriangle Stone Wagon] 7★\n Type : Catapult\n Stat : ATK 87 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Confusion Attack % (35)```");
+    }
+if (args ===`canopybender ` || args ===`Canopybender` || args ===`CanopyBender `){
+       message.channel.send("```asciidoc\nCanopy Bender] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 20 MRL 0\n  Effect : Confusion Attack % (35)```");
+    }
+if (args ===`chiyouarmor  ` || args ===`Chiyouarmor ` || args ===`ChiyouArmor  `){
+       message.channel.send("```asciidoc\nChiyou Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 20 MRL 0\n  Effect : Confusion Immunity```");
+    }
+if (args ===`beastfacesuit  ` || args ===`Beastfacesuit ` || args ===`BeastFaceSuit  `){
+       message.channel.send("```asciidoc\nBeast Face Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 68 AGI 0 MRL 10\n  Effect : Confusion Immunity```");
+    }
+if (args ===`time-dilatingrobe  ` || args ===`Time-Dilatingrobe ` || args ===`Time-DilatingRobe  `){
+       message.channel.send("```asciidoc\nTime-Dilating Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 10 MRL 0\n  Effect : Confusion Immunity```");
+    }
+if (args ===`infantryarmor  ` || args ===`Infantryarmor ` || args ===`InfantryArmor  `){
+       message.channel.send("```asciidoc\nInfantry Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 10 MRL 0\n  Effect : Critical Attack Immunity```");
+    }
+if (args ===`longcranerobe  ` || args ===`Longcranerobe ` || args ===`LongCraneRobe  `){
+       message.channel.send("```asciidoc\nLong Crane Robe] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 63 AGI 10 MRL 10\n Effect : Critical Attack Immunity```");
+    }
+if (args ===`bluemountainrobe ` || args ===`Bluemountainrobe` || args ===`BlueMountainRobe `){
+       message.channel.send("```asciidoc\nBlue Mountain Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 77 AGI 10 MRL 0\n  Effect : Critical Attack Immunity```");
+    }
+if (args ===`kurikarasword  ` || args ===`Kurikarasword ` || args ===`KurikaraSword  `){
+       message.channel.send("```asciidoc\nKurikara Sword] 7★\n Type : Sword\n  Stat : ATK 90 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`fishbonespear  ` || args ===`Fishbonespear ` || args ===`FishBoneSpear  `){
+       message.channel.send("```asciidoc\nFish Bone Spear] 7★\n  Type : Spear\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 10\n Effect : Critical Attack+ (30)```");
+    }
+if (args ===`8-bannerarmor  ` || args ===`8-Bannerarmor ` || args ===`8-BannerArmor  `){
+       message.channel.send("```asciidoc\n8-Banner Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 85 AGI 15 MRL 0\n  Effect : Damage Transfer```");
+    }
+if (args ===`official'scap&suit ` || args ===`Official'Scap&Suit` || args ===`Official'sCap&Suit `){
+       message.channel.send("```asciidoc\nOfficial's Cap & Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 60 AGI 0 MRL 10\n  Effect : Damage Transfer```");
+    }
+if (args ===`blacktortoiserobe  ` || args ===`Blacktortoiserobe ` || args ===`BlackTortoiseRobe  `){
+       message.channel.send("```asciidoc\nBlack Tortoise Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 71 AGI 10 MRL 20\n Effect : Damage Transfer```");
+    }
+if (args ===`silencebow ` || args ===`Silencebow` || args ===`SilenceBow `){
+       message.channel.send("```asciidoc\nSilence Bow] 7★\n  Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Daze Attack % (30)```");
+    }
+if (args ===`silentcrossbow ` || args ===`Silentcrossbow` || args ===`SilentCrossbow `){
+       message.channel.send("```asciidoc\nSilent Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 100 INT 7 DEX 0 AGI 0 MRL 10\n Effect : Daze Attack % (30)```");
+    }
+if (args ===`steellongji  ` || args ===`Steellongji ` || args ===`SteelLongJi  `){
+       message.channel.send("```asciidoc\nSteel Long Ji] 7★\n  Type : Staff\n  Stat : ATK 97 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Daze Attack % (30)```");
+    }
+if (args ===`divineprotectionsword  ` || args ===`Divineprotectionsword ` || args ===`DivineProtectionSword  `){
+       message.channel.send("```asciidoc\nDivine Protection Sword] 7★\n  Type : Sword\n  Stat : ATK 120 INT 0 DEX 0 AGI 7 MRL 0\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`golddragonscimitar ` || args ===`Golddragonscimitar` || args ===`GoldDragonScimitar `){
+       message.channel.send("```asciidoc\nGold Dragon Scimitar] 7★\n Type : Spear\n  Stat : ATK 125 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`thunderboltbow ` || args ===`Thunderboltbow` || args ===`ThunderboltBow `){
+       message.channel.send("```asciidoc\nThunderbolt Bow] 7★\n  Type : Bow\n  Stat : ATK 115 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`fixedcrossbow  ` || args ===`Fixedcrossbow ` || args ===`FixedCrossbow  `){
+       message.channel.send("```asciidoc\nFixed Crossbow] 7★\n Type : Crossbow\n Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 7\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`diamondgreataxe  ` || args ===`Diamondgreataxe ` || args ===`DiamondGreatAxe  `){
+       message.channel.send("```asciidoc\nDiamond Great Axe] 7★\n  Type : Staff\n  Stat : ATK 115 INT 0 DEX 7 AGI 7 MRL 0\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`earthcannon  ` || args ===`Earthcannon ` || args ===`EarthCannon  `){
+       message.channel.send("```asciidoc\nEarth Cannon] 7★\n Type : Catapult\n Stat : ATK 105 INT 0 DEX 0 AGI 7 MRL 7\n  Effect : Deadly Attack (50)```");
+    }
+if (args ===`poisonouscrossbow  ` || args ===`Poisonouscrossbow ` || args ===`PoisonousCrossbow  `){
+       message.channel.send("```asciidoc\nPoisonous Crossbow] 7★\n Type : Crossbow\n Stat : ATK 100 INT 7 DEX 0 AGI 0 MRL 10\n Effect : Deadly Poison Attack % (30)```");
+    }
+if (args ===`willowhidesword  ` || args ===`Willowhidesword ` || args ===`WillowHideSword  `){
+       message.channel.send("```asciidoc\nWillow Hide Sword] 7★\n  Type : Sword\n  Stat : ATK 115 INT 10 DEX 0 AGI 0 MRL 0\n Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`venomousscimitar ` || args ===`Venomousscimitar` || args ===`VenomousScimitar `){
+       message.channel.send("```asciidoc\nVenomous Scimitar] 7★\n  Type : Spear\n  Stat : ATK 114 INT 0 DEX 0 AGI 14 MRL 10\n  Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`secretpoison ` || args ===`Secretpoison` || args ===`SecretPoison `){
+       message.channel.send("```asciidoc\nSecret Poison] 7★\n  Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`poisonousji  ` || args ===`Poisonousji ` || args ===`PoisonousJi  `){
+       message.channel.send("```asciidoc\nPoisonous Ji] 7★\n Type : Staff\n  Stat : ATK 96 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`pangucannon  ` || args ===`Pangucannon ` || args ===`PanguCannon  `){
+       message.channel.send("```asciidoc\nPangu Cannon] 7★\n Type : Catapult\n Stat : ATK 105 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Deadly Poison Attack % (35)```");
+    }
+if (args ===`liucheng'sfortune  ` || args ===`Liucheng'Sfortune ` || args ===`LiuCheng'sFortune  `){
+       message.channel.send("```asciidoc\nLiu Cheng's Fortune] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 67 AGI 10 MRL 0\n  Effect : Defense Stat Switch```");
+    }
+if (args ===`bronzechainarmor ` || args ===`Bronzechainarmor` || args ===`BronzeChainArmor `){
+       message.channel.send("```asciidoc\nBronze Chain Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 5 MRL 12\n  Effect : Double ATK Immunity```");
+    }
+if (args ===`cicadawingregalia  ` || args ===`Cicadawingregalia ` || args ===`CicadaWingRegalia  `){
+       message.channel.send("```asciidoc\nCicada Wing Regalia] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 67 AGI 0 MRL 10\n  Effect : Double ATK Immunity```");
+    }
+if (args ===`dianwei'srobe  ` || args ===`Dianwei'Srobe ` || args ===`DianWei'sRobe  `){
+       message.channel.send("```asciidoc\nDian Wei's Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 0 MRL 10\n  Effect : Double ATK Immunity```");
+    }
+if (args ===`chixiao  ` || args ===`Chixiao ` || args ===`ChiXiao  `){
+       message.channel.send("```asciidoc\nChi Xiao] 7★\n Type : Sword\n  Stat : ATK 95 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Double Counter```");
+    }
+if (args ===`vermilionbirdaxe ` || args ===`Vermilionbirdaxe` || args ===`VermilionBirdAxe `){
+       message.channel.send("```asciidoc\nVermilion Bird Axe] 7★\n Type : Spear\n  Stat : ATK 103 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Double Counter```");
+    }
+if (args ===`vermilionbirdbow ` || args ===`Vermilionbirdbow` || args ===`VermilionBirdBow `){
+       message.channel.send("```asciidoc\nVermilion Bird Bow] 7★\n Type : Bow\n  Stat : ATK 115 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Double Counter```");
+    }
+if (args ===`vermilionbirdcrossbow  ` || args ===`Vermilionbirdcrossbow ` || args ===`VermilionBirdCrossbow  `){
+       message.channel.send("```asciidoc\nVermilion Bird Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Double Counter```");
+    }
+if (args ===`demonserpentspear  ` || args ===`Demonserpentspear ` || args ===`DemonSerpentSpear  `){
+       message.channel.send("```asciidoc\nDemon Serpent Spear] 7★\n  Type : Staff\n  Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Double Counter```");
+    }
+if (args ===`blackcannon  ` || args ===`Blackcannon ` || args ===`BlackCannon  `){
+       message.channel.send("```asciidoc\nBlack Cannon] 7★\n Type : Catapult\n Stat : ATK 85 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Double Counter```");
+    }
+if (args ===`whitecranefan  ` || args ===`Whitecranefan ` || args ===`WhiteCraneFan  `){
+       message.channel.send("```asciidoc\nWhite Crane Fan] 7★\n  Type : Fan\n  Stat : ATK 0 INT 95 DEX 0 AGI 0 MRL 10\n  Effect : Double Tactics```");
+    }
+if (args ===`howlingghostawakener ` || args ===`Howlingghostawakener` || args ===`HowlingGhostAwakener `){
+       message.channel.send("```asciidoc\nHowling Ghost Awakener] 7★\n Type : Legendary Sword\n  Stat : ATK 0 INT 86 DEX 0 AGI 10 MRL 0\n  Effect : Double Tactics```");
+    }
+if (args ===`lacqueredplatearmor  ` || args ===`Lacqueredplatearmor ` || args ===`LacqueredPlateArmor  `){
+       message.channel.send("```asciidoc\nLacquered Plate Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 85 AGI 5 MRL 12\n  Effect : Double Tactics Immunity```");
+    }
+if (args ===`hanclothing  ` || args ===`Hanclothing ` || args ===`HanClothing  `){
+       message.channel.send("```asciidoc\nHan Clothing] 7★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 68 AGI 0 MRL 10\n  Effect : Double Tactics Immunity```");
+    }
+if (args ===`purplesatinvestments ` || args ===`Purplesatinvestments` || args ===`PurpleSatinVestments `){
+       message.channel.send("```asciidoc\nPurple Satin Vestments] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 10 MRL 0\n  Effect : Double Tactics Immunity```");
+    }
+if (args ===`goosefeathersaber  ` || args ===`Goosefeathersaber ` || args ===`GooseFeatherSaber  `){
+       message.channel.send("```asciidoc\nGoose Feather Saber] 7★\n  Type : Sword\n  Stat : ATK 100 INT 0 DEX 0 AGI 7 MRL 5\n  Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`mountainspear  ` || args ===`Mountainspear ` || args ===`MountainSpear  `){
+       message.channel.send("```asciidoc\nMountain Spear] 7★\n Type : Spear\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`apricotflowersleevebow ` || args ===`Apricotflowersleevebow` || args ===`ApricotFlowerSleeveBow `){
+       message.channel.send("```asciidoc\nApricot Flower Sleeve Bow] 7★\n  Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`soulcrossbow ` || args ===`Soulcrossbow` || args ===`SoulCrossbow `){
+       message.channel.send("```asciidoc\nSoul Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 7 MRL 10\n Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`eaglemeteorhammer  ` || args ===`Eaglemeteorhammer ` || args ===`EagleMeteorHammer  `){
+       message.channel.send("```asciidoc\nEagle Meteor Hammer] 7★\n  Type : Staff\n  Stat : ATK 91 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`cowhidecaverncart  ` || args ===`Cowhidecaverncart ` || args ===`CowHideCavernCart  `){
+       message.channel.send("```asciidoc\nCow Hide Cavern Cart] 7★\n Type : Catapult\n Stat : ATK 90 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Enhanced Double ATK % (20)```");
+    }
+if (args ===`xuan-yuansword ` || args ===`Xuan-Yuansword` || args ===`Xuan-YuanSword `){
+       message.channel.send("```asciidoc\nXuan-Yuan Sword] 7★\n  Type : Sword\n  Stat : ATK 95 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Expand AoE (4)```");
+    }
+if (args ===`longserpentspear ` || args ===`Longserpentspear` || args ===`LongSerpentSpear `){
+       message.channel.send("```asciidoc\nLong Serpent Spear] 7★\n Type : Spear\n  Stat : ATK 105 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Expand AoE (4)```");
+    }
+if (args ===`enhancedmaekbow  ` || args ===`Enhancedmaekbow ` || args ===`EnhancedMaekBow  `){
+       message.channel.send("```asciidoc\nEnhanced Maek Bow] 7★\n  Type : Bow\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Expand AoE (4)```");
+    }
+if (args ===`fiercecrossbow ` || args ===`Fiercecrossbow` || args ===`FierceCrossbow `){
+       message.channel.send("```asciidoc\nFierce Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Expand AoE (4)```");
+    }
+if (args ===`silverlance  ` || args ===`Silverlance ` || args ===`SilverLance  `){
+       message.channel.send("```asciidoc\nSilver Lance] 7★\n Type : Staff\n  Stat : ATK 80 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Expand AoE (4)```");
+    }
+if (args ===`huang'sbow ` || args ===`Huang'Sbow` || args ===`Huang'sBow `){
+       message.channel.send("```asciidoc\nHuang's Bow] 7★\n  Type : Bow\n  Stat : ATK 102 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Expand ATK RNG (29)```");
+    }
+if (args ===`cloudbeamsword ` || args ===`Cloudbeamsword` || args ===`CloudBeamSword `){
+       message.channel.send("```asciidoc\nCloud Beam Sword] 7★\n Type : Sword\n  Stat : ATK 80 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Expand ATK RNG (7)```");
+    }
+if (args ===`longtrident  ` || args ===`Longtrident ` || args ===`LongTrident  `){
+       message.channel.send("```asciidoc\nLong Trident] 7★\n Type : Spear\n  Stat : ATK 98 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Expand ATK RNG (7)```");
+    }
+if (args ===`ruyijingubang  ` || args ===`Ruyijingubang ` || args ===`RuyiJinguBang  `){
+       message.channel.send("```asciidoc\nRuyi Jingu Bang] 7★\n  Type : Staff\n  Stat : ATK 86 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Expand ATK RNG (7)```");
+    }
+if (args ===`thousandagesword ` || args ===`Thousandagesword` || args ===`ThousandAgeSword `){
+       message.channel.send("```asciidoc\nThousand Age Sword] 7★\n Type : Sword\n  Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : First Strike```");
+    }
+if (args ===`heroicaxe  ` || args ===`Heroicaxe ` || args ===`HeroicAxe  `){
+       message.channel.send("```asciidoc\nHeroic Axe] 7★\n Type : Spear\n  Stat : ATK 101 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : First Strike```");
+    }
+if (args ===`donghuibow ` || args ===`Donghuibow` || args ===`DonghuiBow `){
+       message.channel.send("```asciidoc\nDonghui Bow] 7★\n  Type : Bow\n  Stat : ATK 86 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : First Strike```");
+    }
+if (args ===`flyingkitecrossbow ` || args ===`Flyingkitecrossbow` || args ===`FlyingKiteCrossbow `){
+       message.channel.send("```asciidoc\nFlying Kite Crossbow] 7★\n Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : First Strike```");
+    }
+if (args ===`vermilionbirdmace  ` || args ===`Vermilionbirdmace ` || args ===`VermilionBirdMace  `){
+       message.channel.send("```asciidoc\nVermilion Bird Mace] 7★\n  Type : Staff\n  Stat : ATK 83 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : First Strike```");
+    }
+if (args ===`cloudladder  ` || args ===`Cloudladder ` || args ===`CloudLadder  `){
+       message.channel.send("```asciidoc\nCloud Ladder] 7★\n Type : Catapult\n Stat : ATK 80 INT 0 DEX 0 AGI 0 MRL 0\n Effect : First Strike```");
+    }
+if (args ===`divineheavensword  ` || args ===`Divineheavensword ` || args ===`DivineHeavenSword  `){
+       message.channel.send("```asciidoc\nDivine Heaven Sword] 7★\n  Type : Sword\n  Stat : ATK 97 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Guiding Attack```");
+    }
+if (args ===`wardragon  ` || args ===`Wardragon ` || args ===`WarDragon  `){
+       message.channel.send("```asciidoc\nWar Dragon] 7★\n Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Guiding Attack```");
+    }
+if (args ===`yinyangbow ` || args ===`Yinyangbow` || args ===`YinYangBow `){
+       message.channel.send("```asciidoc\nYin Yang Bow] 7★\n Type : Bow\n  Stat : ATK 109 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Guiding Attack```");
+    }
+if (args ===`yinyangcrossbow  ` || args ===`Yinyangcrossbow ` || args ===`YinYangCrossbow  `){
+       message.channel.send("```asciidoc\nYin Yang Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Guiding Attack```");
+    }
+if (args ===`yinyangmace  ` || args ===`Yinyangmace ` || args ===`YinYangMace  `){
+       message.channel.send("```asciidoc\nYin Yang Mace] 7★\n  Type : Staff\n  Stat : ATK 86 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Guiding Attack```");
+    }
+if (args ===`plainyellowarmor ` || args ===`Plainyellowarmor` || args ===`PlainYellowArmor `){
+       message.channel.send("```asciidoc\nPlain Yellow Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 110 AGI 12 MRL 7\n Effect : HP Boost (150)```");
+    }
+if (args ===`blackdragonsuit  ` || args ===`Blackdragonsuit ` || args ===`BlackDragonSuit  `){
+       message.channel.send("```asciidoc\nBlack Dragon Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 70 AGI 0 MRL 10\n  Effect : HP Boost (150)```");
+    }
+if (args ===`apricotflowerrobe  ` || args ===`Apricotflowerrobe ` || args ===`ApricotFlowerRobe  `){
+       message.channel.send("```asciidoc\nApricot Flower Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 76 AGI 7 MRL 10\n  Effect : HP Boost (150)```");
+    }
+if (args ===`ironscalearmor ` || args ===`Ironscalearmor` || args ===`IronScaleArmor `){
+       message.channel.send("```asciidoc\nIron Scale Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 12 MRL 0\n  Effect : HP Recovery % (15)```");
+    }
+if (args ===`silversilkrobe ` || args ===`Silversilkrobe` || args ===`SilverSilkRobe `){
+       message.channel.send("```asciidoc\nSilver Silk Robe] 7★\n Type : Dress\n  Stat : ATK 0 INT 7 DEX 68 AGI 10 MRL 10\n Effect : HP Recovery % (15)```");
+    }
+if (args ===`whitetigerrobe ` || args ===`Whitetigerrobe` || args ===`WhiteTigerRobe `){
+       message.channel.send("```asciidoc\nWhite Tiger Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 79 AGI 7 MRL 10\n  Effect : HP Recovery % (15)```");
+    }
+if (args ===`shogun'sdecree ` || args ===`Shogun'Sdecree` || args ===`Shogun'sDecree `){
+       message.channel.send("```asciidoc\nShogun's Decree] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 86 DEX 0 AGI 0 MRL 10\n  Effect : Ignore Tactics Terrain```");
+    }
+if (args ===`swordofgoujian ` || args ===`Swordofgoujian` || args ===`SwordofGoujian `){
+       message.channel.send("```asciidoc\nSword of Goujian] 7★\n Type : Sword\n  Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 10\n  Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`bindingbow ` || args ===`Bindingbow` || args ===`BindingBow `){
+       message.channel.send("```asciidoc\nBinding Bow] 7★\n  Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`crowcall ` || args ===`Crowcall` || args ===`CrowCall `){
+       message.channel.send("```asciidoc\nCrow Call] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 10\n  Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`silentmeteorhammer ` || args ===`Silentmeteorhammer` || args ===`SilentMeteorHammer `){
+       message.channel.send("```asciidoc\nSilent Meteor Hammer] 7★\n Type : Staff\n  Stat : ATK 97 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`armoredtower ` || args ===`Armoredtower` || args ===`ArmoredTower `){
+       message.channel.send("```asciidoc\nArmored Tower] 7★\n  Type : Catapult\n Stat : ATK 86 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Immobilization ATK % (35)```");
+    }
+if (args ===`goldenplatearmor ` || args ===`Goldenplatearmor` || args ===`GoldenPlateArmor `){
+       message.channel.send("```asciidoc\nGolden Plate Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 12 MRL 0\n  Effect : Immobilization Immunity```");
+    }
+if (args ===`squarespiralsuit ` || args ===`Squarespiralsuit` || args ===`SquareSpiralSuit `){
+       message.channel.send("```asciidoc\nSquare Spiral Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 68 AGI 0 MRL 10\n  Effect : Immobilization Immunity```");
+    }
+if (args ===`preciousfoxrobe  ` || args ===`Preciousfoxrobe ` || args ===`PreciousFoxRobe  `){
+       message.channel.send("```asciidoc\nPrecious Fox Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 0 MRL 20\n  Effect : Immobilization Immunity```");
+    }
+if (args ===`dapple ` || args ===`Dapple` || args ===`Dapple `){
+       message.channel.send("```asciidoc\nDapple] 7★\n Type : Accessory\n  Stat : ATK 27 INT 0 DEX 0 AGI 9 MRL 9\n Effect : % Charge Attack (3)```");
+    }
+if (args ===`heavenlysword  ` || args ===`Heavenlysword ` || args ===`HeavenlySword  `){
+       message.channel.send("```asciidoc\nHeavenly Sword] 7★\n Type : Sword\n  Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Leading Attack```");
+    }
+if (args ===`whitetigeraxe  ` || args ===`Whitetigeraxe ` || args ===`WhiteTigerAxe  `){
+       message.channel.send("```asciidoc\nWhite Tiger Axe] 7★\n  Type : Spear\n  Stat : ATK 91 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Leading Attack```");
+    }
+if (args ===`whitetigerbow  ` || args ===`Whitetigerbow ` || args ===`WhiteTigerBow  `){
+       message.channel.send("```asciidoc\nWhite Tiger Bow] 7★\n  Type : Bow\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Leading Attack```");
+    }
+if (args ===`whitetigercrossbow ` || args ===`Whitetigercrossbow` || args ===`WhiteTigerCrossbow `){
+       message.channel.send("```asciidoc\nWhite Tiger Crossbow] 7★\n Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Leading Attack```");
+    }
+if (args ===`whitetigermace ` || args ===`Whitetigermace` || args ===`WhiteTigerMace `){
+       message.channel.send("```asciidoc\nWhite Tiger Mace] 7★\n Type : Staff\n  Stat : ATK 87 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Leading Attack```");
+    }
+if (args ===`woodenshieldwagon  ` || args ===`Woodenshieldwagon ` || args ===`WoodenShieldWagon  `){
+       message.channel.send("```asciidoc\nWooden Shield Wagon] 7★\n  Type : Catapult\n Stat : ATK 80 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Leading Attack```");
+    }
+if (args ===`mountainslayer ` || args ===`Mountainslayer` || args ===`MountainSlayer `){
+       message.channel.send("```asciidoc\nMountain Slayer] 7★\n  Type : Sword\n  Stat : ATK 90 INT 10 DEX 0 AGI 0 MRL 10\n Effect : Lifesteal Attack % (20)```");
+    }
+if (args ===`skydivider ` || args ===`Skydivider` || args ===`SkyDivider `){
+       message.channel.send("```asciidoc\nSky Divider] 7★\n  Type : Spear\n  Stat : ATK 94 INT 0 DEX 0 AGI 20 MRL 10\n Effect : Lifesteal Attack % (20)```");
+    }
+if (args ===`whitetigerarmor  ` || args ===`Whitetigerarmor ` || args ===`WhiteTigerArmor  `){
+       message.channel.send("```asciidoc\nWhite Tiger Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 7 DEX 115 AGI 0 MRL 7\n  Effect : Mental Exhaustion (20)```");
+    }
+if (args ===`whitelotussuit ` || args ===`Whitelotussuit` || args ===`WhiteLotusSuit `){
+       message.channel.send("```asciidoc\nWhite Lotus Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 15 DEX 75 AGI 0 MRL 0\n  Effect : Mental Exhaustion (20)```");
+    }
+if (args ===`kirinrobe  ` || args ===`Kirinrobe ` || args ===`KirinRobe  `){
+       message.channel.send("```asciidoc\nKirin Robe] 7★\n Type : Robe\n Stat : ATK 7 INT 0 DEX 80 AGI 7 MRL 0\n Effect : Mental Exhaustion (20)```");
+    }
+if (args ===`muskincense  ` || args ===`Muskincense ` || args ===`MuskIncense  `){
+       message.channel.send("```asciidoc\nMusk Incense] 7★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 27 AGI 9 MRL 9\n Effect : Attack ACC + (30)```");
+    }
+if (args ===`ravendragon  ` || args ===`Ravendragon ` || args ===`RavenDragon  `){
+       message.channel.send("```asciidoc\nRaven Dragon] 7★\n Type : Accessory\n  Stat : ATK 18 INT 0 DEX 0 AGI 18 MRL 9\n  Effect : Charge Move```");
+    }
+if (args ===`jadefan  ` || args ===`Jadefan ` || args ===`JadeFan  `){
+       message.channel.send("```asciidoc\nJade Fan] 7★\n Type : Fan\n  Stat : ATK 0 INT 95 DEX 0 AGI 10 MRL 0\n  Effect : MP Attack (10)```");
+    }
+if (args ===`crimsonmidnightscimitar  ` || args ===`Crimsonmidnightscimitar ` || args ===`CrimsonMidnightScimitar  `){
+       message.channel.send("```asciidoc\nCrimson Midnight Scimitar] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 90 DEX 0 AGI 0 MRL 0\n Effect : MP Attack (10)```");
+    }
+if (args ===`imperialseal ` || args ===`Imperialseal` || args ===`ImperialSeal `){
+       message.channel.send("```asciidoc\nImperial Seal] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 0 DEX 0 AGI 18 MRL 18\n  Effect : Critical Attack```");
+    }
+if (args ===`heartsutra ` || args ===`Heartsutra` || args ===`HeartSutra `){
+       message.channel.send("```asciidoc\nHeart Sutra] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 36 DEX 9 AGI 0 MRL 0\n Effect : Decrease Area Tactics Damage (70)```");
+    }
+if (args ===`yinboyangbo  ` || args ===`Yinboyangbo ` || args ===`YinBoYangBo  `){
+       message.channel.send("```asciidoc\nYin Bo Yang Bo] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Earth Tactics+ % (35)```");
+    }
+if (args ===`mozi ` || args ===`Mozi` || args ===`Mozi `){
+       message.channel.send("```asciidoc\nMozi] 7★\n Type : Accessory\n  Stat : ATK 0 INT 36 DEX 0 AGI 0 MRL 9\n Effect : Elemental Tactics +% (25)```");
+    }
+if (args ===`shanghanlun  ` || args ===`Shanghanlun ` || args ===`ShanghanLun  `){
+       message.channel.send("```asciidoc\nShanghan Lun] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Fire Tactics +% (35)```");
+    }
+if (args ===`grinningdemonshield  ` || args ===`Grinningdemonshield ` || args ===`GrinningDemonShield  `){
+       message.channel.send("```asciidoc\nGrinning Demon Shield] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 0 DEX 27 AGI 9 MRL 9\n Effect : Guard (10)```");
+    }
+if (args ===`plaincrimsonarmor  ` || args ===`Plaincrimsonarmor ` || args ===`PlainCrimsonArmor  `){
+       message.channel.send("```asciidoc\nPlain Crimson Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 105 AGI 12 MRL 5\n Effect : MP Boost % (15)```");
+    }
+if (args ===`reddragonsuit  ` || args ===`Reddragonsuit ` || args ===`RedDragonSuit  `){
+       message.channel.send("```asciidoc\nRed Dragon Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 67 AGI 0 MRL 10\n  Effect : MP Boost % (15)```");
+    }
+if (args ===`golddragonrobe ` || args ===`Golddragonrobe` || args ===`GoldDragonRobe `){
+       message.channel.send("```asciidoc\nGold Dragon Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 77 AGI 7 MRL 10\n  Effect : MP Boost % (15)```");
+    }
+if (args ===`brassscalearmor  ` || args ===`Brassscalearmor ` || args ===`BrassScaleArmor  `){
+       message.channel.send("```asciidoc\nBrass Scale Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 100 AGI 0 MRL 0\n  Effect : MP Defense```");
+    }
+if (args ===`silvercoatedsuit ` || args ===`Silvercoatedsuit` || args ===`SilverCoatedSuit `){
+       message.channel.send("```asciidoc\nSilver Coated Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 7 DEX 61 AGI 0 MRL 0\n Effect : MP Defense```");
+    }
+if (args ===`whitedragonrobe  ` || args ===`Whitedragonrobe ` || args ===`WhiteDragonRobe  `){
+       message.channel.send("```asciidoc\nWhite Dragon Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 75 AGI 7 MRL 7\n Effect : MP Defense```");
+    }
+if (args ===`menghuo'sbelt  ` || args ===`Menghuo'Sbelt ` || args ===`MengHuo'sBelt  `){
+       message.channel.send("```asciidoc\nMeng Huo's Belt] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 0 DEX 0 AGI 36 MRL 9\n Effect : HP Boost (150)```");
+    }
+if (args ===`sixfishbelt  ` || args ===`Sixfishbelt ` || args ===`SixFishBelt  `){
+       message.channel.send("```asciidoc\nSix Fish Belt] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 0 DEX 0 AGI 27 MRL 9\n Effect : HP Boost (150)```");
+    }
+if (args ===`teafan ` || args ===`Teafan` || args ===`TeaFan `){
+       message.channel.send("```asciidoc\nTea Fan] 7★\n  Type : Fan\n  Stat : ATK 0 INT 100 DEX 0 AGI 0 MRL 0\n  Effect : MP Saving % (40)```");
+    }
+if (args ===`enlighteningprajnablade  ` || args ===`Enlighteningprajnablade ` || args ===`EnlighteningPrajnaBlade  `){
+       message.channel.send("```asciidoc\nEnlightening Prajna Blade] 7★\n  Type : Legendary Sword\n  Stat : ATK 0 INT 81 DEX 0 AGI 0 MRL 20\n  Effect : MP Saving % (40)```");
+    }
+if (args ===`ganning'sbelt  ` || args ===`Ganning'Sbelt ` || args ===`GanNing'sBelt  `){
+       message.channel.send("```asciidoc\nGan Ning's Belt] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 0 DEX 0 AGI 18 MRL 18\n  Effect : HP Boost (150)```");
+    }
+if (args ===`gold&silverwagon ` || args ===`Gold&Silverwagon` || args ===`Gold&SilverWagon `){
+       message.channel.send("```asciidoc\nGold & Silver Wagon] 7★\n  Type : Accessory\n  Stat : ATK 18 INT 0 DEX 9 AGI 9 MRL 9\n Effect : HP Recovery % (5)```");
+    }
+if (args ===`sharpscimitar  ` || args ===`Sharpscimitar ` || args ===`SharpScimitar  `){
+       message.channel.send("```asciidoc\nSharp Scimitar] 7★\n Type : Sword\n  Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Oppressive Assault```");
+    }
+if (args ===`bluemoondragon ` || args ===`Bluemoondragon` || args ===`BlueMoonDragon `){
+       message.channel.send("```asciidoc\nBlue Moon Dragon] 7★\n Type : Spear\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Oppressive Assault```");
+    }
+if (args ===`blacktortoisebow ` || args ===`Blacktortoisebow` || args ===`BlackTortoiseBow `){
+       message.channel.send("```asciidoc\nBlack Tortoise Bow] 7★\n Type : Bow\n  Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Oppressive Assault```");
+    }
+if (args ===`blacktortoisecrossbow  ` || args ===`Blacktortoisecrossbow ` || args ===`BlackTortoiseCrossbow  `){
+       message.channel.send("```asciidoc\nBlack Tortoise Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Oppressive Assault```");
+    }
+if (args ===`panguaxe ` || args ===`Panguaxe` || args ===`PanguAxe `){
+       message.channel.send("```asciidoc\nPangu Axe] 7★\n  Type : Staff\n  Stat : ATK 86 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Oppressive Assault```");
+    }
+if (args ===`smallcart  ` || args ===`Smallcart ` || args ===`SmallCart  `){
+       message.channel.send("```asciidoc\nSmall Cart] 7★\n Type : Catapult\n Stat : ATK 82 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Oppressive Assault```");
+    }
+if (args ===`jiangweisword  ` || args ===`Jiangweisword ` || args ===`JiangWeiSword  `){
+       message.channel.send("```asciidoc\nJiang Wei Sword] 7★\n  Type : Sword\n  Stat : ATK 98 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Penetration Attack```");
+    }
+if (args ===`fire-tipspear  ` || args ===`Fire-Tipspear ` || args ===`Fire-TipSpear  `){
+       message.channel.send("```asciidoc\nFire-Tip Spear] 7★\n Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 0 MRL 20\n  Effect : Penetration Attack```");
+    }
+if (args ===`blacktortoisenunchucks ` || args ===`Blacktortoisenunchucks` || args ===`BlackTortoiseNunchucks `){
+       message.channel.send("```asciidoc\nBlack Tortoise Nunchucks] 7★\n Type : Staff\n  Stat : ATK 84 INT 0 DEX 0 AGI 10 MRL 0\n  Effect : Penetration Attack```");
+    }
+if (args ===`bestialarmor ` || args ===`Bestialarmor` || args ===`BestialArmor `){
+       message.channel.send("```asciidoc\nBestial Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 10 MRL 10\n Effect : Physical Damage -% (35)```");
+    }
+if (args ===`lubu'srobe ` || args ===`Lubu'Srobe` || args ===`LuBu'sRobe `){
+       message.channel.send("```asciidoc\nLu Bu's Robe] 7★\n Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 20 MRL 0\n  Effect : Physical Damage Reflection % (20)```");
+    }
+if (args ===`venomdragoncrossbow  ` || args ===`Venomdragoncrossbow ` || args ===`VenomDragonCrossbow  `){
+       message.channel.send("```asciidoc\nVenom Dragon Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 7 MRL 10\n Effect : Poison Attack % (30)```");
+    }
+if (args ===`northernsaber  ` || args ===`Northernsaber ` || args ===`NorthernSaber  `){
+       message.channel.send("```asciidoc\nNorthern Saber] 7★\n Type : Sword\n  Stat : ATK 112 INT 10 DEX 0 AGI 0 MRL 10\n  Effect : Poison Attack % (35)```");
+    }
+if (args ===`venomdragonspear ` || args ===`Venomdragonspear` || args ===`VenomDragonSpear `){
+       message.channel.send("```asciidoc\nVenom Dragon Spear] 7★\n Type : Spear\n  Stat : ATK 113 INT 0 DEX 0 AGI 14 MRL 10\n  Effect : Poison Attack % (35)```");
+    }
+if (args ===`venomdragonbow ` || args ===`Venomdragonbow` || args ===`VenomDragonBow `){
+       message.channel.send("```asciidoc\nVenom Dragon Bow] 7★\n Type : Bow\n  Stat : ATK 114 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Poison Attack % (35)```");
+    }
+if (args ===`venomdragonmeteorhammer  ` || args ===`Venomdragonmeteorhammer ` || args ===`VenomDragonMeteorHammer  `){
+       message.channel.send("```asciidoc\nVenom Dragon Meteor Hammer] 7★\n Type : Staff\n  Stat : ATK 100 INT 10 DEX 0 AGI 0 MRL 0\n Effect : Poison Attack % (35)```");
+    }
+if (args ===`venomengine  ` || args ===`Venomengine ` || args ===`VenomEngine  `){
+       message.channel.send("```asciidoc\nVenom Engine] 7★\n Type : Catapult\n Stat : ATK 99 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Poison Attack % (35)```");
+    }
+if (args ===`blacksteelarmor  ` || args ===`Blacksteelarmor ` || args ===`BlackSteelArmor  `){
+       message.channel.send("```asciidoc\nBlack Steel Armor] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 95 AGI 0 MRL 10\n  Effect : Poison Immunity```");
+    }
+if (args ===`bavinsuit  ` || args ===`Bavinsuit ` || args ===`BavinSuit  `){
+       message.channel.send("```asciidoc\nBavin Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 0 DEX 68 AGI 0 MRL 10\n  Effect : Poison Immunity```");
+    }
+if (args ===`menghuo'srobe  ` || args ===`Menghuo'Srobe ` || args ===`MengHuo'sRobe  `){
+       message.channel.send("```asciidoc\nMeng Huo's Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 80 AGI 0 MRL 0\n Effect : Poison Immunity```");
+    }
+if (args ===`weistrategies  ` || args ===`Weistrategies ` || args ===`WeiStrategies  `){
+       message.channel.send("```asciidoc\nWei Strategies] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Interrupt Tactics +% (35)```");
+    }
+if (args ===`soyuhorse  ` || args ===`Soyuhorse ` || args ===`SoyuHorse  `){
+       message.channel.send("```asciidoc\nSoyu Horse] 7★\n Type : Accessory\n  Stat : ATK 9 INT 9 DEX 9 AGI 9 MRL 9\n  Effect : Item Range +```");
+    }
+if (args ===`mirrorplate  ` || args ===`Mirrorplate ` || args ===`MirrorPlate  `){
+       message.channel.send("```asciidoc\nMirror Plate] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 0 MRL 20\n  Effect : Ranged DMG -% (35)```");
+    }
+if (args ===`brilliantlionheadbelt  ` || args ===`Brilliantlionheadbelt ` || args ===`BrilliantLionHeadBelt  `){
+       message.channel.send("```asciidoc\nBrilliant Lion Head Belt] 7★\n Type : Accessory\n  Stat : ATK 9 INT 0 DEX 9 AGI 18 MRL 18\n  Effect : Mounted ATK +% (20)```");
+    }
+if (args ===`beautyflowermirror ` || args ===`Beautyflowermirror` || args ===`BeautyFlowerMirror `){
+       message.channel.send("```asciidoc\nBeauty Flower Mirror] 7★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 0 AGI 36 MRL 9\n Effect : MP Boost (80)```");
+    }
+if (args ===`beautywatermirror  ` || args ===`Beautywatermirror ` || args ===`BeautyWaterMirror  `){
+       message.channel.send("```asciidoc\nBeauty Water Mirror] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 9 DEX 0 AGI 27 MRL 9\n Effect : MP Boost (80)```");
+    }
+if (args ===`multimirror  ` || args ===`Multimirror ` || args ===`MultiMirror  `){
+       message.channel.send("```asciidoc\nMulti Mirror] 7★\n Type : Accessory\n  Stat : ATK 0 INT 9 DEX 0 AGI 18 MRL 18\n  Effect : MP Boost (80)```");
+    }
+if (args ===`strength&virtue  ` || args ===`Strength&Virtue ` || args ===`Strength&Virtue  `){
+       message.channel.send("```asciidoc\nStrength & Virtue] 7★\n  Type : Sword\n  Stat : ATK 85 INT 10 DEX 0 AGI 10 MRL 10\n  Effect : Reversal```");
+    }
+if (args ===`azuredragonaxe ` || args ===`Azuredragonaxe` || args ===`AzureDragonAxe `){
+       message.channel.send("```asciidoc\nAzure Dragon Axe] 7★\n Type : Spear\n  Stat : ATK 99 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`utilitybow ` || args ===`Utilitybow` || args ===`UtilityBow `){
+       message.channel.send("```asciidoc\nUtility Bow] 7★\n  Type : Bow\n  Stat : ATK 90 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`steadfastcrossbow  ` || args ===`Steadfastcrossbow ` || args ===`SteadfastCrossbow  `){
+       message.channel.send("```asciidoc\nSteadfast Crossbow] 7★\n Type : Crossbow\n Stat : ATK 95 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`dualrods ` || args ===`Dualrods` || args ===`DualRods `){
+       message.channel.send("```asciidoc\nDual Rods] 7★\n  Type : Staff\n  Stat : ATK 81 INT 10 DEX 0 AGI 10 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`eight-arrowhandcannon  ` || args ===`Eight-Arrowhandcannon ` || args ===`Eight-ArrowHandCannon  `){
+       message.channel.send("```asciidoc\nEight-Arrow Hand Cannon] 7★\n  Type : Catapult\n Stat : ATK 80 INT 0 DEX 0 AGI 0 MRL 0\n Effect : Reversal```");
+    }
+if (args ===`bluechenopodstaff  ` || args ===`Bluechenopodstaff ` || args ===`BlueChenopodStaff  `){
+       message.channel.send("```asciidoc\nBlue Chenopod Staff] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 18 DEX 9 AGI 9 MRL 9\n Effect : MP Recovery % (5)```");
+    }
+if (args ===`sunbin'sartofwar ` || args ===`Sunbin'Sartofwar` || args ===`SunBin'sArtofWar `){
+       message.channel.send("```asciidoc\nSun Bin's Art of War] 7★\n Type : Accessory\n  Stat : ATK 0 INT 45 DEX 0 AGI 0 MRL 0\n Effect : Offensive Tactics +% (20)```");
+    }
+if (args ===`goldmysticmace ` || args ===`Goldmysticmace` || args ===`GoldMysticMace `){
+       message.channel.send("```asciidoc\nGold Mystic Mace] 7★\n Type : Staff\n  Stat : ATK 97 INT 10 DEX 0 AGI 0 MRL 0\n  Effect : Silence Attack % (35)```");
+    }
+if (args ===`goldensilencer ` || args ===`Goldensilencer` || args ===`GoldenSilencer `){
+       message.channel.send("```asciidoc\nGolden Silencer] 7★\n  Type : Catapult\n Stat : ATK 105 INT 0 DEX 0 AGI 0 MRL 10\n Effect : Silence Attack % (35)```");
+    }
+if (args ===`agarwoodincense  ` || args ===`Agarwoodincense ` || args ===`AgarwoodIncense  `){
+       message.channel.send("```asciidoc\nAgarwood Incense] 7★\n Type : Accessory\n  Stat : ATK 18 INT 9 DEX 18 AGI 0 MRL 0\n  Effect : Rage +% (20)```");
+    }
+if (args ===`spiritrealmscriptures  ` || args ===`Spiritrealmscriptures ` || args ===`SpiritRealmScriptures  `){
+       message.channel.send("```asciidoc\nSpirit Realm Scriptures] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 0 DEX 18 AGI 9 MRL 9\n Effect : Reach HP Restore % (3)```");
+    }
+if (args ===`kongming'sturban ` || args ===`Kongming'Sturban` || args ===`Kongming'sTurban `){
+       message.channel.send("```asciidoc\nKongming's Turban] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 9 DEX 18 AGI 9 MRL 9\n Effect : Reach MP Restore % (3)```");
+    }
+if (args ===`geniuscrossbow ` || args ===`Geniuscrossbow` || args ===`GeniusCrossbow `){
+       message.channel.send("```asciidoc\nGenius Crossbow] 7★\n  Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 10\n Effect : Status Effect ATK % (30)```");
+    }
+if (args ===`geniusbow  ` || args ===`Geniusbow ` || args ===`GeniusBow  `){
+       message.channel.send("```asciidoc\nGenius Bow] 7★\n Type : Bow\n  Stat : ATK 112 INT 0 DEX 0 AGI 10 MRL 0\n Effect : Status Effect ATK % (35)```");
+    }
+if (args ===`dragoncannon ` || args ===`Dragoncannon` || args ===`DragonCannon `){
+       message.channel.send("```asciidoc\nDragon Cannon] 7★\n  Type : Catapult\n Stat : ATK 87 INT 0 DEX 0 AGI 15 MRL 0\n  Effect : Status Effect ATK % (35)```");
+    }
+if (args ===`verticalplatearmor ` || args ===`Verticalplatearmor` || args ===`VerticalPlateArmor `){
+       message.channel.send("```asciidoc\nVertical Plate Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 80 AGI 12 MRL 12\n Effect : Status Effect Reflection```");
+    }
+if (args ===`twilightepiphany ` || args ===`Twilightepiphany` || args ===`TwilightEpiphany `){
+       message.channel.send("```asciidoc\nTwilight Epiphany] 7★\n  Type : Dress\n  Stat : ATK 0 INT 0 DEX 70 AGI 0 MRL 0\n Effect : Status Effect Reflection```");
+    }
+if (args ===`vermilionbirdrobe  ` || args ===`Vermilionbirdrobe ` || args ===`VermilionBirdRobe  `){
+       message.channel.send("```asciidoc\nVermilion Bird Robe] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 77 AGI 10 MRL 0\n  Effect : Status Effect Reflection```");
+    }
+if (args ===`hexmark  ` || args ===`Hexmark ` || args ===`HexMark  `){
+       message.channel.send("```asciidoc\nHex Mark] 7★\n Type : Accessory\n  Stat : ATK 0 INT 0 DEX 18 AGI 9 MRL 18\n  Effect : Rough Terrain Move```");
+    }
+if (args ===`blackwind  ` || args ===`Blackwind ` || args ===`BlackWind  `){
+       message.channel.send("```asciidoc\nBlack Wind] 7★\n Type : Accessory\n  Stat : ATK 36 INT 0 DEX 0 AGI 5 MRL 5\n Effect : Smash (30)```");
+    }
+if (args ===`brilliantsword ` || args ===`Brilliantsword` || args ===`BrilliantSword `){
+       message.channel.send("```asciidoc\nBrilliant Sword] 7★\n  Type : Sword\n  Stat : ATK 110 INT 0 DEX 0 AGI 10 MRL 10\n  Effect : Surprise Attack (3)```");
+    }
+if (args ===`sharpmantisspear ` || args ===`Sharpmantisspear` || args ===`SharpMantisSpear `){
+       message.channel.send("```asciidoc\nSharp Mantis Spear] 7★\n Type : Spear\n  Stat : ATK 125 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Surprise Attack (3)```");
+    }
+if (args ===`heavenbreaker  ` || args ===`Heavenbreaker ` || args ===`HeavenBreaker  `){
+       message.channel.send("```asciidoc\nHeaven Breaker] 7★\n Type : Bow\n  Stat : ATK 110 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Surprise Attack (3)```");
+    }
+if (args ===`stormcrossbow  ` || args ===`Stormcrossbow ` || args ===`StormCrossbow  `){
+       message.channel.send("```asciidoc\nStorm Crossbow] 7★\n Type : Crossbow\n Stat : ATK 90 INT 0 DEX 10 AGI 10 MRL 10\n  Effect : Surprise Attack (3)```");
+    }
+if (args ===`lightningmace  ` || args ===`Lightningmace ` || args ===`LightningMace  `){
+       message.channel.send("```asciidoc\nLightning Mace] 7★\n Type : Staff\n  Stat : ATK 105 INT 0 DEX 10 AGI 10 MRL 10\n Effect : Surprise Attack (3)```");
+    }
+if (args ===`giantcannon  ` || args ===`Giantcannon ` || args ===`GiantCannon  `){
+       message.channel.send("```asciidoc\nGiant Cannon] 7★\n Type : Catapult\n Stat : ATK 95 INT 0 DEX 0 AGI 10 MRL 10\n Effect : Surprise Attack (3)```");
+    }
+if (args ===`vaisravana'swealth ` || args ===`Vaisravana'Swealth` || args ===`Vaisravana'sWealth `){
+       message.channel.send("```asciidoc\nVaisravana's Wealth] 7★\n  Type : Armor\n  Stat : ATK 0 INT 0 DEX 100 AGI 0 MRL 0\n  Effect : Tactics Damage -% (35)```");
+    }
+if (args ===`doublecircle-patternedsuit ` || args ===`Doublecircle-Patternedsuit` || args ===`DoubleCircle-PatternedSuit `){
+       message.channel.send("```asciidoc\nDouble Circle-Patterned Suit] 7★\n Type : Dress\n  Stat : ATK 0 INT 7 DEX 66 AGI 0 MRL 10\n  Effect : Tactics Damage Reflection % (20)```");
+    }
+if (args ===`emperor'shonor ` || args ===`Emperor'Shonor` || args ===`Emperor'sHonor `){
+       message.channel.send("```asciidoc\nEmperor's Honor] 7★\n  Type : Robe\n Stat : ATK 0 INT 0 DEX 72 AGI 10 MRL 10\n Effect : Tactics Damage Reflection % (20)```");
+    }
+if (args ===`ironleatherarmor ` || args ===`Ironleatherarmor` || args ===`IronLeatherArmor `){
+       message.channel.send("```asciidoc\nIron Leather Armor] 7★\n Type : Armor\n  Stat : ATK 0 INT 0 DEX 90 AGI 12 MRL 0\n  Effect : Tactics DEF Rate + (30)```");
+    }
+if (args ===`bluegauzesuit  ` || args ===`Bluegauzesuit ` || args ===`BlueGauzeSuit  `){
+       message.channel.send("```asciidoc\nBlue Gauze Suit] 7★\n  Type : Dress\n  Stat : ATK 0 INT 7 DEX 68 AGI 0 MRL 10\n  Effect : Tactics DEF Rate + (30)```");
+    }
+if (args ===`blackfeatherfan  ` || args ===`Blackfeatherfan ` || args ===`BlackFeatherFan  `){
+       message.channel.send("```asciidoc\nBlack Feather Fan] 7★\n  Type : Fan\n  Stat : ATK 0 INT 100 DEX 0 AGI 0 MRL 0\n  Effect : Tactics DEF Rate Pierce (15)```");
+    }
+if (args ===`flurrysword  ` || args ===`Flurrysword ` || args ===`FlurrySword  `){
+       message.channel.send("```asciidoc\nFlurry Sword] 7★\n Type : Legendary Sword\n  Stat : ATK 0 INT 90 DEX 7 AGI 7 MRL 7\n Effect : Tactics DEF Rate Pierce (15)```");
+    }
+if (args ===`heavenlytortoisecrossbow ` || args ===`Heavenlytortoisecrossbow` || args ===`HeavenlyTortoiseCrossbow `){
+       message.channel.send("```asciidoc\nHeavenly Tortoise Crossbow] 7★\n Type : Crossbow\n Stat : ATK 100 INT 0 DEX 0 AGI 0 MRL 0\n  Effect : Unlimited Counterattack```");
+    }
+if (args ===`shadowrunner ` || args ===`Shadowrunner` || args ===`ShadowRunner `){
+       message.channel.send("```asciidoc\nShadow Runner] 7★\n  Type : Accessory\n  Stat : ATK 9 INT 9 DEX 9 AGI 9 MRL 9\n  Effect : SPD Boost (2)```");
+    }
+if (args ===`zhugeliangcollection ` || args ===`Zhugeliangcollection` || args ===`ZhugeLiangCollection `){
+       message.channel.send("```asciidoc\nZhuge Liang Collection] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Supply Tactics +% (35)```");
+    }
+if (args ===`mapofwesternshu  ` || args ===`Mapofwesternshu ` || args ===`MapofWesternShu  `){
+       message.channel.send("```asciidoc\nMap of Western Shu] 7★\n Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Water Tactics+ % (35)```");
+    }
+if (args ===`classicofmountainsandseas  ` || args ===`Classicofmountainsandseas ` || args ===`ClassicofMountainsandSeas  `){
+       message.channel.send("```asciidoc\nClassic of Mountains and Seas] 7★\n  Type : Accessory\n  Stat : ATK 0 INT 27 DEX 0 AGI 9 MRL 9\n Effect : Wind Tactics +% (35)```");
+    }
+    
+    
+    
+    
+    
   }
   
 /* 
