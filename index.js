@@ -1845,7 +1845,7 @@ bot.on("message", async message => {
 */    
   }
   
-  
+
   
   if (cmd === `${prefix}특성`){
     if (args ===`연속책략`){
@@ -1945,7 +1945,7 @@ bot.on("message", async message => {
       }
       if (args ===`군악대`){
         message.channel.send("```asciidoc\n[군악대]\n\n공Ⓒ 정Ⓐ 방Ⓑ 순Ⓢ 사Ⓐ\nHP 585  MP 129  이동력 6\n\n부대 효과\n- 주위 MP 회복 (20)\n- 가무\n- 포용\n장수 효과\n- MP 보조 (5%/10%)\n- MP 회복 (3%/5%)\n- 물리 피해 감소 (4%/8%)\n- 책략 피해 감소 (4%/8%)\n- 보급계 책략 강화 (3%/7%) ```")
-
+      }
       if (args ===`Footman` || args ===`footman` ){
          message.channel.send("```asciidoc\n[Footman]\nATKⒷ WISⒷ DEFⓈ AGIⒷ MRLⒶ\nHP 798  MP 109  SPD 5\n\nUnit Passive\n- DEF Boost (9%)\n- HP Boost (15%)\n- Ranged DMG - (40%)\n\nCommander Passive\n- HP Boost (4%/9%)\n- Ranged DMG - (3%/7%)\n- Physical Damage Reflection (3%/7%)\n- Tactics Damage Reflection (3%/7%)\n- mmobilization ATK (5%/15%) ```")
       }
@@ -2224,7 +2224,7 @@ bot.on("message", async message => {
      }
      
      
-  }
+  
   
   }
   
