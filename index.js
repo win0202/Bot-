@@ -325,9 +325,6 @@ if (args ===`관해`){
 if (args ===`유벽`){
        message.channel.send("```LiuPi```");
     }
-if (args ===`장량`){
-       message.channel.send("```ZhangLiang```");
-    }
 if (args ===`장보`){
        message.channel.send("```ZhangBao```");
     }
@@ -1712,9 +1709,6 @@ if (args ===`XunYu` ||args ===`xunyu` ||args ===`Xunyu`){
 if (args ===`XunYou` ||args ===`xunyou` ||args ===`Xunyou`){
        message.channel.send("```순유```");
     }
-if (args ===`CaoCao` ||args ===`caocao` ||args ===`Caocao`){
-       message.channel.send("```조조```");
-    }
 if (args ===`GuoJia` ||args ===`guojia` ||args ===`Guojia`){
        message.channel.send("```곽가```");
     }
@@ -2662,9 +2656,6 @@ if (args ===`WeiYan` ||args ===`weiyan` ||args ===`Weiyan`){
     }
 if (args ===`ZhangXiu` ||args ===`zhangxiu` ||args ===`Zhangxiu`){
        message.channel.send("```장수```");
-    }
-if (args ===`ZhugeLiang` ||args ===`zhugeliang` ||args ===`Zhugeliang`){
-       message.channel.send("```제갈량```");
     }
 if (args ===`EheShaoge` ||args ===`eheshaoge` ||args ===`Eheshaoge`){
        message.channel.send("```아하소과```");
