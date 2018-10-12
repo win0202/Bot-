@@ -1502,6 +1502,1478 @@ if (args ===`우희`){
 if (args ===`항적`){
        message.channel.send("```XiangYu```");
     }
+    
+    if (args ===`JiangFu` ||args ===`jiangfu` ||args ===`Jiangfu`){
+       message.channel.send("```강보```");
+    }
+if (args ===`Manji` ||args ===`manji` ||args ===`Manji`){
+       message.channel.send("```만기```");
+    }
+if (args ===`LiuGong` ||args ===`liugong` ||args ===`Liugong`){
+       message.channel.send("```유궁```");
+    }
+if (args ===`XiahouYuan` ||args ===`xiahouyuan` ||args ===`Xiahouyuan`){
+       message.channel.send("```하후연```");
+    }
+if (args ===`XiahouDun` ||args ===`xiahoudun` ||args ===`Xiahoudun`){
+       message.channel.send("```하후돈```");
+    }
+if (args ===`YueJin` ||args ===`yuejin` ||args ===`Yuejin`){
+       message.channel.send("```악진```");
+    }
+if (args ===`LiDian` ||args ===`lidian` ||args ===`Lidian`){
+       message.channel.send("```이전```");
+    }
+if (args ===`CaoHong` ||args ===`caohong` ||args ===`Caohong`){
+       message.channel.send("```조홍```");
+    }
+if (args ===`CaoRen` ||args ===`caoren` ||args ===`Caoren`){
+       message.channel.send("```조인```");
+    }
+if (args ===`DianWei` ||args ===`dianwei` ||args ===`Dianwei`){
+       message.channel.send("```전위```");
+    }
+if (args ===`XunYu` ||args ===`xunyu` ||args ===`Xunyu`){
+       message.channel.send("```순욱```");
+    }
+if (args ===`XunYou` ||args ===`xunyou` ||args ===`Xunyou`){
+       message.channel.send("```순유```");
+    }
+if (args ===`CaoCao` ||args ===`caocao` ||args ===`Caocao`){
+       message.channel.send("```조조```");
+    }
+if (args ===`GuoJia` ||args ===`guojia` ||args ===`Guojia`){
+       message.channel.send("```곽가```");
+    }
+if (args ===`ChengYu` ||args ===`chengyu` ||args ===`Chengyu`){
+       message.channel.send("```정욱```");
+    }
+if (args ===`YuJin` ||args ===`yujin` ||args ===`Yujin`){
+       message.channel.send("```우금```");
+    }
+if (args ===`LiuYe` ||args ===`liuye` ||args ===`Liuye`){
+       message.channel.send("```유엽```");
+    }
+if (args ===`XuChu` ||args ===`xuchu` ||args ===`Xuchu`){
+       message.channel.send("```허저```");
+    }
+if (args ===`XuHuang` ||args ===`xuhuang` ||args ===`Xuhuang`){
+       message.channel.send("```서황```");
+    }
+if (args ===`ManChong` ||args ===`manchong` ||args ===`Manchong`){
+       message.channel.send("```만총```");
+    }
+if (args ===`Diaochan` ||args ===`diaochan` ||args ===`Diaochan`){
+       message.channel.send("```초선```");
+    }
+if (args ===`ZhangLiao` ||args ===`zhangliao` ||args ===`Zhangliao`){
+       message.channel.send("```장료```");
+    }
+if (args ===`JiaXu` ||args ===`jiaxu` ||args ===`Jiaxu`){
+       message.channel.send("```가후```");
+    }
+if (args ===`ZhangHe` ||args ===`zhanghe` ||args ===`Zhanghe`){
+       message.channel.send("```장합```");
+    }
+if (args ===`CaoPi` ||args ===`caopi` ||args ===`Caopi`){
+       message.channel.send("```조비```");
+    }
+if (args ===`SimaYi` ||args ===`simayi` ||args ===`Simayi`){
+       message.channel.send("```사마의```");
+    }
+if (args ===`YanZheng` ||args ===`yanzheng` ||args ===`Yanzheng`){
+       message.channel.send("```엄정```");
+    }
+if (args ===`PeiYuanshao` ||args ===`peiyuanshao` ||args ===`Peiyuanshao`){
+       message.channel.send("```배원소```");
+    }
+if (args ===`GongDu` ||args ===`gongdu` ||args ===`Gongdu`){
+       message.channel.send("```공도```");
+    }
+if (args ===`GaoSheng` ||args ===`gaosheng` ||args ===`Gaosheng`){
+       message.channel.send("```고승```");
+    }
+if (args ===`ChengYuanzhi` ||args ===`chengyuanzhi` ||args ===`Chengyuanzhi`){
+       message.channel.send("```정원지```");
+    }
+if (args ===`EmpressHe` ||args ===`empresshe` ||args ===`Empresshe`){
+       message.channel.send("```하태후```");
+    }
+if (args ===`ZhangWei` ||args ===`zhangwei` ||args ===`Zhangwei`){
+       message.channel.send("```장위```");
+    }
+if (args ===`ZhangLu` ||args ===`zhanglu` ||args ===`Zhanglu`){
+       message.channel.send("```장로```");
+    }
+if (args ===`YanPu` ||args ===`yanpu` ||args ===`Yanpu`){
+       message.channel.send("```염포```");
+    }
+if (args ===`HeJin` ||args ===`hejin` ||args ===`Hejin`){
+       message.channel.send("```하진```");
+    }
+if (args ===`GuanHai` ||args ===`guanhai` ||args ===`Guanhai`){
+       message.channel.send("```관해```");
+    }
+if (args ===`LiuPi` ||args ===`liupi` ||args ===`Liupi`){
+       message.channel.send("```유벽```");
+    }
+if (args ===`ZhangLiang` ||args ===`zhangliang` ||args ===`Zhangliang`){
+       message.channel.send("```장량```");
+    }
+if (args ===`ZhangBao` ||args ===`zhangbao` ||args ===`Zhangbao`){
+       message.channel.send("```장보```");
+    }
+if (args ===`BoCai` ||args ===`bocai` ||args ===`Bocai`){
+       message.channel.send("```파재```");
+    }
+if (args ===`ZhangMancheng` ||args ===`zhangmancheng` ||args ===`Zhangmancheng`){
+       message.channel.send("```장만성```");
+    }
+if (args ===`ZhangJue` ||args ===`zhangjue` ||args ===`Zhangjue`){
+       message.channel.send("```장각```");
+    }
+if (args ===`YuanShu` ||args ===`yuanshu` ||args ===`Yuanshu`){
+       message.channel.send("```원술```");
+    }
+if (args ===`GaoRou` ||args ===`gaorou` ||args ===`Gaorou`){
+       message.channel.send("```고유```");
+    }
+if (args ===`CaoAnmin` ||args ===`caoanmin` ||args ===`Caoanmin`){
+       message.channel.send("```조안민```");
+    }
+if (args ===`YangYan` ||args ===`yangyan` ||args ===`Yangyan`){
+       message.channel.send("```양염```");
+    }
+if (args ===`XunYi` ||args ===`xunyi` ||args ===`Xunyi`){
+       message.channel.send("```순의```");
+    }
+if (args ===`PangDe` ||args ===`pangde` ||args ===`Pangde`){
+       message.channel.send("```방덕```");
+    }
+if (args ===`LuQian` ||args ===`luqian` ||args ===`Luqian`){
+       message.channel.send("```여건```");
+    }
+if (args ===`CaoAng` ||args ===`caoang` ||args ===`Caoang`){
+       message.channel.send("```조앙```");
+    }
+if (args ===`CaoZhang` ||args ===`caozhang` ||args ===`Caozhang`){
+       message.channel.send("```조창```");
+    }
+if (args ===`WeiYou` ||args ===`weiyou` ||args ===`Weiyou`){
+       message.channel.send("```위유```");
+    }
+if (args ===`YangFeng` ||args ===`yangfeng` ||args ===`Yangfeng`){
+       message.channel.send("```양봉```");
+    }
+if (args ===`YanLiang` ||args ===`yanliang` ||args ===`Yanliang`){
+       message.channel.send("```안량```");
+    }
+if (args ===`GuanYu` ||args ===`guanyu` ||args ===`Guanyu`){
+       message.channel.send("```관우```");
+    }
+if (args ===`HuoJun` ||args ===`huojun` ||args ===`Huojun`){
+       message.channel.send("```곽준```");
+    }
+if (args ===`ChenLin` ||args ===`chenlin` ||args ===`Chenlin`){
+       message.channel.send("```진림```");
+    }
+if (args ===`XingDaorong` ||args ===`xingdaorong` ||args ===`Xingdaorong`){
+       message.channel.send("```형도영```");
+    }
+if (args ===`DongCheng` ||args ===`dongcheng` ||args ===`Dongcheng`){
+       message.channel.send("```동승```");
+    }
+if (args ===`XieJing` ||args ===`xiejing` ||args ===`Xiejing`){
+       message.channel.send("```사정```");
+    }
+if (args ===`KongRong` ||args ===`kongrong` ||args ===`Kongrong`){
+       message.channel.send("```공융```");
+    }
+if (args ===`WangJing` ||args ===`wangjing` ||args ===`Wangjing`){
+       message.channel.send("```왕경```");
+    }
+if (args ===`MaMiao` ||args ===`mamiao` ||args ===`Mamiao`){
+       message.channel.send("```마막```");
+    }
+if (args ===`ZhouTai` ||args ===`zhoutai` ||args ===`Zhoutai`){
+       message.channel.send("```주태```");
+    }
+if (args ===`WuAnguo` ||args ===`wuanguo` ||args ===`Wuanguo`){
+       message.channel.send("```무안국```");
+    }
+if (args ===`ZhuJun` ||args ===`zhujun` ||args ===`Zhujun`){
+       message.channel.send("```주준```");
+    }
+if (args ===`ZhuLing` ||args ===`zhuling` ||args ===`Zhuling`){
+       message.channel.send("```주령```");
+    }
+if (args ===`TaishiCi` ||args ===`taishici` ||args ===`Taishici`){
+       message.channel.send("```태사자```");
+    }
+if (args ===`HoGong` ||args ===`hogong` ||args ===`Hogong`){
+       message.channel.send("```번궁```");
+    }
+if (args ===`CaoMao` ||args ===`caomao` ||args ===`Caomao`){
+       message.channel.send("```조모```");
+    }
+if (args ===`KongZhou` ||args ===`kongzhou` ||args ===`Kongzhou`){
+       message.channel.send("```공주```");
+    }
+if (args ===`HuZhi` ||args ===`huzhi` ||args ===`Huzhi`){
+       message.channel.send("```호질```");
+    }
+if (args ===`BaoXin` ||args ===`baoxin` ||args ===`Baoxin`){
+       message.channel.send("```포신```");
+    }
+if (args ===`GuoYouzhi` ||args ===`guoyouzhi` ||args ===`Guoyouzhi`){
+       message.channel.send("```곽유지```");
+    }
+if (args ===`LiuFu` ||args ===`liufu` ||args ===`Liufu`){
+       message.channel.send("```유복```");
+    }
+if (args ===`BianXi` ||args ===`bianxi` ||args ===`Bianxi`){
+       message.channel.send("```변희```");
+    }
+if (args ===`ZhangYan` ||args ===`zhangyan` ||args ===`Zhangyan`){
+       message.channel.send("```장연```");
+    }
+if (args ===`ZhangJi` ||args ===`zhangji` ||args ===`Zhangji`){
+       message.channel.send("```장기```");
+    }
+if (args ===`MengDa` ||args ===`mengda` ||args ===`Mengda`){
+       message.channel.send("```맹달```");
+    }
+if (args ===`JianYong` ||args ===`jianyong` ||args ===`Jianyong`){
+       message.channel.send("```간옹```");
+    }
+if (args ===`XuShu` ||args ===`xushu` ||args ===`Xushu`){
+       message.channel.send("```서서```");
+    }
+if (args ===`YuanTan` ||args ===`yuantan` ||args ===`Yuantan`){
+       message.channel.send("```원담```");
+    }
+if (args ===`XuYou` ||args ===`xuyou` ||args ===`Xuyou`){
+       message.channel.send("```허유```");
+    }
+if (args ===`DongZhao` ||args ===`dongzhao` ||args ===`Dongzhao`){
+       message.channel.send("```동소```");
+    }
+if (args ===`JuGu` ||args ===`jugu` ||args ===`Jugu`){
+       message.channel.send("```저곡```");
+    }
+if (args ===`YuanXi` ||args ===`yuanxi` ||args ===`Yuanxi`){
+       message.channel.send("```원희```");
+    }
+if (args ===`GaoGan` ||args ===`gaogan` ||args ===`Gaogan`){
+       message.channel.send("```고간```");
+    }
+if (args ===`XinPi` ||args ===`xinpi` ||args ===`Xinpi`){
+       message.channel.send("```신비```");
+    }
+if (args ===`JiangYiqu` ||args ===`jiangyiqu` ||args ===`Jiangyiqu`){
+       message.channel.send("```장의거```");
+    }
+if (args ===`ChenZhen` ||args ===`chenzhen` ||args ===`Chenzhen`){
+       message.channel.send("```진진```");
+    }
+if (args ===`GuoTu` ||args ===`guotu` ||args ===`Guotu`){
+       message.channel.send("```곽도```");
+    }
+if (args ===`GaoLan` ||args ===`gaolan` ||args ===`Gaolan`){
+       message.channel.send("```고람```");
+    }
+if (args ===`ChunyuQiong` ||args ===`chunyuqiong` ||args ===`Chunyuqiong`){
+       message.channel.send("```순우경```");
+    }
+if (args ===`YuanShang` ||args ===`yuanshang` ||args ===`Yuanshang`){
+       message.channel.send("```원상```");
+    }
+if (args ===`FengJi` ||args ===`fengji` ||args ===`Fengji`){
+       message.channel.send("```봉기```");
+    }
+if (args ===`GuoYi` ||args ===`guoyi` ||args ===`Guoyi`){
+       message.channel.send("```국의```");
+    }
+if (args ===`XinPing` ||args ===`xinping` ||args ===`Xinping`){
+       message.channel.send("```신평```");
+    }
+if (args ===`WenChou` ||args ===`wenchou` ||args ===`Wenchou`){
+       message.channel.send("```문추```");
+    }
+if (args ===`ShenPei` ||args ===`shenpei` ||args ===`Shenpei`){
+       message.channel.send("```심배```");
+    }
+if (args ===`TianFeng` ||args ===`tianfeng` ||args ===`Tianfeng`){
+       message.channel.send("```전풍```");
+    }
+if (args ===`JuShou` ||args ===`jushou` ||args ===`Jushou`){
+       message.channel.send("```저수```");
+    }
+if (args ===`YuanShao` ||args ===`yuanshao` ||args ===`Yuanshao`){
+       message.channel.send("```원소```");
+    }
+if (args ===`CenHun` ||args ===`cenhun` ||args ===`Cenhun`){
+       message.channel.send("```잠혼```");
+    }
+if (args ===`TengYin` ||args ===`tengyin` ||args ===`Tengyin`){
+       message.channel.send("```등윤```");
+    }
+if (args ===`ZhuYi` ||args ===`zhuyi` ||args ===`Zhuyi`){
+       message.channel.send("```주이```");
+    }
+if (args ===`PuyangXing` ||args ===`puyangxing` ||args ===`Puyangxing`){
+       message.channel.send("```복양흥```");
+    }
+if (args ===`ZhangYun` ||args ===`zhangyun` ||args ===`Zhangyun`){
+       message.channel.send("```장윤```");
+    }
+if (args ===`ChenBiao` ||args ===`chenbiao` ||args ===`Chenbiao`){
+       message.channel.send("```진표```");
+    }
+if (args ===`BuXie` ||args ===`buxie` ||args ===`Buxie`){
+       message.channel.send("```보협```");
+    }
+if (args ===`GuYong` ||args ===`guyong` ||args ===`Guyong`){
+       message.channel.send("```고옹```");
+    }
+if (args ===`LiuZan` ||args ===`liuzan` ||args ===`Liuzan`){
+       message.channel.send("```유찬```");
+    }
+if (args ===`ZhongliMu` ||args ===`zhonglimu` ||args ===`Zhonglimu`){
+       message.channel.send("```종리목```");
+    }
+if (args ===`ZhouFang` ||args ===`zhoufang` ||args ===`Zhoufang`){
+       message.channel.send("```주방```");
+    }
+if (args ===`SunLuban` ||args ===`sunluban` ||args ===`Sunluban`){
+       message.channel.send("```손노반```");
+    }
+if (args ===`ChenWu` ||args ===`chenwu` ||args ===`Chenwu`){
+       message.channel.send("```진무```");
+    }
+if (args ===`LingTong` ||args ===`lingtong` ||args ===`Lingtong`){
+       message.channel.send("```능통```");
+    }
+if (args ===`ZhugeJin` ||args ===`zhugejin` ||args ===`Zhugejin`){
+       message.channel.send("```제갈근```");
+    }
+if (args ===`LuKang` ||args ===`lukang` ||args ===`Lukang`){
+       message.channel.send("```육항```");
+    }
+if (args ===`LuXun` ||args ===`luxun` ||args ===`Luxun`){
+       message.channel.send("```육손```");
+    }
+if (args ===`HuanJie` ||args ===`huanjie` ||args ===`Huanjie`){
+       message.channel.send("```환계```");
+    }
+if (args ===`SunHao` ||args ===`sunhao` ||args ===`Sunhao`){
+       message.channel.send("```손호```");
+    }
+if (args ===`GongsunYuan` ||args ===`gongsunyuan` ||args ===`Gongsunyuan`){
+       message.channel.send("```공손연```");
+    }
+if (args ===`MaZhong` ||args ===`mazhong` ||args ===`Mazhong`){
+       message.channel.send("```마충```");
+    }
+if (args ===`GuTan` ||args ===`gutan` ||args ===`Gutan`){
+       message.channel.send("```고담```");
+    }
+if (args ===`TangZi` ||args ===`tangzi` ||args ===`Tangzi`){
+       message.channel.send("```당자```");
+    }
+if (args ===`SunLiang` ||args ===`sunliang` ||args ===`Sunliang`){
+       message.channel.send("```손량```");
+    }
+if (args ===`XueZong` ||args ===`xuezong` ||args ===`Xuezong`){
+       message.channel.send("```설종```");
+    }
+if (args ===`ZhangHong` ||args ===`zhanghong` ||args ===`Zhanghong`){
+       message.channel.send("```장굉```");
+    }
+if (args ===`SunHe` ||args ===`sunhe` ||args ===`Sunhe`){
+       message.channel.send("```손화```");
+    }
+if (args ===`YuFan` ||args ===`yufan` ||args ===`Yufan`){
+       message.channel.send("```우번```");
+    }
+if (args ===`ZhangWen` ||args ===`zhangwen` ||args ===`Zhangwen`){
+       message.channel.send("```장온```");
+    }
+if (args ===`BuLianshi` ||args ===`bulianshi` ||args ===`Bulianshi`){
+       message.channel.send("```보연사```");
+    }
+if (args ===`WuJing` ||args ===`wujing` ||args ===`Wujing`){
+       message.channel.send("```오경```");
+    }
+if (args ===`LuMeng` ||args ===`lumeng` ||args ===`Lumeng`){
+       message.channel.send("```여몽```");
+    }
+if (args ===`LuoTong` ||args ===`luotong` ||args ===`Luotong`){
+       message.channel.send("```낙통```");
+    }
+if (args ===`SunQuan` ||args ===`sunquan` ||args ===`Sunquan`){
+       message.channel.send("```손권```");
+    }
+if (args ===`XiahouEn` ||args ===`xiahouen` ||args ===`Xiahouen`){
+       message.channel.send("```하후은```");
+    }
+if (args ===`ZhongYu` ||args ===`zhongyu` ||args ===`Zhongyu`){
+       message.channel.send("```종육```");
+    }
+if (args ===`ShiZuan` ||args ===`shizuan` ||args ===`Shizuan`){
+       message.channel.send("```사찬```");
+    }
+if (args ===`WenHu` ||args ===`wenhu` ||args ===`Wenhu`){
+       message.channel.send("```문호```");
+    }
+if (args ===`WangXiu` ||args ===`wangxiu` ||args ===`Wangxiu`){
+       message.channel.send("```왕수```");
+    }
+if (args ===`XiZhicai` ||args ===`xizhicai` ||args ===`Xizhicai`){
+       message.channel.send("```희지재```");
+    }
+if (args ===`WangJun` ||args ===`wangjun` ||args ===`Wangjun`){
+       message.channel.send("```왕준```");
+    }
+if (args ===`CaoXian` ||args ===`caoxian` ||args ===`Caoxian`){
+       message.channel.send("```조헌```");
+    }
+if (args ===`XiahouJie` ||args ===`xiahoujie` ||args ===`Xiahoujie`){
+       message.channel.send("```하후걸```");
+    }
+if (args ===`ZhugeXu` ||args ===`zhugexu` ||args ===`Zhugexu`){
+       message.channel.send("```제갈서```");
+    }
+if (args ===`HuLie` ||args ===`hulie` ||args ===`Hulie`){
+       message.channel.send("```호열```");
+    }
+if (args ===`GuoHuai` ||args ===`guohuai` ||args ===`Guohuai`){
+       message.channel.send("```곽회```");
+    }
+if (args ===`DengZhong` ||args ===`dengzhong` ||args ===`Dengzhong`){
+       message.channel.send("```등충```");
+    }
+if (args ===`WeiGuan` ||args ===`weiguan` ||args ===`Weiguan`){
+       message.channel.send("```위관```");
+    }
+if (args ===`ZhangHu` ||args ===`zhanghu` ||args ===`Zhanghu`){
+       message.channel.send("```장호```");
+    }
+if (args ===`YueChen` ||args ===`yuechen` ||args ===`Yuechen`){
+       message.channel.send("```악침```");
+    }
+if (args ===`ZhongYao` ||args ===`zhongyao` ||args ===`Zhongyao`){
+       message.channel.send("```종요```");
+    }
+if (args ===`HaoZhao` ||args ===`haozhao` ||args ===`Haozhao`){
+       message.channel.send("```학소```");
+    }
+if (args ===`ChenTai` ||args ===`chentai` ||args ===`Chentai`){
+       message.channel.send("```진태```");
+    }
+if (args ===`WenYang` ||args ===`wenyang` ||args ===`Wenyang`){
+       message.channel.send("```문앙```");
+    }
+if (args ===`DengAi` ||args ===`dengai` ||args ===`Dengai`){
+       message.channel.send("```등애```");
+    }
+if (args ===`XiZheng` ||args ===`xizheng` ||args ===`Xizheng`){
+       message.channel.send("```극정```");
+    }
+if (args ===`MiFang` ||args ===`mifang` ||args ===`Mifang`){
+       message.channel.send("```미방```");
+    }
+if (args ===`GongsunYue` ||args ===`gongsunyue` ||args ===`Gongsunyue`){
+       message.channel.send("```공손월```");
+    }
+if (args ===`FanJian` ||args ===`fanjian` ||args ===`Fanjian`){
+       message.channel.send("```번건```");
+    }
+if (args ===`GuanJing` ||args ===`guanjing` ||args ===`Guanjing`){
+       message.channel.send("```관정```");
+    }
+if (args ===`YanGang` ||args ===`yangang` ||args ===`Yangang`){
+       message.channel.send("```엄강```");
+    }
+if (args ===`ZhaoTong` ||args ===`zhaotong` ||args ===`Zhaotong`){
+       message.channel.send("```조통```");
+    }
+if (args ===`ZhaoGuang` ||args ===`zhaoguang` ||args ===`Zhaoguang`){
+       message.channel.send("```조광```");
+    }
+if (args ===`LiuDu` ||args ===`liudu` ||args ===`Liudu`){
+       message.channel.send("```유도```");
+    }
+if (args ===`NingSui` ||args ===`ningsui` ||args ===`Ningsui`){
+       message.channel.send("```영수```");
+    }
+if (args ===`MaLiang` ||args ===`maliang` ||args ===`Maliang`){
+       message.channel.send("```마량```");
+    }
+if (args ===`XiahouLan` ||args ===`xiahoulan` ||args ===`Xiahoulan`){
+       message.channel.send("```하후란```");
+    }
+if (args ===`FuQian` ||args ===`fuqian` ||args ===`Fuqian`){
+       message.channel.send("```부첨```");
+    }
+if (args ===`YinMo` ||args ===`yinmo` ||args ===`Yinmo`){
+       message.channel.send("```윤묵```");
+    }
+if (args ===`TianYu` ||args ===`tianyu` ||args ===`Tianyu`){
+       message.channel.send("```전예```");
+    }
+if (args ===`TianKai` ||args ===`tiankai` ||args ===`Tiankai`){
+       message.channel.send("```전해```");
+    }
+if (args ===`GongsunZan` ||args ===`gongsunzan` ||args ===`Gongsunzan`){
+       message.channel.send("```공손찬```");
+    }
+if (args ===`LuoXian` ||args ===`luoxian` ||args ===`Luoxian`){
+       message.channel.send("```나헌```");
+    }
+if (args ===`LiMing` ||args ===`liming` ||args ===`Liming`){
+       message.channel.send("```이명```");
+    }
+if (args ===`ZhangNi` ||args ===`zhangni` ||args ===`Zhangni`){
+       message.channel.send("```장억```");
+    }
+if (args ===`ZhaoYun` ||args ===`zhaoyun` ||args ===`Zhaoyun`){
+       message.channel.send("```조운```");
+    }
+if (args ===`ZhangYang` ||args ===`zhangyang` ||args ===`Zhangyang`){
+       message.channel.send("```장양```");
+    }
+if (args ===`ShiYi` ||args ===`shiyi` ||args ===`Shiyi`){
+       message.channel.send("```사일```");
+    }
+if (args ===`YuanYi` ||args ===`yuanyi` ||args ===`Yuanyi`){
+       message.channel.send("```원유```");
+    }
+if (args ===`SunJing` ||args ===`sunjing` ||args ===`Sunjing`){
+       message.channel.send("```손정```");
+    }
+if (args ===`ZhangXiu` ||args ===`zhangxiu` ||args ===`Zhangxiu`){
+       message.channel.send("```장휴```");
+    }
+if (args ===`ShiXie` ||args ===`shixie` ||args ===`Shixie`){
+       message.channel.send("```사섭```");
+    }
+if (args ===`ZhuZhi` ||args ===`zhuzhi` ||args ===`Zhuzhi`){
+       message.channel.send("```주치```");
+    }
+if (args ===`SunYi` ||args ===`sunyi` ||args ===`Sunyi`){
+       message.channel.send("```손익```");
+    }
+if (args ===`ShenRong` ||args ===`shenrong` ||args ===`Shenrong`){
+       message.channel.send("```심영```");
+    }
+if (args ===`SunYu` ||args ===`sunyu` ||args ===`Sunyu`){
+       message.channel.send("```손유```");
+    }
+if (args ===`HanDang` ||args ===`handang` ||args ===`Handang`){
+       message.channel.send("```한당```");
+    }
+if (args ===`ZuMao` ||args ===`zumao` ||args ===`Zumao`){
+       message.channel.send("```조무```");
+    }
+if (args ===`SunShangxiang` ||args ===`sunshangxiang` ||args ===`Sunshangxiang`){
+       message.channel.send("```손상향```");
+    }
+if (args ===`ChengPu` ||args ===`chengpu` ||args ===`Chengpu`){
+       message.channel.send("```정보```");
+    }
+if (args ===`HuangGai` ||args ===`huanggai` ||args ===`Huanggai`){
+       message.channel.send("```황개```");
+    }
+if (args ===`LuDai` ||args ===`ludai` ||args ===`Ludai`){
+       message.channel.send("```여대```");
+    }
+if (args ===`SunJian` ||args ===`sunjian` ||args ===`Sunjian`){
+       message.channel.send("```손견```");
+    }
+if (args ===`LiuQi` ||args ===`liuqi` ||args ===`Liuqi`){
+       message.channel.send("```유기```");
+    }
+if (args ===`WangCan` ||args ===`wangcan` ||args ===`Wangcan`){
+       message.channel.send("```왕찬```");
+    }
+if (args ===`JiaoChu` ||args ===`jiaochu` ||args ===`Jiaochu`){
+       message.channel.send("```초촉```");
+    }
+if (args ===`Huchuquan` ||args ===`huchuquan` ||args ===`Huchuquan`){
+       message.channel.send("```호주천```");
+    }
+if (args ===`TangJi` ||args ===`tangji` ||args ===`Tangji`){
+       message.channel.send("```당희```");
+    }
+if (args ===`JinXuan` ||args ===`jinxuan` ||args ===`Jinxuan`){
+       message.channel.send("```금선```");
+    }
+if (args ===`XiangLang` ||args ===`xianglang` ||args ===`Xianglang`){
+       message.channel.send("```향랑```");
+    }
+if (args ===`ZhouXin` ||args ===`zhouxin` ||args ===`Zhouxin`){
+       message.channel.send("```주흔```");
+    }
+if (args ===`MiZhu` ||args ===`mizhu` ||args ===`Mizhu`){
+       message.channel.send("```미축```");
+    }
+if (args ===`Tadun` ||args ===`tadun` ||args ===`Tadun`){
+       message.channel.send("```답돈```");
+    }
+if (args ===`SunQian` ||args ===`sunqian` ||args ===`Sunqian`){
+       message.channel.send("```손건```");
+    }
+if (args ===`KuaiLiang` ||args ===`kuailiang` ||args ===`Kuailiang`){
+       message.channel.send("```괴량```");
+    }
+if (args ===`JiLing` ||args ===`jiling` ||args ===`Jiling`){
+       message.channel.send("```기령```");
+    }
+if (args ===`LuZhi` ||args ===`luzhi` ||args ===`Luzhi`){
+       message.channel.send("```노식```");
+    }
+if (args ===`KuaiYue` ||args ===`kuaiyue` ||args ===`Kuaiyue`){
+       message.channel.send("```괴월```");
+    }
+if (args ===`LiuBiao` ||args ===`liubiao` ||args ===`Liubiao`){
+       message.channel.send("```유표```");
+    }
+if (args ===`PangTong` ||args ===`pangtong` ||args ===`Pangtong`){
+       message.channel.send("```방통```");
+    }
+if (args ===`YanBaihu` ||args ===`yanbaihu` ||args ===`Yanbaihu`){
+       message.channel.send("```엄백호```");
+    }
+if (args ===`LingCao` ||args ===`lingcao` ||args ===`Lingcao`){
+       message.channel.send("```능조```");
+    }
+if (args ===`ChenHeng` ||args ===`chenheng` ||args ===`Chenheng`){
+       message.channel.send("```진횡```");
+    }
+if (args ===`ZhugeQiao` ||args ===`zhugeqiao` ||args ===`Zhugeqiao`){
+       message.channel.send("```제갈교```");
+    }
+if (args ===`DongXi` ||args ===`dongxi` ||args ===`Dongxi`){
+       message.channel.send("```동습```");
+    }
+if (args ===`LiuYao` ||args ===`liuyao` ||args ===`Liuyao`){
+       message.channel.send("```유요```");
+    }
+if (args ===`YanYu` ||args ===`yanyu` ||args ===`Yanyu`){
+       message.channel.send("```엄여```");
+    }
+if (args ===`XuGong` ||args ===`xugong` ||args ===`Xugong`){
+       message.channel.send("```허공```");
+    }
+if (args ===`Daqiao` ||args ===`daqiao` ||args ===`Daqiao`){
+       message.channel.send("```대교```");
+    }
+if (args ===`ZhangZhao` ||args ===`zhangzhao` ||args ===`Zhangzhao`){
+       message.channel.send("```장소```");
+    }
+if (args ===`SunJiao` ||args ===`sunjiao` ||args ===`Sunjiao`){
+       message.channel.send("```손교```");
+    }
+if (args ===`SunHuan` ||args ===`sunhuan` ||args ===`Sunhuan`){
+       message.channel.send("```손환```");
+    }
+if (args ===`LuFan` ||args ===`lufan` ||args ===`Lufan`){
+       message.channel.send("```여범```");
+    }
+if (args ===`WuCan` ||args ===`wucan` ||args ===`Wucan`){
+       message.channel.send("```오찬```");
+    }
+if (args ===`QuanCong` ||args ===`quancong` ||args ===`Quancong`){
+       message.channel.send("```전종```");
+    }
+if (args ===`XuSheng` ||args ===`xusheng` ||args ===`Xusheng`){
+       message.channel.send("```서성```");
+    }
+if (args ===`SunShao` ||args ===`sunshao` ||args ===`Sunshao`){
+       message.channel.send("```손소```");
+    }
+if (args ===`DingFeng` ||args ===`dingfeng` ||args ===`Dingfeng`){
+       message.channel.send("```정봉```");
+    }
+if (args ===`JiangQin` ||args ===`jiangqin` ||args ===`Jiangqin`){
+       message.channel.send("```장흠```");
+    }
+if (args ===`ZhuHuan` ||args ===`zhuhuan` ||args ===`Zhuhuan`){
+       message.channel.send("```주환```");
+    }
+if (args ===`SunCe` ||args ===`sunce` ||args ===`Sunce`){
+       message.channel.send("```손책```");
+    }
+if (args ===`WangLang` ||args ===`wanglang` ||args ===`Wanglang`){
+       message.channel.send("```왕랑```");
+    }
+if (args ===`SuFei` ||args ===`sufei` ||args ===`Sufei`){
+       message.channel.send("```소비```");
+    }
+if (args ===`HuaXin` ||args ===`huaxin` ||args ===`Huaxin`){
+       message.channel.send("```화흠```");
+    }
+if (args ===`HeQi` ||args ===`heqi` ||args ===`Heqi`){
+       message.channel.send("```하제```");
+    }
+if (args ===`XuJing` ||args ===`xujing` ||args ===`Xujing`){
+       message.channel.send("```허정```");
+    }
+if (args ===`SunJun` ||args ===`sunjun` ||args ===`Sunjun`){
+       message.channel.send("```손준```");
+    }
+if (args ===`WuYan` ||args ===`wuyan` ||args ===`Wuyan`){
+       message.channel.send("```오언```");
+    }
+if (args ===`HuangZu` ||args ===`huangzu` ||args ===`Huangzu`){
+       message.channel.send("```황조```");
+    }
+if (args ===`BuZhi` ||args ===`buzhi` ||args ===`Buzhi`){
+       message.channel.send("```보즐```");
+    }
+if (args ===`TanXiong` ||args ===`tanxiong` ||args ===`Tanxiong`){
+       message.channel.send("```담웅```");
+    }
+if (args ===`SunXiu` ||args ===`sunxiu` ||args ===`Sunxiu`){
+       message.channel.send("```손휴```");
+    }
+if (args ===`KanZe` ||args ===`kanze` ||args ===`Kanze`){
+       message.channel.send("```감택```");
+    }
+if (args ===`PanZhang` ||args ===`panzhang` ||args ===`Panzhang`){
+       message.channel.send("```반장```");
+    }
+if (args ===`ZhugeKe` ||args ===`zhugeke` ||args ===`Zhugeke`){
+       message.channel.send("```제갈각```");
+    }
+if (args ===`SunDeng` ||args ===`sundeng` ||args ===`Sundeng`){
+       message.channel.send("```손등```");
+    }
+if (args ===`SunLuyu` ||args ===`sunluyu` ||args ===`Sunluyu`){
+       message.channel.send("```손노육```");
+    }
+if (args ===`Xiaoqiao` ||args ===`xiaoqiao` ||args ===`Xiaoqiao`){
+       message.channel.send("```소교```");
+    }
+if (args ===`ZhuRan` ||args ===`zhuran` ||args ===`Zhuran`){
+       message.channel.send("```주연```");
+    }
+if (args ===`GanNing` ||args ===`ganning` ||args ===`Ganning`){
+       message.channel.send("```감녕```");
+    }
+if (args ===`LuSu` ||args ===`lusu` ||args ===`Lusu`){
+       message.channel.send("```노숙```");
+    }
+if (args ===`ZhouYu` ||args ===`zhouyu` ||args ===`Zhouyu`){
+       message.channel.send("```주유```");
+    }
+if (args ===`KingMidang` ||args ===`kingmidang` ||args ===`Kingmidang`){
+       message.channel.send("```미당대왕```");
+    }
+if (args ===`CuiYan` ||args ===`cuiyan` ||args ===`Cuiyan`){
+       message.channel.send("```최염```");
+    }
+if (args ===`CheZhou` ||args ===`chezhou` ||args ===`Chezhou`){
+       message.channel.send("```차주```");
+    }
+if (args ===`WangZhong` ||args ===`wangzhong` ||args ===`Wangzhong`){
+       message.channel.send("```왕충```");
+    }
+if (args ===`YiJi` ||args ===`yiji` ||args ===`Yiji`){
+       message.channel.send("```이적```");
+    }
+if (args ===`GongsunKang` ||args ===`gongsunkang` ||args ===`Gongsunkang`){
+       message.channel.send("```공손강```");
+    }
+if (args ===`ZhaoFan` ||args ===`zhaofan` ||args ===`Zhaofan`){
+       message.channel.send("```조범```");
+    }
+if (args ===`HanXuan` ||args ===`hanxuan` ||args ===`Hanxuan`){
+       message.channel.send("```한현```");
+    }
+if (args ===`DongHe` ||args ===`donghe` ||args ===`Donghe`){
+       message.channel.send("```동화```");
+    }
+if (args ===`WuLan` ||args ===`wulan` ||args ===`Wulan`){
+       message.channel.send("```오란```");
+    }
+if (args ===`GuoYuan` ||args ===`guoyuan` ||args ===`Guoyuan`){
+       message.channel.send("```국연```");
+    }
+if (args ===`ChenDao` ||args ===`chendao` ||args ===`Chendao`){
+       message.channel.send("```진도```");
+    }
+if (args ===`ZhangRen` ||args ===`zhangren` ||args ===`Zhangren`){
+       message.channel.send("```장임```");
+    }
+if (args ===`ChenGui` ||args ===`chengui` ||args ===`Chengui`){
+       message.channel.send("```진규```");
+    }
+if (args ===`ChenDeng` ||args ===`chendeng` ||args ===`Chendeng`){
+       message.channel.send("```진등```");
+    }
+if (args ===`FeiYao` ||args ===`feiyao` ||args ===`Feiyao`){
+       message.channel.send("```비요```");
+    }
+if (args ===`HuangZhong` ||args ===`huangzhong` ||args ===`Huangzhong`){
+       message.channel.send("```황충```");
+    }
+if (args ===`FanQiang` ||args ===`fanqiang` ||args ===`Fanqiang`){
+       message.channel.send("```범강```");
+    }
+if (args ===`ZhangDa` ||args ===`zhangda` ||args ===`Zhangda`){
+       message.channel.send("```장달```");
+    }
+if (args ===`LiYi` ||args ===`liyi` ||args ===`Liyi`){
+       message.channel.send("```이이```");
+    }
+if (args ===`ZhaoLei` ||args ===`zhaolei` ||args ===`Zhaolei`){
+       message.channel.send("```조루```");
+    }
+if (args ===`LiuGui` ||args ===`liugui` ||args ===`Liugui`){
+       message.channel.send("```유괴```");
+    }
+if (args ===`LengBao` ||args ===`lengbao` ||args ===`Lengbao`){
+       message.channel.send("```냉포```");
+    }
+if (args ===`GaoPei` ||args ===`gaopei` ||args ===`Gaopei`){
+       message.channel.send("```고패```");
+    }
+if (args ===`YangHuai` ||args ===`yanghuai` ||args ===`Yanghuai`){
+       message.channel.send("```양회```");
+    }
+if (args ===`LiYan` ||args ===`liyan` ||args ===`Liyan`){
+       message.channel.send("```이엄```");
+    }
+if (args ===`FengXi` ||args ===`fengxi` ||args ===`Fengxi`){
+       message.channel.send("```풍습```");
+    }
+if (args ===`FaZheng` ||args ===`fazheng` ||args ===`Fazheng`){
+       message.channel.send("```법정```");
+    }
+if (args ===`LeiTong` ||args ===`leitong` ||args ===`Leitong`){
+       message.channel.send("```뇌동```");
+    }
+if (args ===`ZhangHua` ||args ===`zhanghua` ||args ===`Zhanghua`){
+       message.channel.send("```장화```");
+    }
+if (args ===`WuBan` ||args ===`wuban` ||args ===`Wuban`){
+       message.channel.send("```오반```");
+    }
+if (args ===`YanYan` ||args ===`yanyan` ||args ===`Yanyan`){
+       message.channel.send("```엄안```");
+    }
+if (args ===`HuangQuan` ||args ===`huangquan` ||args ===`Huangquan`){
+       message.channel.send("```황권```");
+    }
+if (args ===`ZhangXingcai` ||args ===`zhangxingcai` ||args ===`Zhangxingcai`){
+       message.channel.send("```장성채```");
+    }
+if (args ===`ZhangBao` ||args ===`zhangbao` ||args ===`Zhangbao`){
+       message.channel.send("```장포```");
+    }
+if (args ===`GuanYinping` ||args ===`guanyinping` ||args ===`Guanyinping`){
+       message.channel.send("```관은병```");
+    }
+if (args ===`WuYi` ||args ===`wuyi` ||args ===`Wuyi`){
+       message.channel.send("```오의```");
+    }
+if (args ===`ZhangFei` ||args ===`zhangfei` ||args ===`Zhangfei`){
+       message.channel.send("```장비```");
+    }
+if (args ===`YangSong` ||args ===`yangsong` ||args ===`Yangsong`){
+       message.channel.send("```양송```");
+    }
+if (args ===`YangHong` ||args ===`yanghong` ||args ===`Yanghong`){
+       message.channel.send("```양홍```");
+    }
+if (args ===`HanFu` ||args ===`hanfu` ||args ===`Hanfu`){
+       message.channel.send("```한복```");
+    }
+if (args ===`ZhangSong` ||args ===`zhangsong` ||args ===`Zhangsong`){
+       message.channel.send("```장송```");
+    }
+if (args ===`WangFu` ||args ===`wangfu` ||args ===`Wangfu`){
+       message.channel.send("```왕보```");
+    }
+if (args ===`MaDai` ||args ===`madai` ||args ===`Madai`){
+       message.channel.send("```마대```");
+    }
+if (args ===`YangFu` ||args ===`yangfu` ||args ===`Yangfu`){
+       message.channel.send("```양부```");
+    }
+if (args ===`LiHui` ||args ===`lihui` ||args ===`Lihui`){
+       message.channel.send("```이회```");
+    }
+if (args ===`MaXiu` ||args ===`maxiu` ||args ===`Maxiu`){
+       message.channel.send("```마휴```");
+    }
+if (args ===`ChengGongying` ||args ===`chenggongying` ||args ===`Chenggongying`){
+       message.channel.send("```성공영```");
+    }
+if (args ===`MaYaoji` ||args ===`mayaoji` ||args ===`Mayaoji`){
+       message.channel.send("```마요희```");
+    }
+if (args ===`YanXing` ||args ===`yanxing` ||args ===`Yanxing`){
+       message.channel.send("```염행```");
+    }
+if (args ===`MaTeng` ||args ===`mateng` ||args ===`Mateng`){
+       message.channel.send("```마등```");
+    }
+if (args ===`WangYi` ||args ===`wangyi` ||args ===`Wangyi`){
+       message.channel.send("```왕이```");
+    }
+if (args ===`HanSui` ||args ===`hansui` ||args ===`Hansui`){
+       message.channel.send("```한수```");
+    }
+if (args ===`MaYunlu` ||args ===`mayunlu` ||args ===`Mayunlu`){
+       message.channel.send("```마운록```");
+    }
+if (args ===`MaChao` ||args ===`machao` ||args ===`Machao`){
+       message.channel.send("```마초```");
+    }
+if (args ===`YanJun` ||args ===`yanjun` ||args ===`Yanjun`){
+       message.channel.send("```엄준```");
+    }
+if (args ===`YueJiu` ||args ===`yuejiu` ||args ===`Yuejiu`){
+       message.channel.send("```악취```");
+    }
+if (args ===`XunChen` ||args ===`xunchen` ||args ===`Xunchen`){
+       message.channel.send("```순심```");
+    }
+if (args ===`ChenJiao` ||args ===`chenjiao` ||args ===`Chenjiao`){
+       message.channel.send("```진교```");
+    }
+if (args ===`ZhangJi` ||args ===`zhangji` ||args ===`Zhangji`){
+       message.channel.send("```장제```");
+    }
+if (args ===`CaoShuang` ||args ===`caoshuang` ||args ===`Caoshuang`){
+       message.channel.send("```조상```");
+    }
+if (args ===`CaiZhong` ||args ===`caizhong` ||args ===`Caizhong`){
+       message.channel.send("```채중```");
+    }
+if (args ===`CaiHe` ||args ===`caihe` ||args ===`Caihe`){
+       message.channel.send("```채화```");
+    }
+if (args ===`JiaKui` ||args ===`jiakui` ||args ===`Jiakui`){
+       message.channel.send("```가규```");
+    }
+if (args ===`XiahouDe` ||args ===`xiahoude` ||args ===`Xiahoude`){
+       message.channel.send("```하후덕```");
+    }
+if (args ===`DingYuan` ||args ===`dingyuan` ||args ===`Dingyuan`){
+       message.channel.send("```정원```");
+    }
+if (args ===`XuMiao` ||args ===`xumiao` ||args ===`Xumiao`){
+       message.channel.send("```서막```");
+    }
+if (args ===`LiuShao` ||args ===`liushao` ||args ===`Liushao`){
+       message.channel.send("```유소```");
+    }
+if (args ===`YanRou` ||args ===`yanrou` ||args ===`Yanrou`){
+       message.channel.send("```염유```");
+    }
+if (args ===`CaoJie` ||args ===`caojie` ||args ===`Caojie`){
+       message.channel.send("```조절```");
+    }
+if (args ===`WenHui` ||args ===`wenhui` ||args ===`Wenhui`){
+       message.channel.send("```온회```");
+    }
+if (args ===`ZhouCang` ||args ===`zhoucang` ||args ===`Zhoucang`){
+       message.channel.send("```주창```");
+    }
+if (args ===`Huche'er` ||args ===`huche'er` ||args ===`Huche'Er`){
+       message.channel.send("```호거아```");
+    }
+if (args ===`WeiYan` ||args ===`weiyan` ||args ===`Weiyan`){
+       message.channel.send("```위연```");
+    }
+if (args ===`ZhangXiu` ||args ===`zhangxiu` ||args ===`Zhangxiu`){
+       message.channel.send("```장수```");
+    }
+if (args ===`ZhugeLiang` ||args ===`zhugeliang` ||args ===`Zhugeliang`){
+       message.channel.send("```제갈량```");
+    }
+if (args ===`EheShaoge` ||args ===`eheshaoge` ||args ===`Eheshaoge`){
+       message.channel.send("```아하소과```");
+    }
+if (args ===`YongKai` ||args ===`yongkai` ||args ===`Yongkai`){
+       message.channel.send("```옹개```");
+    }
+if (args ===`DailaiDongzhu` ||args ===`dailaidongzhu` ||args ===`Dailaidongzhu`){
+       message.channel.send("```대래동주```");
+    }
+if (args ===`GaoDing` ||args ===`gaoding` ||args ===`Gaoding`){
+       message.channel.send("```고정```");
+    }
+if (args ===`AhuiNan` ||args ===`ahuinan` ||args ===`Ahuinan`){
+       message.channel.send("```아회남```");
+    }
+if (args ===`XiNi` ||args ===`xini` ||args ===`Xini`){
+       message.channel.send("```해니```");
+    }
+if (args ===`HuaMan` ||args ===`huaman` ||args ===`Huaman`){
+       message.channel.send("```화만```");
+    }
+if (args ===`JinhuanSanjie` ||args ===`jinhuansanjie` ||args ===`Jinhuansanjie`){
+       message.channel.send("```금환삼결```");
+    }
+if (args ===`KingDuosi` ||args ===`kingduosi` ||args ===`Kingduosi`){
+       message.channel.send("```타사대왕```");
+    }
+if (args ===`MangYachang` ||args ===`mangyachang` ||args ===`Mangyachang`){
+       message.channel.send("```망아장```");
+    }
+if (args ===`Zhurong` ||args ===`zhurong` ||args ===`Zhurong`){
+       message.channel.send("```축융```");
+    }
+if (args ===`MengYou` ||args ===`mengyou` ||args ===`Mengyou`){
+       message.channel.send("```맹우```");
+    }
+if (args ===`KingWutugu` ||args ===`kingwutugu` ||args ===`Kingwutugu`){
+       message.channel.send("```올돌골```");
+    }
+if (args ===`DongTuna` ||args ===`dongtuna` ||args ===`Dongtuna`){
+       message.channel.send("```동도나```");
+    }
+if (args ===`KingMulu` ||args ===`kingmulu` ||args ===`Kingmulu`){
+       message.channel.send("```목록대왕```");
+    }
+if (args ===`Shamoke` ||args ===`shamoke` ||args ===`Shamoke`){
+       message.channel.send("```사마가```");
+    }
+if (args ===`MengHuo` ||args ===`menghuo` ||args ===`Menghuo`){
+       message.channel.send("```맹획```");
+    }
+if (args ===`TaoQian` ||args ===`taoqian` ||args ===`Taoqian`){
+       message.channel.send("```도겸```");
+    }
+if (args ===`LiuFeng` ||args ===`liufeng` ||args ===`Liufeng`){
+       message.channel.send("```유봉```");
+    }
+if (args ===`LiuZhang` ||args ===`liuzhang` ||args ===`Liuzhang`){
+       message.channel.send("```유장```");
+    }
+if (args ===`LiuCong` ||args ===`liucong` ||args ===`Liucong`){
+       message.channel.send("```유종```");
+    }
+if (args ===`MiHeng` ||args ===`miheng` ||args ===`Miheng`){
+       message.channel.send("```예형```");
+    }
+if (args ===`GongZhi` ||args ===`gongzhi` ||args ===`Gongzhi`){
+       message.channel.send("```공지```");
+    }
+if (args ===`WangKuang` ||args ===`wangkuang` ||args ===`Wangkuang`){
+       message.channel.send("```왕광```");
+    }
+if (args ===`TianChou` ||args ===`tianchou` ||args ===`Tianchou`){
+       message.channel.send("```전주```");
+    }
+if (args ===`ZhangZun` ||args ===`zhangzun` ||args ===`Zhangzun`){
+       message.channel.send("```장준```");
+    }
+if (args ===`LiuYu` ||args ===`liuyu` ||args ===`Liuyu`){
+       message.channel.send("```유우```");
+    }
+if (args ===`Xiahoushi` ||args ===`xiahoushi` ||args ===`Xiahoushi`){
+       message.channel.send("```하후홍```");
+    }
+if (args ===`LiuYan` ||args ===`liuyan` ||args ===`Liuyan`){
+       message.channel.send("```유언```");
+    }
+if (args ===`FeiGuan` ||args ===`feiguan` ||args ===`Feiguan`){
+       message.channel.send("```비관```");
+    }
+if (args ===`XiangChong` ||args ===`xiangchong` ||args ===`Xiangchong`){
+       message.channel.send("```향총```");
+    }
+if (args ===`DongYun` ||args ===`dongyun` ||args ===`Dongyun`){
+       message.channel.send("```동윤```");
+    }
+if (args ===`WangPing` ||args ===`wangping` ||args ===`Wangping`){
+       message.channel.send("```왕평```");
+    }
+if (args ===`GuanPing` ||args ===`guanping` ||args ===`Guanping`){
+       message.channel.send("```관평```");
+    }
+if (args ===`BaoSanniang` ||args ===`baosanniang` ||args ===`Baosanniang`){
+       message.channel.send("```포삼랑```");
+    }
+if (args ===`GuanSuo` ||args ===`guansuo` ||args ===`Guansuo`){
+       message.channel.send("```관색```");
+    }
+if (args ===`CaiYan` ||args ===`caiyan` ||args ===`Caiyan`){
+       message.channel.send("```채염```");
+    }
+if (args ===`LiuBei` ||args ===`liubei` ||args ===`Liubei`){
+       message.channel.send("```유비```");
+    }
+if (args ===`XiahouMao` ||args ===`xiahoumao` ||args ===`Xiahoumao`){
+       message.channel.send("```하후무```");
+    }
+if (args ===`FuJia` ||args ===`fujia` ||args ===`Fujia`){
+       message.channel.send("```부하```");
+    }
+if (args ===`CaoHua` ||args ===`caohua` ||args ===`Caohua`){
+       message.channel.send("```조화```");
+    }
+if (args ===`ZhangTe` ||args ===`zhangte` ||args ===`Zhangte`){
+       message.channel.send("```장특```");
+    }
+if (args ===`XinXianying` ||args ===`xinxianying` ||args ===`Xinxianying`){
+       message.channel.send("```신헌영```");
+    }
+if (args ===`HanHao` ||args ===`hanhao` ||args ===`Hanhao`){
+       message.channel.send("```한호```");
+    }
+if (args ===`CaoXiu` ||args ===`caoxiu` ||args ===`Caoxiu`){
+       message.channel.send("```조휴```");
+    }
+if (args ===`WenQin` ||args ===`wenqin` ||args ===`Wenqin`){
+       message.channel.send("```문흠```");
+    }
+if (args ===`CaoZhen` ||args ===`caozhen` ||args ===`Caozhen`){
+       message.channel.send("```조진```");
+    }
+if (args ===`CaoZhi` ||args ===`caozhi` ||args ===`Caozhi`){
+       message.channel.send("```조식```");
+    }
+if (args ===`SunLi` ||args ===`sunli` ||args ===`Sunli`){
+       message.channel.send("```손례```");
+    }
+if (args ===`LiangXi` ||args ===`liangxi` ||args ===`Liangxi`){
+       message.channel.send("```양습```");
+    }
+if (args ===`YangHu` ||args ===`yanghu` ||args ===`Yanghu`){
+       message.channel.send("```양호```");
+    }
+if (args ===`CaoChun` ||args ===`caochun` ||args ===`Caochun`){
+       message.channel.send("```조순```");
+    }
+if (args ===`WenPin` ||args ===`wenpin` ||args ===`Wenpin`){
+       message.channel.send("```문빙```");
+    }
+if (args ===`CaiMao` ||args ===`caimao` ||args ===`Caimao`){
+       message.channel.send("```채모```");
+    }
+if (args ===`ZhugeDan` ||args ===`zhugedan` ||args ===`Zhugedan`){
+       message.channel.send("```제갈탄```");
+    }
+if (args ===`ZhongHui` ||args ===`zhonghui` ||args ===`Zhonghui`){
+       message.channel.send("```종회```");
+    }
+if (args ===`CaoRui` ||args ===`caorui` ||args ===`Caorui`){
+       message.channel.send("```조예```");
+    }
+if (args ===`ChenQun` ||args ===`chenqun` ||args ===`Chenqun`){
+       message.channel.send("```진군```");
+    }
+if (args ===`Zhenji` ||args ===`zhenji` ||args ===`Zhenji`){
+       message.channel.send("```견희```");
+    }
+if (args ===`JiangBin` ||args ===`jiangbin` ||args ===`Jiangbin`){
+       message.channel.send("```장빈```");
+    }
+if (args ===`DongJue` ||args ===`dongjue` ||args ===`Dongjue`){
+       message.channel.send("```동궐```");
+    }
+if (args ===`ZhangYi` ||args ===`zhangyi` ||args ===`Zhangyi`){
+       message.channel.send("```장익```");
+    }
+if (args ===`LuKai` ||args ===`lukai` ||args ===`Lukai`){
+       message.channel.send("```여개```");
+    }
+if (args ===`HuangHao` ||args ===`huanghao` ||args ===`Huanghao`){
+       message.channel.send("```황호```");
+    }
+if (args ===`LiuShan` ||args ===`liushan` ||args ===`Liushan`){
+       message.channel.send("```유선```");
+    }
+if (args ===`FeiYi` ||args ===`feiyi` ||args ===`Feiyi`){
+       message.channel.send("```비의```");
+    }
+if (args ===`ZhugeJun` ||args ===`zhugejun` ||args ===`Zhugejun`){
+       message.channel.send("```제갈균```");
+    }
+if (args ===`JiangWan` ||args ===`jiangwan` ||args ===`Jiangwan`){
+       message.channel.send("```장완```");
+    }
+if (args ===`YangYi` ||args ===`yangyi` ||args ===`Yangyi`){
+       message.channel.send("```양의```");
+    }
+if (args ===`QinMi` ||args ===`qinmi` ||args ===`Qinmi`){
+       message.channel.send("```진밀```");
+    }
+if (args ===`LiaoHua` ||args ===`liaohua` ||args ===`Liaohua`){
+       message.channel.send("```요화```");
+    }
+if (args ===`XiahouBa` ||args ===`xiahouba` ||args ===`Xiahouba`){
+       message.channel.send("```하후패```");
+    }
+if (args ===`ZhugeZhan` ||args ===`zhugezhan` ||args ===`Zhugezhan`){
+       message.channel.send("```제갈첨```");
+    }
+if (args ===`DengZhi` ||args ===`dengzhi` ||args ===`Dengzhi`){
+       message.channel.send("```등지```");
+    }
+if (args ===`HuoYi` ||args ===`huoyi` ||args ===`Huoyi`){
+       message.channel.send("```곽익```");
+    }
+if (args ===`MaSu` ||args ===`masu` ||args ===`Masu`){
+       message.channel.send("```마속```");
+    }
+if (args ===`HuangYueying` ||args ===`huangyueying` ||args ===`Huangyueying`){
+       message.channel.send("```황월영```");
+    }
+if (args ===`GuanXing` ||args ===`guanxing` ||args ===`Guanxing`){
+       message.channel.send("```관흥```");
+    }
+if (args ===`JiangWei` ||args ===`jiangwei` ||args ===`Jiangwei`){
+       message.channel.send("```강유```");
+    }
+if (args ===`ZhugeLiang` ||args ===`zhugeliang` ||args ===`Zhugeliang`){
+       message.channel.send("```제갈량```");
+    }
+if (args ===`MaoJie` ||args ===`maojie` ||args ===`Maojie`){
+       message.channel.send("```모개```");
+    }
+if (args ===`YangZhi` ||args ===`yangzhi` ||args ===`Yangzhi`){
+       message.channel.send("```양지```");
+    }
+if (args ===`YangXiu` ||args ===`yangxiu` ||args ===`Yangxiu`){
+       message.channel.send("```양수```");
+    }
+if (args ===`YangJi` ||args ===`yangji` ||args ===`Yangji`){
+       message.channel.send("```양제```");
+    }
+if (args ===`XiahouHe` ||args ===`xiahouhe` ||args ===`Xiahouhe`){
+       message.channel.send("```하후화```");
+    }
+if (args ===`SimaLang` ||args ===`simalang` ||args ===`Simalang`){
+       message.channel.send("```사마랑```");
+    }
+if (args ===`XiahouHui` ||args ===`xiahouhui` ||args ===`Xiahouhui`){
+       message.channel.send("```하후휘```");
+    }
+if (args ===`GuanqiuJian` ||args ===`guanqiujian` ||args ===`Guanqiujian`){
+       message.channel.send("```관구검```");
+    }
+if (args ===`ZhangChunhua` ||args ===`zhangchunhua` ||args ===`Zhangchunhua`){
+       message.channel.send("```장춘화```");
+    }
+if (args ===`YangHuiyu` ||args ===`yanghuiyu` ||args ===`Yanghuiyu`){
+       message.channel.send("```양휘유```");
+    }
+if (args ===`JiaNanfeng` ||args ===`jiananfeng` ||args ===`Jiananfeng`){
+       message.channel.send("```가남풍```");
+    }
+if (args ===`XiahouShang` ||args ===`xiahoushang` ||args ===`Xiahoushang`){
+       message.channel.send("```하후상```");
+    }
+if (args ===`WangJi` ||args ===`wangji` ||args ===`Wangji`){
+       message.channel.send("```왕기```");
+    }
+if (args ===`XiahouXuan` ||args ===`xiahouxuan` ||args ===`Xiahouxuan`){
+       message.channel.send("```하후현```");
+    }
+if (args ===`WangShuang` ||args ===`wangshuang` ||args ===`Wangshuang`){
+       message.channel.send("```왕쌍```");
+    }
+if (args ===`HuangfuSong` ||args ===`huangfusong` ||args ===`Huangfusong`){
+       message.channel.send("```황보숭```");
+    }
+if (args ===`SimaZhao` ||args ===`simazhao` ||args ===`Simazhao`){
+       message.channel.send("```사마소```");
+    }
+if (args ===`SimaShi` ||args ===`simashi` ||args ===`Simashi`){
+       message.channel.send("```사마사```");
+    }
+if (args ===`DuYu` ||args ===`duyu` ||args ===`Duyu`){
+       message.channel.send("```두예```");
+    }
+if (args ===`SimaYan` ||args ===`simayan` ||args ===`Simayan`){
+       message.channel.send("```사마염```");
+    }
+if (args ===`WangYuanji` ||args ===`wangyuanji` ||args ===`Wangyuanji`){
+       message.channel.send("```왕원희```");
+    }
+if (args ===`CaoXing` ||args ===`caoxing` ||args ===`Caoxing`){
+       message.channel.send("```조성```");
+    }
+if (args ===`LiJue` ||args ===`lijue` ||args ===`Lijue`){
+       message.channel.send("```이각```");
+    }
+if (args ===`FanChou` ||args ===`fanchou` ||args ===`Fanchou`){
+       message.channel.send("```번조```");
+    }
+if (args ===`HouCheng` ||args ===`houcheng` ||args ===`Houcheng`){
+       message.channel.send("```후성```");
+    }
+if (args ===`LiSu` ||args ===`lisu` ||args ===`Lisu`){
+       message.channel.send("```이숙```");
+    }
+if (args ===`WeiXu` ||args ===`weixu` ||args ===`Weixu`){
+       message.channel.send("```위속```");
+    }
+if (args ===`SongXian` ||args ===`songxian` ||args ===`Songxian`){
+       message.channel.send("```송헌```");
+    }
+if (args ===`GuoSi` ||args ===`guosi` ||args ===`Guosi`){
+       message.channel.send("```곽사```");
+    }
+if (args ===`LuLingqi` ||args ===`lulingqi` ||args ===`Lulingqi`){
+       message.channel.send("```여령기```");
+    }
+if (args ===`ZangBa` ||args ===`zangba` ||args ===`Zangba`){
+       message.channel.send("```장패```");
+    }
+if (args ===`HuZhen` ||args ===`huzhen` ||args ===`Huzhen`){
+       message.channel.send("```호진```");
+    }
+if (args ===`LiRu` ||args ===`liru` ||args ===`Liru`){
+       message.channel.send("```이유```");
+    }
+if (args ===`Suigao` ||args ===`suigao` ||args ===`Suigao`){
+       message.channel.send("```수고```");
+    }
+if (args ===`WangYun` ||args ===`wangyun` ||args ===`Wangyun`){
+       message.channel.send("```왕윤```");
+    }
+if (args ===`ZhangMiao` ||args ===`zhangmiao` ||args ===`Zhangmiao`){
+       message.channel.send("```장막```");
+    }
+if (args ===`XuRong` ||args ===`xurong` ||args ===`Xurong`){
+       message.channel.send("```서영```");
+    }
+if (args ===`DongZhuo` ||args ===`dongzhuo` ||args ===`Dongzhuo`){
+       message.channel.send("```동탁```");
+    }
+if (args ===`GaoShun` ||args ===`gaoshun` ||args ===`Gaoshun`){
+       message.channel.send("```고순```");
+    }
+if (args ===`ChenGong` ||args ===`chengong` ||args ===`Chengong`){
+       message.channel.send("```진궁```");
+    }
+if (args ===`HuaXiong` ||args ===`huaxiong` ||args ===`Huaxiong`){
+       message.channel.send("```화웅```");
+    }
+if (args ===`LuBu` ||args ===`lubu` ||args ===`Lubu`){
+       message.channel.send("```여포```");
+    }
+if (args ===`ZhangBaek` ||args ===`zhangbaek` ||args ===`Zhangbaek`){
+       message.channel.send("```장백```");
+    }
+if (args ===`YangXin` ||args ===`yangxin` ||args ===`Yangxin`){
+       message.channel.send("```양진```");
+    }
+if (args ===`SiZun` ||args ===`sizun` ||args ===`Sizun`){
+       message.channel.send("```사준```");
+    }
+if (args ===`GuoJin` ||args ===`guojin` ||args ===`Guojin`){
+       message.channel.send("```곽진```");
+    }
+if (args ===`PangSun` ||args ===`pangsun` ||args ===`Pangsun`){
+       message.channel.send("```방선```");
+    }
+if (args ===`GuiHwan` ||args ===`guihwan` ||args ===`Guihwan`){
+       message.channel.send("```가환```");
+    }
+if (args ===`GengWu` ||args ===`gengwu` ||args ===`Gengwu`){
+       message.channel.send("```경무```");
+    }
+if (args ===`UiRe` ||args ===`uire` ||args ===`Uire`){
+       message.channel.send("```이래```");
+    }
+if (args ===`LiuHe` ||args ===`liuhe` ||args ===`Liuhe`){
+       message.channel.send("```유화```");
+    }
+if (args ===`XiahouDun` ||args ===`xiahoudun` ||args ===`Xiahoudun`){
+       message.channel.send("```하후돈```");
+    }
+if (args ===`BianYueXiang` ||args ===`bianyuexiang` ||args ===`Bianyuexiang`){
+       message.channel.send("```변월향```");
+    }
+if (args ===`CaoCao` ||args ===`caocao` ||args ===`Caocao`){
+       message.channel.send("```조조```");
+    }
+if (args ===`GuanYing` ||args ===`guanying` ||args ===`Guanying`){
+       message.channel.send("```관영```");
+    }
+if (args ===`WangLing` ||args ===`wangling` ||args ===`Wangling`){
+       message.channel.send("```왕릉```");
+    }
+if (args ===`ChenPing` ||args ===`chenping` ||args ===`Chenping`){
+       message.channel.send("```진평```");
+    }
+if (args ===`LuZhi` ||args ===`luzhi` ||args ===`Luzhi`){
+       message.channel.send("```여치```");
+    }
+if (args ===`PengYue` ||args ===`pengyue` ||args ===`Pengyue`){
+       message.channel.send("```팽월```");
+    }
+if (args ===`ZhouBo` ||args ===`zhoubo` ||args ===`Zhoubo`){
+       message.channel.send("```주발```");
+    }
+if (args ===`CaoShen` ||args ===`caoshen` ||args ===`Caoshen`){
+       message.channel.send("```조참```");
+    }
+if (args ===`XiahouYing` ||args ===`xiahouying` ||args ===`Xiahouying`){
+       message.channel.send("```하후영```");
+    }
+if (args ===`XianHe` ||args ===`xianhe` ||args ===`Xianhe`){
+       message.channel.send("```소하```");
+    }
+if (args ===`FanKuai` ||args ===`fankuai` ||args ===`Fankuai`){
+       message.channel.send("```번쾌```");
+    }
+if (args ===`HanXin` ||args ===`hanxin` ||args ===`Hanxin`){
+       message.channel.send("```한신```");
+    }
+if (args ===`ZhangLiang` ||args ===`zhangliang` ||args ===`Zhangliang`){
+       message.channel.send("```장량```");
+    }
+if (args ===`LiuBang` ||args ===`liubang` ||args ===`Liubang`){
+       message.channel.send("```유방```");
+    }
+if (args ===`XiangBo` ||args ===`xiangbo` ||args ===`Xiangbo`){
+       message.channel.send("```항백```");
+    }
+if (args ===`XiangLiang` ||args ===`xiangliang` ||args ===`Xiangliang`){
+       message.channel.send("```항량```");
+    }
+if (args ===`YuYing` ||args ===`yuying` ||args ===`Yuying`){
+       message.channel.send("```우영```");
+    }
+if (args ===`HuanChu` ||args ===`huanchu` ||args ===`Huanchu`){
+       message.channel.send("```환초```");
+    }
+if (args ===`ZhouLan` ||args ===`zhoulan` ||args ===`Zhoulan`){
+       message.channel.send("```주란```");
+    }
+if (args ===`JiBu` ||args ===`jibu` ||args ===`Jibu`){
+       message.channel.send("```계포```");
+    }
+if (args ===`LongJu` ||args ===`longju` ||args ===`Longju`){
+       message.channel.send("```용저```");
+    }
+if (args ===`ZhongliMo` ||args ===`zhonglimo` ||args ===`Zhonglimo`){
+       message.channel.send("```종리말```");
+    }
+if (args ===`YingBu` ||args ===`yingbu` ||args ===`Yingbu`){
+       message.channel.send("```영포```");
+    }
+if (args ===`FanZeng` ||args ===`fanzeng` ||args ===`Fanzeng`){
+       message.channel.send("```범증```");
+    }
+if (args ===`YuMiaoyi` ||args ===`yumiaoyi` ||args ===`Yumiaoyi`){
+       message.channel.send("```우희```");
+    }
+if (args ===`XiangYu` ||args ===`xiangyu` ||args ===`Xiangyu`){
+       message.channel.send("```항적```");
+    }
+    
 /*    
     if (args ===``){
        message.channel.send("``` ```");
