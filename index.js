@@ -55,7 +55,7 @@ bot.on("message", async message => {
       message.channel.send("```asciidoc\nSage```")
      }
      if (args ===`마왕`){
-      message.channel.send("```asciidoc\ndemon```")
+      message.channel.send("```asciidoc\nDemon```")
      }
      if (args ===`책사`){
       message.channel.send("```asciidoc\nTactician```")
@@ -88,7 +88,7 @@ bot.on("message", async message => {
       message.channel.send("```asciidoc\nNavy```")
      }
      if (args ===`효기병`){
-      message.channel.send("```asciidoc\nwift Cavalry```")
+      message.channel.send("```asciidoc\nSwift Cavalry```")
      }
      if (args ===`검사`){
       message.channel.send("```asciidoc\nSwordsman```")
@@ -97,7 +97,7 @@ bot.on("message", async message => {
       message.channel.send("```asciidoc\nWarlord```")
      }
      if (args ===`천자`){
-      message.channel.send("```asciidoc\nemperor```")
+      message.channel.send("```asciidoc\nEmperor```")
      }
      if (args ===`중기병`){
       message.channel.send("```asciidoc\nHeavy Cavalry```")
