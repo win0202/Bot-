@@ -1851,12 +1851,7 @@ bot.on("message", async message => {
     if (args ===`연속책략`){
        message.channel.send("```asciidoc\n[장수]\n번쾌 (검사)\n주유 (도독)\n곽가 (도사)\n대교 (무희)\n순욱 (책사)\n전풍 (책사)\n채염 (책사)\n방통 (현자)\n아린 (현자)\n장각 (현자)``````asciidoc\n[보물]\n무귀보도 ★7 (보도)\n백학선 ★7 (선)```");
     }
-    if (args === `연속`){
-      let _args = messageArray[2];
-      if (_args === `책략`){
-         message.channel.send("```asciidoc\n[장수]\n번쾌 (검사)\n주유 (도독)\n곽가 (도사)\n대교 (무희)\n순욱 (책사)\n전풍 (책사)\n채염 (책사)\n방통 (현자)\n아린 (현자)\n장각 (현자)``````asciidoc\n[보물]\n무귀보도 ★7 (보도)\n백학선 ★7 (선)```");
-      }
-    } 
+
 /* 
     if (args ===`제갈량`){
       message.channel.send("```asciidoc\n ```")
@@ -2175,7 +2170,7 @@ bot.on("message", async message => {
      if (args ===`HeavyCavalry` || args ===`Heavycavalry` || args ===`heavycavalry`){
       message.channel.send("```asciidoc\n[Heavy Cavalry]\nGuan Yu (23)\nWen Chou (22)\nCao Ren (21)\nLing Tong (20)\nXiahou Jie (18)\nCheng Pu (19)\nXiahou Ba (19)\nCao Chun (18)\nGuan Xing (19)\nHe Qi (18)\nWen Qin (19)\nHu Zhen (14)\nDeng Zhong (16)\nJi Ling (18)\nTian Kai (14)\nXu Rong (16)\nYang Fu (17)\nSun Jun (16)\nFan Chou (14)\nXing Daorong (15)\nLiu Yao (16)\nSun Jing (15)\nBao Xin (15)\nYuan Xi (14)\nHe Jin (14)\nXiahou Mao (14)\nCao Shen (22) ```")
      }
-     if (args ===`LightCavalry` || args ===`Lightcavalry` || || args ===`lightCavalry`){
+     if (args ===`LightCavalry` || args ===`Lightcavalry` ||  args ===`lightCavalry`){
       message.channel.send("```asciidoc\n[Light Cavalry]\nTaishi Ci (23)\nZhang Liao (21)\nZhang Fei (23)\nYan Liang (22)\nXiahou Dun (21)\nWen Yang (21)\nZhang Xingcai (21)\nGuan Yinping (20)\nZhang Bao (19)\nCao Ang (18)\nWang Ji (18)\nGuan Ping (19)\nWang Yi (18)\nLu Lingqi (19)\nZhu Jun (18)\nMa Yaoji (17)\nTian Yu (19)\nXiahou Lan (14)\nWei Guan (14)\nYan Rou (17)\nZhang Miao (17)\nWu Yan (17)\nAhui Nan (14)\nZhang Yang (16)\nXiahou En (16)\nMan Ji (15)\nZhang Ji (14)\nYuan Tan (14)\nZhang Ji (16)\nLi Yi (14)\nWei Xu (14)\nZhang Wei (14)\nCao Hua (16)\nGao Pei (14)\nXie Jing (14)\nGuan Ying (20) ```")
      }
      if (args ===`Marine` || args ===`marine`){
