@@ -403,7 +403,7 @@ bot.on("message", async message => {
 */    
     
   }
-  if (cmd === `${prefix}장수`){
+  if (cmd === `${prefix}장수` || cmd === `${prefix}cm`){
 
 //보병    
     if (args ===`강보`){
@@ -1620,17 +1620,219 @@ bot.on("message", async message => {
      }
  
 //전차
+    if (args ===`고순`){
+      message.channel.send("```asciidoc\n[고순 (전차)\nCOST - 19\n능력치 - 85/60/87/62/78\n30lv - 돌진 공격% (2%)\n50lv - 주위 욕설\n70lv - 방어력 보조% (13%)\n90lv - 주동 공격\n태수효과 - 제재소 특화\n군주효과 - 병주 약탈 보조\n계보 - 비장봉선 ```")
+     }
+    if (args ===`동백`){
+      message.channel.send("```asciidoc\n[동백 (전차)\nCOST - 17\n능력치 - 82/65/77/72/89\n30lv - \n형 효과 보조\n50lv - 기습 공격 (3%)\n70lv - 일격 필살\n90lv - 돌진 공격% (3%)\n태수효과 - 징세의 달인\n군주효과 - 전 약탈 보조\n계보 - 난세여걸 ```")
+     }
+    if (args ===`동탁`){
+      message.channel.send("```asciidoc\n[동탁 (전차)\nCOST - 22\n능력치 - 87/73/90/67/91\n30lv - 돌진 공격% (2%)\n50lv - \n형 효과 보조\n70lv - 돌파 공격\n90lv - 회심 공격\n태수효과 - 징세의 달인\n군주효과 - 전 약탈 보조\n계보 - 비장봉선 ```")
+     }
+    if (args ===`마대`){
+      message.channel.send("```asciidoc\n[마등 (전차)\nCOST - 19\n능력치 - 85/57/83/72/67\n30lv - 물리 피해 감소% (7%)\n50lv - 돌진 공격% (3%)\n70lv - 방어력 보조 (30)\n90lv - 무반격 공격\n태수효과 - 과수 특화\n군주효과 - 명품 상점 보조\n계보 - 만족맹기 ```")
+     }
+    if (args ===`마등`){
+      message.channel.send("```asciidoc\n[마등 (전차)\nCOST - 19\n능력치 - 85/57/83/72/67\n30lv - 물리 피해 감소% (7%)\n50lv - 돌진 공격% (3%)\n70lv - 방어력 보조 (30)\n90lv - 무반격 공격\n태수효과 - 과수 특화\n군주효과 - 명품 상점 보조\n계보 - 만족맹기 ```")
+     }
+    if (args ===`미당대왕`){
+      message.channel.send("```asciidoc\n[미당대왕 (전차)\nCOST - 14\n능력치 - 69/31/63/46/66\n30lv - 전 방어율 증가 (5%)\n50lv - 순발력 보조% (10%)\n70lv - 주위 욕설\n90lv - 돌파 공격\n태수효과 - 항만 특화\n군주효과 - 옹주(서) 징세 보조\n계보 - 노장한승 ```")
+     }
+    if (args ===`성공영`){
+      message.channel.send("```asciidoc\n[성공영 (전차)\nCOST - 16\n능력치 - 69/80/78/74/62\n30lv - 책략 피해 반사% (7%)\n50lv - 주위 욕설\n70lv - 방어력 보조 (30)\n90lv - 돌진 공격% (4%)\n태수효과 - 공방 특화\n군주효과 - 점령 보조\n계보 - 만족맹기 ```")
+     }
+    if (args ===`아하소과`){
+      message.channel.send("```asciidoc\n[아하소과 (전차)\nCOST - 15\n능력치 - 78/12/61/56/68\n30lv - 주위 욕설\n50lv - 방어력 보조% (11%)\n70lv - 공격 방어율 증가 (20%)\n90lv - 돌파 공격\n태수효과 - 시장 특화\n군주효과 - 모의전 보조\n계보 - 칠금만왕 ```")
+     }
+    if (args ===`염행`){
+      message.channel.send("```asciidoc\n[염행 (전차)\nCOST - 19\n능력치 - 88/38/73/72/79\n30lv - 방어력 보조 (25)\n50lv - 공격력 보조% (11%)\n70lv - 주위 욕설\n90lv - 돌진 공격% (4%)\n태수효과 - 과수 특화\n군주효과 - 옹주(동) 약탈 보조\n계보 - 만족맹기 ```")
+     }
+    if (args ===`왕릉`){
+      message.channel.send("```asciidoc\n[왕릉 (전차)\nCOST - 20\n능력치 - 93/85/82/72/86\n30lv - 돌진 공격% (3%)\n50lv - 연속 책략 면역\n70lv - 전화위복\n90lv - 파진 공격\n태수효과 - 양돈 특화\n군주효과 - 전 약탈 보조\n계보 - 태조고제 ```")
+     }
+    if (args ===`유괴`){
+      message.channel.send("```asciidoc\n[유괴 (전차)\nCOST - 14\n능력치 - 72/67/80/78/68\n30lv - 돌진 공격% (2%)\n50lv - 방어력 보조% (11%)\n70lv - 주위 욕설\n90lv - 돌파 공격\n태수효과 - 수산물 특화\n군주효과 - 익주(중) 징세 보조\n계보 - 용장익덕 ```")
+     }
+    if (args ===`조광`){
+      message.channel.send("```asciidoc\n[조광 (전차)\nCOST - 16\n능력치 - 70/58/72/71/83\n30lv - 순발력 보조% (7%)\n50lv - 돌진 공격% (3%)\n70lv - 방어력 보조 (30)\n90lv - 선제 공격\n태수효과 - 수산물 특화\n군주효과 - 익주(북) 약탈 보조\n계보 - 상산자룡 ```")
+     }
+    if (args ===`조진`){
+      message.channel.send("```asciidoc\n[조진 (전차)\nCOST - 19\n능력치 - 68/70/88/71/87\n30lv - 주위 욕설\n50lv - 돌파 공격\n70lv - 돌진 공격% (3%)\n90lv - 일기당천\n태수효과 - 은전 징세 특화\n군주효과 - 청주 징세 보조\n계보 - 문소황후 ```")
+     }
+    if (args ===`한수`){
+      message.channel.send("```asciidoc\n[한수 (전차)\nCOST - 18\n능력치 - 75/82/81/61/73\n30lv - 돌진 공격% (2%)\n50lv - 방어력 보조% (11%)\n70lv - 주위 욕설\n90lv - 재반격\n태수효과 - 제재소 특화\n군주효과 - 옹주(서) 약탈 보조\n계보 - 만족맹기 ```")
+    }
+    if (args ===`화웅`){
+      message.channel.send("```asciidoc\n[화웅 (전차)\nCOST - 20\n능력치 - 92/61/88/76/54\n30lv - 물리 공격 강화% (12%)\n50lv - 방어력 보조% (11%)\n70lv - 돌파 공격\n90lv - 피해 전가\n태수효과 - 시장 특화\n군주효과 - 정찰 보조\n계보 - 비장봉선 ```")
+    }
 
  
 //창병
 
+        if (args ===`계포`){
+      message.channel.send("```asciidoc\n[계포 (창병)\nCOST - 20\n능력치 - 89/58/91/71/77\n30lv - 방어력 보조% (10%)\n50lv - 계포일낙\n70lv - 공격 범위 확장 (몰우전)\n90lv - 갈퀴 공격\n태수효과 - 과수 특화\n군주효과 - 무역 상점 보조\n계보 - 패왕항우 ```")
+     }
+    if (args ===`고담`){
+      message.channel.send("```asciidoc\n[고담 (창병)\nCOST - 15\n능력치 - 28/78/80/72/74\n30lv - 기마 공격 강화% (15%)\n50lv - 순발력 하강 공격\n70lv - 물리 피해 감소% (10%)\n90lv - 책략 모방\n태수효과 - 수산물 특화\n군주효과 - 양주(남) 약탈 보조\n계보 - 벽안자염 ```")
+     }
+    if (args ===`곽사`){
+      message.channel.send("```asciidoc\n[곽사 (창병)\nCOST - 15\n능력치 - 76/33/64/58/74\n30lv - 주위 둔병\n50lv - 공격력 하강 공격\n70lv - 기마 공격 강화% (15%)\n90lv - 주위 욕설\n태수효과 - 과수 특화\n군주효과 - 옹주(서) 약탈 보조\n계보 - 비장봉선 ```")
+     }
+    if (args ===`곽익`){
+      message.channel.send("```asciidoc\n[곽익 (창병)\nCOST - 17\n능력치 - 69/69/73/79/88\n30lv - 물리 피해 반사% (10%)\n50lv - 사기 하강 공격\n70lv - 물리 피해 감소% (10%)\n90lv - 주위 견고\n태수효과 - 절대 보호 특화\n군주효과 - 형주(북) 징세 보조\n계보 - 와룡공명 ```")
+     }
+    if (args ===`곽진`){
+      message.channel.send("```asciidoc\n[곽진 (창병)\nCOST - 14\n능력치 - 60/50/60/50/50\n30lv - 주위 둔병\n50lv - 무작위 하강 공격\n70lv - 공격 범위 확장 (몰우전)\n90lv - 주위 방해\n태수효과 - 군량 징세 특화\n군주효과 - 익주(중) 징세 보조\n계보 - 발탁무장 ```")
+     }
+    if (args ===`관해`){
+      message.channel.send("```asciidoc\n[관해 (창병)\nCOST - 16\n능력치 - 84/34/73/77/52\n30lv - 주위 둔병\n50lv - 공격력 하강 공격\n70lv - 반격 강화\n90lv - 돌진 공격% (4%)\n태수효과 - 제재소 특화\n군주효과 - 모의전 보조\n계보 - 대현량사 ```")
+     }
+    if (args ===`냉포`){
+      message.channel.send("```asciidoc\n[냉포 (창병)\nCOST - 14\n능력치 - 70/62/79/82/61\n30lv - 반격 강화\n50lv - 정신력 하강 공격\n70lv - 기마 공격 강화% (15%)\n90lv - 주위 욕설\n태수효과 - 시장 특화\n군주효과 - 익주(중) 약탈 보조\n계보 - 용장익덕 ```")
+     }
+    if (args ===`마충`){
+      message.channel.send("```asciidoc\n[마충 (창병)\nCOST - 15\n능력치 - 69/60/71/60/64\n30lv - 반격 강화\n50lv - 공격력 하강 공격\n70lv - 주위 둔병\n90lv - 무반격 공격\n태수효과 - 절대 보호 특화\n군주효과 - 익주(중) 약탈 보조\n계보 - 벽안자염 ```")
+     }
+    if (args ===`맹달`){
+      message.channel.send("```asciidoc\n[맹달 (창병)\nCOST - 17\n능력치 - 77/75/82/50/76\n30lv - 기마 공격 강화% (15%)\n50lv - 무작위 하강 공격\n70lv - 공격 범위 확장 (몰우전)\n90lv - 무반격 공격\n태수효과 - 경작 특화\n군주효과 - 사주 약탈 보조\n계보 - 임협원직 ```")
+     }
+    if (args ===`반장`){
+      message.channel.send("```asciidoc\n[반장 (창병)\nCOST - 18\n능력치 - 80/74/76/64/69\n30lv - 기마 공격 강화% (15%)\n50lv - 순발력 하강 공격\n70lv - 물리 피해 감소% (10%)\n90lv - 주위 견고\n태수효과 - 경작 특화\n군주효과 - 익주(북) 징세 보조\n계보 - 미주공근 ```")
+     }
+    if (args ===`범강`){
+      message.channel.send("```asciidoc\n[범강 (창병)\nCOST - 14\n능력치 - 54/32/52/69/66\n30lv - 반격 강화\n50lv - 순발력 하강 공격\n70lv - 주위 둔병\n90lv - 연속 공격 면역\n태수효과 - 징세의 달인\n군주효과 - 익주(남) 징세 보조\n계보 - 용장익덕 ```")
+     }
+    if (args ===`부첨`){
+      message.channel.send("```asciidoc\n[부첨 (창병)\nCOST - 19\n능력치 - 84/72/77/64/83\n30lv - 물리 피해 감소% (10%)\n50lv - 사기 하강 공격\n70lv - 주위 둔병\n90lv - 주위 압박\n태수효과 - 시장 특화\n군주효과 - 익주(북) 약탈 보조\n계보 - 상산자룡 ```")
+     }
+    if (args ===`사찬`){
+      message.channel.send("```asciidoc\n[사찬 (창병)\nCOST - 14\n능력치 - 73/57/67/70/75\n30lv - 주위 둔병\n50lv - 사기 하강 공격\n70lv - 기마 공격 강화% (15%)\n90lv - 책략 피해 감소% (15%)\n태수효과 - 은전 보관 특화\n군주효과 - 사주 징세 보조\n계보 - 등후사재 ```")
+     }
+    if (args ===`서황`){
+      message.channel.send("```asciidoc\n[서황 (창병)\nCOST - 21\n능력치 - 90/78/91/68/86\n30lv - 기마 공격 강화% (15%)\n50lv - 무작위 하강 공격\n70lv - 공격 범위 확장 (몰우전)\n90lv - 인도 공격\n태수효과 - 시장 특화\n군주효과 - 모의전 보조\n계보 - 낭고중달 ```")
+     }
+    if (args ===`순우경`){
+      message.channel.send("```asciidoc\n[순우경 (창병)\nCOST - 17\n능력치 - 77/45/69/68/81\n30lv - 기마 공격 강화% (15%)\n50lv - 방어력 하강 공격\n70lv - 물리 피해 감소% (10%)\n90lv - 피해 전가\n태수효과 - 군량 보관 특화\n군주효과 - 기주 약탈 보조\n계보 - 패왕본초 ```")
+     }
+    if (args ===`심영`){
+      message.channel.send("```asciidoc\n[심영 (창병)\nCOST - 19\n능력치 - 87/64/80/74/66\n30lv - 주위 둔병\n50lv - 정신력 하강 공격\n70lv - 전 방어율 증가 (7%)\n90lv - 피해 전가\n태수효과 - 견직 특화\n군주효과 - 기주 약탈 보조\n계보 - 영웅문대 ```")
+     }
+    if (args ===`양봉`){
+      message.channel.send("```asciidoc\n[양봉 (창병)\nCOST - 14\n능력치 - 68/48/71/59/68\n30lv - 반격 강화\n50lv - 순발력 하강 공격\n70lv - 물리 피해 감소% (10%)\n90lv - 책략 피해 감소% (15%)\n태수효과 - 과수 특화\n군주효과 - 서주 징세 보조\n계보 - 군신운장 ```")
+     }
+    if (args ===`양제`){
+      message.channel.send("```asciidoc\n[양제 (창병)\nCOST - 16\n능력치 - 69/72/73/66/75\n30lv - 주위 둔병\n50lv - 사기 하강 공격\n70lv - 반격 강화\n90lv - 주위 압박\n태수효과 - 과수 특화\n군주효과 - 사주 징세 보조\n계보 - 문명황후 ```")
+     }
+    if (args ===`엄안`){
+      message.channel.send("```asciidoc\n[엄안 (창병)\nCOST - 18\n능력치 - 83/72/82/57/67\n30lv - 물리 피해 반사% (10%)\n50lv - 무작위 하강 공격\n70lv - 물리 피해 감소% (10%)\n90lv - 피해 범위 확장 (3격)\n태수효과 - 군량 보관 특화\n군주효과 - 익주(중) 약탈 보조\n계보 - 용장익덕 ```")
+     }
+    if (args ===`왕경`){
+      message.channel.send("```asciidoc\n[왕경 (창병)\nCOST - 14\n능력치 - 69/70/71/58/72\n30lv - 반격 강화\n50lv - 사기 하강 공격\n70lv - 물리 피해 감소% (10%)\n90lv - 주위 둔병\n태수효과 - 절대 보호 특화\n군주효과 - 기주 징세 보조\n계보 - 동래자의 ```")
+     }
+    if (args ===`왕충`){
+      message.channel.send("```asciidoc\n[왕충 (창병)\nCOST - 14\n능력치 - 55/65/58/68/71\n30lv - 주위 둔병\n50lv - 공격력 하강 공격\n70lv - 물리 피해 감소% (10%)\n90lv - 주위 방해\n태수효과 - 시장 특화\n군주효과 - 예주 징세 보조\n계보 - 노장한승 ```")
+     }
+    if (args ===`이엄`){
+      message.channel.send("```asciidoc\n[이엄 (창병)\nCOST - 19\n능력치 - 82/79/87/67/74\n30lv - 주위 둔병\n50lv - 정신력 하강 공격\n70lv - 기마 공격 강화% (15%)\n90lv - 피해 범위 확장 (3격)\n태수효과 - 경작 특화\n군주효과 - 익주(남) 약탈 보조\n계보 - 용장익덕 ```")
+     }
+    if (args ===`장호`){
+      message.channel.send("```asciidoc\n[장호 (창병)\nCOST - 17\n능력치 - 76/44/79/65/78\n30lv - 반격 강화\n50lv - 무작위 하강 공격\n70lv - 공격 범위 확장 (몰우전)\n90lv - 일치단결\n태수효과 - 군량 보관 특화\n군주효과 - 예주 약탈 보조\n계보 - 등후사재 ```")
+     }
+    if (args ===`제갈첨`){
+      message.channel.send("```asciidoc\n[제갈첨 (창병)\nCOST - 16\n능력치 - 68/76/78/72/66\n30lv - 물리 피해 감소% (10%)\n50lv - 정신력 하강 공격\n70lv - 주위 둔병\n90lv - 책략 모방\n태수효과 - 수산물 특화\n군주효과 - 익주(중) 징세 보조\n계보 - 와룡공명 ```")
+     }
+    if (args ===`진도`){
+      message.channel.send("```asciidoc\n[진도 (창병)\nCOST - 18\n능력치 - 82/64/84/68/62\n30lv - 물리 피해 반사% (10%)\n50lv - 공격력 하강 공격\n70lv - 물리 피해 감소% (10%)\n90lv - 인도 공격\n태수효과 - 군량 보관 특화\n군주효과 - 점령 보조\n계보 - 노장한승 ```")
+     }
+    if (args ===`채중`){
+      message.channel.send("```asciidoc\n[채중 (창병)\nCOST - 14\n능력치 - 47/13/44/42/55\n30lv - 물리 피해 감소% (10%)\n50lv - 순발력 하강 공격\n70lv - 주위 둔병\n90lv - 수전 보조\n태수효과 - 공방 특화\n군주효과 - 익주(남) 약탈 보조\n계보 - 마왕패도 ```")
+     }
+    if (args ===`파재`){
+      message.channel.send("```asciidoc\n[파재 (창병)\nCOST - 14\n능력치 - 64/52/85/81/61\n30lv - 물리 피해 반사% (10%)\n50lv - 방어력 하강 공격\n70lv - 전 방어율 증가 (7%)\n90lv - 돌진 공격% (4%)\n태수효과 - 은전 보관 특화\n군주효과 - 무역 상점 보조\n계보 - 대현량사 ```")
+     }
+    if (args ===`한호`){
+      message.channel.send("```asciidoc\n[한호 (창병)\nCOST - 18\n능력치 - 75/86/72/68/74\n30lv - 기마 공격 강화% (15%)\n50lv - 방어력 하강 공격\n70lv - 반격 강화\n90lv - 주위 허탈\n태수효과 - 시장 특화\n군주효과 - 정찰 보조\n계보 - 문소황후 ```")
+     }
+    if (args ===`해니`){
+      message.channel.send("```asciidoc\n[해니 (창병)\nCOST - 14\n능력치 - 80/40/69/67/80\n30lv - 기마 공격 강화% (15%)\n50lv - 방어력 하강 공격\n70lv - 주위 둔병\n90lv - 본대 강행\n태수효과 - 절대 보호 특화\n군주효과 - 익주(남) 징세 보조\n계보 - 칠금만왕 ```")
+     }
+    if (args ===`호질`){
+      message.channel.send("```asciidoc\n[호질 (창병)\nCOST - 14\n능력치 - 58/78/78/66/76\n30lv - 물리 피해 감소% (10%)\n50lv - 정신력 하강 공격\n70lv - 주위 둔병\n90lv - 주위 허탈\n태수효과 - 경작 특화\n군주효과 - 병주 징세 보조\n계보 - 임협원직 ```")
+     }
+    if (args ===`환계`){
+      message.channel.send("```asciidoc\n[환계 (창병)\nCOST - 15\n능력치 - 32/78/73/66/70\n30lv - 연속 공격 강화% (15%)\n50lv - 방어력 하강 공격\n70lv - 반격 강화\n90lv - 주위 둔병\n태수효과 - 경작 특화\n군주효과 - 기주 징세 보조\n계보 - 벽안자염 ```")
+     }
  
 //경기병
 
  
 //궁기병
 
- 
+    if (args ===`고간`){
+      message.channel.send("```asciidoc\n[고간 (궁기병)\nCOST - 15\n능력치 - 66/62/74/56/74\n30lv - 회심 공격 강화\n50lv - 반격 강화\n70lv - 지원 공격\n90lv - 방어력 하강 공격\n태수효과 - 경작 특화\n군주효과 - 연주 징세 보조\n계보 - 패왕본초 ```")
+     }
+    if (args ===`고람`){
+      message.channel.send("```asciidoc\n[고람 (궁기병)\nCOST - 18\n능력치 - 82/68/76/80/76\n30lv - 책략 피해 감소% (10%)\n50lv - 물리 공격 강화% (12%)\n70lv - 기마 공격 강화% (15%)\n90lv - 공격력 하강 공격\n태수효과 - 군량 징세 특화\n군주효과 - 기주 징세 보조\n계보 - 패왕본초 ```")
+     }
+    if (args ===`관색`){
+      message.channel.send("```asciidoc\n[관색 (궁기병)\nCOST - 19\n능력치 - 88/56/74/62/93\n30lv - 회심 공격 강화\n50lv - 지원 공격\n70lv - 책략 피해 감소% (10%)\n90lv - 주동 공격\n태수효과 - 징세의 달인\n군주효과 - 형주(북) 약탈 보조\n계보 - 황숙현덕 ```")
+     }
+    if (args ===`국의`){
+      message.channel.send("```asciidoc\n[국의 (궁기병)\nCOST - 18\n능력치 - 83/51/72/80/64\n30lv - 반격 강화\n50lv - 기마 공격 강화% (15%)\n70lv - 회심 공격 강화\n90lv - 지원 공격\n태수효과 - 항만 특화\n군주효과 - 익주(북) 징세 보조\n계보 - 패왕본초 ```")
+     }
+    if (args ===`담웅`){
+      message.channel.send("```asciidoc\n[담웅 (궁기병)\nCOST - 16\n능력치 - 77/39/64/72/82\n30lv - 기마 공격 강화% (15%)\n50lv - 반격 강화\n70lv - 회심 공격 강화\n90lv - 사기 하강 공격\n태수효과 - 경작 특화\n군주효과 - 양주(남) 약탈 보조\n계보 - 미주공근 ```")
+     }
+    if (args ===`마운록`){
+      message.channel.send("```asciidoc\n[마운록 (궁기병)\nCOST - 16\n능력치 - 83/46/73/62/65\n30lv - 회심 공격 강화\n50lv - 연속 공격 강화% (15%)\n70lv - 지원 공격\n90lv - 주동 공격\n태수효과 - 보관의 달인\n군주효과 - 은전 약탈 보조\n계보 - 만족맹기 ```")
+     }
+    if (args ===`마휴`){
+      message.channel.send("```asciidoc\n[마휴 (궁기병)\nCOST - 16\n능력치 - 75/48/72/77/68\n30lv - 지원 공격\n50lv - 부동 공격% (15%)\n70lv - 반격 강화\n90lv - 돌파 공격\n태수효과 - 시장 특화\n군주효과 - 옹주(서) 징세 보조\n계보 - 만족맹기 ```")
+     }
+    if (args ===`문호`){
+      message.channel.send("```asciidoc\n[문호 (궁기병)\nCOST - 17\n능력치 - 78/45/69/73/68\n30lv - 연속 공격 강화% (15%)\n50lv - 흡혈 공격% (7%)\n70lv - 지원 공격\n90lv - 피해 범위 확장 (2격)\n태수효과 - 경작 특화\n군주효과 - 명품 상점 보조\n계보 - 등후사재 ```")
+     }
+    if (args ===`손상향`){
+      message.channel.send("```asciidoc\n[손상향 (궁기병)\nCOST - 21\n능력치 - 85/68/79/96/78\n30lv - 책략 피해 감소% (10%)\n50lv - 지원 공격\n70lv - 회심 공격 강화\n90lv - 회심 공격\n태수효과 - 군량 징세 특화\n군주효과 - 군량 징세 보조\n계보 - 영웅문대 ```")
+     }
+    if (args ===`여건`){
+      message.channel.send("```asciidoc\n[여건 (궁기병)\nCOST - 17\n능력치 - 78/65/63/66/86\n30lv - 반격 강화\n50lv - 기마 공격 강화% (15%)\n70lv - 회심 공격 강화\n90lv - 방어력 하강 공격\n태수효과 - 제재소 특화\n군주효과 - 연주 약탈 보조\n계보 - 군신운장 ```")
+     }
+    if (args ===`장준`){
+      message.channel.send("```asciidoc\n[장준 (궁기병)\nCOST - 15\n능력치 - 73/78/81/75/70\n30lv - 지원 공격\n50lv - 기마 공격 강화% (15%)\n70lv - 회심 공격 강화\n90lv - 공격력 하강 공격\n태수효과 - 징세의 달인\n군주효과 - 모의전 보조\n계보 - 황숙현덕 ```")
+     }
+    if (args ===`장합`){
+      message.channel.send("```asciidoc\n[장합 (궁기병)\nCOST - 20\n능력치 - 89/82/68/74/92\n30lv - 지원 공격\n50lv - 장거리 궁술\n70lv - 주동 공격\n90lv - 일치단결\n태수효과 - 경작 특화\n군주효과 - 옹주(동) 약탈 보조\n계보 - 낭고중달 ```")
+     }
+    if (args ===`조성`){
+      message.channel.send("```asciidoc\n[조성 (궁기병)\nCOST - 14\n능력치 - 74/37/65/61/75\n30lv - 반격 강화\n50lv - 연속 공격 강화% (15%)\n70lv - 회심 공격 강화\n90lv - 순발력 하강 공격\n태수효과 - 수산물 특화\n군주효과 - 병주 약탈 보조\n계보 - 비장봉선 ```")
+     }
+    if (args ===`조안민`){
+      message.channel.send("```asciidoc\n[조안민 (궁기병)\nCOST - 15\n능력치 - 71/64/61/53/84\n30lv - 기마 공격 강화% (15%)\n50lv - 부동 공격% (15%)\n70lv - 반격 강화\n90lv - 돌파 공격\n태수효과 - 과수 특화\n군주효과 - 예주 약탈 보조\n계보 - 군신운장 ```")
+     }
+    if (args ===`주령`){
+      message.channel.send("```asciidoc\n[주령 (궁기병)\nCOST - 18\n능력치 - 78/68/81/62/85\n30lv - 회심 공격 강화\n50lv - 연속 공격 강화% (15%)\n70lv - 책략 피해 감소% (10%)\n90lv - 순발력 하강 공격\n태수효과 - 시장 특화\n군주효과 - 기주 징세 보조\n계보 - 동래자의 ```")
+     }
+    if (args ===`주발`){
+      message.channel.send("```asciidoc\n[주발 (궁기병)\nCOST - 20\n능력치 - 86/51/88/81/85\n30lv - 회심 공격 강화\n50lv - 일기당천\n70lv - 일격 필살\n90lv - 인도 공격\n태수효과 - 제재소 특화\n군주효과 - 예주 약탈 보조\n계보 - 태조고제 ```")
+     }
+    if (args ===`주이`){
+      message.channel.send("```asciidoc\n[주이 (궁기병)\nCOST - 17\n능력치 - 76/64/76/60/56\n30lv - 회심 공격 강화\n50lv - 수전 보조\n70lv - 기마 공격 강화% (15%)\n90lv - 사기 하강 공격\n태수효과 - 공방 특화\n군주효과 - 양주(남) 징세 보조\n계보 - 백언소후 ```")
+     }
+    if (args ===`하후상`){
+      message.channel.send("```asciidoc\n[하후상 (궁기병)\nCOST - 18\n능력치 - 76/78/83/61/77\n30lv - 반격 강화\n50lv - 기마 공격 강화% (15%)\n70lv - 책략 피해 감소% (10%)\n90lv - 무제한 반격\n태수효과 - 경작 특화\n군주효과 - 병주 약탈 보조\n계보 - 문명황후 ```")
+     }
+    if (args ===`하후연`){
+      message.channel.send("```asciidoc\n[하후연 (궁기병)\nCOST - 21\n능력치 - 92/62/80/84/75\n30lv - 기습 공격 (3%)\n50lv - 공격 명중률 증가 (17%)\n70lv - 파진 공격\n90lv - 일기당천\n태수효과 - 양돈 특화\n군주효과 - 서주 징세 보조\n계보 - 난세간웅 ```")
+     }
+    if (args ===`호열`){
+      message.channel.send("```asciidoc\n[호열 (궁기병)\nCOST - 16\n능력치 - 76/76/82/72/70\n30lv - 지원 공격\n50lv - 연속 공격 강화% (15%)\n70lv - 반격 강화\n90lv - 무제한 반격\n태수효과 - 과수 특화\n군주효과 - 옹주(동) 약탈 보조\n계보 - 등후사재 ```")
+     }
+    if (args ===`황충`){
+      message.channel.send("```asciidoc\n[황충 (궁기병)\nCOST - 23\n능력치 - 93/65/90/73/85\n30lv - 지원 공격\n50lv - 물리 공격 강화% (12%)\n70lv - 무제한 반격\n90lv - 피해 범위 확장 (3격)\n태수효과 - 보관의 달인\n군주효과 - 군량 약탈 보조\n계보 - 노장한승 ```")
+     }
+    
+    
 //노전차
 
  
@@ -1664,7 +1866,7 @@ bot.on("message", async message => {
   
   
   
-    if (cmd === `${prefix}병종`){
+    if (cmd === `${prefix}병종` || cmd === `${prefix}cl`){
       if (args ===`보병`){
          message.channel.send("```asciidoc\n[보병]\n공Ⓑ 정Ⓑ 방Ⓢ 순Ⓑ 사Ⓐ\nHP 798  MP 109  이동력 5\n\n부대 효과\n- 방어력 보조 (9%)\n- HP 보조 (15%)\n- 간접 피해 감소 (40%)\n\n장수 효과\n- HP 보조 (4%/9%)\n- 간접 피해 감소 (3%/7%)\n- 물리 피해 반사 (3%/7%)\n- 책략 피해 반사 (3%/7%)\n- 부동 공격 (5%/15%) ```")
       }
@@ -1748,10 +1950,7 @@ bot.on("message", async message => {
       }
       if (args ===`군악대`){
         message.channel.send("```asciidoc\n[군악대]\n\n공Ⓒ 정Ⓐ 방Ⓑ 순Ⓢ 사Ⓐ\nHP 585  MP 129  이동력 6\n\n부대 효과\n- 주위 MP 회복 (20)\n- 가무\n- 포용\n장수 효과\n- MP 보조 (5%/10%)\n- MP 회복 (3%/5%)\n- 물리 피해 감소 (4%/8%)\n- 책략 피해 감소 (4%/8%)\n- 보급계 책략 강화 (3%/7%) ```")
-      }
-   }
-      
-  if (cmd === `${prefix}cl`){
+
       if (args ===`Footman` || args ===`footman` ){
          message.channel.send("```asciidoc\n[Footman]\nATKⒷ WISⒷ DEFⓈ AGIⒷ MRLⒶ\nHP 798  MP 109  SPD 5\n\nUnit Passive\n- DEF Boost (9%)\n- HP Boost (15%)\n- Ranged DMG - (40%)\n\nCommander Passive\n- HP Boost (4%/9%)\n- Ranged DMG - (3%/7%)\n- Physical Damage Reflection (3%/7%)\n- Tactics Damage Reflection (3%/7%)\n- mmobilization ATK (5%/15%) ```")
       }
@@ -1852,12 +2051,185 @@ bot.on("message", async message => {
     if (args ===`제갈량`){
       message.channel.send("```asciidoc\n ```")
      }
+ 
 */      
   
-  if (cmd === `${prefix}병종목록`){
+  if (cmd === `${prefix}병종목록` || cmd === `${prefix}cll` ){
     if (args ===`보병`){
         message.channel.send("```asciidoc\n[보병]\n강보 (14)\n고정 (14)\n곽준 (15)\n곽회 (19)\n나헌 (19)\n노식 (18)\n동습 (18)\n동승 (14)\n등윤 (14)\n미방 (14)\n방덕 (20)\n비관 (14)\n손등 (17)\n손량 (16)\n손환 (18)\n손휴 (15)\n악진 (20)\n악침 (15)\n양회 (14)\n오란 (16)\n올돌골 (19)\n옹개 (15)\n왕열 (17)\n유기 (14)\n유도 (14)\n유봉 (17)\n유선 (14)\n유소 (14)\n유찬 (18)\n이각 (16)\n장달 (14)\n장의거 (14)\n장익 (17)\n조모 (16)\n조통 (16)\n조홍 (16)\n진진 (17)\n차주 (14)\n풍습 (17)\n하후화 (15)\n학소 (19)\n한복 (14)\n한현 (14)\n향총 (16)\n황보숭 (19)\n후성 (14)```");
     }
+    if (args ===`풍수사`){
+      message.channel.send("```asciidoc\n[풍수사]\n가환 (14)\n고유 (15)\n공주 (14)\n국연 (14)\n극정 (14)\n동윤 (17)\n만총 (17)\n봉기 (15)\n부하 (15)\n비의 (16)\n사마랑 (14)\n사준 (14)\n설종 (14)\n소교 (18)\n소하 (19)\n손건 (15)\n순유 (18)\n신비 (14)\n왕보 (14)\n왕수 (14)\n왕윤 (15)\n유화 (14)\n윤묵 (16)\n이적 (14)\n이회 (15)\n장백 (14)\n장화 (15)\n제갈근 (16)\n종요 (17)\n진군 (18)\n진림 (15)\n진밀 (14)\n항백 (15)\n향랑 (14)\n허유 (14)\n허정 (14) ```")
+     }
+     if (args ===`도사`){
+      message.channel.send("```asciidoc\n[도사]\n가규 (15)\n가남풍 (16)\n가후 (19)\n곽가 (20)\n곽도 (15)\n괴월 (16)\n보즐 (15)\n복양흥 (14)\n손노반 (14)\n순심 (14)\n순의 (14)\n예형 (14)\n유복 (14)\n이숙 (14)\n잠혼 (14)\n장굉 (17)\n장량 (14)\n장보 (14)\n장춘화 (16)\n조식 (17)\n진평 (19)\n타사대왕 (14)\n하후휘 (14)\n허공 (14)\n화흠 (14)\n황호 (14) ```")
+     }
+     if (args ===`웅술사`){
+      message.channel.send("```asciidoc\n[웅술사]\n맹획 (21)\n목록대왕 (16)\n화만 (18) ```")
+     }
+     if (args ===`포차`){
+      message.channel.send("```asciidoc\n[포차]\n감택 (16)\n공지 (14)\n곽유지 (16)\n금선 (14)\n동궐 (14)\n동소 (16)\n마막 (14)\n방선 (14)\n번건 (14)\n사섭 (17)\n신평 (16)\n양송 (14)\n양홍 (14)\n우번 (17)\n유엽 (18)\n조범 (14)\n진교 (16) ```")
+     }
+     if (args ===`현자`){
+      message.channel.send("```asciidoc\n[현자]\n방통 (20)\n사마의 (21)\n아린 (19)\n장각 (19)\n장량 (24)\n제갈량 (21) ```")
+     }
+     if (args ===`마왕`){
+      message.channel.send("```asciidoc\n[마왕]\n제갈량 (22) ```")
+     }
+     if (args ===`책사`){
+      message.channel.send("```asciidoc\n[책사]\n고옹 (16)\n공융 (14)\n관정 (14)\n괴량 (17)\n노숙 (19)\n마량 (17)\n마속 (16)\n미축 (15)\n범증 (21)\n법정 (19)\n서서 (19)\n손노육 (16)\n순욱 (20)\n신헌영 (14)\n심배 (17)\n양수 (15)\n양지 (15)\n염포 (15)\n영수 (14)\n왕랑 (15)\n이래 (14)\n이유 (15)\n장소 (18)\n장송 (15)\n장온 (15)\n장완 (17)\n저수 (18)\n전풍 (18)\n정욱 (18)\n조헌 (14)\n진궁 (17)\n진규 (15)\n채염 (18)\n하후현 (17)\n하후홍 (16)\n황월영 (17)\n희지재 (16) ```")
+     }
+     if (args ===`노병`){
+      message.channel.send("```asciidoc\n[노병]\n등지 (18)\n모개 (15)\n보연사 (17)\n보협 (14)\n사일 (14)\n서막 (15)\n손호 (14)\n양의 (15)\n여개 (16)\n오경 (15)\n온회 (16)\n왕찬 (15)\n위유 (15)\n유언 (18)\n이전 (19)\n장임 (20)\n전종 (18)\n제갈교 (16)\n조루 (16)\n조휴 (18)\n주치 (17)\n주환 (19)\n진표 (16) ```")
+     }
+     if (args ===`궁병`){
+      message.channel.send("```asciidoc\n[궁병]\n간옹 (16)\n동화 (16)\n서성 (19)\n손화 (14)\n송헌 (14)\n엄정 (14)\n엄준 (16)\n왕도 (16)\n왕평 (19)\n우금 (19)\n원유 (15)\n유궁 (14)\n유벽 (14)\n장빈 (14)\n장특 (16)\n장휴 (16)\n저곡 (14)\n전주 (17)\n정봉 (19)\n제갈균 (14)\n제갈서 (14)\n종육 (15)\n주란 (20)\n주방 (17)\n진무 (20)\n최염 (16) ```")
+     }
+     if (args ===`호술사`){
+      message.channel.send("```asciidoc\n[호술사]\n금환삼결 (16)\n대래동주 (14)\n맹우 (14)\n사마가 (17)\n오반 (18)\n이명 (17) ```")
+     }
+     if (args ===`산악기병`){
+      message.channel.send("```asciidoc\n[산악기병]\n강유 (21)\n경무 (14)\n공손강 (14)\n공손연 (14)\n공손월 (16)\n공손찬 (19)\n관구검 (16)\n답돈 (18)\n등애 (21)\n마초 (23)\n망아장 (14)\n비요 (18)\n양습 (18)\n엄강 (15)\n엄여 (16)\n여포 (24)\n왕광 (17)\n정원 (18)\n조운 (23)\n조창 (19)\n종리목 (17)\n팽월 (20)\n하후덕 (14)\n호주천 (16) ```")
+     }
+     if (args ===`도독`){
+      message.channel.send("```asciidoc\n[도독]\n낙통 (16)\n두예 (18)\n손교 (16)\n양호 (18)\n여대 (18)\n여몽 (21)\n여범 (16)\n육손 (20)\n육항 (19)\n제갈각 (17)\n종회 (17)\n주연 (17)\n주유 (21)\n진등 (17)\n진태 (18)\n채모 (17)\n한신 (24)\n황권 (16) ```")
+     }
+     if (args ===`무인`){
+      message.channel.send("```asciidoc\n[무인]\n뇌동 (16)\n번궁 (16)\n변희 (15)\n손례 (19)\n손소 (19)\n악취 (14)\n양진 (14)\n오의 (19)\n왕쌍 (19)\n우영 (20)\n위연 (21)\n장만성 (17)\n장억 (18)\n전위 (21)\n정원지 (14)\n포삼랑 (19)\n호거아 (19)\n황개 (20)\n황조 (17) ```")
+     }
+     if (args ===`적병`){
+      message.channel.send("```asciidoc\n[적병]\n고승 (14)\n공도 (14)\n동도나 (16)\n무안국 (18)\n배원소 (15)\n수고 (16)\n엄백호 (14)\n오찬 (15)\n요화 (19)\n장연 (19)\n장패 (19)\n조무 (18)\n주창 (19)\n주흔 (16)\n초촉 (17)\n한당 (19)\n허저 (21)\n환초 (21) ```")
+     }
+     if (args ===`무희`){
+      message.channel.send("```asciidoc\n[무희]\n견희 (19)\n당희 (17)\n대교 (19)\n양염 (16)\n양휘유 (17)\n여치 (18)\n왕원희 (20)\n조절 (18)\n초선 (20)\n축융 (19)\n하태후 (15) ```")
+     }
+     if (args ===`수군`){
+      message.channel.send("```asciidoc\n[수군]\n감녕 (23)\n능조 (19)\n당자 (16)\n문빙 (20)\n소비 (16)\n손유 (18)\n손익 (17)\n왕준 (18)\n유종 (14)\n장윤 (15)\n장흠 (20)\n주태 (21)\n진횡 (14)\n채화 (14) ```")
+     }
+     if (args ===`효기병`){
+      message.channel.send("```asciidoc\n[효기병]\n영포 (23)\n용저 (22)\n항적 (25) ```")
+     }
+     if (args ===`검사`){
+      message.channel.send("```asciidoc\n[검사]\n번쾌 (23)\n조조 (24)\n하후돈 (21) ```")
+     }
+     if (args ===`군주`){
+      message.channel.send("```asciidoc\n[군주]\n도겸 (14)\n사마사 (17)\n사마소 (17)\n사마염 (17)\n손견 (20)\n손권 (19)\n손책 (21)\n원상 (16)\n원소 (19)\n원술 (17)\n유비 (20)\n유우 (17)\n유장 (14)\n유표 (17)\n장로 (14)\n장수 (16)\n제갈탄 (17)\n조비 (17)\n조상 (14)\n조예 (17)\n조조 (21)\n항량 (17) ```")
+     }
+     if (args ===`천자`){
+      message.channel.send("```asciidoc\n[천자]\n유방 (19) ```")
+     }
+     if (args ===`중기병`){
+      message.channel.send("```asciidoc\n[중기병]\n관우 (23)\n관흥 (19)\n기령 (18)\n능통 (20)\n등충 (16)\n문추 (22)\n문흠 (19)\n번조 (14)\n서영 (16)\n손정 (15)\n손준 (16)\n양부 (17)\n원희 (14)\n유요 (16)\n전해 (14)\n정보 (19)\n조순 (18)\n조인 (21)\n조참 (22)\n포신 (15)\n하제 (18)\n하진 (14)\n하후걸 (18)\n하후무 (14)\n하후패 (19)\n형도영 (15)\n호진 (14) ```")
+     }
+     if (args ===`전차`){
+      message.channel.send("```asciidoc\n[전차]\n고순 (19)\n동백 (17)\n동탁 (22)\n마대 (18)\n마등 (19)\n미당대왕 (14)\n성공영 (16)\n아하소과 (15)\n염행 (19)\n왕릉 (20)\n유괴 (14)\n조광 (16)\n조진 (19)\n한수 (18)\n화웅 (20) ```")
+     }
+     if (args ===`창병`){
+      message.channel.send("```asciidoc\n[창병]\n계포 (20)\n고담 (15)\n곽사 (15)\n곽익 (17)\n곽진 (14)\n관해 (16)\n냉포 (14)\n마충 (15)\n맹달 (17)\n반장 (18)\n범강 (14)\n부첨 (19)\n사찬 (14)\n서황 (21)\n순우경 (17)\n심영 (19)\n양봉 (14)\n양제 (16)\n엄안 (18)\n왕경 (14)\n왕충 (14)\n이엄 (19)\n장호 (17)\n제갈첨 (16)\n진도 (18)\n채중 (14)\n파재 (14)\n한호 (18)\n해니 (14)\n호질 (14)\n환계 (15) ```")
+     }
+     if (args ===`경기병`){
+      message.channel.send("```asciidoc\n[경기병]\n ```")
+     }
+    if (args ===`궁기병`){
+      message.channel.send("```asciidoc\n[궁기병]\n고간 (15)\n고람 (18)\n관색 (19)\n국의 (18)\n담웅 (16)\n마운록 (16)\n마휴 (16)\n문호 (17)\n손상향 (21)\n여건 (17)\n장준 (15)\n장합 (20)\n조성 (14)\n조안민 (15)\n주령 (18)\n주발 (20)\n주이 (17)\n하후상 (18)\n하후연 (21)\n호열 (16)\n황충 (23) ```")
+     }    
+    if (args ===`노전차`){
+      message.channel.send("```asciidoc\n[노전차]\n종리말 (23)\n하후영 (21) ```")
+     }
+    if (args ===`군악대`){
+      message.channel.send("```asciidoc\n[군악대]\n ```")
+     }    
+    
+    
+    
+     if (args ===`footman` || args ===`Footman`){
+      message.channel.send("```asciidoc\n[Footman]\nYue Jin (20)\nHao Zhao (19)\nPang De (20)\nYue Chen (15)\nGuo Huai (19)\nSun Huan (18)\nLuo Xian (19)\nDong Xi (18)\nKing Wutugu (19)\nSun Deng (17)\nLu Zhi (18)\nHuangfu Song (19)\nLiu Zan (18)\nZhang Yi (17)\nZhao Tong (16)\nWu Lan (16)\nChen Zhen (17)\nLiu Feng (17)\nTeng Yin (14)\nXiang Chong (16)\nCao Hong (16)\nFeng Xi (17)\nYang Huai (14)\nHuo Jun (15)\nLi Jue (16)\nXiahou He (15)\nFei Guan (14)\nLiu Shao (14)\nJiang Yiqu (14)\nYong Kai (15)\nGao Ding (14)\nSun Liang (16)\nHou Cheng (14)\nSun Xiu (15)\nDong Cheng (14)\nJiang Fu (14)\nCao Mao (16)\nChe Zhou (14)\nMi Fang (17)\nLiu Shan (14)\nLiu Qi (14)\nZhang Da (14)\nLiu Du (14)\nHan Fu (14)\nHan Xuan (14) ```")
+     }
+     if (args ===`archer` || args ===`Archer`){
+      message.channel.send("```asciidoc\n[Archer]\nChen Wu (20)\nWang Ping (19)\nXu Sheng (19)\nDing Feng (19)\nYu Jin (19)\nTian Chou (17)\nZhang Te (16)\nZhou Fang (17)\nSun He (14)\nCui Yan (16)\nDong He (16)\nZhuge Xu (14)\nJian Yong (16)\nYuan Yi (15)\nLiu Gong (14)\nLiu Pi (14)\nSong Xian (14)\nZhang Xiu (16)\nJiang Bin (14)\nZhong Yu (15)\nYan Jun (16)\nJu Gu (14)\nYan Zheng (14)\nZhuge Jun (14)\nZhou Lan (20) ```")
+     }
+     if (args ===`Catapult` || args ===`catapult`){
+      message.channel.send("```asciidoc\n[Catapult]\nLiu Ye (18)\nXin Ping (16)\nYu Fan (17)\nKan Ze (16)\nDong Jue (14)\nShi Xie (17)\nChen Jiao (16)\nFan Jian (14)\nJin Xuan (14)\nMa Miao (14)\nGong Zhi (14)\nDong Zhao (16)\nPang Sun (14)\nGuo Youzhi (16)\nYang Hong (14)\nZhao Fan (14)\nYang Song (14) ```")
+     }
+     if (args ===`Chariot` || args ===`chariot`){
+      message.channel.send("```asciidoc\n[Chariot]\nDong Zhuo (22)\nHua Xiong (20)\nGao Shun (19)\nYan Xing (19)\nCao Zhen (19)\nMa Teng (19)\nLiu Gui (14)\nHan Sui (18)\nZhao Guang (16)\nMa Dai (18)\nCheng Gongying (16)\nEhe Shaoge (15)\nKing Midang (14)\nWang Ling (20) ```")
+     }
+     if (args ===`CrossbowChariot` || args ===`Crossbowchariot`||args ===`crossbowchariot`){
+      message.channel.send("```asciidoc\n[Crossbow Chariot]\nXiahou Ying (21)\nZhongli Mo (23) ```")
+     }
+     if (args ===`Crossbowman` || args ===`crossbowman`){
+      message.channel.send("```asciidoc\n[Crossbowman]\nZhang Ren (20)\nLi Dian (19)\nZhu Huan (19)\nQuan Cong (18)\nCao Xiu (18)\nWu Jing (15)\nLiu Yan (18)\nDeng Zhi (18)\nZhu Zhi (17)\nBu Lianshi (17)\nZhao Lei (16)\nBu Xie (14)\nYang Yi (15)\nLu Kai (16)\nXu Miao (15)\nWei You (15)\nWen Hui (16)\nZhuge Qiao (16)\nMao Jie (15)\nChen Biao (16)\nShi Yi (14)\nWang Can (15)\nSun Hao (14) ```")
+     }
+     if (args ===`Dancer` || args ===`dancer`){
+      message.channel.send("```asciidoc\n[Dancer]\nWang Yuanji (20)\nDiaochan (20)\nZhenji (19)\nDaqiao (19)\nZhurong (19)\nCao Jie (18)\nYang Huiyu (17)\nTang Ji (17)\nEmpress He (15)\nYang Yan (16)\nLu Zhi (18) ```")
+     }
+     if (args ===`Demon` || args ===`demon`){
+      message.channel.send("```asciidoc\n[Demon]\nZhuge Liang (22) ```")
+     }
+     if (args ===`Emperor` || args ===`emperor`){
+      message.channel.send("```asciidoc\n[Emperor]\nLiu Bang (19)\nXiang Liang (17)```")
+     }
+     if (args ===`Geomancer` || args ===`geomancer`){
+      message.channel.send("```asciidoc\n[Geomancer]\nMan Chong (17)\nZhong Yao (17)\nXiaoqiao (18)\nChen Qun (18)\nXun You (18)\nSun Qian (15)\nZhuge Jin (16)\nFei Yi (16)\nDong Yun (17)\nLi Hui (15)\nFeng Ji (15)\nXu Jing (14)\nChen Lin (15)\nWang Yun (15)\nGuo Yuan (14)\nQin Mi (14)\nFu Jia (15)\nXue Zong (14)\nZhang Hua (15)\nWang Fu (14)\nWang Xiu (14)\nXiang Lang (14)\nGao Rou (15)\nXin Pi (14)\nXi Zheng (14)\nYi Ji (14)\nSima Lang (14)\nXu You (14)\nKong Zhou (14)\nLiu He (14)\nGui Hwan (14)\nSi Zun (14)\nZhang Baek (14)\nXian He (19)\nXiang Bo (15) ```")
+     }
+     if (args ===`HeavyCavalry` || args ===`Heavycavalry` || || args ===`heavycavalry`){
+      message.channel.send("```asciidoc\n[Heavy Cavalry]\nGuan Yu (23)\nWen Chou (22)\nCao Ren (21)\nLing Tong (20)\nXiahou Jie (18)\nCheng Pu (19)\nXiahou Ba (19)\nCao Chun (18)\nGuan Xing (19)\nHe Qi (18)\nWen Qin (19)\nHu Zhen (14)\nDeng Zhong (16)\nJi Ling (18)\nTian Kai (14)\nXu Rong (16)\nYang Fu (17)\nSun Jun (16)\nFan Chou (14)\nXing Daorong (15)\nLiu Yao (16)\nSun Jing (15)\nBao Xin (15)\nYuan Xi (14)\nHe Jin (14)\nXiahou Mao (14)\nCao Shen (22) ```")
+     }
+     if (args ===`LightCavalry` || args ===`Lightcavalry` || || args ===`lightCavalry`){
+      message.channel.send("```asciidoc\n[Light Cavalry]\nTaishi Ci (23)\nZhang Liao (21)\nZhang Fei (23)\nYan Liang (22)\nXiahou Dun (21)\nWen Yang (21)\nZhang Xingcai (21)\nGuan Yinping (20)\nZhang Bao (19)\nCao Ang (18)\nWang Ji (18)\nGuan Ping (19)\nWang Yi (18)\nLu Lingqi (19)\nZhu Jun (18)\nMa Yaoji (17)\nTian Yu (19)\nXiahou Lan (14)\nWei Guan (14)\nYan Rou (17)\nZhang Miao (17)\nWu Yan (17)\nAhui Nan (14)\nZhang Yang (16)\nXiahou En (16)\nMan Ji (15)\nZhang Ji (14)\nYuan Tan (14)\nZhang Ji (16)\nLi Yi (14)\nWei Xu (14)\nZhang Wei (14)\nCao Hua (16)\nGao Pei (14)\nXie Jing (14)\nGuan Ying (20) ```")
+     }
+     if (args ===`Marine` || args ===`marine`){
+      message.channel.send("```asciidoc\n[Marine]\nZhou Yu (21)\nLu Xun (20)\nLu Kang (19)\nLu Meng (21)\nZhu Ran (17)\nYang Hu (18)\nChen Tai (18)\nLu Dai (18)\nZhong Hui (17)\nDu Yu (18)\nChen Deng (17)\nZhuge Ke (17)\nCai Mao (17)\nHuang Quan (16)\nSun Jiao (16)\nLu Fan (16)\nLuo Tong (16)\nHan Xin (24) ```")
+     }
+     if (args ===`MountainCavalry` || args ===`Mountaincavalry`|| args ===`mountaincavalry`){
+      message.channel.send("```asciidoc\n[Mountain Cavalry]\nLu bu (24)\nZhao Yun (23)Ma Chao (23)\nDeng Ai (21)\nJiang Wei (21)\nCao Zhang (19)\nGongsun Zan (19)\nFei Yao (18)\nDing Yuan (18)\nZhongli Mu (17)\nLiang Xi (18)\nTadun (18)\nWang Kuang (17)\nGuanqiu Jian (16)\nXiahou De (14)\nMang Yachang (14)\nHuchuquan (16)\nGongsun Yue (16)\nGongsun Yuan (14)\nGongsun Kang (14)\nYan Yu (16)\nYan Gang (15)\nGeng Wu (14)\nPeng Yue (20) ```")
+     }
+     if (args ===`MountedArcher` || args ===`Mountedarcher` || args ===`mountedarcher`){
+      message.channel.send("```asciidoc\n[Mounted Archer]\nHuang Zhong (23)\nSun Shangxiang (21)\nXiahou Yuan (21)\nZhang He (20)\nGuan Suo (19)\nGao Lan (18)\nZhu Ling (18)\nHu Lie (16)\nZhang Zun (15)\nXiahou Shang (18)\nGuo Yi (18)\nLu Qian (17)\nTan Xiong (16)\nMa Xiu (16)\nMa Yunlu (16)\nWen Hu (17)\nZhu Yi (17)\nCao Anmin (15)\nCao Xing (14)\nGao Gan (15)\nZhou Bo (20) ```")
+     }
+     if (args ===`Musician` || args ===`musician`){
+      message.channel.send("```asciidoc\n[Musician]\nBian Yue Xiang (16)\nYu Miaoyi (14) ```")
+     }
+     if (args ===`Navy` || args ===`navy`){
+      message.channel.send("```asciidoc\n[Navy]\nGan Ning (23)\nZhou Tai (21)\nJiang Qin (20)\nWen Pin (20)\nLing Cao (19)\nSun Yu (18)\nWang Jun (18)\nSun Yi (17)\nSu Fei (16)\nTang Zi (16)\nZhang Yun (15)\nChen Heng (14)\nCai He (14)\nLiu Cong (14) ```")
+     }
+     if (args ===`Outlaw` || args ===`outlaw`){
+      message.channel.send("```asciidoc\n[Outlaw]\nXu Chu (21)\nZhang Yan (19)\nZang Ba (19)\nHan Dang (19)\nZu Mao (18)\nLiao Hua (19)\nZhou Cang (19)\nWu Anguo (18)\nZhou Xin (16)\nDong Tuna (16)\nWu Can (15)\nSuigao (16)\nJiao Chu (17)\nGao Sheng (14)\nYan Baihu (14)\nGong Du (14)\nPei Yuanshao (15)\nHuan Chu (21) ```")
+     }
+     if (args ===`Pantheran` || args ===`pantheran`){
+      message.channel.send("```asciidoc\n[Pantheran]\nWu Ban (18)\nMeng You (14)\nShamoke (17)\nJinhuan Sanjie (16)\nLi Ming (17)\nDailai Donzhu (14) ```")
+     }
+     if (args ===`sage` || args ===`Sage`){
+      message.channel.send("```asciidoc\n[Sage]\nPang Tong (20)\nSima Yi (21)\nZhang Jue (19)\nZhuge Liang (21)\nZhang Liang (24) ```")
+     }
+     if (args ===`Spearman` || args ===`spearman`){
+      message.channel.send("```asciidoc\n[Spearman]\nXu Huang (21)\nGuan Hai (16)\nBo Cai (14)\nYang Feng (14)\nWang Jing (14)\nHu Zhi (14)\nMeng Da (17)\nChunyu Qiong (17)\nHuan Jie (15)\nMa Zhong (15)\nGu Tan (15)\nShi Zuan (14)\nZhang Hu (17)\nFu Qian (19)\nShen Rong (19)\nPan Zhang (18)\nWang Zhong (14)\nChen Dao (18)\nFan Qiang (14)\nLeng Bao (14)\nLi Yan (19)\nYan Yan (18)\nCai Zhong (14)\nXi Ni (14)\nHan Hao (18)\nZhuge Zhan (16)\nHuo Yi (17)\nYang Ji (16)\nGuo Si (15)\nGuo Jin (14)\nJi Bu (20) ```")
+     }
+     if (args ===`Soldier` || args ===`soldier`){
+      message.channel.send("```asciidoc\n[Soldier]\nWei Yan (21)\nDian Wei (21)\nSun Li (19)\nBao Sanniang (19)\nHuang Gai (20)\nZhang Mancheng (17)\nSun Shao (19)\nHuche'er (19)\nZhang Ni (18)\nWang Shuang (19)\nLei Tong (16)\nWu Yi (19)\nHuang Zu (17)\nBian Xi (15)\nHo Gong (16)\nCheng Yuanzhi (14)\nYue Jiu (14)\nYang Xin (14)\nYu Ying (20) ```")
+     }
+     if (args ===`SwiftCavalry` || args ===`Swiftcavalry` || args === `swiftcavalry`){
+      message.channel.send("```asciidoc\n[Swift Cavalry]\nXiang Yu (25)\nYing Bu (23)\nLong Ju (22) ```")
+     }     
+    
+    if (args ===`Swordsman` || args ===`swordsman`){
+      message.channel.send("```asciidoc\n[Swordsman]\nYoung Cao Cao (24)\nYoung Xiahou Dun (21)\nFan Kuai (23) ```")
+     }
+     if (args ===`Tactician` || args ===`tactician`){
+      message.channel.send("```asciidoc\n[Tactician]\nCheng Yu (18)\nLu Su (19)\nCai Yan (18)\nXu Shu (19)\nChen Gong (17)\nTian Feng (18)\nJu Shou (18)\nFa Zheng (19)\nMi Zhu (15)\nShen Pei (17)\nZhang Zhao (18)\nMa Su (16)\nXun Yu (20)\nHuang Yueying (17)\nXiahou Xuan (17)\nJiang Wan (17)\nLi Ru (15)\nKuai Liang (17)\nSun Luyu (16)\nXi Zhicai (16)\nMa Liang (17)\nNing Sui (14)\nZhang Wen (15)\nXiahoushi (16)\nChen Gui (15)\nCao Xian (14)\nGu Yong (16)\nWang Lang (15)\nYang Zhi (15)\nYan Pu (15)\nGuan Jing (14)\nYang Xiu (15)\nZhang Song (15)\nXin Xianying (14)\nKong Rong (14)\nUi Re (14)\nFan Zeng (21) ```")
+     }
+     if (args ===`Taoist` || args ===`taoist`){
+      message.channel.send("```asciidoc\n[Taoist]\nGuo Jia (20)\nJia Xu (19)\nZhang Hong (17)\nCao Zhi (17)\nJia Kui (15)\nZhang Chunhua (16)\nLiu Fu (14)\nKuai Yue (16)\nGuo Tu (15)\nJia Nanfeng (16)\nBu Zhi (15)\nSun Luban (14)\nZhang Bao (14)\nKing Duosi (14)\nPuyang Xing (14)\nXiahou Hui (14)\nZhang Liang (14)\nXun Chen (14)\nXu Gong (14)\nXun Yi (14)\nMi Heng (14)\nLi Su (14)\nHua Xin (14)\nCen Hun (14)\nHuang Hao (14)\nChen Ping (19) ```")
+     }
+     if (args ===`Ursari` || args ===`ursari`){
+      message.channel.send("```asciidoc\n[Ursari]\nMeng Huo (21)\nHua Man (18)\nKing Mulu (16) ```")
+     }
+     if (args ===`Warlord` || args ===`warlord`){
+      message.channel.send("```asciidoc\n[Warlord]\nSun Jian (20)\nSun Ce (21)\nLiu Bei (20)\nCao Cao (21)\nSun Quan (19)\nYuan Shao (19)\nCao Pi (17)\nZhuge Dan (17)\nCao Rui (17)\nSima Shi (17)\nSima Yan (17)\nSima Zhao (17)\nLiu Yu (17)\nLiu Biao (17)\nZhang Xiu (16)\nYuan Shu (17)\nYuan Shang (16)\nCao Shuang  (14)\nTao Qian (14)\nZhang Lu (14)\nLiu Zhang (14) ```")
+     }
+     
+    
+     
   }
   
   
