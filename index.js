@@ -5003,7 +5003,32 @@ if (args ===`XiangYu` ||args ===`xiangyu` ||args ===`Xiangyu`){
     message.channel.send("https://johansen.software/rotk-tools/");
   }
   
-
+  if (cmd === `${prefix}vip`){
+    if (args ===`5`){
+        message.channel.send("https://cdn.discordapp.com/attachments/499127318913089547/499135040848920586/Screenshot_2018-10-09_17.06.57.png");
+    }
+        if (args ===`6`){
+        message.channel.send("https://cdn.discordapp.com/attachments/499127318913089547/499135020968181773/Screenshot_2018-10-09_17.06.47.png");
+    }
+        if (args ===`7`){
+        message.channel.send("https://cdn.discordapp.com/attachments/499127318913089547/499134999233298436/Screenshot_2018-10-09_17.06.40.png");
+    }
+        if (args ===`8`){
+        message.channel.send("https://cdn.discordapp.com/attachments/499127318913089547/499134977456472074/Screenshot_2018-10-09_17.06.30.png");
+    }
+        if (args ===`9`){
+        message.channel.send("https://cdn.discordapp.com/attachments/499127318913089547/499134959483879435/Screenshot_2018-10-09_17.06.22.png");
+    }
+        if (args ===`10`){
+        message.channel.send("https://cdn.discordapp.com/attachments/499127318913089547/499134938952630272/Screenshot_2018-10-09_17.06.14.png");
+    }
+        if (args ===`11`){
+        message.channel.send("https://cdn.discordapp.com/attachments/499127318913089547/499134904362074112/Screenshot_2018-10-09_17.05.59.png");
+    }
+        if (args ===`12`){
+        message.channel.send("https://cdn.discordapp.com/attachments/499127318913089547/499134799450210314/Screenshot_2018-10-09_17.05.40.png");
+    }
+  }
   
   
   if (cmd === `${prefix}maprot`){
@@ -5026,15 +5051,17 @@ if (args ===`XiangYu` ||args ===`xiangyu` ||args ===`Xiangyu`){
   if (cmd === `${prefix}지형`){
     message.channel.send("https://cdn.discordapp.com/attachments/499127352798871552/500227279335718912/Screenshot_2018-10-12_17.14.53.png");
   }
-  
+   if (cmd === `${prefix}디버프` || cmd === `${prefix}debuff`){
+    message.channel.send("https://cdn.discordapp.com/attachments/499127318913089547/499132211497271296/illness-2.png");
+  } 
   //계보, 코스트, 군주효과, 태수효과, 공략
   
   
   if (cmd === `${prefix}?`){
-    message.channel.send("```asciidoc\n/번역 [이름] : 보물/장수/병종/특성 번역 ex)/번역 제갈량\n/특성 [이름] : 특성 검색 ex)/특성 연속 책략\n/장수 [이름] : 장수 상세 정보 ex)/장수 제갈량\n/병종 [이름] : 병종 상세 정보 ex)/병종 보병\n/병종목록 [이름] : 해당 병종 장수 리스트 ex)/병종목록 보병\n/보물 [이름] : 보물 상세 정보 ex)/보물 백학선\n/위키 : 조조전 온라인 나무위키\n/네이버 : 네이버 공식 카페\n/플러그 : 글로벌서버 공식 페이지\n/코스트 : 코스트 계산기\n/전장순서 : 섬멸전 전장 순서\n/지형 : 지형별 상성표\n/이동 : 각 섬멸맵 병종별 이동력 소모\n/?? : in Eng\n= 이름 적을때 스페이스 없이 적으세요 =```");
+    message.channel.send("```asciidoc\n/번역 [이름] : 보물/장수/병종/특성 번역 ex)/번역 제갈량\n/특성 [이름] : 특성 검색 ex)/특성 연속 책략\n/장수 [이름] : 장수 상세 정보 ex)/장수 제갈량\n/병종 [이름] : 병종 상세 정보 ex)/병종 보병\n/병종목록 [이름] : 해당 병종 장수 리스트 ex)/병종목록 보병\n/보물 [이름] : 보물 상세 정보 ex)/보물 백학선\n/위키 : 조조전 온라인 나무위키\n/네이버 : 네이버 공식 카페\n/플러그 : 글로벌서버 공식 페이지\n/코스트 : 코스트 계산기\n/전장순서 : 섬멸전 전장 순서\n/지형 : 지형별 상성표\n/이동 : 각 섬멸맵 병종별 이동력 소모\n/디버프 : 디버프효과 상세정보\n/vip [5~12] : vip 5~12레벨 무료상자\n/?? : in Eng\n= 이름 적을때 스페이스 없이 적으세요 =```");
   }
   if (cmd === `${prefix}??`){
-    message.channel.send("```asciidoc\n/tr [name] : Translate name of artifact/commander/class/passive ex)/tr jiangfu\n/pa [name] : Passive Search ex)/pa doubletactics\n/cm [name] : Commander Description ex)/co jiangfu\n/cl [name] : Class Description ex)/cl footman\n/cll [name] : Class Commander List ex)/cll footman\n/ar [name] : Artifacts Description ex)/ar soulstaff\n/plug\n/cost : Team builder by Wolfgard\n/maprot : Annihilation Map Rotation \n/terrain : Terrain Bonus\n/move : SPD required to move in anni-map\n/? : in Kor\n= There should be no space character in names =```");
+    message.channel.send("```asciidoc\n/tr [name] : Translate name of artifact/commander/class/passive ex)/tr jiangfu\n/pa [name] : Passive Search ex)/pa doubletactics\n/cm [name] : Commander Description ex)/co jiangfu\n/cl [name] : Class Description ex)/cl footman\n/cll [name] : Class Commander List ex)/cll footman\n/ar [name] : Artifacts Description ex)/ar soulstaff\n/plug\n/cost : Team builder by Wolfgard\n/maprot : Annihilation Map Rotation \n/terrain : Terrain Bonus\n/move : SPD required to move in anni-map\n/debuff : debuff description\n/? : in Kor\n= There should be no space character in names =```");
   }
 });
 
