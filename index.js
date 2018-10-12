@@ -3166,1477 +3166,1476 @@ if (args ===`XiangYu` ||args ===`xiangyu` ||args ===`Xiangyu`){
   if (cmd === `${prefix}장수` || cmd === `${prefix}cm`){
 
     //영어 장수
-    if (args ===`JiangFu||args ===`jiangfu||args ===`Jiangfu`){
+   if (args ===`JiangFu`||args ===`jiangfu`||args ===`Jiangfu`){
       message.channel.send("```[Jiang Fu (Footman)]\nCost - 14\nStat - 60/70/80/60/60\n30lv - All DEF Rate + (5)\n50lv - Reach DEF+\n70lv - HP Boost % (15)\n90lv - Union\nPrefect - Market\nWarlord - Trader+Banner - Cao Cao```");
     }
-if (args ===`Manji||args ===`manji||args ===`Manji`){
+if (args ===`Manji`||args ===`manji`||args ===`Manji`){
       message.channel.send("```[Manji (Light Cavalry)]\nCost - 15\nStat - 80/60/70/60/60\n30lv - Physical Attack +% (12)\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - Physical Damage -% (10)\nPrefect - Port\nWarlord - Occupation+Banner - Cao Cao```");
     }
-if (args ===`LiuGong||args ===`liugong||args ===`Liugong`){
+if (args ===`LiuGong`||args ===`liugong`||args ===`Liugong`){
       message.channel.send("```[Liu Gong (Archer)]\nCost - 14\nStat - 70/60/60/60/80\n30lv - Physical Attack +% (12)\n50lv - Mounted ATK +% (15)\n70lv - Immobilization ATK % (15)\n90lv - Phalanx Strike\nPrefect - Market\nWarlord - Sizhou Loot+Banner - Cao Cao```");
     }
-if (args ===`XiahouYuan||args ===`xiahouyuan||args ===`Xiahouyuan`){
+if (args ===`XiahouYuan`||args ===`xiahouyuan`||args ===`Xiahouyuan`){
       message.channel.send("```[Xiahou Yuan (Mounted Archer)]\nCost - 21\nStat - 92/62/80/84/75\n30lv - Counterattack+\n50lv - Mounted ATK +% (15)\n70lv - Attack ACC + (17)\n90lv - Unstoppable\nPrefect - Pig Farm\nWarlord - Xuzhou Tax+Banner - Cao Cao```");
     }
-if (args ===`XiahouDun||args ===`xiahoudun||args ===`Xiahoudun`){
+if (args ===`XiahouDun`||args ===`xiahoudun`||args ===`Xiahoudun`){
       message.channel.send("```[Xiahou Dun (Light Cavalry)]\nCost - 21\nStat - 90/64/77/94/66\n30lv - Enhanced Double ATK % (50)\n50lv - Leading Attack\n70lv - Good from Evil\n90lv - Veteran (35)\nPrefect - Market\nWarlord - Premium Shop+Banner - Cao Cao```");
     }
-if (args ===`YueJin||args ===`yuejin||args ===`Yuejin`){
+if (args ===`YueJin`||args ===`yuejin`||args ===`Yuejin`){
       message.channel.send("```[Yue Jin (Footman)]\nCost - 20\nStat - 84/54/80/76/86\n30lv - All DEF Rate + (7)\n50lv - HP Boost % (15)\n70lv - Reach ATK-\n90lv - Leading Attack\nPrefect - Farm\nWarlord - Qingzhou Loot+Banner - Cao Cao```");
     }
-if (args ===`LiDian||args ===`lidian||args ===`Lidian`){
+if (args ===`LiDian`||args ===`lidian`||args ===`Lidian`){
       message.channel.send("```[Li Dian (Crossbowman)]\nCost - 19\nStat - 77/81/78/73/92\n30lv - Self MRL+\n50lv - Double Tactics Immunity\n70lv - WIS- Attack\n90lv - Critical Attack\nPrefect - Fishery\nWarlord - Yanzhou Tax+Banner - Cao Cao```");
     }
-if (args ===`CaoHong||args ===`caohong||args ===`Caohong`){
+if (args ===`CaoHong`||args ===`caohong`||args ===`Caohong`){
       message.channel.send("```[Cao Hong (Footman)]\nCost - 16\nStat - 64/82/78/66/70\n30lv - Physical Damage -% (10)\n50lv - ATK DEF Rate + (20)\n70lv - Reach DEF-\n90lv - Reversal\nPrefect - Farm\nWarlord - Yuzhou Loot+Banner - Cao Cao```");
     }
-if (args ===`CaoRen||args ===`caoren||args ===`Caoren`){
+if (args ===`CaoRen`||args ===`caoren`||args ===`Caoren`){
       message.channel.send("```[Cao Ren (Heavy Cavalry)]\nCost - 21\nStat - 93/67/90/63/85\n30lv - Self DEF+\n50lv - Damage Transfer\n70lv - ATK- Attack\n90lv - Union\nPrefect - Lumbermill\nWarlord - Yanzhou Tax+Banner - Cao Cao```");
     }
-if (args ===`DianWei||args ===`dianwei||args ===`Dianwei`){
+if (args ===`DianWei`||args ===`dianwei`||args ===`Dianwei`){
       message.channel.send("```[Dian Wei (Soldier)]\nCost - 21\nStat - 95/32/72/97/68\n30lv - Good from Evil\n50lv - Guiding Attack\n70lv - Expand AoE (4)\n90lv - Unstoppable\nPrefect - Fruit Grove\nWarlord - Practice Battle+Banner - Cao Cao```");
     }
-if (args ===`XunYu||args ===`xunyu||args ===`Xunyu`){
+if (args ===`XunYu`||args ===`xunyu`||args ===`Xunyu`){
       message.channel.send("```[Xun Yu (Tactician)]\nCost - 20\nStat - 54/97/77/56/76\n30lv - Double Tactics +%\n50lv - Tactics ACC + (15)\n70lv - Fire Tactics Specialization % (20)\n90lv - Double Tactics\nPrefect - Stockpile\nWarlord - Yanzhou Tax+Banner - Cao Cao```");
     }
-if (args ===`XunYou||args ===`xunyou||args ===`Xunyou`){
+if (args ===`XunYou`||args ===`xunyou`||args ===`Xunyou`){
       message.channel.send("```[Xun You (Geomancer)]\nCost - 18\nStat - 34/94/77/66/78\n30lv - Supply Tactics +% (8)\n50lv - Reach Awaken\n70lv - Double ATK Immunity\n90lv - Summon the Four Gods\nPrefect - Treasury\nWarlord - Yanzhou Tax+Banner - Cao Cao```");
     }
-if (args ===`CaoCao||args ===`caocao||args ===`Caocao`){
+if (args ===`CaoCao`||args ===`caocao`||args ===`Caocao`){
       message.channel.send("```[Cao Cao (Warlord)]\nCost - 21\nStat - 75/96/97/73/76\n30lv - Counterattack+\n50lv - Reach MRL+\n70lv - Terrain Effect +\n90lv - Reversal\nPrefect - Ration Tax\nWarlord - Battle Ration+Banner - Cao Cao```");
     }
-if (args ===`GuoJia||args ===`guojia||args ===`Guojia`){
+if (args ===`GuoJia`||args ===`guojia`||args ===`Guojia`){
       message.channel.send("```[Guo Jia (Taoist)]\nCost - 20\nStat - 22/96/71/77/87\n30lv - Interrupt Tactics +% (8)\n50lv - Imitate Tactics\n70lv - Double Tactics\n90lv - Summon the Four Gods\nPrefect - Farm\nWarlord - Jizhou Tax+Banner - Sima Yi```");
     }
-if (args ===`ChengYu||args ===`chengyu||args ===`Chengyu`){
+if (args ===`ChengYu`||args ===`chengyu`||args ===`Chengyu`){
       message.channel.send("```[Cheng Yu (Tactician)]\nCost - 18\nStat - 69/91/89/78/86\n30lv - Double Tactics +%\n50lv - Elemental Tactics +% (5)\n70lv - Tactics ACC + (12)\n90lv - Defense Stat Switch\nPrefect - Fruit Grove\nWarlord - Yanzhou Tax+Banner - Sima Yi```");
     }
-if (args ===`YuJin||args ===`yujin||args ===`Yujin`){
+if (args ===`YuJin`||args ===`yujin`||args ===`Yujin`){
       message.channel.send("```[Yu Jin (Archer)]\nCost - 19\nStat - 77/72/85/92/63\n30lv - Mounted ATK +% (15)\n50lv - Physical Attack +% (12)\n70lv - Status Effect ATK % (15)\n90lv - Leading Attack\nPrefect - Port\nWarlord - Yanzhou Tax+Banner - Sima Yi```");
     }
-if (args ===`LiuYe||args ===`liuye||args ===`Liuye`){
+if (args ===`LiuYe`||args ===`liuye`||args ===`Liuye`){
       message.channel.send("```[Liu Ye (Catapult)]\nCost - 18\nStat - 72/92/78/52/82\n30lv - Random- Attack\n50lv - Self AGI+\n70lv - Attack ACC + (17)\n90lv - Double ATK Immunity\nPrefect - Absolute Protection\nWarlord - Liangzhou-N Loot+Banner - Sima Yi```");
     }
-if (args ===`XuChu||args ===`xuchu||args ===`Xuchu`){
+if (args ===`XuChu`||args ===`xuchu`||args ===`Xuchu`){
       message.channel.send("```[Xu Chu (Outlaw)]\nCost - 21\nStat - 97/36/74/68/98\n30lv - Deadly Attack (50)\n50lv - Good from Evil\n70lv - Counterattack+\n90lv - Unstoppable\nPrefect - Farm\nWarlord - Premium Shop+Banner - Sima Yi```");
     }
-if (args ===`XuHuang||args ===`xuhuang||args ===`Xuhuang`){
+if (args ===`XuHuang`||args ===`xuhuang`||args ===`Xuhuang`){
       message.channel.send("```[Xu Huang (Spearman)]\nCost - 21\nStat - 90/78/91/68/86\n30lv - Mounted ATK +% (15)\n50lv - Expand ATK RNG (7)\n70lv - Random- Attack\n90lv - Guiding Attack\nPrefect - Market\nWarlord - Practice Battle+Banner - Sima Yi```");
     }
-if (args ===`ManChong||args ===`manchong||args ===`Manchong`){
+if (args ===`ManChong`||args ===`manchong`||args ===`Manchong`){
       message.channel.send("```[Man Chong (Geomancer)]\nCost - 17\nStat - 71/90/84/78/70\n30lv - MP Boost % (15)\n50lv - Summon the Four Gods\n70lv - Reach WIS+\n90lv - Imitate Tactics\nPrefect - Farm\nWarlord - Yanzhou Tax+Banner - Sima Yi```");
     }
-if (args ===`Diaochan||args ===`diaochan||args ===`Diaochan`){
+if (args ===`Diaochan`||args ===`diaochan`||args ===`Diaochan`){
       message.channel.send("```[Diaochan (Dancer)]\nCost - 20\nStat - 71/83/67/100/87\n30lv - Physical Damage -% (10)\n50lv - MP Attack (10)\n70lv - Reach ATK+\n90lv - Leading Attack\nPrefect - Market\nWarlord - Yongzhou-E Tax+Banner - Sima Yi```");
     }
-if (args ===`ZhangLiao||args ===`zhangliao||args ===`Zhangliao`){
+if (args ===`ZhangLiao`||args ===`zhangliao`||args ===`Zhangliao`){
       message.channel.send("```[Zhang Liao (Light Cavalry)]\nCost - 21\nStat - 94/80/83/75/91\n30lv - Enhanced Double ATK % (15)\n50lv - Leading Attack\n70lv - Elusive (10)\n90lv - Union\nPrefect - Port\nWarlord - Bingzhou Loot+Banner - Sima Yi```");
     }
-if (args ===`JiaXu||args ===`jiaxu||args ===`Jiaxu`){
+if (args ===`JiaXu`||args ===`jiaxu`||args ===`Jiaxu`){
       message.channel.send("```[Jia Xu (Taoist)]\nCost - 19\nStat - 52/97/68/85/75\n30lv - Interrupt Tactics +% (8)\n50lv - Imitate Tactics\n70lv - Reach ATK-\n90lv - Defense Stat Switch\nPrefect - Fishery\nWarlord - Yongzhou-E Loot+Banner - Sima Yi```");
     }
-if (args ===`ZhangHe||args ===`zhanghe||args ===`Zhanghe`){
+if (args ===`ZhangHe`||args ===`zhanghe`||args ===`Zhanghe`){
       message.channel.send("```[Zhang He (Mounted Archer)]\nCost - 20\nStat - 89/82/68/74/92\n30lv - Phalanx Strike\n50lv - Mounted ATK +% (15)\n70lv - Physical Attack +% (12)\n90lv - Union\nPrefect - Farm\nWarlord - Yongzhou-E Loot+Banner - Sima Yi```");
     }
-if (args ===`CaoPi||args ===`caopi||args ===`Caopi`){
+if (args ===`CaoPi`||args ===`caopi`||args ===`Caopi`){
       message.channel.send("```[Cao Pi (Warlord)]\nCost - 17\nStat - 75/84/92/58/93\n30lv - Status Effect Reflection\n50lv - Critical Attack+ (30)\n70lv - Reach WIS+\n90lv - Critical Attack\nPrefect - Fishery\nWarlord - Yanzhou Tax+Banner - Sima Yi```");
     }
-if (args ===`SimaYi||args ===`simayi||args ===`Simayi`){
+if (args ===`SimaYi`||args ===`simayi`||args ===`Simayi`){
       message.channel.send("```[Sima Yi (Sage)]\nCost - 21\nStat - 67/98/98/79/86\n30lv - Imitate Tactics\n50lv - Defense Stat Switch\n70lv - Wind Tactics +% (15)\n90lv - Ranged DMG -% (20)\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+Banner - Sima Yi```");
     }
-if (args ===`YanZheng||args ===`yanzheng||args ===`Yanzheng`){
+if (args ===`YanZheng`||args ===`yanzheng`||args ===`Yanzheng`){
       message.channel.send("```[Yan Zheng (Archer)]\nCost - 14\nStat - 52/63/59/64/71\n30lv - Self AGI+\n50lv - Attack ACC + (20)\n70lv - Deadly Poison Attack % (50)\n90lv - ATK Boost % (15)\nPrefect - Silver Coin Tax\nWarlord - Jizhou Tax+Banner - Zhang Jue```");
     }
-if (args ===`PeiYuanshao||args ===`peiyuanshao||args ===`Peiyuanshao`){
+if (args ===`PeiYuanshao`||args ===`peiyuanshao`||args ===`Peiyuanshao`){
       message.channel.send("```[Pei Yuanshao (Outlaw)]\nCost - 15\nStat - 72/26/55/56/74\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - Counterattack+\n90lv - Double Counter\nPrefect - Lumbermill\nWarlord - Jizhou Tax+Banner - Zhang Jue```");
     }
-if (args ===`GongDu||args ===`gongdu||args ===`Gongdu`){
+if (args ===`GongDu`||args ===`gongdu`||args ===`Gongdu`){
       message.channel.send("```[Gong Du (Outlaw)]\nCost - 14\nStat - 72/36/55/58/82\n30lv - Reach MRL-\n50lv - Ranged DMG -% (10)\n70lv - MRL Boost % (10)\n90lv - Enhanced Double ATK % (15)\nPrefect - Fishery\nWarlord - Occupation+Banner - Zhang Jue```");
     }
-if (args ===`GaoSheng||args ===`gaosheng||args ===`Gaosheng`){
+if (args ===`GaoSheng`||args ===`gaosheng`||args ===`Gaosheng`){
       message.channel.send("```[Gao Sheng (Outlaw)]\nCost - 14\nStat - 74/18/58/69/77\n30lv - Earth Tactics+ % (10)\n50lv - Reach MRL-\n70lv - MRL Boost % (10)\n90lv - Double ATK Immunity\nPrefect - Farm\nWarlord - Jizhou Tax+Banner - Zhang Jue```");
     }
-if (args ===`ChengYuanzhi||args ===`chengyuanzhi||args ===`Chengyuanzhi`){
+if (args ===`ChengYuanzhi`||args ===`chengyuanzhi`||args ===`Chengyuanzhi`){
       message.channel.send("```[Cheng Yuanzhi (Soldier)]\nCost - 14\nStat - 74/22/69/72/58\n30lv - % Charge Attack (2)\n50lv - Reach ATK-\n70lv - MRL- Attack\n90lv - Expand ATK RNG (7)\nPrefect - Fishery\nWarlord - Youzhou Loot+Banner - Zhang Jue```");
     }
-if (args ===`EmpressHe||args ===`empresshe||args ===`Empresshe`){
+if (args ===`EmpressHe`||args ===`empresshe`||args ===`Empresshe`){
       message.channel.send("```[Empress He (Dancer)]\nCost - 15\nStat - 46/69/55/76/61\n30lv - ATK DEF Rate + (25)\n50lv - Counterattack+\n70lv - All DEF Rate + (10)\n90lv - Rage +% (20)\nPrefect - Ration Tax\nWarlord - Silver Coin Tax+Banner - Zhang Jue```");
     }
-if (args ===`ZhangWei||args ===`zhangwei||args ===`Zhangwei`){
+if (args ===`ZhangWei`||args ===`zhangwei`||args ===`Zhangwei`){
       message.channel.send("```[Zhang Wei (Light Cavalry)]\nCost - 14\nStat - 74/55/70/61/65\n30lv - Physical Attack +% (12)\n50lv - Reach WIS-\n70lv - Reach MRL+\n90lv - Double Tactics Immunity\nPrefect - Port\nWarlord - Yongzhou-E Tax+Banner - Zhang Jue```");
     }
-if (args ===`ZhangLu||args ===`zhanglu||args ===`Zhanglu`){
+if (args ===`ZhangLu`||args ===`zhanglu`||args ===`Zhanglu`){
       message.channel.send("```[Zhang Lu (Warlord)]\nCost - 14\nStat - 52/78/60/52/76\n30lv - Counterattack+\n50lv - Reach MRL+\n70lv - Critical Attack+ (30)\n90lv - Terrain Effect +\nPrefect - Treasury\nWarlord - Yongzhou-E Loot+Banner - Zhang Jue```");
     }
-if (args ===`YanPu||args ===`yanpu||args ===`Yanpu`){
+if (args ===`YanPu`||args ===`yanpu`||args ===`Yanpu`){
       message.channel.send("```[Yan Pu (Tactician)]\nCost - 15\nStat - 49/85/56/62/65\n30lv - Elemental Tactics +% (5)\n50lv - Double Tactics +%\n70lv - Earth Tactics+ % (15)\n90lv - Status Effect Immunity\nPrefect - Market\nWarlord - Yizhou-C Loot+Banner - Zhang Jue```");
     }
-if (args ===`HeJin||args ===`hejin||args ===`Hejin`){
+if (args ===`HeJin`||args ===`hejin`||args ===`Hejin`){
       message.channel.send("```[He Jin (Heavy Cavalry)]\nCost - 14\nStat - 45/28/48/72/97\n30lv - Ranged DMG -% (10)\n50lv - Rage +% (20)\n70lv - Abnormality ATK % (15)\n90lv - Veteran (35)\nPrefect - Silver Coin Tax\nWarlord - Battle Ration+Banner - Zhang Jue```");
     }
-if (args ===`GuanHai||args ===`guanhai||args ===`Guanhai`){
+if (args ===`GuanHai`||args ===`guanhai`||args ===`Guanhai`){
       message.channel.send("```[Guan Hai (Spearman)]\nCost - 16\nStat - 84/34/73/77/52\n30lv - Reach AGI-\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - % Charge Attack (4)\nPrefect - Lumbermill\nWarlord - Practice Battle+Banner - Zhang Jue```");
     }
-if (args ===`LiuPi||args ===`liupi||args ===`Liupi`){
+if (args ===`LiuPi`||args ===`liupi`||args ===`Liupi`){
       message.channel.send("```[Liu Pi (Archer)]\nCost - 14\nStat - 68/51/74/52/80\n30lv - Enhanced Double ATK % (10)\n50lv - Self AGI+\n70lv - Deadly Poison Attack % (50)\n90lv - ATK Boost % (15)\nPrefect - Ration Tax\nWarlord - Scout+Banner - Zhang Jue```");
     }
-if (args ===`ZhangLiang||args ===`zhangliang||args ===`Zhangliang`){
+if (args ===`ZhangLiang`||args ===`zhangliang`||args ===`Zhangliang`){
       message.channel.send("```[Zhang Liang (Taoist)]\nCost - 14\nStat - 80/74/78/74/56\n30lv - Imitate Tactics\n50lv - Status Effect Reflection\n70lv - Reach DEF-\n90lv - Summon the Four Gods\nPrefect - Master Storage\nWarlord - Jizhou Tax+Banner - Zhang Jue```");
     }
-if (args ===`ZhangBao||args ===`zhangbao||args ===`Zhangbao`){
+if (args ===`ZhangBao`||args ===`zhangbao`||args ===`Zhangbao`){
       message.channel.send("```[Zhang Bao (Taoist)]\nCost - 14\nStat - 71/81/83/72/62\n30lv - Imitate Tactics\n50lv - Status Effect Reflection\n70lv - Reach WIS-\n90lv - Summon the Four Gods\nPrefect - Farm\nWarlord - Premium Shop+Banner - Zhang Jue```");
     }
-if (args ===`BoCai||args ===`bocai||args ===`Bocai`){
+if (args ===`BoCai`||args ===`bocai`||args ===`Bocai`){
       message.channel.send("```[Bo Cai (Spearman)]\nCost - 14\nStat - 64/52/85/81/61\n30lv - Physical Damage Reflection % (10)\n50lv - All DEF Rate + (7)\n70lv - DEF- Attack\n90lv - % Charge Attack (4)\nPrefect - Treasury\nWarlord - Trader+Banner - Zhang Jue```");
     }
-if (args ===`ZhangMancheng||args ===`zhangmancheng||args ===`Zhangmancheng`){
+if (args ===`ZhangMancheng`||args ===`zhangmancheng`||args ===`Zhangmancheng`){
       message.channel.send("```[Zhang Mancheng (Soldier)]\nCost - 17\nStat - 84/46/77/69/89\n30lv - Interrupt Tactics +% (8)\n50lv - Tactics Damage -% (10)\n70lv - WIS- Attack\n90lv - Enhanced Double ATK % (15)\nPrefect - Market\nWarlord - Qingzhou Tax+Banner - Zhang Jue```");
     }
-if (args ===`ZhangJue||args ===`zhangjue||args ===`Zhangjue`){
+if (args ===`ZhangJue`||args ===`zhangjue`||args ===`Zhangjue`){
       message.channel.send("```[Zhang Jue (Sage)]\nCost - 19\nStat - 27/86/90/88/96\n30lv - Reach WIS+\n50lv - Double Tactics\n70lv - Elemental Tactics +% (10)\n90lv - Tactics ACC + (15)\nPrefect - Master Tax\nWarlord - Battle Ration+Banner - Zhang Jue```");
     }
-if (args ===`YuanShu||args ===`yuanshu||args ===`Yuanshu`){
+if (args ===`YuanShu`||args ===`yuanshu`||args ===`Yuanshu`){
       message.channel.send("```[Yuan Shu (Warlord)]\nCost - 17\nStat - 64/75/58/82/81\n30lv - Reach MRL+\n50lv - Counterattack+\n70lv - DEF Boost % (11)\n90lv - Critical Attack\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+Banner - Guan Yu```");
     }
-if (args ===`GaoRou||args ===`gaorou||args ===`Gaorou`){
+if (args ===`GaoRou`||args ===`gaorou`||args ===`Gaorou`){
       message.channel.send("```[Gao Rou (Geomancer)]\nCost - 15\nStat - 52/77/67/56/76\n30lv - Tactics DEF Rate + (15)\n50lv - MP Boost % (15)\n70lv - Reach AGI+\n90lv - Status Effect Immunity\nPrefect - Market\nWarlord - Yizhou-N Loot+Banner - Guan Yu```");
     }
-if (args ===`CaoAnmin||args ===`caoanmin||args ===`Caoanmin`){
+if (args ===`CaoAnmin`||args ===`caoanmin`||args ===`Caoanmin`){
       message.channel.send("```[Cao Anmin (Mounted Archer)]\nCost - 15\nStat - 71/64/61/53/84\n30lv - Mounted ATK +% (15)\n50lv - Counterattack+\n70lv - Immobilization ATK % (15)\n90lv - Forceful Blow\nPrefect - Fruit Grove\nWarlord - Yuzhou Loot+Banner - Guan Yu```");
     }
-if (args ===`YangYan||args ===`yangyan||args ===`Yangyan`){
+if (args ===`YangYan`||args ===`yangyan`||args ===`Yangyan`){
       message.channel.send("```[Yang Yan (Dancer)]\nCost - 16\nStat - 34/81/56/72/79\n30lv - Physical Damage -% (10)\n50lv - Counterattack+\n70lv - Oppressive Assault\n90lv - AGI Boost % (10)\nPrefect - Market\nWarlord - Yongzhou-W Tax+Banner - Guan Yu```");
     }
-if (args ===`XunYi||args ===`xunyi||args ===`Xunyi`){
+if (args ===`XunYi`||args ===`xunyi`||args ===`Xunyi`){
       message.channel.send("```[Xun Yi (Taoist)]\nCost - 14\nStat - 26/74/59/72/63\n30lv - Status Effect Reflection\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach AGI-\n90lv - MP Defense\nPrefect - Fishery\nWarlord - Yuzhou Tax+Banner - Guan Yu```");
     }
-if (args ===`PangDe||args ===`pangde||args ===`Pangde`){
+if (args ===`PangDe`||args ===`pangde`||args ===`Pangde`){
       message.channel.send("```[Pang De (Footman)]\nCost - 20\nStat - 91/77/89/62/60\n30lv - Physical Damage -% (7)\n50lv - Reach DEF+\n70lv - Physical Damage -% (10)\n90lv - Good from Evil\nPrefect - Pig Farm\nWarlord - Scout+Banner - Guan Yu```");
     }
-if (args ===`LuQian||args ===`luqian||args ===`Luqian`){
+if (args ===`LuQian`||args ===`luqian`||args ===`Luqian`){
       message.channel.send("```[Lu Qian (Mounted Archer)]\nCost - 17\nStat - 78/65/63/66/86\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - Mounted ATK +% (15)\n90lv - DEF- Attack\nPrefect - Lumbermill\nWarlord - Yanzhou Loot+Banner - Guan Yu```");
     }
-if (args ===`CaoAng||args ===`caoang||args ===`Caoang`){
+if (args ===`CaoAng`||args ===`caoang`||args ===`Caoang`){
       message.channel.send("```[Cao Ang (Light Cavalry)]\nCost - 18\nStat - 84/67/74/62/91\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Unstoppable\n90lv - Physical Damage -% (10)\nPrefect - Master Storage\nWarlord - Yuzhou Loot+Banner - Guan Yu```");
     }
-if (args ===`CaoZhang||args ===`caozhang||args ===`Caozhang`){
+if (args ===`CaoZhang`||args ===`caozhang`||args ===`Caozhang`){
       message.channel.send("```[Cao Zhang (Mountain Cavalry)]\nCost - 19\nStat - 92/58/76/84/63\n30lv - Blind Attack % (15)\n50lv - Good from Evil\n70lv - Critical Attack+ (30)\n90lv - Unstoppable\nPrefect - Ration Tax\nWarlord - Youzhou Loot+Banner - Guan Yu```");
     }
-if (args ===`WeiYou||args ===`weiyou||args ===`Weiyou`){
+if (args ===`WeiYou`||args ===`weiyou`||args ===`Weiyou`){
       message.channel.send("```[Wei You (Crossbowman)]\nCost - 15\nStat - 62/75/71/65/79\n30lv - Self MRL+\n50lv - Double Tactics Immunity\n70lv - Critical Attack+ (30)\n90lv - Physical Attack +% (12)\nPrefect - Tailor\nWarlord - Youzhou Loot+Banner - Guan Yu```");
     }
-if (args ===`YangFeng||args ===`yangfeng||args ===`Yangfeng`){
+if (args ===`YangFeng`||args ===`yangfeng`||args ===`Yangfeng`){
       message.channel.send("```[Yang Feng (Spearman)]\nCost - 14\nStat - 68/48/71/59/68\n30lv - Counterattack+\n50lv - Physical Damage -% (10)\n70lv - AGI- Attack\n90lv - Tactics Damage -% (15)\nPrefect - Fruit Grove\nWarlord - Xuzhou Tax+Banner - Guan Yu```");
     }
-if (args ===`YanLiang||args ===`yanliang||args ===`Yanliang`){
+if (args ===`YanLiang`||args ===`yanliang`||args ===`Yanliang`){
       message.channel.send("```[Yan Liang (Light Cavalry)]\nCost - 22\nStat - 93/42/92/84/66\n30lv - Reach WIS-\n50lv - Damage Transfer\n70lv - Unstoppable\n90lv - Reversal\nPrefect - Ration Tax\nWarlord - Ration Loot+Banner - Guan Yu```");
     }
-if (args ===`GuanYu||args ===`guanyu||args ===`Guanyu`){
+if (args ===`GuanYu`||args ===`guanyu`||args ===`Guanyu`){
       message.channel.send("```[Guan Yu (Heavy Cavalry)]\nCost - 23\nStat - 97/82/96/68/89\n30lv - Ignore Mounted Attack+\n50lv - Double Counter\n70lv - Abnormality ATK % (15)\n90lv - Reversal\nPrefect - Master Storage\nWarlord - Ration Tax+Banner - Guan Yu```");
     }
-if (args ===`HuoJun||args ===`huojun||args ===`Huojun`){
+if (args ===`HuoJun`||args ===`huojun`||args ===`Huojun`){
       message.channel.send("```[Huo Jun (Footman)]\nCost - 15\nStat - 66/73/73/76/54\n30lv - Tactics DEF Rate + (10)\n50lv - Reach DEF+\n70lv - All DEF Rate + (6)\n90lv - Forceful Blow\nPrefect - Farm\nWarlord - Jingzhou-N Tax+Banner - Taishi Ci```");
     }
-if (args ===`ChenLin||args ===`chenlin||args ===`Chenlin`){
+if (args ===`ChenLin`||args ===`chenlin`||args ===`Chenlin`){
       message.channel.send("```[Chen Lin (Geomancer)]\nCost - 15\nStat - 26/80/77/72/74\n30lv - Tactics DEF Rate + (15)\n50lv - MP Boost % (15)\n70lv - Reach WIS+\n90lv - Status Effect Immunity\nPrefect - Pig Farm\nWarlord - Xuzhou Loot+Banner - Taishi Ci```");
     }
-if (args ===`XingDaorong||args ===`xingdaorong||args ===`Xingdaorong`){
+if (args ===`XingDaorong`||args ===`xingdaorong`||args ===`Xingdaorong`){
       message.channel.send("```[Xing Daorong (Heavy Cavalry)]\nCost - 15\nStat - 72/52/67/57/81\n30lv - Counterattack+\n50lv - Ignore Mounted Attack+\n70lv - AGI- Attack\n90lv - Reversal\nPrefect - Farm\nWarlord - Jingzhou-S Tax+Banner - Taishi Ci```");
     }
-if (args ===`DongCheng||args ===`dongcheng||args ===`Dongcheng`){
+if (args ===`DongCheng`||args ===`dongcheng`||args ===`Dongcheng`){
       message.channel.send("```[Dong Cheng (Footman)]\nCost - 14\nStat - 59/68/69/70/66\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach DEF-\n90lv - Special Attack Immunity\nPrefect - Lumbermill\nWarlord - Jizhou Loot+Banner - Taishi Ci```");
     }
-if (args ===`XieJing||args ===`xiejing||args ===`Xiejing`){
+if (args ===`XieJing`||args ===`xiejing`||args ===`Xiejing`){
       message.channel.send("```[Xie Jing (Light Cavalry)]\nCost - 14\nStat - 71/22/64/74/61\n30lv - Reach WIS-\n50lv - Physical Attack +% (12)\n70lv - Enhanced Double ATK % (15)\n90lv - Mounted ATK +% (15)\nPrefect - Ration Tax\nWarlord - Liangzhou-S Tax+Banner - Taishi Ci```");
     }
-if (args ===`KongRong||args ===`kongrong||args ===`Kongrong`){
+if (args ===`KongRong`||args ===`kongrong`||args ===`Kongrong`){
       message.channel.send("```[Kong Rong (Tactician)]\nCost - 14\nStat - 25/79/30/52/91\n30lv - Tactics ACC + (15)\n50lv - Summon the Four Gods\n70lv - Fire Tactics +% (15)\n90lv - Status Effect Immunity\nPrefect - Market\nWarlord - Trader+Banner - Taishi Ci```");
     }
-if (args ===`WangJing||args ===`wangjing||args ===`Wangjing`){
+if (args ===`WangJing`||args ===`wangjing`||args ===`Wangjing`){
       message.channel.send("```[Wang Jing (Spearman)]\nCost - 14\nStat - 69/70/71/58/72\n30lv - Counterattack+\n50lv - Physical Damage -% (10)\n70lv - MRL- Attack\n90lv - Reach AGI-\nPrefect - Absolute Protection\nWarlord - Jizhou Tax+Banner - Taishi Ci```");
     }
-if (args ===`MaMiao||args ===`mamiao||args ===`Mamiao`){
+if (args ===`MaMiao`||args ===`mamiao`||args ===`Mamiao`){
       message.channel.send("```[Ma Miao (Catapult)]\nCost - 14\nStat - 66/44/56/56/62\n30lv - Attack ACC + (15)\n50lv - Physical Damage -% (10)\n70lv - DEF- Attack\n90lv - Self AGI+\nPrefect - Fruit Grove\nWarlord - Yongzhou-E Loot+Banner - Taishi Ci```");
     }
-if (args ===`ZhouTai||args ===`zhoutai||args ===`Zhoutai`){
+if (args ===`ZhouTai`||args ===`zhoutai`||args ===`Zhoutai`){
       message.channel.send("```[Zhou Tai (Navy)]\nCost - 21\nStat - 91/48/84/88/67\n30lv - Naval Battle +\n50lv - DEF Boost % (13)\n70lv - Counterattack+\n90lv - Double Counter\nPrefect - Ration Tax\nWarlord - Silver Coin Loot+Banner - Taishi Ci```");
     }
-if (args ===`WuAnguo||args ===`wuanguo||args ===`Wuanguo`){
+if (args ===`WuAnguo`||args ===`wuanguo`||args ===`Wuanguo`){
       message.channel.send("```[Wu Anguo (Outlaw)]\nCost - 18\nStat - 87/49/72/69/76\n30lv - Earth Tactics+ % (7)\n50lv - Good from Evil\n70lv - Blind Attack % (15)\n90lv - Veteran (35)\nPrefect - Market\nWarlord - Qingzhou Loot+Banner - Taishi Ci```");
     }
-if (args ===`ZhuJun||args ===`zhujun||args ===`Zhujun`){
+if (args ===`ZhuJun`||args ===`zhujun`||args ===`Zhujun`){
       message.channel.send("```[Zhu Jun (Light Cavalry)]\nCost - 18\nStat - 70/72/89/74/72\n30lv - Physical Attack +% (12)\n50lv - Critical Attack+ (30)\n70lv - Double Tactics Immunity\n90lv - Double ATK Immunity\nPrefect - Fishery\nWarlord - Yongzhou-W Tax+Banner - Taishi Ci```");
     }
-if (args ===`ZhuLing||args ===`zhuling||args ===`Zhuling`){
+if (args ===`ZhuLing`||args ===`zhuling`||args ===`Zhuling`){
       message.channel.send("```[Zhu Ling (Mounted Archer)]\nCost - 18\nStat - 78/68/81/62/85\n30lv - Critical Attack+ (30)\n50lv - Tactics Damage -% (10)\n70lv - Enhanced Double ATK % (15)\n90lv - AGI- Attack\nPrefect - Market\nWarlord - Jizhou Tax+Banner - Taishi Ci```");
     }
-if (args ===`TaishiCi||args ===`taishici||args ===`Taishici`){
+if (args ===`TaishiCi`||args ===`taishici`||args ===`Taishici`){
       message.channel.send("```[Taishi Ci (Light Cavalry)]\nCost - 23\nStat - 93/69/90/95/72\n30lv - Physical Attack +% (12)\n50lv - Second Wind % (25)\n70lv - Penetration Attack\n90lv - Damage Transfer\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+Banner - Taishi Ci```");
     }
-if (args ===`HoGong||args ===`hogong||args ===`Hogong`){
+if (args ===`HoGong`||args ===`hogong`||args ===`Hogong`){
       message.channel.send("```[Ho Gong (Soldier)]\nCost - 16\nStat - 73/53/62/79/59\n30lv - Interrupt Tactics +% (8)\n50lv - Tactics Damage -% (10)\n70lv - ATK- Attack\n90lv - Leading Attack\nPrefect - Market\nWarlord - Jingzhou-S Tax+Banner - Xu Shu```");
     }
-if (args ===`CaoMao||args ===`caomao||args ===`Caomao`){
+if (args ===`CaoMao`||args ===`caomao`||args ===`Caomao`){
       message.channel.send("```[Cao Mao (Footman)]\nCost - 16\nStat - 50/72/81/66/68\n30lv - HP Boost % (15)\n50lv - Physical Damage -% (10)\n70lv - Reach DEF-\n90lv - Oppressive Assault\nPrefect - Lumbermill\nWarlord - Yanzhou Loot+Banner - Xu Shu```");
     }
-if (args ===`KongZhou||args ===`kongzhou||args ===`Kongzhou`){
+if (args ===`KongZhou`||args ===`kongzhou`||args ===`Kongzhou`){
       message.channel.send("```[Kong Zhou (Geomancer)]\nCost - 14\nStat - 56/69/44/61/82\n30lv - Tactics DEF Rate + (10)\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach Awaken\nPrefect - Market\nWarlord - Yanzhou Loot+Banner - Xu Shu```");
     }
-if (args ===`HuZhi||args ===`huzhi||args ===`Huzhi`){
+if (args ===`HuZhi`||args ===`huzhi`||args ===`Huzhi`){
       message.channel.send("```[Hu Zhi (Spearman)]\nCost - 14\nStat - 58/78/78/66/76\n30lv - Physical Damage -% (10)\n50lv - Reach AGI-\n70lv - WIS- Attack\n90lv - Reach MRL-\nPrefect - Farm\nWarlord - Bingzhou Tax+Banner - Xu Shu```");
     }
-if (args ===`BaoXin||args ===`baoxin||args ===`Baoxin`){
+if (args ===`BaoXin`||args ===`baoxin`||args ===`Baoxin`){
       message.channel.send("```[Bao Xin (Heavy Cavalry)]\nCost - 15\nStat - 68/74/71/57/64\n30lv - Ignore Mounted Attack+\n50lv - Counterattack+\n70lv - DEF- Attack\n90lv - Veteran (35)\nPrefect - Port\nWarlord - Yanzhou Loot+Banner - Xu Shu```");
     }
-if (args ===`GuoYouzhi||args ===`guoyouzhi||args ===`Guoyouzhi`){
+if (args ===`GuoYouzhi`||args ===`guoyouzhi`||args ===`Guoyouzhi`){
       message.channel.send("```[Guo Youzhi (Catapult)]\nCost - 16\nStat - 33/77/42/64/81\n30lv - Self AGI+\n50lv - Physical Certain Hit\n70lv - Tactics Damage -% (15)\n90lv - Poison Attack % (20)\nPrefect - Market\nWarlord - Yizhou-S Tax+Banner - Xu Shu```");
     }
-if (args ===`LiuFu||args ===`liufu||args ===`Liufu`){
+if (args ===`LiuFu`||args ===`liufu`||args ===`Liufu`){
       message.channel.send("```[Liu Fu (Taoist)]\nCost - 14\nStat - 58/78/54/66/88\n30lv - Status Effect Reflection\n50lv - Interrupt Tactics +% (10)\n70lv - HP Boost % (15)\n90lv - Summon the Four Gods\nPrefect - Tailor\nWarlord - Yanzhou Tax+Banner - Xu Shu```");
     }
-if (args ===`BianXi||args ===`bianxi||args ===`Bianxi`){
+if (args ===`BianXi`||args ===`bianxi`||args ===`Bianxi`){
       message.channel.send("```[Bian Xi (Soldier)]\nCost - 15\nStat - 74/62/56/84/56\n30lv - Good from Evil\n50lv - Counterattack+\n70lv - AGI- Attack\n90lv - Critical Attack+ (30)\nPrefect - Master Storage\nWarlord - Jizhou Tax+Banner - Xu Shu```");
     }
-if (args ===`ZhangYan||args ===`zhangyan||args ===`Zhangyan`){
+if (args ===`ZhangYan`||args ===`zhangyan`||args ===`Zhangyan`){
       message.channel.send("```[Zhang Yan (Outlaw)]\nCost - 19\nStat - 88/54/87/61/85\n30lv - Self MRL+\n50lv - Good from Evil\n70lv - AGI Boost % (10)\n90lv - Forceful Blow\nPrefect - Master Storage\nWarlord - Bingzhou Tax+Banner - Xu Shu```");
     }
-if (args ===`ZhangJi||args ===`zhangji||args ===`Zhangji`){
+if (args ===`ZhangJi`||args ===`zhangji`||args ===`Zhangji`){
       message.channel.send("```[Zhang Ji (Light Cavalry)]\nCost - 16\nStat - 61/82/77/56/77\n30lv - Reach WIS-\n50lv - Physical Attack +% (12)\n70lv - Enhanced Double ATK % (15)\n90lv - Counterattack+\nPrefect - Farm\nWarlord - Xuzhou Loot+Banner - Xu Shu```");
     }
-if (args ===`MengDa||args ===`mengda||args ===`Mengda`){
+if (args ===`MengDa`||args ===`mengda`||args ===`Mengda`){
       message.channel.send("```[Meng Da (Spearman)]\nCost - 17\nStat - 77/75/82/50/76\n30lv - Mounted ATK +% (15)\n50lv - Expand ATK RNG (7)\n70lv - Random- Attack\n90lv - Oppressive Assault\nPrefect - Farm\nWarlord - Sizhou Loot+Banner - Xu Shu```");
     }
-if (args ===`JianYong||args ===`jianyong||args ===`Jianyong`){
+if (args ===`JianYong`||args ===`jianyong`||args ===`Jianyong`){
       message.channel.send("```[Jian Yong (Archer)]\nCost - 16\nStat - 61/75/72/64/77\n30lv - Mounted ATK +% (15)\n50lv - Poison Attack % (15)\n70lv - Status Effect ATK % (15)\n90lv - Phalanx Strike\nPrefect - Master Storage\nWarlord - Silver Coin Tax+Banner - Xu Shu```");
     }
-if (args ===`XuShu||args ===`xushu||args ===`Xushu`){
+if (args ===`XuShu`||args ===`xushu`||args ===`Xushu`){
       message.channel.send("```[Xu Shu (Tactician)]\nCost - 19\nStat - 73/93/81/75/80\n30lv - Elemental Tactics +% (5)\n50lv - MP Attack (10)\n70lv - Expand ATK RNG (7)\n90lv - Attack Stat Switch\nPrefect - Ration Tax\nWarlord - General Tax+Banner - Xu Shu```");
     }
-if (args ===`YuanTan||args ===`yuantan||args ===`Yuantan`){
+if (args ===`YuanTan`||args ===`yuantan`||args ===`Yuantan`){
       message.channel.send("```[Yuan Tan (Light Cavalry)]\nCost - 14\nStat - 73/52/68/66/66\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Reach MRL+\n90lv - Enhanced Double ATK % (15)\nPrefect - Fruit Grove\nWarlord - Yuzhou Loot+Banner - Yuan Shao```");
     }
-if (args ===`XuYou||args ===`xuyou||args ===`Xuyou`){
+if (args ===`XuYou`||args ===`xuyou`||args ===`Xuyou`){
       message.channel.send("```[Xu You (Geomancer)]\nCost - 14\nStat - 46/80/30/66/83\n30lv - MP Boost % (15)\n50lv - Tactics DEF Rate + (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach MRL+\nPrefect - Fishery\nWarlord - Practice Battle+Banner - Yuan Shao```");
     }
-if (args ===`DongZhao||args ===`dongzhao||args ===`Dongzhao`){
+if (args ===`DongZhao`||args ===`dongzhao`||args ===`Dongzhao`){
       message.channel.send("```[Dong Zhao (Catapult)]\nCost - 16\nStat - 39/80/65/61/62\n30lv - Attack ACC + (15)\n50lv - Double Tactics Immunity\n70lv - AGI- Attack\n90lv - Self MRL+\nPrefect - Farm\nWarlord - Yanzhou Loot+Banner - Yuan Shao```");
     }
-if (args ===`JuGu||args ===`jugu||args ===`Jugu`){
+if (args ===`JuGu`||args ===`jugu`||args ===`Jugu`){
       message.channel.send("```[Ju Gu (Archer)]\nCost - 14\nStat - 66/50/62/78/56\n30lv - Physical Attack +% (10)\n50lv - Mounted ATK +% (15)\n70lv - Abnormality ATK % (15)\n90lv - Phalanx Strike\nPrefect - Lumbermill\nWarlord - Jizhou Tax+Banner - Yuan Shao```");
     }
-if (args ===`YuanXi||args ===`yuanxi||args ===`Yuanxi`){
+if (args ===`YuanXi`||args ===`yuanxi`||args ===`Yuanxi`){
       message.channel.send("```[Yuan Xi (Heavy Cavalry)]\nCost - 14\nStat - 66/63/75/52/54\n30lv - Self DEF+\n50lv - Counterattack+\n70lv - MRL- Attack\n90lv - Damage Transfer\nPrefect - Fishery\nWarlord - Yuzhou Tax+Banner - Yuan Shao```");
     }
-if (args ===`GaoGan||args ===`gaogan||args ===`Gaogan`){
+if (args ===`GaoGan`||args ===`gaogan`||args ===`Gaogan`){
       message.channel.send("```[Gao Gan (Mounted Archer)]\nCost - 15\nStat - 66/62/74/56/74\n30lv - Critical Attack+ (30)\n50lv - Phalanx Strike\n70lv - Counterattack+\n90lv - DEF- Attack\nPrefect - Farm\nWarlord - Yanzhou Tax+Banner - Yuan Shao```");
     }
-if (args ===`XinPi||args ===`xinpi||args ===`Xinpi`){
+if (args ===`XinPi`||args ===`xinpi`||args ===`Xinpi`){
       message.channel.send("```[Xin Pi (Geomancer)]\nCost - 14\nStat - 52/81/48/68/76\n30lv - Reach Awaken\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Ranged DMG -% (20)\nPrefect - Market\nWarlord - Practice Battle+Banner - Yuan Shao```");
     }
-if (args ===`JiangYiqu||args ===`jiangyiqu||args ===`Jiangyiqu`){
+if (args ===`JiangYiqu`||args ===`jiangyiqu`||args ===`Jiangyiqu`){
       message.channel.send("```[Jiang Yiqu (Footman)]\nCost - 14\nStat - 65/62/75/68/63\n30lv - Physical Damage -% (7)\n50lv - Reach DEF+\n70lv - Ranged DMG -% (10)\n90lv - Union\nPrefect - Treasury\nWarlord - Youzhou Tax+Banner - Yuan Shao```");
     }
-if (args ===`ChenZhen||args ===`chenzhen||args ===`Chenzhen`){
+if (args ===`ChenZhen`||args ===`chenzhen`||args ===`Chenzhen`){
       message.channel.send("```[Chen Zhen (Footman)]\nCost - 17\nStat - 62/76/83/71/72\n30lv - Physical Damage -% (10)\n50lv - Reach DEF+\n70lv - All DEF Rate + (6)\n90lv - Self SPD+\nPrefect - Silver Coin Tax\nWarlord - Yizhou-N Loot+Banner - Yuan Shao```");
     }
-if (args ===`GuoTu||args ===`guotu||args ===`Guotu`){
+if (args ===`GuoTu`||args ===`guotu`||args ===`Guotu`){
       message.channel.send("```[Guo Tu (Taoist)]\nCost - 15\nStat - 50/82/53/73/80\n30lv - Tactics Damage Reflection % (10)\n50lv - Status Effect Reflection\n70lv - Ranged DMG -% (10)\n90lv - Imitate Tactics\nPrefect - Port\nWarlord - Premium Shop+Banner - Yuan Shao```");
     }
-if (args ===`GaoLan||args ===`gaolan||args ===`Gaolan`){
+if (args ===`GaoLan`||args ===`gaolan`||args ===`Gaolan`){
       message.channel.send("```[Gao Lan (Mounted Archer)]\nCost - 18\nStat - 82/68/76/80/76\n30lv - Tactics Damage -% (10)\n50lv - Mounted ATK +% (15)\n70lv - Physical Attack +% (12)\n90lv - ATK- Attack\nPrefect - Ration Tax\nWarlord - Jizhou Tax+Banner - Yuan Shao```");
     }
-if (args ===`ChunyuQiong||args ===`chunyuqiong||args ===`Chunyuqiong`){
+if (args ===`ChunyuQiong`||args ===`chunyuqiong`||args ===`Chunyuqiong`){
       message.channel.send("```[Chunyu Qiong (Spearman)]\nCost - 17\nStat - 77/45/69/68/81\n30lv - Mounted ATK +% (15)\n50lv - Physical Damage -% (10)\n70lv - DEF- Attack\n90lv - Damage Transfer\nPrefect - Stockpile\nWarlord - Jizhou Loot+Banner - Yuan Shao```");
     }
-if (args ===`YuanShang||args ===`yuanshang||args ===`Yuanshang`){
+if (args ===`YuanShang`||args ===`yuanshang`||args ===`Yuanshang`){
       message.channel.send("```[Yuan Shang (Warlord)]\nCost - 16\nStat - 75/56/70/62/75\n30lv - Enhanced Double ATK % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach MRL+\n90lv - Expand AoE (4)\nPrefect - Master Storage\nWarlord - Yuzhou Tax+Banner - Yuan Shao```");
     }
-if (args ===`FengJi||args ===`fengji||args ===`Fengji`){
+if (args ===`FengJi`||args ===`fengji`||args ===`Fengji`){
       message.channel.send("```[Feng Ji (Geomancer)]\nCost - 15\nStat - 48/85/65/74/76\n30lv - Supply Tactics +% (8)\n50lv - Tactics DEF Rate + (15)\n70lv - MP Boost % (13)\n90lv - Reach DEF+\nPrefect - Fruit Grove\nWarlord - Jingzhou-N Loot+Banner - Yuan Shao```");
     }
-if (args ===`GuoYi||args ===`guoyi||args ===`Guoyi`){
+if (args ===`GuoYi`||args ===`guoyi`||args ===`Guoyi`){
       message.channel.send("```[Guo Yi (Mounted Archer)]\nCost - 18\nStat - 83/51/72/80/64\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - Mounted ATK +% (15)\n90lv - Phalanx Strike\nPrefect - Port\nWarlord - Yizhou-N Tax+Banner - Yuan Shao```");
     }
-if (args ===`XinPing||args ===`xinping||args ===`Xinping`){
+if (args ===`XinPing`||args ===`xinping`||args ===`Xinping`){
       message.channel.send("```[Xin Ping (Catapult)]\nCost - 16\nStat - 69/79/72/48/82\n30lv - Physical Certain Hit\n50lv - Self AGI+\n70lv - Physical Damage -% (10)\n90lv - Poison Attack % (20)\nPrefect - Absolute Protection\nWarlord - Premium Shop+Banner - Yuan Shao```");
     }
-if (args ===`WenChou||args ===`wenchou||args ===`Wenchou`){
+if (args ===`WenChou`||args ===`wenchou`||args ===`Wenchou`){
       message.channel.send("```[Wen Chou (Heavy Cavalry)]\nCost - 22\nStat - 95/36/86/72/91\n30lv - Ignore Mounted Attack+\n50lv - Damage Transfer\n70lv - DEF- Attack\n90lv - Union\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+Banner - Yuan Shao```");
     }
-if (args ===`ShenPei||args ===`shenpei||args ===`Shenpei`){
+if (args ===`ShenPei`||args ===`shenpei`||args ===`Shenpei`){
       message.channel.send("```[Shen Pei (Tactician)]\nCost - 17\nStat - 50/86/80/77/73\n30lv - Double Tactics +%\n50lv - Summon the Four Gods\n70lv - Reach DEF+\n90lv - Status Effect Immunity\nPrefect - Pottery Works\nWarlord - Practice Battle+Banner - Yuan Shao```");
     }
-if (args ===`TianFeng||args ===`tianfeng||args ===`Tianfeng`){
+if (args ===`TianFeng`||args ===`tianfeng`||args ===`Tianfeng`){
       message.channel.send("```[Tian Feng (Tactician)]\nCost - 18\nStat - 54/93/72/87/68\n30lv - Tactics ACC + (15)\n50lv - Elemental Tactics +% (5)\n70lv - Imitate Tactics\n90lv - Double Tactics\nPrefect - Ration Tax\nWarlord - General Tax+Banner - Yuan Shao```");
     }
-if (args ===`JuShou||args ===`jushou||args ===`Jushou`){
+if (args ===`JuShou`||args ===`jushou`||args ===`Jushou`){
       message.channel.send("```[Ju Shou (Tactician)]\nCost - 18\nStat - 52/92/77/60/89\n30lv - Elemental Tactics +% (5)\n50lv - Summon the Four Gods\n70lv - Ranged DMG -% (10)\n90lv - Status Effect Immunity\nPrefect - Ration Tax\nWarlord - Ration Tax+Banner - Yuan Shao```");
     }
-if (args ===`YuanShao||args ===`yuanshao||args ===`Yuanshao`){
+if (args ===`YuanShao`||args ===`yuanshao`||args ===`Yuanshao`){
       message.channel.send("```[Yuan Shao (Warlord)]\nCost - 19\nStat - 72/74/87/80/95\n30lv - Counterattack+\n50lv - Reach ATK+\n70lv - Critical Attack+ (30)\n90lv - Expand ATK RNG (7)\nPrefect - Master Storage\nWarlord - Silver Coin Tax+Banner - Yuan Shao```");
     }
-if (args ===`CenHun||args ===`cenhun||args ===`Cenhun`){
+if (args ===`CenHun`||args ===`cenhun`||args ===`Cenhun`){
       message.channel.send("```[Cen Hun (Taoist)]\nCost - 14\nStat - 13/33/24/55/23\n30lv - Tactics Damage Reflection % (10)\n50lv - Interrupt Tactics +% (10)\n70lv - Reach MRL-\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Liangzhou-S Tax+Banner - Lu Xun```");
     }
-if (args ===`TengYin||args ===`tengyin||args ===`Tengyin`){
+if (args ===`TengYin`||args ===`tengyin`||args ===`Tengyin`){
       message.channel.send("```[Teng Yin (Footman)]\nCost - 14\nStat - 68/72/76/66/70\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach WIS-\n90lv - Naval Battle +\nPrefect - Silver Coin Tax\nWarlord - Practice Battle+Banner - Lu Xun```");
     }
-if (args ===`ZhuYi||args ===`zhuyi||args ===`Zhuyi`){
+if (args ===`ZhuYi`||args ===`zhuyi`||args ===`Zhuyi`){
       message.channel.send("```[Zhu Yi (Mounted Archer)]\nCost - 17\nStat - 76/64/76/60/56\n30lv - Critical Attack+ (30)\n50lv - Mounted ATK +% (15)\n70lv - Naval Battle +\n90lv - MRL- Attack\nPrefect - Pottery Works\nWarlord - Liangzhou-S Tax+Banner - Lu Xun```");
     }
-if (args ===`PuyangXing||args ===`puyangxing||args ===`Puyangxing`){
+if (args ===`PuyangXing`||args ===`puyangxing`||args ===`Puyangxing`){
       message.channel.send("```[Puyang Xing (Taoist)]\nCost - 14\nStat - 44/76/69/65/72\n30lv - Interrupt Tactics +% (8)\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach DEF-\n90lv - Status Effect Immunity\nPrefect - Market\nWarlord - Yizhou-C Loot+Banner - Lu Xun```");
     }
-if (args ===`ZhangYun||args ===`zhangyun||args ===`Zhangyun`){
+if (args ===`ZhangYun`||args ===`zhangyun`||args ===`Zhangyun`){
       message.channel.send("```[Zhang Yun (Navy)]\nCost - 15\nStat - 71/54/76/69/52\n30lv - Water Tactics+ % (7)\n50lv - MRL Boost % (10)\n70lv - Naval Battle +\n90lv - Tactics Damage -% (15)\nPrefect - Stockpile\nWarlord - Jingzhou-N Loot+Banner - Lu Xun```");
     }
-if (args ===`ChenBiao||args ===`chenbiao||args ===`Chenbiao`){
+if (args ===`ChenBiao`||args ===`chenbiao`||args ===`Chenbiao`){
       message.channel.send("```[Chen Biao (Crossbowman)]\nCost - 16\nStat - 56/78/75/72/67\n30lv - Double Tactics Immunity\n50lv - Self MRL+\n70lv - Enhanced Double ATK % (15)\n90lv - Unlimited Counterattack\nPrefect - Lumbermill\nWarlord - Jiaozhou Tax+Banner - Lu Xun```");
     }
-if (args ===`BuXie||args ===`buxie||args ===`Buxie`){
+if (args ===`BuXie`||args ===`buxie`||args ===`Buxie`){
       message.channel.send("```[Bu Xie (Crossbowman)]\nCost - 14\nStat - 65/74/78/70/68\n30lv - MRL- Attack\n50lv - Double Tactics Immunity\n70lv - Critical Attack+ (30)\n90lv - Enhanced Double ATK % (15)\nPrefect - Farm\nWarlord - Premium Shop+Banner - Lu Xun```");
     }
-if (args ===`GuYong||args ===`guyong||args ===`Guyong`){
+if (args ===`GuYong`||args ===`guyong`||args ===`Guyong`){
       message.channel.send("```[Gu Yong (Tactician)]\nCost - 16\nStat - 26/86/61/67/81\n30lv - Tactics ACC + (15)\n50lv - Imitate Tactics\n70lv - Water Tactics+ % (15)\n90lv - Double ATK Immunity\nPrefect - Fruit Grove\nWarlord - Trader+Banner - Lu Xun```");
     }
-if (args ===`LiuZan||args ===`liuzan||args ===`Liuzan`){
+if (args ===`LiuZan`||args ===`liuzan`||args ===`Liuzan`){
       message.channel.send("```[Liu Zan (Footman)]\nCost - 18\nStat - 81/66/82/64/62\n30lv - Physical Damage -% (10)\n50lv - ATK DEF Rate + (20)\n70lv - Reach DEF-\n90lv - HP Boost % (15)\nPrefect - Master Tax\nWarlord - Jiaozhou Tax+Banner - Lu Xun```");
     }
-if (args ===`ZhongliMu||args ===`zhonglimu||args ===`Zhonglimu`){
+if (args ===`ZhongliMu`||args ===`zhonglimu`||args ===`Zhonglimu`){
       message.channel.send("```[Zhongli Mu (Mountain Cavalry)]\nCost - 17\nStat - 76/74/79/74/68\n30lv - Ignore Mounted Attack+\n50lv - Reach ATK-\n70lv - Naval Battle +\n90lv - Counterattack+\nPrefect - Absolute Protection\nWarlord - Yizhou-N Tax+Banner - Lu Xun```");
     }
-if (args ===`ZhouFang||args ===`zhoufang||args ===`Zhoufang`){
+if (args ===`ZhouFang`||args ===`zhoufang`||args ===`Zhoufang`){
       message.channel.send("```[Zhou Fang (Archer)]\nCost - 17\nStat - 67/82/71/84/64\n30lv - Poison Attack % (15)\n50lv - Mounted ATK +% (15)\n70lv - Confusion Attack % (15)\n90lv - Unlimited Counterattack\nPrefect - Market\nWarlord - Jiaozhou Tax+Banner - Lu Xun```");
     }
-if (args ===`SunLuban||args ===`sunluban||args ===`Sunluban`){
+if (args ===`SunLuban`||args ===`sunluban`||args ===`Sunluban`){
       message.channel.send("```[Sun Luban (Taoist)]\nCost - 14\nStat - 74/63/62/83/84\n30lv - Interrupt Tactics +% (8)\n50lv - Imitate Tactics\n70lv - HP Boost % (15)\n90lv - Status Effect Immunity\nPrefect - Port\nWarlord - Scout+Banner - Lu Xun```");
     }
-if (args ===`ChenWu||args ===`chenwu||args ===`Chenwu`){
+if (args ===`ChenWu`||args ===`chenwu`||args ===`Chenwu`){
       message.channel.send("```[Chen Wu (Archer)]\nCost - 20\nStat - 87/63/76/89/78\n30lv - Physical Attack +% (12)\n50lv - Mounted ATK +% (15)\n70lv - Status Effect ATK % (15)\n90lv - DEF- Attack\nPrefect - Stockpile\nWarlord - Occupation+Banner - Lu Xun```");
     }
-if (args ===`LingTong||args ===`lingtong||args ===`Lingtong`){
+if (args ===`LingTong`||args ===`lingtong`||args ===`Lingtong`){
       message.channel.send("```[Ling Tong (Heavy Cavalry)]\nCost - 20\nStat - 89/60/77/68/86\n30lv - Physical Damage Reflection % (10)\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - Second Wind % (25)\nPrefect - Silver Coin Tax\nWarlord - Ration Loot+Banner - Lu Xun```");
     }
-if (args ===`ZhugeJin||args ===`zhugejin||args ===`Zhugejin`){
+if (args ===`ZhugeJin`||args ===`zhugejin`||args ===`Zhugejin`){
       message.channel.send("```[Zhuge Jin (Geomancer)]\nCost - 16\nStat - 36/84/75/89/72\n30lv - MP Boost % (15)\n50lv - Summon the Four Gods\n70lv - Physical Damage -% (10)\n90lv - Reach DEF+\nPrefect - Market\nWarlord - Xuzhou Tax+Banner - Lu Xun```");
     }
-if (args ===`LuKang||args ===`lukang||args ===`Lukang`){
+if (args ===`LuKang`||args ===`lukang`||args ===`Lukang`){
       message.channel.send("```[Lu Kang (Marine)]\nCost - 19\nStat - 72/89/91/76/86\n30lv - MP Attack (10)\n50lv - Attack Stat Switch\n70lv - AGI Boost % (10)\n90lv - Expand ATK RNG (7)\nPrefect - Master Storage\nWarlord - Silver Coin Tax+Banner - Lu Xun```");
     }
-if (args ===`LuXun||args ===`luxun||args ===`Luxun`){
+if (args ===`LuXun`||args ===`luxun`||args ===`Luxun`){
       message.channel.send("```[Lu Xun (Marine)]\nCost - 20\nStat - 72/95/94/67/90\n30lv - Reach MRL+\n50lv - Peerless % (20)\n70lv - Expand AoE (4)\n90lv - Guiding Attack\nPrefect - Master Tax\nWarlord - Ration Loot+Banner - Lu Xun```");
     }
-if (args ===`HuanJie||args ===`huanjie||args ===`Huanjie`){
+if (args ===`HuanJie`||args ===`huanjie`||args ===`Huanjie`){
       message.channel.send("```[Huan Jie (Spearman)]\nCost - 15\nStat - 32/78/73/66/70\n30lv - Enhanced Double ATK % (15)\n50lv - Counterattack+\n70lv - DEF- Attack\n90lv - Reach AGI-\nPrefect - Farm\nWarlord - Jizhou Tax+Banner - Sun Quan```");
     }
-if (args ===`SunHao||args ===`sunhao||args ===`Sunhao`){
+if (args ===`SunHao`||args ===`sunhao`||args ===`Sunhao`){
       message.channel.send("```[Sun Hao (Crossbowman)]\nCost - 14\nStat - 28/31/13/16/3\n30lv - Tactics Damage -% (10)\n50lv - Self MRL+\n70lv - Naval Battle +\n90lv - DEF- Attack\nPrefect - Fishery\nWarlord - Liangzhou-S Tax+Banner - Sun Quan```");
     }
-if (args ===`GongsunYuan||args ===`gongsunyuan||args ===`Gongsunyuan`){
+if (args ===`GongsunYuan`||args ===`gongsunyuan`||args ===`Gongsunyuan`){
       message.channel.send("```[Gongsun Yuan (Mountain Cavalry)]\nCost - 14\nStat - 70/66/65/67/70\n30lv - Ignore Mounted Attack+\n50lv - % Charge Attack (3)\n70lv - Mounted ATK +% (15)\n90lv - Self SPD+\nPrefect - Absolute Protection\nWarlord - Occupation+Banner - Sun Quan```");
     }
-if (args ===`MaZhong||args ===`mazhong||args ===`Mazhong`){
+if (args ===`MaZhong`||args ===`mazhong`||args ===`Mazhong`){
       message.channel.send("```[Ma Zhong (Spearman)]\nCost - 15\nStat - 69/60/71/60/64\n30lv - Counterattack+\n50lv - Reach AGI-\n70lv - ATK- Attack\n90lv - Oppressive Assault\nPrefect - Absolute Protection\nWarlord - Yizhou-C Loot+Banner - Sun Quan```");
     }
-if (args ===`GuTan||args ===`gutan||args ===`Gutan`){
+if (args ===`GuTan`||args ===`gutan`||args ===`Gutan`){
       message.channel.send("```[Gu Tan (Spearman)]\nCost - 15\nStat - 28/78/80/72/74\n30lv - Mounted ATK +% (15)\n50lv - Physical Damage -% (10)\n70lv - AGI- Attack\n90lv - Imitate Tactics\nPrefect - Fishery\nWarlord - Liangzhou-S Loot+Banner - Sun Quan```");
     }
-if (args ===`TangZi||args ===`tangzi||args ===`Tangzi`){
+if (args ===`TangZi`||args ===`tangzi`||args ===`Tangzi`){
       message.channel.send("```[Tang Zi (Navy)]\nCost - 16\nStat - 78/54/68/56/82\n30lv - MRL Boost % (10)\n50lv - Naval Battle +\n70lv - HP Boost % (15)\n90lv - Double ATK Immunity\nPrefect - Ration Tax\nWarlord - Trader+Banner - Sun Quan```");
     }
-if (args ===`SunLiang||args ===`sunliang||args ===`Sunliang`){
+if (args ===`SunLiang`||args ===`sunliang`||args ===`Sunliang`){
       message.channel.send("```[Sun Liang (Footman)]\nCost - 16\nStat - 56/76/74/66/72\n30lv - MRL Boost % (7)\n50lv - Reach DEF+\n70lv - Tactics DEF Rate + (15)\n90lv - Oppressive Assault\nPrefect - Farm\nWarlord - Jizhou Tax+Banner - Sun Quan```");
     }
-if (args ===`XueZong||args ===`xuezong||args ===`Xuezong`){
+if (args ===`XueZong`||args ===`xuezong`||args ===`Xuezong`){
       message.channel.send("```[Xue Zong (Geomancer)]\nCost - 14\nStat - 26/80/69/65/78\n30lv - Tactics DEF Rate + (15)\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Reach DEF+\nPrefect - Master Storage\nWarlord - Yuzhou Tax+Banner - Sun Quan```");
     }
-if (args ===`ZhangHong||args ===`zhanghong||args ===`Zhanghong`){
+if (args ===`ZhangHong`||args ===`zhanghong`||args ===`Zhanghong`){
       message.channel.send("```[Zhang Hong (Taoist)]\nCost - 17\nStat - 40/89/42/74/95\n30lv - Tactics Damage Reflection % (10)\n50lv - Imitate Tactics\n70lv - MP Defense\n90lv - Status Effect Reflection\nPrefect - Silver Coin Tax\nWarlord - Jiaozhou Tax+Banner - Sun Quan```");
     }
-if (args ===`SunHe||args ===`sunhe||args ===`Sunhe`){
+if (args ===`SunHe`||args ===`sunhe`||args ===`Sunhe`){
       message.channel.send("```[Sun He (Archer)]\nCost - 14\nStat - 68/67/55/88/72\n30lv - Mounted ATK +% (15)\n50lv - Physical Attack +% (12)\n70lv - Blind Attack % (15)\n90lv - DEF- Attack\nPrefect - Farm\nWarlord - Liangzhou-S Tax+Banner - Sun Quan```");
     }
-if (args ===`YuFan||args ===`yufan||args ===`Yufan`){
+if (args ===`YuFan`||args ===`yufan`||args ===`Yufan`){
       message.channel.send("```[Yu Fan (Catapult)]\nCost - 17\nStat - 67/84/66/46/90\n30lv - Physical Damage -% (10)\n50lv - Attack ACC + (20)\n70lv - WIS- Attack\n90lv - Double ATK Immunity\nPrefect - Absolute Protection\nWarlord - Scout+Banner - Sun Quan```");
     }
-if (args ===`ZhangWen||args ===`zhangwen||args ===`Zhangwen`){
+if (args ===`ZhangWen`||args ===`zhangwen`||args ===`Zhangwen`){
       message.channel.send("```[Zhang Wen (Tactician)]\nCost - 15\nStat - 26/79/80/73/74\n30lv - Tactics ACC + (15)\n50lv - Double Tactics +%\n70lv - Water Tactics+ % (15)\n90lv - Double ATK Immunity\nPrefect - Market\nWarlord - Jizhou Loot+Banner - Sun Quan```");
     }
-if (args ===`BuLianshi||args ===`bulianshi||args ===`Bulianshi`){
+if (args ===`BuLianshi`||args ===`bulianshi`||args ===`Bulianshi`){
       message.channel.send("```[Bu Lianshi (Crossbowman)]\nCost - 17\nStat - 64/76/57/85/89\n30lv - WIS- Attack\n50lv - Deadly Attack (50)\n70lv - Silence Attack % (15)\n90lv - Critical Attack\nPrefect - Ration Tax\nWarlord - Silver Coin Tax+Banner - Sun Quan```");
     }
-if (args ===`WuJing||args ===`wujing||args ===`Wujing`){
+if (args ===`WuJing`||args ===`wujing`||args ===`Wujing`){
       message.channel.send("```[Wu Jing (Crossbowman)]\nCost - 15\nStat - 69/57/78/71/86\n30lv - Double Tactics Immunity\n50lv - Tactics Damage -% (10)\n70lv - Physical Attack +% (12)\n90lv - Critical Attack+ (30)\nPrefect - Farm\nWarlord - Premium Shop+Banner - Sun Quan```");
     }
-if (args ===`LuMeng||args ===`lumeng||args ===`Lumeng`){
+if (args ===`LuMeng`||args ===`lumeng`||args ===`Lumeng`){
       message.channel.send("```[Lu Meng (Marine)]\nCost - 21\nStat - 86/91/93/81/64\n30lv - Naval Battle +\n50lv - Penetration Attack\n70lv - MP Attack (10)\n90lv - Leading Attack\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+Banner - Sun Quan```");
     }
-if (args ===`LuoTong||args ===`luotong||args ===`Luotong`){
+if (args ===`LuoTong`||args ===`luotong`||args ===`Luotong`){
       message.channel.send("```[Luo Tong (Marine)]\nCost - 16\nStat - 63/70/75/74/81\n30lv - Double Tactics Immunity\n50lv - Naval Battle +\n70lv - WIS Boost % (9)\n90lv - MP Attack (10)\nPrefect - Fishery\nWarlord - Liangzhou-S Tax+Banner - Sun Quan```");
     }
-if (args ===`SunQuan||args ===`sunquan||args ===`Sunquan`){
+if (args ===`SunQuan`||args ===`sunquan`||args ===`Sunquan`){
       message.channel.send("```[Sun Quan (Warlord)]\nCost - 19\nStat - 69/84/79/89/92\n30lv - Counterattack+\n50lv - Union\n70lv - Reach DEF+\n90lv - Reach ATK+\nPrefect - Ration Tax\nWarlord - Battle Ration+Banner - Sun Quan```");
     }
-if (args ===`XiahouEn||args ===`xiahouen||args ===`Xiahouen`){
+if (args ===`XiahouEn`||args ===`xiahouen`||args ===`Xiahouen`){
       message.channel.send("```[Xiahou En (Light Cavalry)]\nCost - 16\nStat - 72/58/63/62/82\n30lv - Reach WIS-\n50lv - Physical Attack +% (12)\n70lv - Mounted ATK +% (15)\n90lv - MRL Boost % (10)\nPrefect - Stockpile\nWarlord - Yuzhou Tax+Banner - Deng Ai```");
     }
-if (args ===`ZhongYu||args ===`zhongyu||args ===`Zhongyu`){
+if (args ===`ZhongYu`||args ===`zhongyu`||args ===`Zhongyu`){
       message.channel.send("```[Zhong Yu (Archer)]\nCost - 15\nStat - 56/75/63/73/70\n30lv - Poison Attack % (15)\n50lv - Attack ACC + (20)\n70lv - AGI Boost % (10)\n90lv - ATK Boost % (15)\nPrefect - Lumbermill\nWarlord - Trader+Banner - Deng Ai```");
     }
-if (args ===`ShiZuan||args ===`shizuan||args ===`Shizuan`){
+if (args ===`ShiZuan`||args ===`shizuan`||args ===`Shizuan`){
       message.channel.send("```[Shi Zuan (Spearman)]\nCost - 14\nStat - 73/57/67/70/75\n30lv - Reach AGI-\n50lv - Mounted ATK +% (15)\n70lv - MRL- Attack\n90lv - Tactics Damage -% (15)\nPrefect - Treasury\nWarlord - Sizhou Tax+Banner - Deng Ai```");
     }
-if (args ===`WenHu||args ===`wenhu||args ===`Wenhu`){
+if (args ===`WenHu`||args ===`wenhu`||args ===`Wenhu`){
       message.channel.send("```[Wen Hu (Mounted Archer)]\nCost - 17\nStat - 78/45/69/73/68\n30lv - Enhanced Double ATK % (15)\n50lv - Phalanx Strike\n70lv - Lifesteal Attack % (7)\n90lv - Expand AoE (4)\nPrefect - Farm\nWarlord - Premium Shop+Banner - Deng Ai```");
     }
-if (args ===`WangXiu||args ===`wangxiu||args ===`Wangxiu`){
+if (args ===`WangXiu`||args ===`wangxiu`||args ===`Wangxiu`){
       message.channel.send("```[Wang Xiu (Geomancer)]\nCost - 14\nStat - 34/78/70/63/72\n30lv - MP Boost % (10)\n50lv - Reach Awaken\n70lv - Supply Tactics +% (9)\n90lv - Ranged DMG -% (20)\nPrefect - Ration Tax\nWarlord - Qingzhou Loot+Banner - Deng Ai```");
     }
-if (args ===`XiZhicai||args ===`xizhicai||args ===`Xizhicai`){
+if (args ===`XiZhicai`||args ===`xizhicai`||args ===`Xizhicai`){
       message.channel.send("```[Xi Zhicai (Tactician)]\nCost - 16\nStat - 26/86/60/70/91\n30lv - Double Tactics +%\n50lv - Tactics Damage Reflection % (10)\n70lv - Fire Tactics +% (15)\n90lv - Imitate Tactics\nPrefect - Market\nWarlord - Yanzhou Tax+Banner - Deng Ai```");
     }
-if (args ===`WangJun||args ===`wangjun||args ===`Wangjun`){
+if (args ===`WangJun`||args ===`wangjun`||args ===`Wangjun`){
       message.channel.send("```[Wang Jun (Navy)]\nCost - 18\nStat - 71/78/83/75/68\n30lv - MRL Boost % (10)\n50lv - Naval Battle +\n70lv - ATK Boost % (11)\n90lv - Good from Evil\nPrefect - Silver Coin Tax\nWarlord - Sizhou Tax+Banner - Deng Ai```");
     }
-if (args ===`CaoXian||args ===`caoxian||args ===`Caoxian`){
+if (args ===`CaoXian`||args ===`caoxian`||args ===`Caoxian`){
       message.channel.send("```[Cao Xian (Tactician)]\nCost - 14\nStat - 72/72/65/81/71\n30lv - Double Tactics +%\n50lv - Tactics Damage Reflection % (10)\n70lv - MP Saving % (12)\n90lv - Status Effect Immunity\nPrefect - Fruit Grove\nWarlord - Yanzhou Loot+Banner - Deng Ai```");
     }
-if (args ===`XiahouJie||args ===`xiahoujie||args ===`Xiahoujie`){
+if (args ===`XiahouJie`||args ===`xiahoujie`||args ===`Xiahoujie`){
       message.channel.send("```[Xiahou Jie (Heavy Cavalry)]\nCost - 18\nStat - 86/50/73/80/82\n30lv - Ranged DMG -% (10)\n50lv - Physical Damage Reflection % (12)\n70lv - DEF- Attack\n90lv - Damage Transfer\nPrefect - Ration Tax\nWarlord - Yuzhou Loot+Banner - Deng Ai```");
     }
-if (args ===`ZhugeXu||args ===`zhugexu||args ===`Zhugexu`){
+if (args ===`ZhugeXu`||args ===`zhugexu`||args ===`Zhugexu`){
       message.channel.send("```[Zhuge Xu (Archer)]\nCost - 14\nStat - 63/51/59/75/85\n30lv - Poison Attack % (15)\n50lv - Mounted ATK +% (15)\n70lv - AGI Boost % (10)\n90lv - AGI- Attack\nPrefect - Market\nWarlord - Yanzhou Tax+Banner - Deng Ai```");
     }
-if (args ===`HuLie||args ===`hulie||args ===`Hulie`){
+if (args ===`HuLie`||args ===`hulie`||args ===`Hulie`){
       message.channel.send("```[Hu Lie (Mounted Archer)]\nCost - 16\nStat - 76/76/82/72/70\n30lv - Phalanx Strike\n50lv - Counterattack+\n70lv - Enhanced Double ATK % (15)\n90lv - Unlimited Counterattack\nPrefect - Fruit Grove\nWarlord - Yongzhou-E Loot+Banner - Deng Ai```");
     }
-if (args ===`GuoHuai||args ===`guohuai||args ===`Guohuai`){
+if (args ===`GuoHuai`||args ===`guohuai`||args ===`Guohuai`){
       message.channel.send("```[Guo Huai (Footman)]\nCost - 19\nStat - 78/82/87/56/86\n30lv - HP Boost % (15)\n50lv - All DEF Rate + (7)\n70lv - Reach WIS-\n90lv - Damage Transfer\nPrefect - Pig Farm\nWarlord - Bingzhou Loot+Banner - Deng Ai```");
     }
-if (args ===`DengZhong||args ===`dengzhong||args ===`Dengzhong`){
+if (args ===`DengZhong`||args ===`dengzhong`||args ===`Dengzhong`){
       message.channel.send("```[Deng Zhong (Heavy Cavalry)]\nCost - 16\nStat - 83/66/72/66/75\n30lv - Ignore Mounted Attack+\n50lv - Ranged DMG -% (10)\n70lv - AGI- Attack\n90lv - Double ATK Immunity\nPrefect - Lumbermill\nWarlord - Scout+Banner - Deng Ai```");
     }
-if (args ===`WeiGuan||args ===`weiguan||args ===`Weiguan`){
+if (args ===`WeiGuan`||args ===`weiguan`||args ===`Weiguan`){
       message.channel.send("```[Wei Guan (Light Cavalry)]\nCost - 14\nStat - 66/82/72/70/81\n30lv - Reach WIS-\n50lv - Critical Attack+ (30)\n70lv - Physical Attack +% (12)\n90lv - Ignore Mounted Attack+\nPrefect - Pig Farm\nWarlord - Premium Shop+Banner - Deng Ai```");
     }
-if (args ===`ZhangHu||args ===`zhanghu||args ===`Zhanghu`){
+if (args ===`ZhangHu`||args ===`zhanghu`||args ===`Zhanghu`){
       message.channel.send("```[Zhang Hu (Spearman)]\nCost - 17\nStat - 76/44/79/65/78\n30lv - Counterattack+\n50lv - Expand ATK RNG (7)\n70lv - Random- Attack\n90lv - Union\nPrefect - Stockpile\nWarlord - Yuzhou Loot+Banner - Deng Ai```");
     }
-if (args ===`YueChen||args ===`yuechen||args ===`Yuechen`){
+if (args ===`YueChen`||args ===`yuechen`||args ===`Yuechen`){
       message.channel.send("```[Yue Chen (Footman)]\nCost - 15\nStat - 80/67/81/73/77\n30lv - Physical Damage -% (10)\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach ATK-\n90lv - Double ATK Immunity\nPrefect - Market\nWarlord - Liangzhou-N Tax+Banner - Deng Ai```");
     }
-if (args ===`ZhongYao||args ===`zhongyao||args ===`Zhongyao`){
+if (args ===`ZhongYao`||args ===`zhongyao`||args ===`Zhongyao`){
       message.channel.send("```[Zhong Yao (Geomancer)]\nCost - 17\nStat - 34/90/82/69/82\n30lv - Tactics DEF Rate + (15)\n50lv - MP Boost % (15)\n70lv - Double ATK Immunity\n90lv - Summon the Four Gods\nPrefect - Fishery\nWarlord - Yuzhou Tax+Banner - Deng Ai```");
     }
-if (args ===`HaoZhao||args ===`haozhao||args ===`Haozhao`){
+if (args ===`HaoZhao`||args ===`haozhao`||args ===`Haozhao`){
       message.channel.send("```[Hao Zhao (Footman)]\nCost - 19\nStat - 76/82/89/65/90\n30lv - All DEF Rate + (7)\n50lv - Reach DEF+\n70lv - Special Attack Immunity\n90lv - Good from Evil\nPrefect - Master Storage\nWarlord - Ration Loot+Banner - Deng Ai```");
     }
-if (args ===`ChenTai||args ===`chentai||args ===`Chentai`){
+if (args ===`ChenTai`||args ===`chentai`||args ===`Chentai`){
       message.channel.send("```[Chen Tai (Marine)]\nCost - 18\nStat - 80/84/90/65/83\n30lv - Naval Battle +\n50lv - MP Attack (10)\n70lv - Union\n90lv - Imitate Tactics\nPrefect - Market\nWarlord - Scout+Banner - Deng Ai```");
     }
-if (args ===`WenYang||args ===`wenyang||args ===`Wenyang`){
+if (args ===`WenYang`||args ===`wenyang`||args ===`Wenyang`){
       message.channel.send("```[Wen Yang (Light Cavalry)]\nCost - 21\nStat - 93/67/81/88/56\n30lv - Deadly Attack (50)\n50lv - Guiding Attack\n70lv - Physical Damage -% (10)\n90lv - Expand AoE (7)\nPrefect - Ration Tax\nWarlord - Ration Loot+Banner - Deng Ai```");
     }
-if (args ===`DengAi||args ===`dengai||args ===`Dengai`){
+if (args ===`DengAi`||args ===`dengai`||args ===`Dengai`){
       message.channel.send("```[Deng Ai (Mountain Cavalry)]\nCost - 21\nStat - 87/89/93/81/72\n30lv - Ignore Mounted Attack+\n50lv - Special Attack Immunity\n70lv - Forceful Blow\n90lv - Double Counter\nPrefect - Ration Tax\nWarlord - Ration Loot+Banner - Deng Ai```");
     }
-if (args ===`XiZheng||args ===`xizheng||args ===`Xizheng`){
+if (args ===`XiZheng`||args ===`xizheng`||args ===`Xizheng`){
       message.channel.send("```[Xi Zheng (Geomancer)]\nCost - 14\nStat - 26/76/66/66/71\n30lv - Tactics DEF Rate + (15)\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Reach AGI+\nPrefect - Market\nWarlord - Sizhou Tax+Banner - Zhao Yun```");
     }
-if (args ===`MiFang||args ===`mifang||args ===`Mifang`){
+if (args ===`MiFang`||args ===`mifang`||args ===`Mifang`){
       message.channel.send("```[Mi Fang (Footman)]\nCost - 14\nStat - 62/33/56/65/84\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach WIS-\n90lv - Union\nPrefect - Silver Coin Tax\nWarlord - Xuzhou Loot+Banner - Zhao Yun```");
     }
-if (args ===`GongsunYue||args ===`gongsunyue||args ===`Gongsunyue`){
+if (args ===`GongsunYue`||args ===`gongsunyue`||args ===`Gongsunyue`){
       message.channel.send("```[Gongsun Yue (Mountain Cavalry)]\nCost - 16\nStat - 72/47/74/79/56\n30lv - Mounted ATK +% (10)\n50lv - Ignore Mounted Attack+\n70lv - Mounted ATK +% (15)\n90lv - Double Counter\nPrefect - Farm\nWarlord - Youzhou Loot+Banner - Zhao Yun```");
     }
-if (args ===`FanJian||args ===`fanjian||args ===`Fanjian`){
+if (args ===`FanJian`||args ===`fanjian`||args ===`Fanjian`){
       message.channel.send("```[Fan Jian (Catapult)]\nCost - 14\nStat - 56/73/61/47/74\n30lv - Enhanced Double ATK % (15)\n50lv - Self AGI+\n70lv - Attack ACC + (17)\n90lv - ATK- Attack\nPrefect - Master Storage\nWarlord - Yizhou-C Tax+Banner - Zhao Yun```");
     }
-if (args ===`GuanJing||args ===`guanjing||args ===`Guanjing`){
+if (args ===`GuanJing`||args ===`guanjing`||args ===`Guanjing`){
       message.channel.send("```[Guan Jing (Tactician)]\nCost - 14\nStat - 36/79/66/63/60\n30lv - Tactics ACC + (15)\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach SPD+\n90lv - Elemental Tactics +% (15)\nPrefect - Master Tax\nWarlord - Bingzhou Tax+Banner - Zhao Yun```");
     }
-if (args ===`YanGang||args ===`yangang||args ===`Yangang`){
+if (args ===`YanGang`||args ===`yangang`||args ===`Yangang`){
       message.channel.send("```[Yan Gang (Mountain Cavalry)]\nCost - 15\nStat - 76/45/69/73/46\n30lv - Good from Evil\n50lv - Reach ATK-\n70lv - AGI Boost % (10)\n90lv - Critical Attack+ (30)\nPrefect - Port\nWarlord - Youzhou Loot+Banner - Zhao Yun```");
     }
-if (args ===`ZhaoTong||args ===`zhaotong||args ===`Zhaotong`){
+if (args ===`ZhaoTong`||args ===`zhaotong`||args ===`Zhaotong`){
       message.channel.send("```[Zhao Tong (Footman)]\nCost - 16\nStat - 68/65/65/72/85\n30lv - Physical Damage -% (10)\n50lv - Physical Attack +% (12)\n70lv - Reach DEF-\n90lv - First Strike\nPrefect - Stockpile\nWarlord - Yizhou-N Tax+Banner - Zhao Yun```");
     }
-if (args ===`ZhaoGuang||args ===`zhaoguang||args ===`Zhaoguang`){
+if (args ===`ZhaoGuang`||args ===`zhaoguang`||args ===`Zhaoguang`){
       message.channel.send("```[Zhao Guang (Chariot)]\nCost - 16\nStat - 70/58/72/71/83\n30lv - AGI Boost % (7)\n50lv - DEF Boost (30)\n70lv - % Charge Attack (3)\n90lv - First Strike\nPrefect - Fishery\nWarlord - Yizhou-N Loot+Banner - Zhao Yun```");
     }
-if (args ===`LiuDu||args ===`liudu||args ===`Liudu`){
+if (args ===`LiuDu`||args ===`liudu`||args ===`Liudu`){
       message.channel.send("```[Liu Du (Footman)]\nCost - 14\nStat - 44/46/38/67/79\n30lv - Physical Damage -% (10)\n50lv - ATK DEF Rate + (20)\n70lv - Reach MRL-\n90lv - Damage Transfer\nPrefect - Farm\nWarlord - Jingzhou-S Tax+Banner - Zhao Yun```");
     }
-if (args ===`NingSui||args ===`ningsui||args ===`Ningsui`){
+if (args ===`NingSui`||args ===`ningsui`||args ===`Ningsui`){
       message.channel.send("```[Ning Sui (Tactician)]\nCost - 14\nStat - 68/78/75/68/74\n30lv - Tactics Damage Reflection % (10)\n50lv - Tactics ACC + (15)\n70lv - Reach ATK+\n90lv - Earth Tactics+ % (20)\nPrefect - Absolute Protection\nWarlord - Yizhou-N Tax+Banner - Zhao Yun```");
     }
-if (args ===`MaLiang||args ===`maliang||args ===`Maliang`){
+if (args ===`MaLiang`||args ===`maliang`||args ===`Maliang`){
       message.channel.send("```[Ma Liang (Tactician)]\nCost - 17\nStat - 58/89/66/60/79\n30lv - Imitate Tactics\n50lv - Double Tactics +%\n70lv - Reach WIS+\n90lv - Critical Attack Immunity\nPrefect - Market\nWarlord - Jingzhou-S Loot+Banner - Zhao Yun```");
     }
-if (args ===`XiahouLan||args ===`xiahoulan||args ===`Xiahoulan`){
+if (args ===`XiahouLan`||args ===`xiahoulan`||args ===`Xiahoulan`){
       message.channel.send("```[Xiahou Lan (Light Cavalry)]\nCost - 14\nStat - 76/67/73/77/71\n30lv - Enhanced Double ATK % (15)\n50lv - Reach WIS-\n70lv - Mounted ATK +% (15)\n90lv - Critical Attack+ (30)\nPrefect - Market\nWarlord - Youzhou Loot+Banner - Zhao Yun```");
     }
-if (args ===`FuQian||args ===`fuqian||args ===`Fuqian`){
+if (args ===`FuQian`||args ===`fuqian`||args ===`Fuqian`){
       message.channel.send("```[Fu Qian (Spearman)]\nCost - 19\nStat - 84/72/77/64/83\n30lv - Physical Damage -% (10)\n50lv - Reach AGI-\n70lv - MRL- Attack\n90lv - Reach ATK-\nPrefect - Market\nWarlord - Yizhou-N Loot+Banner - Zhao Yun```");
     }
-if (args ===`YinMo||args ===`yinmo||args ===`Yinmo`){
+if (args ===`YinMo`||args ===`yinmo`||args ===`Yinmo`){
       message.channel.send("```[Yin Mo (Geomancer)]\nCost - 16\nStat - 26/86/67/62/90\n30lv - Reach Awaken\n50lv - Supply Tactics +% (10)\n70lv - Status Effect Reflection\n90lv - Summon the Four Gods\nPrefect - Fishery\nWarlord - Trader+Banner - Zhao Yun```");
     }
-if (args ===`TianYu||args ===`tianyu||args ===`Tianyu`){
+if (args ===`TianYu`||args ===`tianyu`||args ===`Tianyu`){
       message.channel.send("```[Tian Yu (Light Cavalry)]\nCost - 19\nStat - 72/82/85/76/66\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Critical Attack+ (30)\n90lv - Enhanced Double ATK % (15)\nPrefect - Market\nWarlord - Occupation+Banner - Zhao Yun```");
     }
-if (args ===`TianKai||args ===`tiankai||args ===`Tiankai`){
+if (args ===`TianKai`||args ===`tiankai`||args ===`Tiankai`){
       message.channel.send("```[Tian Kai (Heavy Cavalry)]\nCost - 14\nStat - 74/70/79/68/77\n30lv - Physical Damage Reflection % (10)\n50lv - Counterattack+\n70lv - MRL- Attack\n90lv - Deadly Poison Attack % (50)\nPrefect - Port\nWarlord - Qingzhou Loot+Banner - Zhao Yun```");
     }
-if (args ===`GongsunZan||args ===`gongsunzan||args ===`Gongsunzan`){
+if (args ===`GongsunZan`||args ===`gongsunzan`||args ===`Gongsunzan`){
       message.channel.send("```[Gongsun Zan (Mountain Cavalry)]\nCost - 19\nStat - 86/66/85/72/70\n30lv - Blind Attack % (15)\n50lv - Good from Evil\n70lv - Mounted ATK +% (15)\n90lv - Penetration Attack\nPrefect - Fruit Grove\nWarlord - Youzhou Loot+Banner - Zhao Yun```");
     }
-if (args ===`LuoXian||args ===`luoxian||args ===`Luoxian`){
+if (args ===`LuoXian`||args ===`luoxian`||args ===`Luoxian`){
       message.channel.send("```[Luo Xian (Footman)]\nCost - 19\nStat - 74/82/87/74/65\n30lv - Physical Damage -% (10)\n50lv - Mounted ATK +% (15)\n70lv - Reach DEF-\n90lv - Union\nPrefect - Ration Tax\nWarlord - Yizhou-C Loot+Banner - Zhao Yun```");
     }
-if (args ===`LiMing||args ===`liming||args ===`Liming`){
+if (args ===`LiMing`||args ===`liming`||args ===`Liming`){
       message.channel.send("```[Li Ming (Pantheran)]\nCost - 17\nStat - 72/51/66/83/47\n30lv - DEF Boost % (10)\n50lv - Counterattack+\n70lv - Confusion Attack % (15)\n90lv - Oppressive Assault\nPrefect - Silver Coin Tax\nWarlord - Ration Tax+Banner - Zhao Yun```");
     }
-if (args ===`ZhangNi||args ===`zhangni||args ===`Zhangni`){
+if (args ===`ZhangNi`||args ===`zhangni`||args ===`Zhangni`){
       message.channel.send("```[Zhang Ni (Soldier)]\nCost - 18\nStat - 77/54/81/89/68\n30lv - Tactics Damage -% (10)\n50lv - Self AGI+\n70lv - AGI- Attack\n90lv - Good from Evil\nPrefect - Master Storage\nWarlord - Yizhou-C Loot+Banner - Zhao Yun```");
     }
-if (args ===`ZhaoYun||args ===`zhaoyun||args ===`Zhaoyun`){
+if (args ===`ZhaoYun`||args ===`zhaoyun`||args ===`Zhaoyun`){
       message.channel.send("```[Zhao Yun (Mountain Cavalry)]\nCost - 23\nStat - 96/77/92/97/72\n30lv - Ignore Mounted Attack+\n50lv - First Strike\n70lv - Unstoppable\n90lv - Tactics DEF Rate + (20)\nPrefect - Master Storage\nWarlord - Ration Loot+Banner - Zhao Yun```");
     }
-if (args ===`ZhangYang||args ===`zhangyang||args ===`Zhangyang`){
+if (args ===`ZhangYang`||args ===`zhangyang`||args ===`Zhangyang`){
       message.channel.send("```[Zhang Yang (Light Cavalry)]\nCost - 16\nStat - 78/68/73/69/54\n30lv - Double Tactics Immunity\n50lv - Physical Attack +% (12)\n70lv - Mounted ATK +% (15)\n90lv - Critical Attack+ (30)\nPrefect - Master Storage\nWarlord - Bingzhou Tax+Banner - Sun Jian```");
     }
-if (args ===`ShiYi||args ===`shiyi||args ===`Shiyi`){
+if (args ===`ShiYi`||args ===`shiyi`||args ===`Shiyi`){
       message.channel.send("```[Shi Yi (Crossbowman)]\nCost - 14\nStat - 64/74/69/52/78\n30lv - Tactics Damage -% (10)\n50lv - Self MRL+\n70lv - Mounted ATK +% (15)\n90lv - Critical Attack+ (30)\nPrefect - Market\nWarlord - Jiaozhou Loot+Banner - Sun Jian```");
     }
-if (args ===`YuanYi||args ===`yuanyi||args ===`Yuanyi`){
+if (args ===`YuanYi`||args ===`yuanyi`||args ===`Yuanyi`){
       message.channel.send("```[Yuan Yi (Archer)]\nCost - 15\nStat - 66/77/69/70/63\n30lv - Physical Attack +% (12)\n50lv - Poison Attack % (15)\n70lv - Immobilization ATK % (15)\n90lv - ATK- Attack\nPrefect - Market\nWarlord - Jiaozhou Tax+Banner - Sun Jian```");
     }
-if (args ===`SunJing||args ===`sunjing||args ===`Sunjing`){
+if (args ===`SunJing`||args ===`sunjing`||args ===`Sunjing`){
       message.channel.send("```[Sun Jing (Heavy Cavalry)]\nCost - 15\nStat - 58/74/69/72/72\n30lv - Ignore Mounted Attack+\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - Deadly Poison Attack % (50)\nPrefect - Pottery Works\nWarlord - Scout+Banner - Sun Jian```");
     }
-if (args ===`ZhangXiu||args ===`zhangxiu||args ===`Zhangxiu`){
+if (args ===`ZhangXiu`||args ===`zhangxiu`||args ===`Zhangxiu`){
       message.channel.send("```[Zhang Xiu (Archer)]\nCost - 16\nStat - 56/76/78/73/66\n30lv - Self AGI+\n50lv - Physical Attack +% (12)\n70lv - MRL Boost % (10)\n90lv - ATK- Attack\nPrefect - Treasury\nWarlord - Liangzhou-S Tax+Banner - Sun Jian```");
     }
-if (args ===`ShiXie||args ===`shixie||args ===`Shixie`){
+if (args ===`ShiXie`||args ===`shixie`||args ===`Shixie`){
       message.channel.send("```[Shi Xie (Catapult)]\nCost - 17\nStat - 58/80/62/52/92\n30lv - Random- Attack\n50lv - Double Tactics Immunity\n70lv - Attack ACC + (17)\n90lv - Self MRL+\nPrefect - Market\nWarlord - Jiaozhou Tax+Banner - Sun Jian```");
     }
-if (args ===`ZhuZhi||args ===`zhuzhi||args ===`Zhuzhi`){
+if (args ===`ZhuZhi`||args ===`zhuzhi`||args ===`Zhuzhi`){
       message.channel.send("```[Zhu Zhi (Crossbowman)]\nCost - 17\nStat - 66/74/81/74/74\n30lv - WIS- Attack\n50lv - Tactics Damage -% (10)\n70lv - Mounted ATK +% (15)\n90lv - ATK Boost % (15)\nPrefect - Fishery\nWarlord - Occupation+Banner - Sun Jian```");
     }
-if (args ===`SunYi||args ===`sunyi||args ===`Sunyi`){
+if (args ===`SunYi`||args ===`sunyi`||args ===`Sunyi`){
       message.channel.send("```[Sun Yi (Navy)]\nCost - 17\nStat - 79/26/74/87/56\n30lv - MRL Boost % (10)\n50lv - Water Tactics+ % (9)\n70lv - Naval Battle +\n90lv - Silence Attack % (20)\nPrefect - Stockpile\nWarlord - Liangzhou-S Tax+Banner - Sun Jian```");
     }
-if (args ===`ShenRong||args ===`shenrong||args ===`Shenrong`){
+if (args ===`ShenRong`||args ===`shenrong`||args ===`Shenrong`){
       message.channel.send("```[Shen Rong (Spearman)]\nCost - 19\nStat - 87/64/80/74/66\n30lv - Reach AGI-\n50lv - All DEF Rate + (7)\n70lv - WIS- Attack\n90lv - Damage Transfer\nPrefect - Tailor\nWarlord - Jizhou Loot+Banner - Sun Jian```");
     }
-if (args ===`SunYu||args ===`sunyu||args ===`Sunyu`){
+if (args ===`SunYu`||args ===`sunyu`||args ===`Sunyu`){
       message.channel.send("```[Sun Yu (Navy)]\nCost - 18\nStat - 73/72/80/83/70\n30lv - Water Tactics+ % (7)\n50lv - DEF Boost % (13)\n70lv - Naval Battle +\n90lv - Blind Attack % (20)\nPrefect - Lumbermill\nWarlord - Yizhou-C Tax+Banner - Sun Jian```");
     }
-if (args ===`HanDang||args ===`handang||args ===`Handang`){
+if (args ===`HanDang`||args ===`handang`||args ===`Handang`){
       message.channel.send("```[Han Dang (Outlaw)]\nCost - 19\nStat - 85/60/76/64/82\n30lv - Earth Tactics+ % (10)\n50lv - Reach MRL-\n70lv - Naval Battle +\n90lv - Good from Evil\nPrefect - Pig Farm\nWarlord - Liangzhou-N Loot+Banner - Sun Jian```");
     }
-if (args ===`ZuMao||args ===`zumao||args ===`Zumao`){
+if (args ===`ZuMao`||args ===`zumao`||args ===`Zumao`){
       message.channel.send("```[Zu Mao (Outlaw)]\nCost - 18\nStat - 82/62/75/90/60\n30lv - Reach MRL-\n50lv - Earth Tactics+ % (10)\n70lv - DEF Boost % (11)\n90lv - Unstoppable\nPrefect - Farm\nWarlord - Trader+Banner - Sun Jian```");
     }
-if (args ===`SunShangxiang||args ===`sunshangxiang||args ===`Sunshangxiang`){
+if (args ===`SunShangxiang`||args ===`sunshangxiang`||args ===`Sunshangxiang`){
       message.channel.send("```[Sun Shangxiang (Mounted Archer)]\nCost - 21\nStat - 85/68/79/96/78\n30lv - Tactics Damage -% (10)\n50lv - Critical Attack+ (30)\n70lv - Phalanx Strike\n90lv - Critical Attack\nPrefect - Ration Tax\nWarlord - Ration Tax+Banner - Sun Jian```");
     }
-if (args ===`ChengPu||args ===`chengpu||args ===`Chengpu`){
+if (args ===`ChengPu`||args ===`chengpu`||args ===`Chengpu`){
       message.channel.send("```[Cheng Pu (Heavy Cavalry)]\nCost - 19\nStat - 79/79/84/58/93\n30lv - Physical Damage Reflection % (10)\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - HP Boost % (15)\nPrefect - Tailor\nWarlord - Liangzhou-N Loot+Banner - Sun Jian```");
     }
-if (args ===`HuangGai||args ===`huanggai||args ===`Huanggai`){
+if (args ===`HuangGai`||args ===`huanggai`||args ===`Huanggai`){
       message.channel.send("```[Huang Gai (Soldier)]\nCost - 20\nStat - 89/70/80/90/54\n30lv - Tactics Damage -% (10)\n50lv - Counterattack+\n70lv - Naval Battle +\n90lv - Good from Evil\nPrefect - Ration Tax\nWarlord - Ration Loot+Banner - Sun Jian```");
     }
-if (args ===`LuDai||args ===`ludai||args ===`Ludai`){
+if (args ===`LuDai`||args ===`ludai`||args ===`Ludai`){
       message.channel.send("```[Lu Dai (Marine)]\nCost - 18\nStat - 77/78/88/85/72\n30lv - Lifesteal Attack % (7)\n50lv - Reach MRL+\n70lv - ATK DEF Rate + (17)\n90lv - MP Attack (10)\nPrefect - Lumbermill\nWarlord - Jiaozhou Loot+Banner - Sun Jian```");
     }
-if (args ===`SunJian||args ===`sunjian||args ===`Sunjian`){
+if (args ===`SunJian`||args ===`sunjian`||args ===`Sunjian`){
       message.channel.send("```[Sun Jian (Warlord)]\nCost - 20\nStat - 90/79/94/77/89\n30lv - Counterattack+\n50lv - DEF- Attack\n70lv - Reach DEF+\n90lv - Union\nPrefect - Ration Tax\nWarlord - Ration Loot+Banner - Sun Jian```");
     }
-if (args ===`LiuQi||args ===`liuqi||args ===`Liuqi`){
+if (args ===`LiuQi`||args ===`liuqi`||args ===`Liuqi`){
       message.channel.send("```[Liu Qi (Footman)]\nCost - 14\nStat - 36/67/59/66/74\n30lv - All DEF Rate + (7)\n50lv - Physical Damage -% (10)\n70lv - Reach ATK-\n90lv - Rage +% (20)\nPrefect - Ration Tax\nWarlord - Jingzhou-N Tax+Banner - Pang Tong```");
     }
-if (args ===`WangCan||args ===`wangcan||args ===`Wangcan`){
+if (args ===`WangCan`||args ===`wangcan`||args ===`Wangcan`){
       message.channel.send("```[Wang Can (Crossbowman)]\nCost - 15\nStat - 61/85/68/57/68\n30lv - Self MRL+\n50lv - Critical Attack+ (0)\n70lv - Enhanced Double ATK % (15)\n90lv - Double Counter\nPrefect - Farm\nWarlord - Yanzhou Loot+Banner - Pang Tong```");
     }
-if (args ===`JiaoChu||args ===`jiaochu||args ===`Jiaochu`){
+if (args ===`JiaoChu`||args ===`jiaochu`||args ===`Jiaochu`){
       message.channel.send("```[Jiao Chu (Outlaw)]\nCost - 17\nStat - 79/33/68/55/82\n30lv - Earth Tactics+ % (10)\n50lv - ATK DEF Rate + (20)\n70lv - Ranged DMG -% (10)\n90lv - Expand ATK RNG (7)\nPrefect - Market\nWarlord - Bingzhou Loot+Banner - Pang Tong```");
     }
-if (args ===`Huchuquan||args ===`huchuquan||args ===`Huchuquan`){
+if (args ===`Huchuquan`||args ===`huchuquan`||args ===`Huchuquan`){
       message.channel.send("```[Huchuquan (Mountain Cavalry)]\nCost - 16\nStat - 70/36/72/83/62\n30lv - % Charge Attack (2)\n50lv - Good from Evil\n70lv - AGI Boost % (10)\n90lv - Unstoppable\nPrefect - Pottery Works\nWarlord - Bingzhou Tax+Banner - Pang Tong```");
     }
-if (args ===`TangJi||args ===`tangji||args ===`Tangji`){
+if (args ===`TangJi`||args ===`tangji`||args ===`Tangji`){
       message.channel.send("```[Tang Ji (Dancer)]\nCost - 17\nStat - 62/71/56/91/62\n30lv - Reach MRL+\n50lv - Counterattack+\n70lv - Imitate Tactics\n90lv - Lifesteal Attack % (8)\nPrefect - Fruit Grove\nWarlord - Liangzhou-N Loot+Banner - Pang Tong```");
     }
-if (args ===`JinXuan||args ===`jinxuan||args ===`Jinxuan`){
+if (args ===`JinXuan`||args ===`jinxuan`||args ===`Jinxuan`){
       message.channel.send("```[Jin Xuan (Catapult)]\nCost - 14\nStat - 72/16/58/55/61\n30lv - Physical Certain Hit\n50lv - Self AGI+\n70lv - Tactics Damage -% (15)\n90lv - Poison Attack % (20)\nPrefect - Market\nWarlord - Jingzhou-S Loot+Banner - Pang Tong```");
     }
-if (args ===`XiangLang||args ===`xianglang||args ===`Xianglang`){
+if (args ===`XiangLang`||args ===`xianglang`||args ===`Xianglang`){
       message.channel.send("```[Xiang Lang (Geomancer)]\nCost - 14\nStat - 26/77/66/71/71\n30lv - MP Boost % (10)\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Reach WIS+\nPrefect - Fruit Grove\nWarlord - Jingzhou-S Tax+Banner - Pang Tong```");
     }
-if (args ===`ZhouXin||args ===`zhouxin||args ===`Zhouxin`){
+if (args ===`ZhouXin`||args ===`zhouxin`||args ===`Zhouxin`){
       message.channel.send("```[Zhou Xin (Outlaw)]\nCost - 16\nStat - 73/76/74/68/78\n30lv - ATK Boost % (10)\n50lv - Reach MRL-\n70lv - AGI- Attack\n90lv - Double ATK Immunity\nPrefect - Fishery\nWarlord - Bingzhou Tax+Banner - Pang Tong```");
     }
-if (args ===`MiZhu||args ===`mizhu||args ===`Mizhu`){
+if (args ===`MiZhu`||args ===`mizhu`||args ===`Mizhu`){
       message.channel.send("```[Mi Zhu (Tactician)]\nCost - 15\nStat - 65/81/76/77/83\n30lv - Tactics ACC + (15)\n50lv - Double Tactics +%\n70lv - Double ATK Immunity\n90lv - Status Effect Reflection\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+Banner - Pang Tong```");
     }
-if (args ===`Tadun||args ===`tadun||args ===`Tadun`){
+if (args ===`Tadun`||args ===`tadun`||args ===`Tadun`){
       message.channel.send("```[Tadun (Mountain Cavalry)]\nCost - 18\nStat - 82/60/84/58/66\n30lv - Enhanced Double ATK % (10)\n50lv - % Charge Attack (3)\n70lv - Ignore Mounted Attack+\n90lv - Good from Evil\nPrefect - Treasury\nWarlord - Premium Shop+Banner - Pang Tong```");
     }
-if (args ===`SunQian||args ===`sunqian||args ===`Sunqian`){
+if (args ===`SunQian`||args ===`sunqian`||args ===`Sunqian`){
       message.channel.send("```[Sun Qian (Geomancer)]\nCost - 15\nStat - 66/82/76/62/92\n30lv - Supply Tactics +% (8)\n50lv - MP Boost % (15)\n70lv - Double ATK Immunity\n90lv - Summon the Four Gods\nPrefect - Master Storage\nWarlord - Ration Tax+Banner - Pang Tong```");
     }
-if (args ===`KuaiLiang||args ===`kuailiang||args ===`Kuailiang`){
+if (args ===`KuaiLiang`||args ===`kuailiang`||args ===`Kuailiang`){
       message.channel.send("```[Kuai Liang (Tactician)]\nCost - 17\nStat - 44/88/74/66/78\n30lv - Elemental Tactics +% (5)\n50lv - Tactics ACC + (15)\n70lv - Earth Tactics+ % (15)\n90lv - Summon the Four Gods\nPrefect - Port\nWarlord - Premium Shop+Banner - Pang Tong```");
     }
-if (args ===`JiLing||args ===`jiling||args ===`Jiling`){
+if (args ===`JiLing`||args ===`jiling`||args ===`Jiling`){
       message.channel.send("```[Ji Ling (Heavy Cavalry)]\nCost - 18\nStat - 83/51/78/72/67\n30lv - Ranged DMG -% (10)\n50lv - Physical Damage Reflection % (12)\n70lv - DEF- Attack\n90lv - Second Wind % (25)\nPrefect - Farm\nWarlord - Jingzhou-N Tax+Banner - Pang Tong```");
     }
-if (args ===`LuZhi||args ===`luzhi||args ===`Luzhi`){
+if (args ===`LuZhi`||args ===`luzhi`||args ===`Luzhi`){
       message.channel.send("```[Lu Zhi (Footman)]\nCost - 18\nStat - 54/82/88/77/88\n30lv - Physical Damage -% (10)\n50lv - Double Tactics Immunity\n70lv - Reach WIS-\n90lv - Veteran (35)\nPrefect - Ration Tax\nWarlord - Yongzhou-W Tax+Banner - Pang Tong```");
     }
-if (args ===`KuaiYue||args ===`kuaiyue||args ===`Kuaiyue`){
+if (args ===`KuaiYue`||args ===`kuaiyue`||args ===`Kuaiyue`){
       message.channel.send("```[Kuai Yue (Taoist)]\nCost - 16\nStat - 40/83/76/80/71\n30lv - Tactics Damage Reflection % (10)\n50lv - Interrupt Tactics +% (10)\n70lv - Reach WIS-\n90lv - Status Effect Immunity\nPrefect - Pig Farm\nWarlord - Jingzhou-S Loot+Banner - Pang Tong```");
     }
-if (args ===`LiuBiao||args ===`liubiao||args ===`Liubiao`){
+if (args ===`LiuBiao`||args ===`liubiao`||args ===`Liubiao`){
       message.channel.send("```[Liu Biao (Warlord)]\nCost - 17\nStat - 68/83/72/67/85\n30lv - Counterattack+\n50lv - AGI Boost % (10)\n70lv - Reach DEF+\n90lv - Leading Attack\nPrefect - Ration Tax\nWarlord - Qingzhou Loot+Banner - Pang Tong```");
     }
-if (args ===`PangTong||args ===`pangtong||args ===`Pangtong`){
+if (args ===`PangTong`||args ===`pangtong`||args ===`Pangtong`){
       message.channel.send("```[Pang Tong (Sage)]\nCost - 20\nStat - 77/97/89/68/85\n30lv - Reach WIS+\n50lv - Double Tactics\n70lv - Fire Tactics +% (15)\n90lv - Status Effect Reflection\nPrefect - Ration Tax\nWarlord - Battle Ration+Banner - Pang Tong```");
     }
-if (args ===`YanBaihu||args ===`yanbaihu||args ===`Yanbaihu`){
+if (args ===`YanBaihu`||args ===`yanbaihu`||args ===`Yanbaihu`){
       message.channel.send("```[Yan Baihu (Outlaw)]\nCost - 14\nStat - 70/23/67/55/83\n30lv - Good from Evil\n50lv - ATK Boost % (13)\n70lv - Self SPD+\n90lv - Expand AoE (4)\nPrefect - Ration Tax\nWarlord - Occupation+Banner - Sun Ce```");
     }
-if (args ===`LingCao||args ===`lingcao||args ===`Lingcao`){
+if (args ===`LingCao`||args ===`lingcao`||args ===`Lingcao`){
       message.channel.send("```[Ling Cao (Navy)]\nCost - 19\nStat - 84/42/79/87/59\n30lv - MRL Boost % (10)\n50lv - DEF Boost % (13)\n70lv - Naval Battle +\n90lv - Damage Transfer\nPrefect - Market\nWarlord - Qingzhou Loot+Banner - Sun Ce```");
     }
-if (args ===`ChenHeng||args ===`chenheng||args ===`Chenheng`){
+if (args ===`ChenHeng`||args ===`chenheng`||args ===`Chenheng`){
       message.channel.send("```[Chen Heng (Navy)]\nCost - 14\nStat - 69/28/67/71/55\n30lv - MRL Boost % (10)\n50lv - Naval Battle +\n70lv - AGI Boost % (10)\n90lv - Tactics DEF Rate + (20)\nPrefect - Fruit Grove\nWarlord - Liangzhou-N Tax+Banner - Sun Ce```");
     }
-if (args ===`ZhugeQiao||args ===`zhugeqiao||args ===`Zhugeqiao`){
+if (args ===`ZhugeQiao`||args ===`zhugeqiao`||args ===`Zhugeqiao`){
       message.channel.send("```[Zhuge Qiao (Crossbowman)]\nCost - 16\nStat - 56/76/80/65/72\n30lv - Tactics Damage -% (10)\n50lv - Double Tactics Immunity\n70lv - Physical Attack +% (12)\n90lv - Reach MRL+\nPrefect - Farm\nWarlord - Trader+Banner - Sun Ce```");
     }
-if (args ===`DongXi||args ===`dongxi||args ===`Dongxi`){
+if (args ===`DongXi`||args ===`dongxi`||args ===`Dongxi`){
       message.channel.send("```[Dong Xi (Footman)]\nCost - 18\nStat - 85/65/72/73/68\n30lv - Naval Battle +\n50lv - All DEF Rate + (7)\n70lv - Reach WIS-\n90lv - HP Boost % (15)\nPrefect - Stockpile\nWarlord - Liangzhou-N Loot+Banner - Sun Ce```");
     }
-if (args ===`LiuYao||args ===`liuyao||args ===`Liuyao`){
+if (args ===`LiuYao`||args ===`liuyao`||args ===`Liuyao`){
       message.channel.send("```[Liu Yao (Heavy Cavalry)]\nCost - 16\nStat - 72/72/69/50/77\n30lv - Ranged DMG -% (10)\n50lv - Self DEF+\n70lv - MRL- Attack\n90lv - Double ATK Immunity\nPrefect - Treasury\nWarlord - Qingzhou Loot+Banner - Sun Ce```");
     }
-if (args ===`YanYu||args ===`yanyu||args ===`Yanyu`){
+if (args ===`YanYu`||args ===`yanyu`||args ===`Yanyu`){
       message.channel.send("```[Yan Yu (Mountain Cavalry)]\nCost - 16\nStat - 75/19/62/76/67\n30lv - Blind Attack % (15)\n50lv - Mounted ATK +% (15)\n70lv - Self SPD+\n90lv - Good from Evil\nPrefect - Market\nWarlord - Liangzhou-S Tax+Banner - Sun Ce```");
     }
-if (args ===`XuGong||args ===`xugong||args ===`Xugong`){
+if (args ===`XuGong`||args ===`xugong`||args ===`Xugong`){
       message.channel.send("```[Xu Gong (Taoist)]\nCost - 14\nStat - 52/68/67/44/73\n30lv - Interrupt Tactics +% (8)\n50lv - Imitate Tactics\n70lv - Reach AGI-\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Practice Battle+Banner - Sun Ce```");
     }
-if (args ===`Daqiao||args ===`daqiao||args ===`Daqiao`){
+if (args ===`Daqiao`||args ===`daqiao`||args ===`Daqiao`){
       message.channel.send("```[Daqiao (Dancer)]\nCost - 19\nStat - 69/80/62/97/86\n30lv - Seduce +% (120)\n50lv - Mental Exhaustion (20)\n70lv - Double Tactics\n90lv - All DEF Rate + (7)\nPrefect - Master Storage\nWarlord - Ration Tax+Banner - Sun Ce```");
     }
-if (args ===`ZhangZhao||args ===`zhangzhao||args ===`Zhangzhao`){
+if (args ===`ZhangZhao`||args ===`zhangzhao`||args ===`Zhangzhao`){
       message.channel.send("```[Zhang Zhao (Tactician)]\nCost - 18\nStat - 43/91/66/72/86\n30lv - Elemental Tactics +% (5)\n50lv - Double Tactics +%\n70lv - Tactics ACC + (12)\n90lv - Imitate Tactics\nPrefect - Master Tax\nWarlord - General Tax+Banner - Sun Ce```");
     }
-if (args ===`SunJiao||args ===`sunjiao||args ===`Sunjiao`){
+if (args ===`SunJiao`||args ===`sunjiao`||args ===`Sunjiao`){
       message.channel.send("```[Sun Jiao (Marine)]\nCost - 16\nStat - 68/75/82/87/65\n30lv - Reach MRL+\n50lv - MP Attack (10)\n70lv - AGI Boost % (10)\n90lv - Forceful Blow\nPrefect - Pig Farm\nWarlord - Trader+Banner - Sun Ce```");
     }
-if (args ===`SunHuan||args ===`sunhuan||args ===`Sunhuan`){
+if (args ===`SunHuan`||args ===`sunhuan`||args ===`Sunhuan`){
       message.channel.send("```[Sun Huan (Footman)]\nCost - 18\nStat - 77/77/79/68/80\n30lv - HP Boost % (15)\n50lv - Reach DEF+\n70lv - All DEF Rate + (6)\n90lv - Naval Battle +\nPrefect - Master Storage\nWarlord - Liangzhou-S Loot+Banner - Sun Ce```");
     }
-if (args ===`LuFan||args ===`lufan||args ===`Lufan`){
+if (args ===`LuFan`||args ===`lufan`||args ===`Lufan`){
       message.channel.send("```[Lu Fan (Marine)]\nCost - 16\nStat - 62/78/79/72/77\n30lv - Elemental Tactics +% (5)\n50lv - Reach MRL+\n70lv - Tactics DEF Rate + (15)\n90lv - MP Attack (10)\nPrefect - Lumbermill\nWarlord - Jiaozhou Tax+Banner - Sun Ce```");
     }
-if (args ===`WuCan||args ===`wucan||args ===`Wucan`){
+if (args ===`WuCan`||args ===`wucan`||args ===`Wucan`){
       message.channel.send("```[Wu Can (Outlaw)]\nCost - 15\nStat - 68/78/66/65/87\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - Naval Battle +\n90lv - Double ATK Immunity\nPrefect - Farm\nWarlord - Liangzhou-S Loot+Banner - Sun Ce```");
     }
-if (args ===`QuanCong||args ===`quancong||args ===`Quancong`){
+if (args ===`QuanCong`||args ===`quancong`||args ===`Quancong`){
       message.channel.send("```[Quan Cong (Crossbowman)]\nCost - 18\nStat - 72/75/78/69/90\n30lv - Tactics Damage -% (10)\n50lv - Double Tactics Immunity\n70lv - Confusion Attack % (15)\n90lv - WIS- Attack\nPrefect - Market\nWarlord - Liangzhou-N Tax+Banner - Sun Ce```");
     }
-if (args ===`XuSheng||args ===`xusheng||args ===`Xusheng`){
+if (args ===`XuSheng`||args ===`xusheng`||args ===`Xusheng`){
       message.channel.send("```[Xu Sheng (Archer)]\nCost - 19\nStat - 83/80/86/65/84\n30lv - Tactics Damage -% (10)\n50lv - Counterattack+\n70lv - Abnormality ATK % (15)\n90lv - Leading Attack\nPrefect - Tailor\nWarlord - Premium Shop+Banner - Sun Ce```");
     }
-if (args ===`SunShao||args ===`sunshao||args ===`Sunshao`){
+if (args ===`SunShao`||args ===`sunshao`||args ===`Sunshao`){
       message.channel.send("```[Sun Shao (Soldier)]\nCost - 19\nStat - 78/73/83/81/70\n30lv - Counterattack+\n50lv - Interrupt Tactics +% (10)\n70lv - Critical Attack+ (30)\n90lv - Good from Evil\nPrefect - Tailor\nWarlord - Liangzhou-S Loot+Banner - Sun Ce```");
     }
-if (args ===`DingFeng||args ===`dingfeng||args ===`Dingfeng`){
+if (args ===`DingFeng`||args ===`dingfeng`||args ===`Dingfeng`){
       message.channel.send("```[Ding Feng (Archer)]\nCost - 19\nStat - 80/75/81/90/67\n30lv - Mounted ATK +% (15)\n50lv - Physical Attack +% (12)\n70lv - MRL Boost % (10)\n90lv - DEF- Attack\nPrefect - Ration Tax\nWarlord - Jiaozhou Tax+Banner - Sun Ce```");
     }
-if (args ===`JiangQin||args ===`jiangqin||args ===`Jiangqin`){
+if (args ===`JiangQin`||args ===`jiangqin`||args ===`Jiangqin`){
       message.channel.send("```[Jiang Qin (Navy)]\nCost - 20\nStat - 86/57/79/91/66\n30lv - Enhanced Double ATK % (10)\n50lv - Naval Battle +\n70lv - DEF Boost % (11)\n90lv - Double Counter\nPrefect - Market\nWarlord - Liangzhou-N Loot+Banner - Sun Ce```");
     }
-if (args ===`ZhuHuan||args ===`zhuhuan||args ===`Zhuhuan`){
+if (args ===`ZhuHuan`||args ===`zhuhuan`||args ===`Zhuhuan`){
       message.channel.send("```[Zhu Huan (Crossbowman)]\nCost - 19\nStat - 84/77/86/66/75\n30lv - WIS- Attack\n50lv - Tactics Damage -% (10)\n70lv - Silence Attack % (15)\n90lv - Forceful Blow\nPrefect - Market\nWarlord - Liangzhou-S Loot+Banner - Sun Ce```");
     }
-if (args ===`SunCe||args ===`sunce||args ===`Sunce`){
+if (args ===`SunCe`||args ===`sunce`||args ===`Sunce`){
       message.channel.send("```[Sun Ce (Warlord)]\nCost - 21\nStat - 93/74/96/92/67\n30lv - Reach MRL+\n50lv - Unstoppable\n70lv - ATK- Attack\n90lv - Critical Attack+ (30)\nPrefect - Silver Coin Tax\nWarlord - All Loot+Banner - Sun Ce```");
     }
-if (args ===`WangLang||args ===`wanglang||args ===`Wanglang`){
+if (args ===`WangLang`||args ===`wanglang`||args ===`Wanglang`){
       message.channel.send("```[Wang Lang (Tactician)]\nCost - 15\nStat - 42/84/62/62/73\n30lv - Elemental Tactics +% (5)\n50lv - Double Tactics +%\n70lv - Tactics ACC + (12)\n90lv - Reach WIS+\nPrefect - Fishery\nWarlord - Occupation+Banner - Zhou Yu```");
     }
-if (args ===`SuFei||args ===`sufei||args ===`Sufei`){
+if (args ===`SuFei`||args ===`sufei`||args ===`Sufei`){
       message.channel.send("```[Su Fei (Navy)]\nCost - 16\nStat - 71/66/73/78/65\n30lv - MRL Boost % (10)\n50lv - Naval Battle +\n70lv - AGI Boost % (10)\n90lv - Double Tactics Immunity\nPrefect - Treasury\nWarlord - Jingzhou-S Loot+Banner - Zhou Yu```");
     }
-if (args ===`HuaXin||args ===`huaxin||args ===`Huaxin`){
+if (args ===`HuaXin`||args ===`huaxin`||args ===`Huaxin`){
       message.channel.send("```[Hua Xin (Taoist)]\nCost - 14\nStat - 42/84/26/46/56\n30lv - Tactics Damage Reflection % (10)\n50lv - Interrupt Tactics +% (10)\n70lv - Physical Damage -% (10)\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Practice Battle+Banner - Zhou Yu```");
     }
-if (args ===`HeQi||args ===`heqi||args ===`Heqi`){
+if (args ===`HeQi`||args ===`heqi`||args ===`Heqi`){
       message.channel.send("```[He Qi (Heavy Cavalry)]\nCost - 18\nStat - 80/72/79/68/74\n30lv - Ranged DMG -% (10)\n50lv - Ignore Mounted Attack+\n70lv - ATK- Attack\n90lv - Critical Attack Immunity\nPrefect - Pottery Works\nWarlord - Jiaozhou Loot+Banner - Zhou Yu```");
     }
-if (args ===`XuJing||args ===`xujing||args ===`Xujing`){
+if (args ===`XuJing`||args ===`xujing`||args ===`Xujing`){
       message.channel.send("```[Xu Jing (Geomancer)]\nCost - 14\nStat - 55/78/74/68/77\n30lv - Reach Awaken\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Ranged DMG -% (20)\nPrefect - Fishery\nWarlord - Liangzhou-N Loot+Banner - Zhou Yu```");
     }
-if (args ===`SunJun||args ===`sunjun||args ===`Sunjun`){
+if (args ===`SunJun`||args ===`sunjun`||args ===`Sunjun`){
       message.channel.send("```[Sun Jun (Heavy Cavalry)]\nCost - 16\nStat - 80/68/72/58/74\n30lv - Ranged DMG -% (10)\n50lv - Ignore Mounted Attack+\n70lv - DEF- Attack\n90lv - HP Boost % (15)\nPrefect - Fruit Grove\nWarlord - Occupation+Banner - Zhou Yu```");
     }
-if (args ===`WuYan||args ===`wuyan||args ===`Wuyan`){
+if (args ===`WuYan`||args ===`wuyan`||args ===`Wuyan`){
       message.channel.send("```[Wu Yan (Light Cavalry)]\nCost - 17\nStat - 72/76/73/61/72\n30lv - Critical Attack+ (30)\n50lv - Enhanced Double ATK % (15)\n70lv - Physical Attack +% (12)\n90lv - Counterattack+\nPrefect - Lumbermill\nWarlord - Liangzhou-S Loot+Banner - Zhou Yu```");
     }
-if (args ===`HuangZu||args ===`huangzu||args ===`Huangzu`){
+if (args ===`HuangZu`||args ===`huangzu`||args ===`Huangzu`){
       message.channel.send("```[Huang Zu (Soldier)]\nCost - 17\nStat - 69/58/78/82/75\n30lv - Interrupt Tactics +% (8)\n50lv - Good from Evil\n70lv - ATK- Attack\n90lv - Counterattack+\nPrefect - Fruit Grove\nWarlord - Jingzhou-S Tax+Banner - Zhou Yu```");
     }
-if (args ===`BuZhi||args ===`buzhi||args ===`Buzhi`){
+if (args ===`BuZhi`||args ===`buzhi`||args ===`Buzhi`){
       message.channel.send("```[Bu Zhi (Taoist)]\nCost - 15\nStat - 60/84/83/76/61\n30lv - Status Effect Reflection\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach WIS-\n90lv - MP Attack (10)\nPrefect - Pig Farm\nWarlord - Xuzhou Loot+Banner - Zhou Yu```");
     }
-if (args ===`TanXiong||args ===`tanxiong||args ===`Tanxiong`){
+if (args ===`TanXiong`||args ===`tanxiong`||args ===`Tanxiong`){
       message.channel.send("```[Tan Xiong (Mounted Archer)]\nCost - 16\nStat - 77/39/64/72/82\n30lv - Mounted ATK +% (15)\n50lv - Critical Attack+ (30)\n70lv - Counterattack+\n90lv - MRL- Attack\nPrefect - Farm\nWarlord - Liangzhou-S Loot+Banner - Zhou Yu```");
     }
-if (args ===`SunXiu||args ===`sunxiu||args ===`Sunxiu`){
+if (args ===`SunXiu`||args ===`sunxiu`||args ===`Sunxiu`){
       message.channel.send("```[Sun Xiu (Footman)]\nCost - 15\nStat - 50/81/67/63/88\n30lv - MRL Boost % (7)\n50lv - Reach DEF+\n70lv - Ranged DMG -% (10)\n90lv - Oppressive Assault\nPrefect - Lumbermill\nWarlord - Jiaozhou Tax+Banner - Zhou Yu```");
     }
-if (args ===`KanZe||args ===`kanze||args ===`Kanze`){
+if (args ===`KanZe`||args ===`kanze`||args ===`Kanze`){
       message.channel.send("```[Kan Ze (Catapult)]\nCost - 16\nStat - 56/83/72/78/67\n30lv - Attack ACC + (15)\n50lv - Double Tactics Immunity\n70lv - WIS- Attack\n90lv - Double ATK Immunity\nPrefect - Fishery\nWarlord - Qingzhou Tax+Banner - Zhou Yu```");
     }
-if (args ===`PanZhang||args ===`panzhang||args ===`Panzhang`){
+if (args ===`PanZhang`||args ===`panzhang`||args ===`Panzhang`){
       message.channel.send("```[Pan Zhang (Spearman)]\nCost - 18\nStat - 80/74/76/64/69\n30lv - Mounted ATK +% (15)\n50lv - Physical Damage -% (10)\n70lv - AGI- Attack\n90lv - Reach DEF+\nPrefect - Farm\nWarlord - Yizhou-N Tax+Banner - Zhou Yu```");
     }
-if (args ===`ZhugeKe||args ===`zhugeke||args ===`Zhugeke`){
+if (args ===`ZhugeKe`||args ===`zhugeke`||args ===`Zhugeke`){
       message.channel.send("```[Zhuge Ke (Marine)]\nCost - 17\nStat - 54/92/83/68/74\n30lv - Reach MRL+\n50lv - Naval Battle +\n70lv - Elemental Tactics +% (5)\n90lv - Status Effect Reflection\nPrefect - Ration Tax\nWarlord - Liangzhou-S Loot+Banner - Zhou Yu```");
     }
-if (args ===`SunDeng||args ===`sundeng||args ===`Sundeng`){
+if (args ===`SunDeng`||args ===`sundeng`||args ===`Sundeng`){
       message.channel.send("```[Sun Deng (Footman)]\nCost - 17\nStat - 66/79/77/74/84\n30lv - HP Boost % (15)\n50lv - All DEF Rate + (7)\n70lv - Reach MRL-\n90lv - Naval Battle +\nPrefect - Market\nWarlord - Liangzhou-S Loot+Banner - Zhou Yu```");
     }
-if (args ===`SunLuyu||args ===`sunluyu||args ===`Sunluyu`){
+if (args ===`SunLuyu`||args ===`sunluyu`||args ===`Sunluyu`){
       message.channel.send("```[Sun Luyu (Tactician)]\nCost - 16\nStat - 69/86/84/56/71\n30lv - Summon the Four Gods\n50lv - Tactics Damage Reflection % (10)\n70lv - Water Tactics+ % (15)\n90lv - Status Effect Immunity\nPrefect - Silver Coin Tax\nWarlord - Liangzhou-N Loot+Banner - Zhou Yu```");
     }
-if (args ===`Xiaoqiao||args ===`xiaoqiao||args ===`Xiaoqiao`){
+if (args ===`Xiaoqiao`||args ===`xiaoqiao`||args ===`Xiaoqiao`){
       message.channel.send("```[Xiaoqiao (Geomancer)]\nCost - 18\nStat - 34/86/66/81/92\n30lv - Supply Tactics +% (10)\n50lv - Tactics DEF Rate + (15)\n70lv - Imitate Tactics\n90lv - Summon the Four Gods\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+Banner - Zhou Yu```");
     }
-if (args ===`ZhuRan||args ===`zhuran||args ===`Zhuran`){
+if (args ===`ZhuRan`||args ===`zhuran`||args ===`Zhuran`){
       message.channel.send("```[Zhu Ran (Marine)]\nCost - 17\nStat - 74/75/91/78/92\n30lv - Reach MRL+\n50lv - Naval Battle +\n70lv - Water Tactics+ % (8)\n90lv - MP Attack (10)\nPrefect - Ration Tax\nWarlord - Liangzhou-S Loot+Banner - Zhou Yu```");
     }
-if (args ===`GanNing||args ===`ganning||args ===`Ganning`){
+if (args ===`GanNing`||args ===`ganning`||args ===`Ganning`){
       message.channel.send("```[Gan Ning (Navy)]\nCost - 23\nStat - 94/76/93/95/69\n30lv - Naval Battle +\n50lv - Guiding Attack\n70lv - Forceful Blow\n90lv - Leading Attack\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+Banner - Zhou Yu```");
     }
-if (args ===`LuSu||args ===`lusu||args ===`Lusu`){
+if (args ===`LuSu`||args ===`lusu`||args ===`Lusu`){
       message.channel.send("```[Lu Su (Tactician)]\nCost - 19\nStat - 52/92/84/72/90\n30lv - Tactics ACC + (15)\n50lv - Double Tactics +%\n70lv - Water Tactics+ % (15)\n90lv - Critical Attack Immunity\nPrefect - Farm\nWarlord - Occupation+Banner - Zhou Yu```");
     }
-if (args ===`ZhouYu||args ===`zhouyu||args ===`Zhouyu`){
+if (args ===`ZhouYu`||args ===`zhouyu`||args ===`Zhouyu`){
       message.channel.send("```[Zhou Yu (Marine)]\nCost - 21\nStat - 75/96/95/83/72\n30lv - Elemental Tactics +% (5)\n50lv - Elusive (10)\n70lv - Double Tactics\n90lv - Peerless % (20)\nPrefect - Master Tax\nWarlord - Ration Tax+Banner - Zhou Yu```");
     }
-if (args ===`KingMidang||args ===`kingmidang||args ===`Kingmidang`){
+if (args ===`KingMidang`||args ===`kingmidang`||args ===`Kingmidang`){
       message.channel.send("```[King Midang (Chariot)]\nCost - 14\nStat - 69/31/63/46/66\n30lv - All DEF Rate + (5)\n50lv - Reach DEF-\n70lv - AGI Boost % (10)\n90lv - Forceful Blow\nPrefect - Port\nWarlord - Yongzhou-W Tax+Banner - Huang Zhong```");
     }
-if (args ===`CuiYan||args ===`cuiyan||args ===`Cuiyan`){
+if (args ===`CuiYan`||args ===`cuiyan`||args ===`Cuiyan`){
       message.channel.send("```[Cui Yan (Archer)]\nCost - 16\nStat - 69/82/65/80/58\n30lv - Self AGI+\n50lv - Physical Attack +% (12)\n70lv - Confusion Attack % (15)\n90lv - Unlimited Counterattack\nPrefect - Absolute Protection\nWarlord - Jizhou Tax+Banner - Huang Zhong```");
     }
-if (args ===`CheZhou||args ===`chezhou||args ===`Chezhou`){
+if (args ===`CheZhou`||args ===`chezhou`||args ===`Chezhou`){
       message.channel.send("```[Che Zhou (Footman)]\nCost - 14\nStat - 67/52/63/71/59\n30lv - Attack ACC + (15)\n50lv - All DEF Rate + (7)\n70lv - Reach MRL-\n90lv - HP Boost % (15)\nPrefect - Tailor\nWarlord - Xuzhou Tax+Banner - Huang Zhong```");
     }
-if (args ===`WangZhong||args ===`wangzhong||args ===`Wangzhong`){
+if (args ===`WangZhong`||args ===`wangzhong`||args ===`Wangzhong`){
       message.channel.send("```[Wang Zhong (Spearman)]\nCost - 14\nStat - 55/65/58/68/71\n30lv - Reach AGI-\n50lv - Physical Damage -% (10)\n70lv - ATK- Attack\n90lv - Reach WIS-\nPrefect - Market\nWarlord - Yuzhou Tax+Banner - Huang Zhong```");
     }
-if (args ===`YiJi||args ===`yiji||args ===`Yiji`){
+if (args ===`YiJi`||args ===`yiji`||args ===`Yiji`){
       message.channel.send("```[Yi Ji (Geomancer)]\nCost - 14\nStat - 38/81/56/72/62\n30lv - Supply Tactics +% (8)\n50lv - Reach Awaken\n70lv - MP Boost % (13)\n90lv - Reach MRL+\nPrefect - Treasury\nWarlord - Qingzhou Tax+Banner - Huang Zhong```");
     }
-if (args ===`GongsunKang||args ===`gongsunkang||args ===`Gongsunkang`){
+if (args ===`GongsunKang`||args ===`gongsunkang`||args ===`Gongsunkang`){
       message.channel.send("```[Gongsun Kang (Mountain Cavalry)]\nCost - 14\nStat - 68/65/79/62/64\n30lv - Enhanced Double ATK % (10)\n50lv - Ignore Mounted Attack+\n70lv - Union\n90lv - Forceful Blow\nPrefect - Farm\nWarlord - Youzhou Loot+Banner - Huang Zhong```");
     }
-if (args ===`ZhaoFan||args ===`zhaofan||args ===`Zhaofan`){
+if (args ===`ZhaoFan`||args ===`zhaofan`||args ===`Zhaofan`){
       message.channel.send("```[Zhao Fan (Catapult)]\nCost - 14\nStat - 36/35/28/45/71\n30lv - Attack ACC + (15)\n50lv - Self AGI+\n70lv - DEF- Attack\n90lv - Double ATK Immunity\nPrefect - Farm\nWarlord - Jingzhou-S Loot+Banner - Huang Zhong```");
     }
-if (args ===`HanXuan||args ===`hanxuan||args ===`Hanxuan`){
+if (args ===`HanXuan`||args ===`hanxuan`||args ===`Hanxuan`){
       message.channel.send("```[Han Xuan (Footman)]\nCost - 14\nStat - 22/37/33/44/38\n30lv - Physical Damage -% (10)\n50lv - MRL Boost % (10)\n70lv - Reach MRL-\n90lv - Damage Transfer\nPrefect - Farm\nWarlord - Jingzhou-S Loot+Banner - Huang Zhong```");
     }
-if (args ===`DongHe||args ===`donghe||args ===`Donghe`){
+if (args ===`DongHe`||args ===`donghe`||args ===`Donghe`){
       message.channel.send("```[Dong He (Archer)]\nCost - 16\nStat - 62/83/73/72/66\n30lv - Poison Attack % (15)\n50lv - Physical Attack +% (12)\n70lv - Abnormality ATK % (15)\n90lv - DEF- Attack\nPrefect - Market\nWarlord - Yizhou-C Tax+Banner - Huang Zhong```");
     }
-if (args ===`WuLan||args ===`wulan||args ===`Wulan`){
+if (args ===`WuLan`||args ===`wulan`||args ===`Wulan`){
       message.channel.send("```[Wu Lan (Footman)]\nCost - 16\nStat - 80/59/68/72/62\n30lv - Physical Damage -% (10)\n50lv - Attack ACC + (20)\n70lv - Reach ATK-\n90lv - Forceful Blow\nPrefect - Tailor\nWarlord - Yizhou-C Tax+Banner - Huang Zhong```");
     }
-if (args ===`GuoYuan||args ===`guoyuan||args ===`Guoyuan`){
+if (args ===`GuoYuan`||args ===`guoyuan`||args ===`Guoyuan`){
       message.channel.send("```[Guo Yuan (Geomancer)]\nCost - 14\nStat - 28/78/69/72/76\n30lv - Ranged DMG -% (10)\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach WIS+\nPrefect - Market\nWarlord - Qingzhou Loot+Banner - Huang Zhong```");
     }
-if (args ===`ChenDao||args ===`chendao||args ===`Chendao`){
+if (args ===`ChenDao`||args ===`chendao`||args ===`Chendao`){
       message.channel.send("```[Chen Dao (Spearman)]\nCost - 18\nStat - 82/64/84/68/62\n30lv - Physical Damage Reflection % (10)\n50lv - Physical Damage -% (10)\n70lv - ATK- Attack\n90lv - Guiding Attack\nPrefect - Stockpile\nWarlord - Occupation+Banner - Huang Zhong```");
     }
-if (args ===`ZhangRen||args ===`zhangren||args ===`Zhangren`){
+if (args ===`ZhangRen`||args ===`zhangren`||args ===`Zhangren`){
       message.channel.send("```[Zhang Ren (Crossbowman)]\nCost - 20\nStat - 86/78/89/66/94\n30lv - Burn Attack % (50)\n50lv - WIS- Attack\n70lv - Confusion Attack % (30)\n90lv - Critical Attack\nPrefect - Fruit Grove\nWarlord - Yizhou-C Tax+Banner - Huang Zhong```");
     }
-if (args ===`ChenGui||args ===`chengui||args ===`Chengui`){
+if (args ===`ChenGui`||args ===`chengui`||args ===`Chengui`){
       message.channel.send("```[Chen Gui (Tactician)]\nCost - 15\nStat - 26/84/76/53/86\n30lv - Elemental Tactics +% (5)\n50lv - Double Tactics +%\n70lv - Reach DEF+\n90lv - Imitate Tactics\nPrefect - Farm\nWarlord - Xuzhou Loot+Banner - Huang Zhong```");
     }
-if (args ===`ChenDeng||args ===`chendeng||args ===`Chendeng`){
+if (args ===`ChenDeng`||args ===`chendeng`||args ===`Chendeng`){
       message.channel.send("```[Chen Deng (Marine)]\nCost - 17\nStat - 70/82/89/68/72\n30lv - Reach MRL+\n50lv - MP Attack (10)\n70lv - AGI Boost % (10)\n90lv - First Strike\nPrefect - Master Storage\nWarlord - Silver Coin Tax+Banner - Huang Zhong```");
     }
-if (args ===`FeiYao||args ===`feiyao||args ===`Feiyao`){
+if (args ===`FeiYao`||args ===`feiyao`||args ===`Feiyao`){
       message.channel.send("```[Fei Yao (Mountain Cavalry)]\nCost - 18\nStat - 82/72/79/77/61\n30lv - % Charge Attack (2)\n50lv - Reach ATK-\n70lv - AGI Boost % (10)\n90lv - Status Effect Reflection\nPrefect - Absolute Protection\nWarlord - Yongzhou-E Tax+Banner - Huang Zhong```");
     }
-if (args ===`HuangZhong||args ===`huangzhong||args ===`Huangzhong`){
+if (args ===`HuangZhong`||args ===`huangzhong`||args ===`Huangzhong`){
       message.channel.send("```[Huang Zhong (Mounted Archer)]\nCost - 23\nStat - 93/65/90/73/85\n30lv - Phalanx Strike\n50lv - Unlimited Counterattack\n70lv - ATK Boost % (15)\n90lv - Expand AoE (7)\nPrefect - Master Storage\nWarlord - Ration Loot+Banner - Huang Zhong```");
     }
-if (args ===`FanQiang||args ===`fanqiang||args ===`Fanqiang`){
+if (args ===`FanQiang`||args ===`fanqiang`||args ===`Fanqiang`){
       message.channel.send("```[Fan Qiang (Spearman)]\nCost - 14\nStat - 54/32/52/69/66\n30lv - Counterattack+\n50lv - Reach AGI-\n70lv - AGI- Attack\n90lv - Double ATK Immunity\nPrefect - Master Tax\nWarlord - Yizhou-S Tax+Banner - Zhang Fei```");
     }
-if (args ===`ZhangDa||args ===`zhangda||args ===`Zhangda`){
+if (args ===`ZhangDa`||args ===`zhangda`||args ===`Zhangda`){
       message.channel.send("```[Zhang Da (Footman)]\nCost - 14\nStat - 55/34/46/56/72\n30lv - Tactics Damage Reflection % (7)\n50lv - Reach DEF+\n70lv - Ranged DMG -% (10)\n90lv - Rage +% (20)\nPrefect - Market\nWarlord - Yizhou-N Loot+Banner - Zhang Fei```");
     }
-if (args ===`LiYi||args ===`liyi||args ===`Liyi`){
+if (args ===`LiYi`||args ===`liyi`||args ===`Liyi`){
       message.channel.send("```[Li Yi (Light Cavalry)]\nCost - 14\nStat - 78/15/68/72/63\n30lv - Physical Attack +% (12)\n50lv - Enhanced Double ATK % (15)\n70lv - Counterattack+\n90lv - Mounted ATK +% (15)\nPrefect - Stockpile\nWarlord - Trader+Banner - Zhang Fei```");
     }
-if (args ===`ZhaoLei||args ===`zhaolei||args ===`Zhaolei`){
+if (args ===`ZhaoLei`||args ===`zhaolei`||args ===`Zhaolei`){
       message.channel.send("```[Zhao Lei (Crossbowman)]\nCost - 16\nStat - 59/72/76/82/70\n30lv - Self MRL+\n50lv - Double Tactics Immunity\n70lv - Silence Attack % (15)\n90lv - Imitate Tactics\nPrefect - Farm\nWarlord - Jingzhou-S Loot+Banner - Zhang Fei```");
     }
-if (args ===`LiuGui||args ===`liugui||args ===`Liugui`){
+if (args ===`LiuGui`||args ===`liugui`||args ===`Liugui`){
       message.channel.send("```[Liu Gui (Chariot)]\nCost - 14\nStat - 72/67/80/78/68\n30lv - % Charge Attack (2)\n50lv - Reach DEF-\n70lv - DEF Boost % (11)\n90lv - Forceful Blow\nPrefect - Fishery\nWarlord - Yizhou-C Tax+Banner - Zhang Fei```");
     }
-if (args ===`LengBao||args ===`lengbao||args ===`Lengbao`){
+if (args ===`LengBao`||args ===`lengbao`||args ===`Lengbao`){
       message.channel.send("```[Leng Bao (Spearman)]\nCost - 14\nStat - 70/62/79/82/61\n30lv - Counterattack+\n50lv - Mounted ATK +% (15)\n70lv - WIS- Attack\n90lv - Reach DEF-\nPrefect - Market\nWarlord - Yizhou-C Loot+Banner - Zhang Fei```");
     }
-if (args ===`GaoPei||args ===`gaopei||args ===`Gaopei`){
+if (args ===`GaoPei`||args ===`gaopei`||args ===`Gaopei`){
       message.channel.send("```[Gao Pei (Light Cavalry)]\nCost - 14\nStat - 73/27/69/70/58\n30lv - Double Tactics Immunity\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - Reach WIS-\nPrefect - Farm\nWarlord - Yizhou-C Loot+Banner - Zhang Fei```");
     }
-if (args ===`YangHuai||args ===`yanghuai||args ===`Yanghuai`){
+if (args ===`YangHuai`||args ===`yanghuai`||args ===`Yanghuai`){
       message.channel.send("```[Yang Huai (Footman)]\nCost - 14\nStat - 71/72/68/69/65\n30lv - Physical Damage Reflection % (10)\n50lv - All DEF Rate + (7)\n70lv - Reach DEF-\n90lv - Tactics DEF Rate + (20)\nPrefect - Fishery\nWarlord - Yizhou-C Loot+Banner - Zhang Fei```");
     }
-if (args ===`LiYan||args ===`liyan||args ===`Liyan`){
+if (args ===`LiYan`||args ===`liyan`||args ===`Liyan`){
       message.channel.send("```[Li Yan (Spearman)]\nCost - 19\nStat - 82/79/87/67/74\n30lv - Reach AGI-\n50lv - Mounted ATK +% (15)\n70lv - WIS- Attack\n90lv - Expand AoE (7)\nPrefect - Farm\nWarlord - Yizhou-S Loot+Banner - Zhang Fei```");
     }
-if (args ===`FengXi||args ===`fengxi||args ===`Fengxi`){
+if (args ===`FengXi`||args ===`fengxi`||args ===`Fengxi`){
       message.channel.send("```[Feng Xi (Footman)]\nCost - 17\nStat - 68/45/77/61/79\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach ATK-\n90lv - Damage Transfer\nPrefect - Stockpile\nWarlord - Liangzhou-N Loot+Banner - Zhang Fei```");
     }
-if (args ===`FaZheng||args ===`fazheng||args ===`Fazheng`){
+if (args ===`FaZheng`||args ===`fazheng`||args ===`Fazheng`){
       message.channel.send("```[Fa Zheng (Tactician)]\nCost - 19\nStat - 47/94/82/62/79\n30lv - Summon the Four Gods\n50lv - Double Tactics +%\n70lv - Offensive Tactics +% (10)\n90lv - Double ATK Immunity\nPrefect - Farm\nWarlord - Yizhou-C Loot+Banner - Zhang Fei```");
     }
-if (args ===`LeiTong||args ===`leitong||args ===`Leitong`){
+if (args ===`LeiTong`||args ===`leitong`||args ===`Leitong`){
       message.channel.send("```[Lei Tong (Soldier)]\nCost - 16\nStat - 79/63/69/86/67\n30lv - Counterattack+\n50lv - Tactics Damage -% (10)\n70lv - Good from Evil\n90lv - Union\nPrefect - Fishery\nWarlord - Practice Battle+Banner - Zhang Fei```");
     }
-if (args ===`ZhangHua||args ===`zhanghua||args ===`Zhanghua`){
+if (args ===`ZhangHua`||args ===`zhanghua`||args ===`Zhanghua`){
       message.channel.send("```[Zhang Hua (Geomancer)]\nCost - 15\nStat - 34/80/67/66/72\n30lv - Supply Tactics +% (8)\n50lv - Ranged DMG -% (10)\n70lv - Reach ATK+\n90lv - Status Effect Immunity\nPrefect - Stockpile\nWarlord - Youzhou Tax+Banner - Zhang Fei```");
     }
-if (args ===`WuBan||args ===`wuban||args ===`Wuban`){
+if (args ===`WuBan`||args ===`wuban`||args ===`Wuban`){
       message.channel.send("```[Wu Ban (Pantheran)]\nCost - 18\nStat - 77/59/80/88/56\n30lv - HP Boost % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach WIS-\n90lv - Leading Attack\nPrefect - Absolute Protection\nWarlord - Yizhou-C Tax+Banner - Zhang Fei```");
     }
-if (args ===`YanYan||args ===`yanyan||args ===`Yanyan`){
+if (args ===`YanYan`||args ===`yanyan`||args ===`Yanyan`){
       message.channel.send("```[Yan Yan (Spearman)]\nCost - 18\nStat - 83/72/82/57/67\n30lv - Physical Damage Reflection % (10)\n50lv - Physical Damage -% (10)\n70lv - Random- Attack\n90lv - Expand AoE (7)\nPrefect - Stockpile\nWarlord - Yizhou-C Loot+Banner - Zhang Fei```");
     }
-if (args ===`HuangQuan||args ===`huangquan||args ===`Huangquan`){
+if (args ===`HuangQuan`||args ===`huangquan`||args ===`Huangquan`){
       message.channel.send("```[Huang Quan (Marine)]\nCost - 16\nStat - 69/83/76/71/76\n30lv - Naval Battle +\n50lv - Double Tactics Immunity\n70lv - AGI Boost % (10)\n90lv - MP Attack (10)\nPrefect - Farm\nWarlord - Yizhou-C Tax+Banner - Zhang Fei```");
     }
-if (args ===`ZhangXingcai||args ===`zhangxingcai||args ===`Zhangxingcai`){
+if (args ===`ZhangXingcai`||args ===`zhangxingcai`||args ===`Zhangxingcai`){
       message.channel.send("```[Zhang Xingcai (Light Cavalry)]\nCost - 21\nStat - 86/55/81/92/63\n30lv - Terrain Effect +\n50lv - Physical Attack +% (12)\n70lv - Infinite Guiding Attack\n90lv - Unstoppable\nPrefect - Ration Tax\nWarlord - Silver Coin Loot+Banner - Zhang Fei```");
     }
-if (args ===`ZhangBao||args ===`zhangbao||args ===`Zhangbao`){
+if (args ===`ZhangBao`||args ===`zhangbao`||args ===`Zhangbao`){
       message.channel.send("```[Zhang Bao (Light Cavalry)]\nCost - 19\nStat - 87/48/78/81/70\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Lifesteal Attack % (7)\n90lv - Reach ATK-\nPrefect - Ration Tax\nWarlord - Occupation+Banner - Zhang Fei```");
     }
-if (args ===`GuanYinping||args ===`guanyinping||args ===`Guanyinping`){
+if (args ===`GuanYinping`||args ===`guanyinping`||args ===`Guanyinping`){
       message.channel.send("```[Guan Yinping (Light Cavalry)]\nCost - 20\nStat - 84/75/79/63/88\n30lv - Double Tactics Immunity\n50lv - Double Counter\n70lv - DEF- Attack\n90lv - Oppressive Assault\nPrefect - Silver Coin Tax\nWarlord - Ration Loot+Banner - Zhang Fei```");
     }
-if (args ===`WuYi||args ===`wuyi||args ===`Wuyi`){
+if (args ===`WuYi`||args ===`wuyi`||args ===`Wuyi`){
       message.channel.send("```[Wu Yi (Soldier)]\nCost - 19\nStat - 79/70/83/84/52\n30lv - Counterattack+\n50lv - Tactics Damage -% (10)\n70lv - Good from Evil\n90lv - Union\nPrefect - Silver Coin Tax\nWarlord - Yizhou-N Loot+Banner - Zhang Fei```");
     }
-if (args ===`ZhangFei||args ===`zhangfei||args ===`Zhangfei`){
+if (args ===`ZhangFei`||args ===`zhangfei`||args ===`Zhangfei`){
       message.channel.send("```[Zhang Fei (Light Cavalry)]\nCost - 23\nStat - 98/46/94/91/67\n30lv - Enhanced Double ATK % (15)\n50lv - Unstoppable\n70lv - Desperate Attack\n90lv - Rage +% (20)\nPrefect - Ration Tax\nWarlord - All Loot+Banner - Zhang Fei```");
     }
-if (args ===`YangSong||args ===`yangsong||args ===`Yangsong`){
+if (args ===`YangSong`||args ===`yangsong`||args ===`Yangsong`){
       message.channel.send("```[Yang Song (Catapult)]\nCost - 14\nStat - 25/38/22/34/55\n30lv - Enhanced Double ATK % (15)\n50lv - Double Tactics Immunity\n70lv - Attack ACC + (17)\n90lv - AGI- Attack\nPrefect - Master Tax\nWarlord - Trader+Banner - Ma Chao```");
     }
-if (args ===`YangHong||args ===`yanghong||args ===`Yanghong`){
+if (args ===`YangHong`||args ===`yanghong`||args ===`Yanghong`){
       message.channel.send("```[Yang Hong (Catapult)]\nCost - 14\nStat - 46/76/56/42/62\n30lv - Self AGI+\n50lv - Physical Certain Hit\n70lv - Ranged DMG -% (10)\n90lv - Poison Attack % (20)\nPrefect - Port\nWarlord - Jingzhou-N Tax+Banner - Ma Chao```");
     }
-if (args ===`HanFu||args ===`hanfu||args ===`Hanfu`){
+if (args ===`HanFu`||args ===`hanfu`||args ===`Hanfu`){
       message.channel.send("```[Han Fu (Footman)]\nCost - 14\nStat - 42/63/52/36/84\n30lv - ATK DEF Rate + (15)\n50lv - Physical Damage -% (10)\n70lv - Reach MRL-\n90lv - Veteran (35)\nPrefect - Tailor\nWarlord - Scout+Banner - Ma Chao```");
     }
-if (args ===`ZhangSong||args ===`zhangsong||args ===`Zhangsong`){
+if (args ===`ZhangSong`||args ===`zhangsong`||args ===`Zhangsong`){
       message.channel.send("```[Zhang Song (Tactician)]\nCost - 15\nStat - 23/90/32/81/59\n30lv - Elemental Tactics +% (5)\n50lv - Tactics ACC + (15)\n70lv - Earth Tactics+ % (15)\n90lv - Imitate Tactics\nPrefect - Pig Farm\nWarlord - Yizhou-N Tax+Banner - Ma Chao```");
     }
-if (args ===`WangFu||args ===`wangfu||args ===`Wangfu`){
+if (args ===`WangFu`||args ===`wangfu`||args ===`Wangfu`){
       message.channel.send("```[Wang Fu (Geomancer)]\nCost - 14\nStat - 58/84/76/54/60\n30lv - All DEF Rate + (5)\n50lv - Reach DEF+\n70lv - Supply Tactics +% (9)\n90lv - Ranged DMG -% (20)\nPrefect - Farm\nWarlord - Yizhou-N Loot+Banner - Ma Chao```");
     }
-if (args ===`MaDai||args ===`madai||args ===`Madai`){
+if (args ===`MaDai`||args ===`madai`||args ===`Madai`){
       message.channel.send("```[Ma Dai (Chariot)]\nCost - 18\nStat - 85/56/79/56/62\n30lv - % Charge Attack (2)\n50lv - Mounted ATK +% (15)\n70lv - ATK Boost % (11)\n90lv - Reversal\nPrefect - Port\nWarlord - Yongzhou-W Tax+Banner - Ma Chao```");
     }
-if (args ===`YangFu||args ===`yangfu||args ===`Yangfu`){
+if (args ===`YangFu`||args ===`yangfu`||args ===`Yangfu`){
       message.channel.send("```[Yang Fu (Heavy Cavalry)]\nCost - 17\nStat - 69/81/79/64/82\n30lv - Physical Damage Reflection % (10)\n50lv - Self DEF+\n70lv - AGI- Attack\n90lv - Rage +% (20)\nPrefect - Market\nWarlord - Yongzhou-E Tax+Banner - Ma Chao```");
     }
-if (args ===`LiHui||args ===`lihui||args ===`Lihui`){
+if (args ===`LiHui`||args ===`lihui`||args ===`Lihui`){
       message.channel.send("```[Li Hui (Geomancer)]\nCost - 15\nStat - 68/76/81/69/75\n30lv - Supply Tactics +% (8)\n50lv - MP Boost % (15)\n70lv - Reach AGI+\n90lv - Status Effect Immunity\nPrefect - Pig Farm\nWarlord - Yizhou-S Loot+Banner - Ma Chao```");
     }
-if (args ===`MaXiu||args ===`maxiu||args ===`Maxiu`){
+if (args ===`MaXiu`||args ===`maxiu`||args ===`Maxiu`){
       message.channel.send("```[Ma Xiu (Mounted Archer)]\nCost - 16\nStat - 75/48/72/77/68\n30lv - Phalanx Strike\n50lv - Counterattack+\n70lv - Immobilization ATK % (15)\n90lv - Forceful Blow\nPrefect - Market\nWarlord - Yongzhou-W Tax+Banner - Ma Chao```");
     }
-if (args ===`ChengGongying||args ===`chenggongying||args ===`Chenggongying`){
+if (args ===`ChengGongying`||args ===`chenggongying`||args ===`Chenggongying`){
       message.channel.send("```[Cheng Gongying (Chariot)]\nCost - 16\nStat - 69/80/78/74/62\n30lv - Tactics Damage Reflection % (7)\n50lv - DEF Boost (30)\n70lv - Reach DEF-\n90lv - % Charge Attack (4)\nPrefect - Pottery Works\nWarlord - Occupation+Banner - Ma Chao```");
     }
-if (args ===`MaYaoji||args ===`mayaoji||args ===`Mayaoji`){
+if (args ===`MaYaoji`||args ===`mayaoji`||args ===`Mayaoji`){
       message.channel.send("```[Ma Yaoji (Light Cavalry)]\nCost - 17\nStat - 79/62/70/85/68\n30lv - Double Tactics Immunity\n50lv - Rage +% (20)\n70lv - Physical Attack +% (12)\n90lv - Double ATK Immunity\nPrefect - Market\nWarlord - Yongzhou-W Tax+Banner - Ma Chao```");
     }
-if (args ===`YanXing||args ===`yanxing||args ===`Yanxing`){
+if (args ===`YanXing`||args ===`yanxing`||args ===`Yanxing`){
       message.channel.send("```[Yan Xing (Chariot)]\nCost - 19\nStat - 88/38/73/72/79\n30lv - DEF Boost (25)\n50lv - Reach DEF-\n70lv - ATK Boost % (11)\n90lv - % Charge Attack (4)\nPrefect - Fruit Grove\nWarlord - Yongzhou-E Loot+Banner - Ma Chao```");
     }
-if (args ===`MaTeng||args ===`mateng||args ===`Mateng`){
+if (args ===`MaTeng`||args ===`mateng`||args ===`Mateng`){
       message.channel.send("```[Ma Teng (Chariot)]\nCost - 19\nStat - 85/57/83/72/67\n30lv - Physical Damage -% (7)\n50lv - DEF Boost (30)\n70lv - % Charge Attack (3)\n90lv - Oppressive Assault\nPrefect - Fruit Grove\nWarlord - Premium Shop+Banner - Ma Chao```");
     }
-if (args ===`WangYi||args ===`wangyi||args ===`Wangyi`){
+if (args ===`WangYi`||args ===`wangyi`||args ===`Wangyi`){
       message.channel.send("```[Wang Yi (Light Cavalry)]\nCost - 18\nStat - 71/85/86/82/66\n30lv - Double Tactics Immunity\n50lv - Surprise Attack (3)\n70lv - % Charge Attack (3)\n90lv - Penetration Attack\nPrefect - Ration Tax\nWarlord - Ration Tax+Banner - Ma Chao```");
     }
-if (args ===`HanSui||args ===`hansui||args ===`Hansui`){
+if (args ===`HanSui`||args ===`hansui`||args ===`Hansui`){
       message.channel.send("```[Han Sui (Chariot)]\nCost - 18\nStat - 75/82/81/61/73\n30lv - % Charge Attack (2)\n50lv - Reach DEF-\n70lv - DEF Boost % (11)\n90lv - Reversal\nPrefect - Lumbermill\nWarlord - Yongzhou-W Loot+Banner - Ma Chao```");
     }
-if (args ===`MaYunlu||args ===`mayunlu||args ===`Mayunlu`){
+if (args ===`MaYunlu`||args ===`mayunlu`||args ===`Mayunlu`){
       message.channel.send("```[Ma Yunlu (Mounted Archer)]\nCost - 16\nStat - 83/46/73/62/65\n30lv - Critical Attack+ (30)\n50lv - Phalanx Strike\n70lv - Enhanced Double ATK % (15)\n90lv - Leading Attack\nPrefect - Master Storage\nWarlord - Silver Coin Loot+Banner - Ma Chao```");
     }
-if (args ===`MaChao||args ===`machao||args ===`Machao`){
+if (args ===`MaChao`||args ===`machao`||args ===`Machao`){
       message.channel.send("```[Ma Chao (Mountain Cavalry)]\nCost - 23\nStat - 97/46/93/71/82\n30lv - Rage +% (20)\n50lv - Penetration Attack\n70lv - Unstoppable\n90lv - ATK DEF Rate + (30)\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+Banner - Ma Chao```");
     }
-if (args ===`YanJun||args ===`yanjun||args ===`Yanjun`){
+if (args ===`YanJun`||args ===`yanjun`||args ===`Yanjun`){
       message.channel.send("```[Yan Jun (Archer)]\nCost - 16\nStat - 56/84/71/76/55\n30lv - Physical Attack +% (12)\n50lv - Tactics DEF Rate + (15)\n70lv - Immobilization ATK % (15)\n90lv - DEF- Attack\nPrefect - Silver Coin Tax\nWarlord - Xuzhou Loot+Banner - Demon```");
     }
-if (args ===`YueJiu||args ===`yuejiu||args ===`Yuejiu`){
+if (args ===`YueJiu`||args ===`yuejiu`||args ===`Yuejiu`){
       message.channel.send("```[Yue Jiu (Soldier)]\nCost - 14\nStat - 69/58/56/79/55\n30lv - Tactics Damage -% (10)\n50lv - Good from Evil\n70lv - DEF- Attack\n90lv - Blind Attack % (20)\nPrefect - Stockpile\nWarlord - Xuzhou Loot+Banner - Demon```");
     }
-if (args ===`XunChen||args ===`xunchen||args ===`Xunchen`){
+if (args ===`XunChen`||args ===`xunchen`||args ===`Xunchen`){
       message.channel.send("```[Xun Chen (Taoist)]\nCost - 14\nStat - 28/78/45/62/72\n30lv - Imitate Tactics\n50lv - Interrupt Tactics +% (10)\n70lv - Reach ATK-\n90lv - Status Effect Immunity\nPrefect - Silver Coin Tax\nWarlord - Occupation+Banner - Demon```");
     }
-if (args ===`ChenJiao||args ===`chenjiao||args ===`Chenjiao`){
+if (args ===`ChenJiao`||args ===`chenjiao`||args ===`Chenjiao`){
       message.channel.send("```[Chen Jiao (Catapult)]\nCost - 16\nStat - 54/80/58/62/77\n30lv - Self AGI+\n50lv - Double Tactics Immunity\n70lv - Attack ACC + (17)\n90lv - Double ATK Immunity\nPrefect - Fruit Grove\nWarlord - Xuzhou Loot+Banner - Demon```");
     }
-if (args ===`ZhangJi||args ===`zhangji||args ===`Zhangji`){
+if (args ===`ZhangJi`||args ===`zhangji`||args ===`Zhangji`){
       message.channel.send("```[Zhang Ji (Light Cavalry)]\nCost - 14\nStat - 67/55/70/73/67\n30lv - Reach WIS-\n50lv - Enhanced Double ATK % (15)\n70lv - Physical Attack +% (12)\n90lv - Mounted ATK +% (15)\nPrefect - Master Tax\nWarlord - Yongzhou-W Loot+Banner - Demon```");
     }
-if (args ===`CaoShuang||args ===`caoshuang||args ===`Caoshuang`){
+if (args ===`CaoShuang`||args ===`caoshuang`||args ===`Caoshuang`){
       message.channel.send("```[Cao Shuang (Warlord)]\nCost - 14\nStat - 69/63/71/61/71\n30lv - AGI Boost % (10)\n50lv - Counterattack+\n70lv - Reach ATK+\n90lv - Status Effect Reflection\nPrefect - Farm\nWarlord - Qingzhou Tax+Banner - Demon```");
     }
-if (args ===`CaiZhong||args ===`caizhong||args ===`Caizhong`){
+if (args ===`CaiZhong`||args ===`caizhong`||args ===`Caizhong`){
       message.channel.send("```[Cai Zhong (Spearman)]\nCost - 14\nStat - 47/13/44/42/55\n30lv - Physical Damage -% (10)\n50lv - Reach AGI-\n70lv - AGI- Attack\n90lv - Naval Battle +\nPrefect - Pottery Works\nWarlord - Yizhou-S Loot+Banner - Demon```");
     }
-if (args ===`CaiHe||args ===`caihe||args ===`Caihe`){
+if (args ===`CaiHe`||args ===`caihe`||args ===`Caihe`){
       message.channel.send("```[Cai He (Navy)]\nCost - 14\nStat - 51/15/42/62/33\n30lv - Naval Battle +\n50lv - Water Tactics+ % (9)\n70lv - DEF Boost % (11)\n90lv - Deadly Poison Attack % (50)\nPrefect - Farm\nWarlord - Qingzhou Loot+Banner - Demon```");
     }
-if (args ===`JiaKui||args ===`jiakui||args ===`Jiakui`){
+if (args ===`JiaKui`||args ===`jiakui`||args ===`Jiakui`){
       message.channel.send("```[Jia Kui (Taoist)]\nCost - 15\nStat - 71/84/65/58/83\n30lv - Interrupt Tactics +% (8)\n50lv - Status Effect Reflection\n70lv - HP Boost % (15)\n90lv - Summon the Four Gods\nPrefect - Farm\nWarlord - Practice Battle+Banner - Demon```");
     }
-if (args ===`XiahouDe||args ===`xiahoude||args ===`Xiahoude`){
+if (args ===`XiahouDe`||args ===`xiahoude`||args ===`Xiahoude`){
       message.channel.send("```[Xiahou De (Mountain Cavalry)]\nCost - 14\nStat - 72/59/68/81/62\n30lv - Ignore Mounted Attack+\n50lv - Good from Evil\n70lv - AGI Boost % (10)\n90lv - Enhanced Double ATK % (15)\nPrefect - Tailor\nWarlord - Bingzhou Tax+Banner - Demon```");
     }
-if (args ===`DingYuan||args ===`dingyuan||args ===`Dingyuan`){
+if (args ===`DingYuan`||args ===`dingyuan`||args ===`Dingyuan`){
       message.channel.send("```[Ding Yuan (Mountain Cavalry)]\nCost - 18\nStat - 79/45/75/87/69\n30lv - Reach ATK-\n50lv - Good from Evil\n70lv - Forceful Blow\n90lv - Leading Attack\nPrefect - Market\nWarlord - Bingzhou Tax+Banner - Demon```");
     }
-if (args ===`XuMiao||args ===`xumiao||args ===`Xumiao`){
+if (args ===`XuMiao`||args ===`xumiao`||args ===`Xumiao`){
       message.channel.send("```[Xu Miao (Crossbowman)]\nCost - 15\nStat - 63/81/77/71/66\n30lv - Tactics Damage -% (10)\n50lv - Self MRL+\n70lv - MRL Boost % (10)\n90lv - WIS- Attack\nPrefect - Market\nWarlord - Youzhou Loot+Banner - Demon```");
     }
-if (args ===`LiuShao||args ===`liushao||args ===`Liushao`){
+if (args ===`LiuShao`||args ===`liushao`||args ===`Liushao`){
       message.channel.send("```[Liu Shao (Footman)]\nCost - 14\nStat - 58/82/71/68/72\n30lv - Ranged DMG -% (7)\n50lv - Reach DEF+\n70lv - All DEF Rate + (6)\n90lv - Tactics DEF Rate + (20)\nPrefect - Market\nWarlord - Premium Shop+Banner - Demon```");
     }
-if (args ===`YanRou||args ===`yanrou||args ===`Yanrou`){
+if (args ===`YanRou`||args ===`yanrou`||args ===`Yanrou`){
       message.channel.send("```[Yan Rou (Light Cavalry)]\nCost - 17\nStat - 68/72/71/74/74\n30lv - Enhanced Double ATK % (15)\n50lv - Reach WIS-\n70lv - Physical Damage -% (10)\n90lv - Ranged DMG -% (10)\nPrefect - Master Storage\nWarlord - Yongzhou-E Tax+Banner - Demon```");
     }
-if (args ===`CaoJie||args ===`caojie||args ===`Caojie`){
+if (args ===`CaoJie`||args ===`caojie`||args ===`Caojie`){
       message.channel.send("```[Cao Jie (Dancer)]\nCost - 18\nStat - 64/82/82/85/66\n30lv - Lifesteal Attack % (7)\n50lv - Counterattack+\n70lv - Double Counter\n90lv - Critical Attack\nPrefect - Silver Coin Tax\nWarlord - Premium Shop+Banner - Demon```");
     }
-if (args ===`WenHui||args ===`wenhui||args ===`Wenhui`){
+if (args ===`WenHui`||args ===`wenhui`||args ===`Wenhui`){
       message.channel.send("```[Wen Hui (Crossbowman)]\nCost - 16\nStat - 59/84/78/55/78\n30lv - MRL- Attack\n50lv - Tactics Damage -% (10)\n70lv - MRL Boost % (10)\n90lv - ATK Boost % (15)\nPrefect - Absolute Protection\nWarlord - Bingzhou Tax+Banner - Demon```");
     }
-if (args ===`ZhouCang||args ===`zhoucang||args ===`Zhoucang`){
+if (args ===`ZhouCang`||args ===`zhoucang`||args ===`Zhoucang`){
       message.channel.send("```[Zhou Cang (Outlaw)]\nCost - 19\nStat - 87/42/68/68/84\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - Good from Evil\n90lv - Forceful Blow\nPrefect - Ration Tax\nWarlord - Ration Loot+Banner - Demon```");
     }
-if (args ===`Huche'er||args ===`huche'er||args ===`Huche'Er`){
+if (args ===`Huche'er`||args ===`huche'er`||args ===`Huche'Er`){
       message.channel.send("```[Huche'er (Soldier)]\nCost - 19\nStat - 85/45/70/92/69\n30lv - Interrupt Tactics +% (8)\n50lv - Tactics Damage -% (10)\n70lv - DEF- Attack\n90lv - Good from Evil\nPrefect - Farm\nWarlord - Yongzhou-W Loot+Banner - Demon```");
     }
-if (args ===`WeiYan||args ===`weiyan||args ===`Weiyan`){
+if (args ===`WeiYan`||args ===`weiyan`||args ===`Weiyan`){
       message.channel.send("```[Wei Yan (Soldier)]\nCost - 21\nStat - 94/73/85/91/66\n30lv - Counterattack+\n50lv - SPD- Attack\n70lv - Good from Evil\n90lv - Reversal\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+Banner - Demon```");
     }
-if (args ===`ZhangXiu||args ===`zhangxiu||args ===`Zhangxiu`){
+if (args ===`ZhangXiu`||args ===`zhangxiu`||args ===`Zhangxiu`){
       message.channel.send("```[Zhang Xiu (Warlord)]\nCost - 16\nStat - 75/64/80/78/61\n30lv - Reach MRL+\n50lv - Counterattack+\n70lv - Critical Attack+ (30)\n90lv - Terrain Effect +\nPrefect - Fruit Grove\nWarlord - Yizhou-N Loot+Banner - Demon```");
     }
-if (args ===`ZhugeLiang||args ===`zhugeliang||args ===`Zhugeliang`){
+if (args ===`ZhugeLiang`||args ===`zhugeliang`||args ===`Zhugeliang`){
       message.channel.send("```[Zhuge Liang (Demon)]\nCost - 22\nStat - 34/100/98/77/96\n30lv - Double Tactics +%\n50lv - Ignore Tactics Weather\n70lv - Lifesteal Attack % (7)\n90lv - Seduce ACC + (20)\nPrefect - Master Tax\nWarlord - All Loot+Banner - Demon```");
     }
-if (args ===`EheShaoge||args ===`eheshaoge||args ===`Eheshaoge`){
+if (args ===`EheShaoge`||args ===`eheshaoge`||args ===`Eheshaoge`){
       message.channel.send("```[Ehe Shaoge (Chariot)]\nCost - 15\nStat - 78/12/61/56/68\n30lv - Reach DEF-\n50lv - ATK DEF Rate + (20)\n70lv - DEF Boost % (11)\n90lv - Forceful Blow\nPrefect - Market\nWarlord - Practice Battle+Banner - Meng Huo```");
     }
-if (args ===`YongKai||args ===`yongkai||args ===`Yongkai`){
+if (args ===`YongKai`||args ===`yongkai`||args ===`Yongkai`){
       message.channel.send("```[Yong Kai (Footman)]\nCost - 15\nStat - 72/59/78/62/52\n30lv - All DEF Rate + (7)\n50lv - Physical Damage -% (10)\n70lv - Reach DEF-\n90lv - HP Boost % (15)\nPrefect - Tailor\nWarlord - Yizhou-S Tax+Banner - Meng Huo```");
     }
-if (args ===`DailaiDongzhu||args ===`dailaidongzhu||args ===`Dailaidongzhu`){
+if (args ===`DailaiDongzhu`||args ===`dailaidongzhu`||args ===`Dailaidongzhu`){
       message.channel.send("```[Dailai Dongzhu (Pantheran)]\nCost - 14\nStat - 62/55/61/63/72\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - AGI- Attack\n90lv - Guiding Attack\nPrefect - Port\nWarlord - Scout+Banner - Meng Huo```");
     }
-if (args ===`GaoDing||args ===`gaoding||args ===`Gaoding`){
+if (args ===`GaoDing`||args ===`gaoding`||args ===`Gaoding`){
       message.channel.send("```[Gao Ding (Footman)]\nCost - 14\nStat - 69/38/65/66/72\n30lv - Physical Damage -% (10)\n50lv - Reach DEF+\n70lv - HP Boost % (15)\n90lv - Tactics DEF Rate + (20)\nPrefect - Market\nWarlord - Yizhou-S Tax+Banner - Meng Huo```");
     }
-if (args ===`AhuiNan||args ===`ahuinan||args ===`Ahuinan`){
+if (args ===`AhuiNan`||args ===`ahuinan`||args ===`Ahuinan`){
       message.channel.send("```[Ahui Nan (Light Cavalry)]\nCost - 14\nStat - 75/33/66/71/78\n30lv - Critical Attack+ (30)\n50lv - Reach WIS-\n70lv - Reach MRL+\n90lv - Ignore Mounted Attack+\nPrefect - Silver Coin Tax\nWarlord - Yizhou-S Tax+Banner - Meng Huo```");
     }
-if (args ===`XiNi||args ===`xini||args ===`Xini`){
+if (args ===`XiNi`||args ===`xini`||args ===`Xini`){
       message.channel.send("```[Xi Ni (Spearman)]\nCost - 14\nStat - 80/40/69/67/80\n30lv - Mounted ATK +% (15)\n50lv - Reach AGI-\n70lv - DEF- Attack\n90lv - Self SPD+\nPrefect - Absolute Protection\nWarlord - Yizhou-S Tax+Banner - Meng Huo```");
     }
-if (args ===`HuaMan||args ===`huaman||args ===`Huaman`){
+if (args ===`HuaMan`||args ===`huaman`||args ===`Huaman`){
       message.channel.send("```[Hua Man (Ursari)]\nCost - 18\nStat - 75/57/68/89/66\n30lv - Counterattack+\n50lv - Reach AGI+\n70lv - Good from Evil\n90lv - Leading Attack\nPrefect - Fruit Grove\nWarlord - Trader+Banner - Meng Huo```");
     }
-if (args ===`JinhuanSanjie||args ===`jinhuansanjie||args ===`Jinhuansanjie`){
+if (args ===`JinhuanSanjie`||args ===`jinhuansanjie`||args ===`Jinhuansanjie`){
       message.channel.send("```[Jinhuan Sanjie (Pantheran)]\nCost - 16\nStat - 80/19/69/77/55\n30lv - Reach AGI+\n50lv - HP Boost % (15)\n70lv - Deadly Poison Attack % (50)\n90lv - First Strike\nPrefect - Fishery\nWarlord - Yizhou-S Tax+Banner - Meng Huo```");
     }
-if (args ===`KingDuosi||args ===`kingduosi||args ===`Kingduosi`){
+if (args ===`KingDuosi`||args ===`kingduosi`||args ===`Kingduosi`){
       message.channel.send("```[King Duosi (Taoist)]\nCost - 14\nStat - 58/75/32/78/85\n30lv - Interrupt Tactics +% (8)\n50lv - Status Effect Reflection\n70lv - Reach DEF-\n90lv - MP Attack (10)\nPrefect - Pottery Works\nWarlord - Premium Shop+Banner - Meng Huo```");
     }
-if (args ===`MangYachang||args ===`mangyachang||args ===`Mangyachang`){
+if (args ===`MangYachang`||args ===`mangyachang`||args ===`Mangyachang`){
       message.channel.send("```[Mang Yachang (Mountain Cavalry)]\nCost - 14\nStat - 81/22/55/81/69\n30lv - Physical Damage -% (7)\n50lv - Ignore Mounted Attack+\n70lv - DEF Boost % (11)\n90lv - Deadly Poison Attack % (50)\nPrefect - Fishery\nWarlord - Yizhou-S Tax+Banner - Meng Huo```");
     }
-if (args ===`Zhurong||args ===`zhurong||args ===`Zhurong`){
+if (args ===`Zhurong`||args ===`zhurong`||args ===`Zhurong`){
       message.channel.send("```[Zhurong (Dancer)]\nCost - 19\nStat - 85/39/74/93/63\n30lv - Reach ATK+\n50lv - Attack Stat Switch\n70lv - Reach SPD+\n90lv - Elusive (10)\nPrefect - Ration Tax\nWarlord - Ration Tax+Banner - Meng Huo```");
     }
-if (args ===`MengYou||args ===`mengyou||args ===`Mengyou`){
+if (args ===`MengYou`||args ===`mengyou`||args ===`Mengyou`){
       message.channel.send("```[Meng You (Pantheran)]\nCost - 14\nStat - 76/58/67/74/82\n30lv - HP Boost % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach MRL-\n90lv - Double Counter\nPrefect - Fishery\nWarlord - Occupation+Banner - Meng Huo```");
     }
-if (args ===`KingWutugu||args ===`kingwutugu||args ===`Kingwutugu`){
+if (args ===`KingWutugu`||args ===`kingwutugu`||args ===`Kingwutugu`){
       message.channel.send("```[King Wutugu (Footman)]\nCost - 19\nStat - 89/24/72/88/56\n30lv - HP Boost % (15)\n50lv - Tactics Damage -% (10)\n70lv - Reach ATK-\n90lv - Deadly Poison Attack % (50)\nPrefect - Absolute Protection\nWarlord - Trader+Banner - Meng Huo```");
     }
-if (args ===`DongTuna||args ===`dongtuna||args ===`Dongtuna`){
+if (args ===`DongTuna`||args ===`dongtuna`||args ===`Dongtuna`){
       message.channel.send("```[Dong Tuna (Outlaw)]\nCost - 16\nStat - 78/33/69/66/88\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - Confusion Attack % (15)\n90lv - Deadly Poison Attack % (50)\nPrefect - Farm\nWarlord - Yizhou-S Tax+Banner - Meng Huo```");
     }
-if (args ===`KingMulu||args ===`kingmulu||args ===`Kingmulu`){
+if (args ===`KingMulu`||args ===`kingmulu`||args ===`Kingmulu`){
       message.channel.send("```[King Mulu (Ursari)]\nCost - 16\nStat - 71/28/73/61/88\n30lv - HP Boost % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach DEF-\n90lv - Double Counter\nPrefect - Market\nWarlord - Yizhou-S Loot+Banner - Meng Huo```");
     }
-if (args ===`Shamoke||args ===`shamoke||args ===`Shamoke`){
+if (args ===`Shamoke`||args ===`shamoke`||args ===`Shamoke`){
       message.channel.send("```[Shamoke (Pantheran)]\nCost - 17\nStat - 85/28/66/77/68\n30lv - Reach AGI+\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - Penetration Attack\nPrefect - Treasury\nWarlord - Jingzhou-S Loot+Banner - Meng Huo```");
     }
-if (args ===`MengHuo||args ===`menghuo||args ===`Menghuo`){
+if (args ===`MengHuo`||args ===`menghuo`||args ===`Menghuo`){
       message.channel.send("```[Meng Huo (Ursari)]\nCost - 21\nStat - 87/42/83/73/79\n30lv - Reach AGI+\n50lv - Deadly Poison Attack % (50)\n70lv - Unstoppable\n90lv - % Charge Attack (4)\nPrefect - Master Storage\nWarlord - Silver Coin Loot+Banner - Meng Huo```");
     }
-if (args ===`TaoQian||args ===`taoqian||args ===`Taoqian`){
+if (args ===`TaoQian`||args ===`taoqian`||args ===`Taoqian`){
       message.channel.send("```[Tao Qian (Warlord)]\nCost - 14\nStat - 74/72/64/64/56\n30lv - Enhanced Double ATK % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach WIS+\n90lv - Union\nPrefect - Market\nWarlord - Liangzhou-N Tax+Banner - Liu Bei```");
     }
-if (args ===`LiuFeng||args ===`liufeng||args ===`Liufeng`){
+if (args ===`LiuFeng`||args ===`liufeng`||args ===`Liufeng`){
       message.channel.send("```[Liu Feng (Footman)]\nCost - 17\nStat - 79/57/75/68/60\n30lv - All DEF Rate + (7)\n50lv - Physical Damage -% (10)\n70lv - Reach WIS-\n90lv - Leading Attack\nPrefect - Port\nWarlord - Occupation+Banner - Liu Bei```");
     }
-if (args ===`LiuZhang||args ===`liuzhang||args ===`Liuzhang`){
+if (args ===`LiuZhang`||args ===`liuzhang`||args ===`Liuzhang`){
       message.channel.send("```[Liu Zhang (Warlord)]\nCost - 14\nStat - 36/63/51/73/89\n30lv - Counterattack+\n50lv - AGI Boost % (10)\n70lv - Reach DEF+\n90lv - Leading Attack\nPrefect - Farm\nWarlord - Yizhou-C Tax+Banner - Liu Bei```");
     }
-if (args ===`LiuCong||args ===`liucong||args ===`Liucong`){
+if (args ===`LiuCong`||args ===`liucong`||args ===`Liucong`){
       message.channel.send("```[Liu Cong (Navy)]\nCost - 14\nStat - 24/35/22/44/58\n30lv - DEF Boost % (10)\n50lv - MRL Boost % (10)\n70lv - Naval Battle +\n90lv - Double Tactics Immunity\nPrefect - Port\nWarlord - Jingzhou-N Loot+Banner - Liu Bei```");
     }
-if (args ===`MiHeng||args ===`miheng||args ===`Miheng`){
+if (args ===`MiHeng`||args ===`miheng`||args ===`Miheng`){
       message.channel.send("```[Mi Heng (Taoist)]\nCost - 14\nStat - 29/81/33/69/66\n30lv - Imitate Tactics\n50lv - Interrupt Tactics +% (10)\n70lv - HP Boost % (15)\n90lv - Summon the Four Gods\nPrefect - Treasury\nWarlord - Practice Battle+Banner - Liu Bei```");
     }
-if (args ===`GongZhi||args ===`gongzhi||args ===`Gongzhi`){
+if (args ===`GongZhi`||args ===`gongzhi`||args ===`Gongzhi`){
       message.channel.send("```[Gong Zhi (Catapult)]\nCost - 14\nStat - 59/61/45/38/82\n30lv - Attack ACC + (15)\n50lv - Double Tactics Immunity\n70lv - MRL- Attack\n90lv - Double ATK Immunity\nPrefect - Master Storage\nWarlord - Trader+Banner - Liu Bei```");
     }
-if (args ===`WangKuang||args ===`wangkuang||args ===`Wangkuang`){
+if (args ===`WangKuang`||args ===`wangkuang`||args ===`Wangkuang`){
       message.channel.send("```[Wang Kuang (Mountain Cavalry)]\nCost - 17\nStat - 65/66/85/83/59\n30lv - % Charge Attack (2)\n50lv - Ignore Mounted Attack+\n70lv - Mounted ATK +% (15)\n90lv - Veteran (35)\nPrefect - Treasury\nWarlord - Trader+Banner - Liu Bei```");
     }
-if (args ===`TianChou||args ===`tianchou||args ===`Tianchou`){
+if (args ===`TianChou`||args ===`tianchou`||args ===`Tianchou`){
       message.channel.send("```[Tian Chou (Archer)]\nCost - 17\nStat - 72/72/79/69/82\n30lv - Attack ACC + (15)\n50lv - Physical Attack +% (12)\n70lv - MRL Boost % (10)\n90lv - AGI- Attack\nPrefect - Silver Coin Tax\nWarlord - Youzhou Tax+Banner - Liu Bei```");
     }
-if (args ===`ZhangZun||args ===`zhangzun||args ===`Zhangzun`){
+if (args ===`ZhangZun`||args ===`zhangzun`||args ===`Zhangzun`){
       message.channel.send("```[Zhang Zun (Mounted Archer)]\nCost - 15\nStat - 73/78/81/75/70\n30lv - Phalanx Strike\n50lv - Critical Attack+ (30)\n70lv - Mounted ATK +% (15)\n90lv - ATK- Attack\nPrefect - Master Tax\nWarlord - Practice Battle+Banner - Liu Bei```");
     }
-if (args ===`LiuYu||args ===`liuyu||args ===`Liuyu`){
+if (args ===`LiuYu`||args ===`liuyu`||args ===`Liuyu`){
       message.channel.send("```[Liu Yu (Warlord)]\nCost - 17\nStat - 61/84/78/62/94\n30lv - Critical Attack+ (30)\n50lv - Status Effect Reflection\n70lv - Reach ATK+\n90lv - Leading Attack\nPrefect - Tailor\nWarlord - Trader+Banner - Liu Bei```");
     }
-if (args ===`Xiahoushi||args ===`xiahoushi||args ===`Xiahoushi`){
+if (args ===`Xiahoushi`||args ===`xiahoushi`||args ===`Xiahoushi`){
       message.channel.send("```[Xiahoushi (Tactician)]\nCost - 16\nStat - 24/86/46/77/92\n30lv - Tactics ACC + (15)\n50lv - Double Tactics +%\n70lv - Fire Tactics +% (15)\n90lv - Summon the Four Gods\nPrefect - Stockpile\nWarlord - Jingzhou-N Loot+Banner - Liu Bei```");
     }
-if (args ===`LiuYan||args ===`liuyan||args ===`Liuyan`){
+if (args ===`LiuYan`||args ===`liuyan`||args ===`Liuyan`){
       message.channel.send("```[Liu Yan (Crossbowman)]\nCost - 18\nStat - 69/80/76/63/88\n30lv - Double Tactics Immunity\n50lv - WIS- Attack\n70lv - MRL Boost % (10)\n90lv - Reach MRL+\nPrefect - Port\nWarlord - Occupation+Banner - Liu Bei```");
     }
-if (args ===`FeiGuan||args ===`feiguan||args ===`Feiguan`){
+if (args ===`FeiGuan`||args ===`feiguan`||args ===`Feiguan`){
       message.channel.send("```[Fei Guan (Footman)]\nCost - 14\nStat - 67/44/65/68/77\n30lv - Physical Damage -% (10)\n50lv - Reach DEF+\n70lv - Ranged DMG -% (10)\n90lv - Tactics DEF Rate + (20)\nPrefect - Stockpile\nWarlord - Occupation+Banner - Liu Bei```");
     }
-if (args ===`XiangChong||args ===`xiangchong||args ===`Xiangchong`){
+if (args ===`XiangChong`||args ===`xiangchong`||args ===`Xiangchong`){
       message.channel.send("```[Xiang Chong (Footman)]\nCost - 16\nStat - 66/76/80/63/70\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach MRL-\n90lv - Tactics DEF Rate + (20)\nPrefect - Market\nWarlord - Practice Battle+Banner - Liu Bei```");
     }
-if (args ===`DongYun||args ===`dongyun||args ===`Dongyun`){
+if (args ===`DongYun`||args ===`dongyun`||args ===`Dongyun`){
       message.channel.send("```[Dong Yun (Geomancer)]\nCost - 17\nStat - 30/87/61/69/90\n30lv - Tactics DEF Rate + (15)\n50lv - MP Boost % (15)\n70lv - Critical Attack Immunity\n90lv - Summon the Four Gods\nPrefect - Tailor\nWarlord - Yizhou-C Loot+Banner - Liu Bei```");
     }
-if (args ===`WangPing||args ===`wangping||args ===`Wangping`){
+if (args ===`WangPing`||args ===`wangping`||args ===`Wangping`){
       message.channel.send("```[Wang Ping (Archer)]\nCost - 19\nStat - 80/76/84/66/92\n30lv - ATK- Attack\n50lv - Mounted ATK +% (15)\n70lv - Blind Attack % (15)\n90lv - Phalanx Strike\nPrefect - Market\nWarlord - Yizhou-C Tax+Banner - Liu Bei```");
     }
-if (args ===`GuanPing||args ===`guanping||args ===`Guanping`){
+if (args ===`GuanPing`||args ===`guanping`||args ===`Guanping`){
       message.channel.send("```[Guan Ping (Light Cavalry)]\nCost - 19\nStat - 83/72/82/77/60\n30lv - Double Tactics Immunity\n50lv - Enhanced Double ATK % (15)\n70lv - Reach WIS-\n90lv - Reversal\nPrefect - Farm\nWarlord - Jingzhou-N Loot+Banner - Liu Bei```");
     }
-if (args ===`BaoSanniang||args ===`baosanniang||args ===`Baosanniang`){
+if (args ===`BaoSanniang`||args ===`baosanniang`||args ===`Baosanniang`){
       message.channel.send("```[Bao Sanniang (Soldier)]\nCost - 19\nStat - 79/62/72/95/77\n30lv - Tactics Damage -% (10)\n50lv - Counterattack+\n70lv - Good from Evil\n90lv - Critical Attack\nPrefect - Master Storage\nWarlord - Ration Loot+Banner - Liu Bei```");
     }
-if (args ===`GuanSuo||args ===`guansuo||args ===`Guansuo`){
+if (args ===`GuanSuo`||args ===`guansuo`||args ===`Guansuo`){
       message.channel.send("```[Guan Suo (Mounted Archer)]\nCost - 19\nStat - 88/56/74/62/93\n30lv - Critical Attack+ (30)\n50lv - Tactics Damage -% (10)\n70lv - Phalanx Strike\n90lv - Leading Attack\nPrefect - Master Tax\nWarlord - Jingzhou-N Loot+Banner - Liu Bei```");
     }
-if (args ===`CaiYan||args ===`caiyan||args ===`Caiyan`){
+if (args ===`CaiYan`||args ===`caiyan`||args ===`Caiyan`){
       message.channel.send("```[Cai Yan (Tactician)]\nCost - 18\nStat - 42/95/75/79/90\n30lv - Double Tactics +%\n50lv - Tactics ACC + (15)\n70lv - Summon the Four Gods\n90lv - Double Tactics\nPrefect - Silver Coin Tax\nWarlord - Battle Ration+Banner - Liu Bei```");
     }
-if (args ===`LiuBei||args ===`liubei||args ===`Liubei`){
+if (args ===`LiuBei`||args ===`liubei`||args ===`Liubei`){
       message.channel.send("```[Liu Bei (Warlord)]\nCost - 20\nStat - 77/78/81/91/99\n30lv - Counterattack+\n50lv - Leading Attack\n70lv - DEF- Attack\n90lv - Critical Attack+ (30)\nPrefect - Master Tax\nWarlord - General Tax+Banner - Liu Bei```");
     }
-if (args ===`XiahouMao||args ===`xiahoumao||args ===`Xiahoumao`){
+if (args ===`XiahouMao`||args ===`xiahoumao`||args ===`Xiahoumao`){
       message.channel.send("```[Xiahou Mao (Heavy Cavalry)]\nCost - 14\nStat - 24/22/20/62/34\n30lv - Physical Damage Reflection % (10)\n50lv - Ranged DMG -% (10)\n70lv - ATK- Attack\n90lv - Self SPD+\nPrefect - Port\nWarlord - Yongzhou-W Tax+Banner - Lady Zhen```");
     }
-if (args ===`FuJia||args ===`fujia||args ===`Fujia`){
+if (args ===`FuJia`||args ===`fujia`||args ===`Fujia`){
       message.channel.send("```[Fu Jia (Geomancer)]\nCost - 15\nStat - 44/87/68/58/69\n30lv - Tactics DEF Rate + (15)\n50lv - Supply Tactics +% (10)\n70lv - Reach Awaken\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Yongzhou-E Tax+Banner - Lady Zhen```");
     }
-if (args ===`CaoHua||args ===`caohua||args ===`Caohua`){
+if (args ===`CaoHua`||args ===`caohua`||args ===`Caohua`){
       message.channel.send("```[Cao Hua (Light Cavalry)]\nCost - 16\nStat - 61/69/56/67/83\n30lv - Physical Attack +% (12)\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - Reach WIS-\nPrefect - Market\nWarlord - Youzhou Tax+Banner - Lady Zhen```");
     }
-if (args ===`ZhangTe||args ===`zhangte||args ===`Zhangte`){
+if (args ===`ZhangTe`||args ===`zhangte`||args ===`Zhangte`){
       message.channel.send("```[Zhang Te (Archer)]\nCost - 16\nStat - 67/81/76/77/70\n30lv - Self AGI+\n50lv - Physical Attack +% (12)\n70lv - Blind Attack % (15)\n90lv - DEF- Attack\nPrefect - Pottery Works\nWarlord - Youzhou Loot+Banner - Lady Zhen```");
     }
-if (args ===`XinXianying||args ===`xinxianying||args ===`Xinxianying`){
+if (args ===`XinXianying`||args ===`xinxianying`||args ===`Xinxianying`){
       message.channel.send("```[Xin Xianying (Tactician)]\nCost - 14\nStat - 12/83/26/75/81\n30lv - Double Tactics +%\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach MRL+\n90lv - Imitate Tactics\nPrefect - Market\nWarlord - Liangzhou-S Loot+Banner - Lady Zhen```");
     }
-if (args ===`HanHao||args ===`hanhao||args ===`Hanhao`){
+if (args ===`HanHao`||args ===`hanhao`||args ===`Hanhao`){
       message.channel.send("```[Han Hao (Spearman)]\nCost - 18\nStat - 75/86/72/68/74\n30lv - Mounted ATK +% (15)\n50lv - Counterattack+\n70lv - DEF- Attack\n90lv - Reach MRL-\nPrefect - Market\nWarlord - Scout+Banner - Lady Zhen```");
     }
-if (args ===`CaoXiu||args ===`caoxiu||args ===`Caoxiu`){
+if (args ===`CaoXiu`||args ===`caoxiu`||args ===`Caoxiu`){
       message.channel.send("```[Cao Xiu (Crossbowman)]\nCost - 18\nStat - 82/62/81/77/62\n30lv - WIS- Attack\n50lv - Double Tactics Immunity\n70lv - Confusion Attack % (15)\n90lv - Forceful Blow\nPrefect - Farm\nWarlord - Scout+Banner - Lady Zhen```");
     }
-if (args ===`WenQin||args ===`wenqin||args ===`Wenqin`){
+if (args ===`WenQin`||args ===`wenqin`||args ===`Wenqin`){
       message.channel.send("```[Wen Qin (Heavy Cavalry)]\nCost - 19\nStat - 87/42/79/65/74\n30lv - Physical Damage Reflection % (10)\n50lv - Ranged DMG -% (10)\n70lv - MRL- Attack\n90lv - Expand AoE (4)\nPrefect - Treasury\nWarlord - Jiaozhou Loot+Banner - Lady Zhen```");
     }
-if (args ===`CaoZhen||args ===`caozhen||args ===`Caozhen`){
+if (args ===`CaoZhen`||args ===`caozhen`||args ===`Caozhen`){
       message.channel.send("```[Cao Zhen (Chariot)]\nCost - 19\nStat - 68/70/88/71/87\n30lv - Reach DEF-\n50lv - % Charge Attack (3)\n70lv - Forceful Blow\n90lv - Unstoppable\nPrefect - Silver Coin Tax\nWarlord - Qingzhou Tax+Banner - Lady Zhen```");
     }
-if (args ===`CaoZhi||args ===`caozhi||args ===`Caozhi`){
+if (args ===`CaoZhi`||args ===`caozhi`||args ===`Caozhi`){
       message.channel.send("```[Cao Zhi (Taoist)]\nCost - 17\nStat - 30/90/62/82/78\n30lv - Imitate Tactics\n50lv - Interrupt Tactics +% (10)\n70lv - MP Attack (10)\n90lv - Summon the Four Gods\nPrefect - Absolute Protection\nWarlord - Yuzhou Loot+Banner - Lady Zhen```");
     }
-if (args ===`SunLi||args ===`sunli||args ===`Sunli`){
+if (args ===`SunLi`||args ===`sunli`||args ===`Sunli`){
       message.channel.send("```[Sun Li (Soldier)]\nCost - 19\nStat - 81/72/76/89/73\n30lv - Counterattack+\n50lv - Self AGI+\n70lv - Good from Evil\n90lv - Expand AoE (4)\nPrefect - Lumbermill\nWarlord - Trader+Banner - Lady Zhen```");
     }
-if (args ===`LiangXi||args ===`liangxi||args ===`Liangxi`){
+if (args ===`LiangXi`||args ===`liangxi`||args ===`Liangxi`){
       message.channel.send("```[Liang Xi (Mountain Cavalry)]\nCost - 18\nStat - 72/84/79/79/66\n30lv - Reach ATK-\n50lv - Status Effect Reflection\n70lv - Ignore Mounted Attack+\n90lv - Union\nPrefect - Market\nWarlord - Trader+Banner - Lady Zhen```");
     }
-if (args ===`YangHu||args ===`yanghu||args ===`Yanghu`){
+if (args ===`YangHu`||args ===`yanghu`||args ===`Yanghu`){
       message.channel.send("```[Yang Hu (Marine)]\nCost - 18\nStat - 72/87/90/66/85\n30lv - MP Attack (10)\n50lv - Lifesteal Attack % (7)\n70lv - All DEF Rate + (6)\n90lv - Double Counter\nPrefect - Market\nWarlord - Yizhou-S Tax+Banner - Lady Zhen```");
     }
-if (args ===`CaoChun||args ===`caochun||args ===`Caochun`){
+if (args ===`CaoChun`||args ===`caochun`||args ===`Caochun`){
       message.channel.send("```[Cao Chun (Heavy Cavalry)]\nCost - 18\nStat - 75/60/81/69/91\n30lv - Self DEF+\n50lv - Physical Damage Reflection % (12)\n70lv - AGI- Attack\n90lv - Double Counter\nPrefect - Farm\nWarlord - Yanzhou Loot+Banner - Lady Zhen```");
     }
-if (args ===`WenPin||args ===`wenpin||args ===`Wenpin`){
+if (args ===`WenPin`||args ===`wenpin`||args ===`Wenpin`){
       message.channel.send("```[Wen Pin (Navy)]\nCost - 20\nStat - 86/64/82/79/72\n30lv - Water Tactics+ % (7)\n50lv - All DEF Rate + (7)\n70lv - Naval Battle +\n90lv - Union\nPrefect - Farm\nWarlord - Jingzhou-N Loot+Banner - Lady Zhen```");
     }
-if (args ===`CaiMao||args ===`caimao||args ===`Caimao`){
+if (args ===`CaiMao`||args ===`caimao`||args ===`Caimao`){
       message.channel.send("```[Cai Mao (Marine)]\nCost - 17\nStat - 79/76/84/75/68\n30lv - Naval Battle +\n50lv - Elemental Tactics +% (5)\n70lv - AGI Boost % (10)\n90lv - Union\nPrefect - Tailor\nWarlord - Jingzhou-S Loot+Banner - Lady Zhen```");
     }
-if (args ===`ZhugeDan||args ===`zhugedan||args ===`Zhugedan`){
+if (args ===`ZhugeDan`||args ===`zhugedan`||args ===`Zhugedan`){
       message.channel.send("```[Zhuge Dan (Warlord)]\nCost - 17\nStat - 74/78/81/86/65\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - Reach MRL+\n90lv - Terrain Effect +\nPrefect - Market\nWarlord - Xuzhou Loot+Banner - Lady Zhen```");
     }
-if (args ===`ZhongHui||args ===`zhonghui||args ===`Zhonghui`){
+if (args ===`ZhongHui`||args ===`zhonghui`||args ===`Zhonghui`){
       message.channel.send("```[Zhong Hui (Marine)]\nCost - 17\nStat - 64/91/84/72/79\n30lv - Reach MRL+\n50lv - MP Attack (10)\n70lv - Terrain Effect +\n90lv - Defense Stat Switch\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+Banner - Lady Zhen```");
     }
-if (args ===`CaoRui||args ===`caorui||args ===`Caorui`){
+if (args ===`CaoRui`||args ===`caorui`||args ===`Caorui`){
       message.channel.send("```[Cao Rui (Warlord)]\nCost - 17\nStat - 66/85/86/72/79\n30lv - Reach MRL+\n50lv - Union\n70lv - WIS- Attack\n90lv - Critical Attack\nPrefect - Tailor\nWarlord - Jizhou Loot+Banner - Lady Zhen```");
     }
-if (args ===`ChenQun||args ===`chenqun||args ===`Chenqun`){
+if (args ===`ChenQun`||args ===`chenqun`||args ===`Chenqun`){
       message.channel.send("```[Chen Qun (Geomancer)]\nCost - 18\nStat - 26/90/71/68/96\n30lv - Summon the Four Gods\n50lv - Reach Awaken\n70lv - Critical Attack Immunity\n90lv - Defense Stat Switch\nPrefect - Master Tax\nWarlord - Ration Tax+Banner - Lady Zhen```");
     }
-if (args ===`Zhenji||args ===`zhenji||args ===`Zhenji`){
+if (args ===`Zhenji`||args ===`zhenji`||args ===`Zhenji`){
       message.channel.send("```[Zhenji (Dancer)]\nCost - 19\nStat - 62/73/71/99/91\n30lv - MP Attack (10)\n50lv - Random- Attack\n70lv - Forceful Blow\n90lv - % Charge Attack (4)\nPrefect - Master Tax\nWarlord - Silver Coin Tax+Banner - Lady Zhen```");
     }
-if (args ===`JiangBin||args ===`jiangbin||args ===`Jiangbin`){
+if (args ===`JiangBin`||args ===`jiangbin`||args ===`Jiangbin`){
       message.channel.send("```[Jiang Bin (Archer)]\nCost - 14\nStat - 57/79/76/68/70\n30lv - Physical Attack +% (12)\n50lv - Mounted ATK +% (15)\n70lv - AGI Boost % (10)\n90lv - AGI- Attack\nPrefect - Lumbermill\nWarlord - Jizhou Loot+Banner - Zhuge Liang```");
     }
-if (args ===`DongJue||args ===`dongjue||args ===`Dongjue`){
+if (args ===`DongJue`||args ===`dongjue`||args ===`Dongjue`){
       message.channel.send("```[Dong Jue (Catapult)]\nCost - 14\nStat - 68/75/72/51/72\n30lv - Double Tactics Immunity\n50lv - Attack ACC + (20)\n70lv - ATK- Attack\n90lv - Self AGI+\nPrefect - Fruit Grove\nWarlord - Yizhou-S Tax+Banner - Zhuge Liang```");
     }
-if (args ===`ZhangYi||args ===`zhangyi||args ===`Zhangyi`){
+if (args ===`ZhangYi`||args ===`zhangyi`||args ===`Zhangyi`){
       message.channel.send("```[Zhang Yi (Footman)]\nCost - 17\nStat - 74/76/75/74/62\n30lv - ATK DEF Rate + (15)\n50lv - Physical Damage -% (10)\n70lv - Reach ATK-\n90lv - Forceful Blow\nPrefect - Market\nWarlord - Yizhou-C Loot+Banner - Zhuge Liang```");
     }
-if (args ===`LuKai||args ===`lukai||args ===`Lukai`){
+if (args ===`LuKai`||args ===`lukai`||args ===`Lukai`){
       message.channel.send("```[Lu Kai (Crossbowman)]\nCost - 16\nStat - 68/76/78/59/72\n30lv - Self MRL+\n50lv - Tactics Damage -% (10)\n70lv - Confusion Attack % (15)\n90lv - Unlimited Counterattack\nPrefect - Farm\nWarlord - Yizhou-S Tax+Banner - Zhuge Liang```");
     }
-if (args ===`HuangHao||args ===`huanghao||args ===`Huanghao`){
+if (args ===`HuangHao`||args ===`huanghao`||args ===`Huanghao`){
       message.channel.send("```[Huang Hao (Taoist)]\nCost - 14\nStat - 23/30/21/10/22\n30lv - Status Effect Reflection\n50lv - Imitate Tactics\n70lv - Reach ATK-\n90lv - All DEF Rate + (7)\nPrefect - Lumbermill\nWarlord - Trader+Banner - Zhuge Liang```");
     }
-if (args ===`LiuShan||args ===`liushan||args ===`Liushan`){
+if (args ===`LiuShan`||args ===`liushan`||args ===`Liushan`){
       message.channel.send("```[Liu Shan (Footman)]\nCost - 14\nStat - 34/48/56/67/86\n30lv - ATK DEF Rate + (15)\n50lv - Physical Damage -% (10)\n70lv - Reach MRL-\n90lv - Oppressive Assault\nPrefect - Master Storage\nWarlord - Yizhou-C Tax+Banner - Zhuge Liang```");
     }
-if (args ===`FeiYi||args ===`feiyi||args ===`Feiyi`){
+if (args ===`FeiYi`||args ===`feiyi`||args ===`Feiyi`){
       message.channel.send("```[Fei Yi (Geomancer)]\nCost - 16\nStat - 40/84/82/70/74\n30lv - Summon the Four Gods\n50lv - MP Boost % (15)\n70lv - Ranged DMG -% (10)\n90lv - Reach ATK+\nPrefect - Market\nWarlord - Qingzhou Tax+Banner - Zhuge Liang```");
     }
-if (args ===`ZhugeJun||args ===`zhugejun||args ===`Zhugejun`){
+if (args ===`ZhugeJun`||args ===`zhugejun`||args ===`Zhugejun`){
       message.channel.send("```[Zhuge Jun (Archer)]\nCost - 14\nStat - 52/69/45/66/72\n30lv - Self AGI+\n50lv - Poison Attack % (15)\n70lv - Confusion Attack % (15)\n90lv - Phalanx Strike\nPrefect - Master Tax\nWarlord - Premium Shop+Banner - Zhuge Liang```");
     }
-if (args ===`JiangWan||args ===`jiangwan||args ===`Jiangwan`){
+if (args ===`JiangWan`||args ===`jiangwan`||args ===`Jiangwan`){
       message.channel.send("```[Jiang Wan (Tactician)]\nCost - 17\nStat - 42/87/74/58/93\n30lv - Elemental Tactics +% (5)\n50lv - Tactics ACC + (15)\n70lv - Physical Damage -% (10)\n90lv - Status Effect Reflection\nPrefect - Ration Tax\nWarlord - Jingzhou-S Tax+Banner - Zhuge Liang```");
     }
-if (args ===`YangYi||args ===`yangyi||args ===`Yangyi`){
+if (args ===`YangYi`||args ===`yangyi`||args ===`Yangyi`){
       message.channel.send("```[Yang Yi (Crossbowman)]\nCost - 15\nStat - 68/82/73/56/78\n30lv - Tactics Damage -% (10)\n50lv - Self MRL+\n70lv - MRL Boost % (10)\n90lv - MRL- Attack\nPrefect - Market\nWarlord - Jingzhou-N Loot+Banner - Zhuge Liang```");
     }
-if (args ===`QinMi||args ===`qinmi||args ===`Qinmi`){
+if (args ===`QinMi`||args ===`qinmi`||args ===`Qinmi`){
       message.channel.send("```[Qin Mi (Geomancer)]\nCost - 14\nStat - 26/73/81/71/73\n30lv - Ranged DMG -% (10)\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach Awaken\nPrefect - Market\nWarlord - Yizhou-N Loot+Banner - Zhuge Liang```");
     }
-if (args ===`LiaoHua||args ===`liaohua||args ===`Liaohua`){
+if (args ===`LiaoHua`||args ===`liaohua`||args ===`Liaohua`){
       message.channel.send("```[Liao Hua (Outlaw)]\nCost - 19\nStat - 80/69/76/68/82\n30lv - Earth Tactics+ % (10)\n50lv - Good from Evil\n70lv - DEF Boost % (11)\n90lv - Forceful Blow\nPrefect - Pig Farm\nWarlord - Jingzhou-N Loot+Banner - Zhuge Liang```");
     }
-if (args ===`XiahouBa||args ===`xiahouba||args ===`Xiahouba`){
+if (args ===`XiahouBa`||args ===`xiahouba`||args ===`Xiahouba`){
       message.channel.send("```[Xiahou Ba (Heavy Cavalry)]\nCost - 19\nStat - 87/76/85/72/64\n30lv - Ranged DMG -% (10)\n50lv - Physical Damage Reflection % (12)\n70lv - DEF- Attack\n90lv - Self SPD+\nPrefect - Tailor\nWarlord - Yizhou-S Loot+Banner - Zhuge Liang```");
     }
-if (args ===`ZhugeZhan||args ===`zhugezhan||args ===`Zhugezhan`){
+if (args ===`ZhugeZhan`||args ===`zhugezhan`||args ===`Zhugezhan`){
       message.channel.send("```[Zhuge Zhan (Spearman)]\nCost - 16\nStat - 68/76/78/72/66\n30lv - Physical Damage -% (10)\n50lv - Reach AGI-\n70lv - WIS- Attack\n90lv - Imitate Tactics\nPrefect - Fishery\nWarlord - Yizhou-C Tax+Banner - Zhuge Liang```");
     }
-if (args ===`DengZhi||args ===`dengzhi||args ===`Dengzhi`){
+if (args ===`DengZhi`||args ===`dengzhi`||args ===`Dengzhi`){
       message.channel.send("```[Deng Zhi (Crossbowman)]\nCost - 18\nStat - 69/82/77/65/82\n30lv - Double Tactics Immunity\n50lv - Self MRL+\n70lv - WIS- Attack\n90lv - Critical Attack\nPrefect - Lumbermill\nWarlord - Yizhou-N Loot+Banner - Zhuge Liang```");
     }
-if (args ===`HuoYi||args ===`huoyi||args ===`Huoyi`){
+if (args ===`HuoYi`||args ===`huoyi`||args ===`Huoyi`){
       message.channel.send("```[Huo Yi (Spearman)]\nCost - 17\nStat - 69/69/73/79/88\n30lv - Physical Damage Reflection % (10)\n50lv - Physical Damage -% (10)\n70lv - MRL- Attack\n90lv - Reach DEF+\nPrefect - Absolute Protection\nWarlord - Jingzhou-N Tax+Banner - Zhuge Liang```");
     }
-if (args ===`MaSu||args ===`masu||args ===`Masu`){
+if (args ===`MaSu`||args ===`masu`||args ===`Masu`){
       message.channel.send("```[Ma Su (Tactician)]\nCost - 16\nStat - 74/87/80/74/66\n30lv - Tactics Damage Reflection % (10)\n50lv - Double Tactics +%\n70lv - Offensive Tactics +% (10)\n90lv - Imitate Tactics\nPrefect - Port\nWarlord - Scout+Banner - Zhuge Liang```");
     }
-if (args ===`HuangYueying||args ===`huangyueying||args ===`Huangyueying`){
+if (args ===`HuangYueying`||args ===`huangyueying`||args ===`Huangyueying`){
       message.channel.send("```[Huang Yueying (Tactician)]\nCost - 17\nStat - 71/91/63/67/82\n30lv - Summon the Four Gods\n50lv - Tactics ACC + (15)\n70lv - MP Saving % (12)\n90lv - Defense Stat Switch\nPrefect - Master Storage\nWarlord - Ration Tax+Banner - Zhuge Liang```");
     }
-if (args ===`GuanXing||args ===`guanxing||args ===`Guanxing`){
+if (args ===`GuanXing`||args ===`guanxing`||args ===`Guanxing`){
       message.channel.send("```[Guan Xing (Heavy Cavalry)]\nCost - 19\nStat - 86/67/76/62/82\n30lv - Counterattack+\n50lv - Ignore Mounted Attack+\n70lv - AGI- Attack\n90lv - Double Counter\nPrefect - Market\nWarlord - Jingzhou-S Tax+Banner - Zhuge Liang```");
     }
-if (args ===`JiangWei||args ===`jiangwei||args ===`Jiangwei`){
+if (args ===`JiangWei`||args ===`jiangwei`||args ===`Jiangwei`){
       message.channel.send("```[Jiang Wei (Mountain Cavalry)]\nCost - 21\nStat - 89/90/92/79/64\n30lv - Reach ATK-\n50lv - Veteran (35)\n70lv - Unstoppable\n90lv - Tactics Damage -% (50)\nPrefect - Master Tax\nWarlord - Ration Tax+Banner - Zhuge Liang```");
     }
-if (args ===`ZhugeLiang||args ===`zhugeliang||args ===`Zhugeliang`){
+if (args ===`ZhugeLiang`||args ===`zhugeliang`||args ===`Zhugeliang`){
       message.channel.send("```[Zhuge Liang (Sage)]\nCost - 21\nStat - 34/100/98/77/96\n30lv - Double Tactics +%\n50lv - Ignore Tactics Terrain\n70lv - Earth Tactics+ % (15)\n90lv - Status Effect Immunity\nPrefect - Ration Tax\nWarlord - General Tax+Banner - Zhuge Liang```");
     }
-if (args ===`MaoJie||args ===`maojie||args ===`Maojie`){
+if (args ===`MaoJie`||args ===`maojie`||args ===`Maojie`){
       message.channel.send("```[Mao Jie (Crossbowman)]\nCost - 15\nStat - 65/75/70/58/74\n30lv - Double Tactics Immunity\n50lv - WIS- Attack\n70lv - Critical Attack+ (30)\n90lv - Imitate Tactics\nPrefect - Stockpile\nWarlord - Yanzhou Tax+Banner - Empress ```");
     }
-if (args ===`YangZhi||args ===`yangzhi||args ===`Yangzhi`){
+if (args ===`YangZhi`||args ===`yangzhi`||args ===`Yangzhi`){
       message.channel.send("```[Yang Zhi (Tactician)]\nCost - 15\nStat - 25/82/62/67/71\n30lv - Double Tactics +%\n50lv - Tactics ACC + (15)\n70lv - MP Attack (10)\n90lv - Imitate Tactics\nPrefect - Treasury\nWarlord - Yongzhou-E Tax+Banner - Empress ```");
     }
-if (args ===`YangXiu||args ===`yangxiu||args ===`Yangxiu`){
+if (args ===`YangXiu`||args ===`yangxiu`||args ===`Yangxiu`){
       message.channel.send("```[Yang Xiu (Tactician)]\nCost - 15\nStat - 26/87/49/62/68\n30lv - Elemental Tactics +% (5)\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach AGI+\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Sizhou Tax+Banner - Empress ```");
     }
-if (args ===`YangJi||args ===`yangji||args ===`Yangji`){
+if (args ===`YangJi`||args ===`yangji`||args ===`Yangji`){
       message.channel.send("```[Yang Ji (Spearman)]\nCost - 16\nStat - 69/72/73/66/75\n30lv - Reach AGI-\n50lv - Counterattack+\n70lv - MRL- Attack\n90lv - Reach ATK-\nPrefect - Fruit Grove\nWarlord - Sizhou Tax+Banner - Empress ```");
     }
-if (args ===`XiahouHe||args ===`xiahouhe||args ===`Xiahouhe`){
+if (args ===`XiahouHe`||args ===`xiahouhe`||args ===`Xiahouhe`){
       message.channel.send("```[Xiahou He (Footman)]\nCost - 15\nStat - 62/74/71/68/70\n30lv - ATK DEF Rate + (15)\n50lv - Physical Damage -% (10)\n70lv - Reach Deterrence\n90lv - Forceful Blow\nPrefect - Master Tax\nWarlord - Yongzhou-E Loot+Banner - Empress ```");
     }
-if (args ===`SimaLang||args ===`simalang||args ===`Simalang`){
+if (args ===`SimaLang`||args ===`simalang`||args ===`Simalang`){
       message.channel.send("```[Sima Lang (Geomancer)]\nCost - 14\nStat - 32/79/52/66/68\n30lv - Tactics DEF Rate + (10)\n50lv - Tactics DEF Rate + (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach Awaken\nPrefect - Farm\nWarlord - Jiaozhou Loot+Banner - Empress ```");
     }
-if (args ===`XiahouHui||args ===`xiahouhui||args ===`Xiahouhui`){
+if (args ===`XiahouHui`||args ===`xiahouhui`||args ===`Xiahouhui`){
       message.channel.send("```[Xiahou Hui (Taoist)]\nCost - 14\nStat - 35/79/62/77/68\n30lv - Tactics Damage Reflection % (10)\n50lv - Status Effect Reflection\n70lv - Reach ATK-\n90lv - Imitate Tactics\nPrefect - Master Tax\nWarlord - Sizhou Loot+Banner - Empress ```");
     }
-if (args ===`GuanqiuJian||args ===`guanqiujian||args ===`Guanqiujian`){
+if (args ===`GuanqiuJian`||args ===`guanqiujian`||args ===`Guanqiujian`){
       message.channel.send("```[Guanqiu Jian (Mountain Cavalry)]\nCost - 16\nStat - 74/55/77/66/72\n30lv - Reach ATK-\n50lv - % Charge Attack (3)\n70lv - Ignore Mounted Attack+\n90lv - Enhanced Double ATK % (15)\nPrefect - Farm\nWarlord - Sizhou Tax+Banner - Empress ```");
     }
-if (args ===`ZhangChunhua||args ===`zhangchunhua||args ===`Zhangchunhua`){
+if (args ===`ZhangChunhua`||args ===`zhangchunhua`||args ===`Zhangchunhua`){
       message.channel.send("```[Zhang Chunhua (Taoist)]\nCost - 16\nStat - 58/88/66/82/69\n30lv - Imitate Tactics\n50lv - Status Effect Reflection\n70lv - AGI Boost % (10)\n90lv - Attack Stat Switch\nPrefect - Master Storage\nWarlord - Ration Tax+Banner - Empress ```");
     }
-if (args ===`YangHuiyu||args ===`yanghuiyu||args ===`Yanghuiyu`){
+if (args ===`YangHuiyu`||args ===`yanghuiyu`||args ===`Yanghuiyu`){
       message.channel.send("```[Yang Huiyu (Dancer)]\nCost - 17\nStat - 65/65/72/86/75\n30lv - Random- Attack\n50lv - Counterattack+\n70lv - Expand ATK RNG (7)\n90lv - MP Attack (10)\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+Banner - Empress ```");
     }
-if (args ===`JiaNanfeng||args ===`jiananfeng||args ===`Jiananfeng`){
+if (args ===`JiaNanfeng`||args ===`jiananfeng`||args ===`Jiananfeng`){
       message.channel.send("```[Jia Nanfeng (Taoist)]\nCost - 16\nStat - 65/86/59/68/72\n30lv - Tactics Damage Reflection % (10)\n50lv - Status Effect Reflection\n70lv - Physical Damage -% (10)\n90lv - Summon the Four Gods\nPrefect - Master Tax\nWarlord - Jiaozhou Loot+Banner - Empress ```");
     }
-if (args ===`XiahouShang||args ===`xiahoushang||args ===`Xiahoushang`){
+if (args ===`XiahouShang`||args ===`xiahoushang`||args ===`Xiahoushang`){
       message.channel.send("```[Xiahou Shang (Mounted Archer)]\nCost - 18\nStat - 76/78/83/61/77\n30lv - Counterattack+\n50lv - Tactics Damage -% (10)\n70lv - Mounted ATK +% (15)\n90lv - Unlimited Counterattack\nPrefect - Farm\nWarlord - Bingzhou Loot+Banner - Empress ```");
     }
-if (args ===`WangJi||args ===`wangji||args ===`Wangji`){
+if (args ===`WangJi`||args ===`wangji`||args ===`Wangji`){
       message.channel.send("```[Wang Ji (Light Cavalry)]\nCost - 18\nStat - 82/76/83/74/66\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Critical Attack+ (30)\n90lv - Ranged DMG -% (10)\nPrefect - Port\nWarlord - Qingzhou Tax+Banner - Empress ```");
     }
-if (args ===`XiahouXuan||args ===`xiahouxuan||args ===`Xiahouxuan`){
+if (args ===`XiahouXuan`||args ===`xiahouxuan`||args ===`Xiahouxuan`){
       message.channel.send("```[Xiahou Xuan (Tactician)]\nCost - 17\nStat - 46/89/69/65/88\n30lv - Summon the Four Gods\n50lv - Double Tactics +%\n70lv - Ranged DMG -% (10)\n90lv - Status Effect Immunity\nPrefect - Fishery\nWarlord - Jizhou Loot+Banner - Empress ```");
     }
-if (args ===`WangShuang||args ===`wangshuang||args ===`Wangshuang`){
+if (args ===`WangShuang`||args ===`wangshuang`||args ===`Wangshuang`){
       message.channel.send("```[Wang Shuang (Soldier)]\nCost - 19\nStat - 89/28/69/91/62\n30lv - Tactics Damage -% (10)\n50lv - Counterattack+\n70lv - Confusion Attack % (15)\n90lv - Good from Evil\nPrefect - Lumbermill\nWarlord - Yongzhou-E Loot+Banner - Empress ```");
     }
-if (args ===`HuangfuSong||args ===`huangfusong||args ===`Huangfusong`){
+if (args ===`HuangfuSong`||args ===`huangfusong`||args ===`Huangfusong`){
       message.channel.send("```[Huangfu Song (Footman)]\nCost - 19\nStat - 74/72/93/63/66\n30lv - ATK DEF Rate + (15)\n50lv - Reach DEF+\n70lv - Tactics DEF Rate + (15)\n90lv - Veteran (35)\nPrefect - Fishery\nWarlord - Jizhou Loot+Banner - Empress ```");
     }
-if (args ===`SimaZhao||args ===`simazhao||args ===`Simazhao`){
+if (args ===`SimaZhao`||args ===`simazhao`||args ===`Simazhao`){
       message.channel.send("```[Sima Zhao (Warlord)]\nCost - 17\nStat - 72/82/76/77/70\n30lv - Counterattack+\n50lv - AGI Boost % (10)\n70lv - Reach WIS+\n90lv - Imitate Tactics\nPrefect - Pig Farm\nWarlord - Sizhou Loot+Banner - Empress ```");
     }
-if (args ===`SimaShi||args ===`simashi||args ===`Simashi`){
+if (args ===`SimaShi`||args ===`simashi`||args ===`Simashi`){
       message.channel.send("```[Sima Shi (Warlord)]\nCost - 17\nStat - 69/89/83/66/79\n30lv - Critical Attack+ (30)\n50lv - Enhanced Double ATK % (15)\n70lv - Reach MRL+\n90lv - Status Effect Reflection\nPrefect - Treasury\nWarlord - Occupation+Banner - Empress ```");
     }
-if (args ===`DuYu||args ===`duyu||args ===`Duyu`){
+if (args ===`DuYu`||args ===`duyu`||args ===`Duyu`){
       message.channel.send("```[Du Yu (Marine)]\nCost - 18\nStat - 52/87/89/67/81\n30lv - Elemental Tactics +% (5)\n50lv - MP Attack (10)\n70lv - AGI Boost % (10)\n90lv - % Charge Attack (4)\nPrefect - Lumbermill\nWarlord - Jiaozhou Loot+Banner - Empress ```");
     }
-if (args ===`SimaYan||args ===`simayan||args ===`Simayan`){
+if (args ===`SimaYan`||args ===`simayan`||args ===`Simayan`){
       message.channel.send("```[Sima Yan (Warlord)]\nCost - 17\nStat - 64/80/79/78/78\n30lv - Reach MRL+\n50lv - Counterattack+\n70lv - Self Inspire\n90lv - Oppressive Assault\nPrefect - Lumbermill\nWarlord - Sizhou Loot+Banner - Empress ```");
     }
-if (args ===`WangYuanji||args ===`wangyuanji||args ===`Wangyuanji`){
+if (args ===`WangYuanji`||args ===`wangyuanji`||args ===`Wangyuanji`){
       message.channel.send("```[Wang Yuanji (Dancer)]\nCost - 20\nStat - 81/88/66/82/95\n30lv - HP Boost % (15)\n50lv - Expand ATK RNG (7)\n70lv - First Strike\n90lv - Random- Attack\nPrefect - Silver Coin Tax\nWarlord - Battle Ration+Banner - Empress ```");
     }
-if (args ===`CaoXing||args ===`caoxing||args ===`Caoxing`){
+if (args ===`CaoXing`||args ===`caoxing`||args ===`Caoxing`){
       message.channel.send("```[Cao Xing (Mounted Archer)]\nCost - 14\nStat - 74/37/65/61/75\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - AGI- Attack\nPrefect - Fishery\nWarlord - Bingzhou Loot+Banner - Lu Bu```");
     }
-if (args ===`LiJue||args ===`lijue||args ===`Lijue`){
+if (args ===`LiJue`||args ===`lijue`||args ===`Lijue`){
       message.channel.send("```[Li Jue (Footman)]\nCost - 16\nStat - 73/44/71/71/59\n30lv - Physical Damage -% (10)\n50lv - Tactics DEF Rate + (15)\n70lv - Reach Deterrence\n90lv - Damage Transfer\nPrefect - Tailor\nWarlord - Yongzhou-W Tax+Banner - Lu Bu```");
     }
-if (args ===`FanChou||args ===`fanchou||args ===`Fanchou`){
+if (args ===`FanChou`||args ===`fanchou`||args ===`Fanchou`){
       message.channel.send("```[Fan Chou (Heavy Cavalry)]\nCost - 14\nStat - 75/45/66/61/80\n30lv - Self DEF+\n50lv - Physical Damage Reflection % (12)\n70lv - MRL- Attack\n90lv - Expand AoE (4)\nPrefect - Stockpile\nWarlord - Yongzhou-W Loot+Banner - Lu Bu```");
     }
-if (args ===`HouCheng||args ===`houcheng||args ===`Houcheng`){
+if (args ===`HouCheng`||args ===`houcheng`||args ===`Houcheng`){
       message.channel.send("```[Hou Cheng (Footman)]\nCost - 14\nStat - 76/68/74/52/54\n30lv - HP Boost % (15)\n50lv - Physical Damage -% (10)\n70lv - Reach MRL-\n90lv - Tactics DEF Rate + (20)\nPrefect - Tailor\nWarlord - Xuzhou Tax+Banner - Lu Bu```");
     }
-if (args ===`LiSu||args ===`lisu||args ===`Lisu`){
+if (args ===`LiSu`||args ===`lisu`||args ===`Lisu`){
       message.channel.send("```[Li Su (Taoist)]\nCost - 14\nStat - 69/73/46/72/59\n30lv - Tactics Damage Reflection % (10)\n50lv - Interrupt Tactics +% (10)\n70lv - Ranged DMG -% (10)\n90lv - Imitate Tactics\nPrefect - Farm\nWarlord - Bingzhou Tax+Banner - Lu Bu```");
     }
-if (args ===`WeiXu||args ===`weixu||args ===`Weixu`){
+if (args ===`WeiXu`||args ===`weixu`||args ===`Weixu`){
       message.channel.send("```[Wei Xu (Light Cavalry)]\nCost - 14\nStat - 78/42/67/69/58\n30lv - Reach WIS-\n50lv - Physical Attack +% (12)\n70lv - Counterattack+\n90lv - Enhanced Double ATK % (15)\nPrefect - Market\nWarlord - Xuzhou Loot+Banner - Lu Bu```");
     }
-if (args ===`SongXian||args ===`songxian||args ===`Songxian`){
+if (args ===`SongXian`||args ===`songxian`||args ===`Songxian`){
       message.channel.send("```[Song Xian (Archer)]\nCost - 14\nStat - 77/38/68/67/60\n30lv - Poison Attack % (15)\n50lv - Mounted ATK +% (15)\n70lv - Deadly Poison Attack % (50)\n90lv - ATK- Attack\nPrefect - Treasury\nWarlord - Xuzhou Loot+Banner - Lu Bu```");
     }
-if (args ===`GuoSi||args ===`guosi||args ===`Guosi`){
+if (args ===`GuoSi`||args ===`guosi`||args ===`Guosi`){
       message.channel.send("```[Guo Si (Spearman)]\nCost - 15\nStat - 76/33/64/58/74\n30lv - Reach AGI-\n50lv - Mounted ATK +% (15)\n70lv - ATK- Attack\n90lv - Reach DEF-\nPrefect - Fruit Grove\nWarlord - Yongzhou-W Loot+Banner - Lu Bu```");
     }
-if (args ===`LuLingqi||args ===`lulingqi||args ===`Lulingqi`){
+if (args ===`LuLingqi`||args ===`lulingqi`||args ===`Lulingqi`){
       message.channel.send("```[Lu Lingqi (Light Cavalry)]\nCost - 19\nStat - 85/33/62/88/75\n30lv - Forceful Blow\n50lv - Physical Attack +% (12)\n70lv - Terrain Effect +\n90lv - Leading Attack\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+Banner - Lu Bu```");
     }
-if (args ===`ZangBa||args ===`zangba||args ===`Zangba`){
+if (args ===`ZangBa`||args ===`zangba`||args ===`Zangba`){
       message.channel.send("```[Zang Ba (Outlaw)]\nCost - 19\nStat - 80/53/75/72/90\n30lv - Earth Tactics+ % (10)\n50lv - Self MRL+\n70lv - MRL Boost % (10)\n90lv - Forceful Blow\nPrefect - Farm\nWarlord - Yongzhou-W Loot+Banner - Lu Bu```");
     }
-if (args ===`HuZhen||args ===`huzhen||args ===`Huzhen`){
+if (args ===`HuZhen`||args ===`huzhen`||args ===`Huzhen`){
       message.channel.send("```[Hu Zhen (Heavy Cavalry)]\nCost - 14\nStat - 77/34/86/68/82\n30lv - Ranged DMG -% (10)\n50lv - Physical Damage Reflection % (12)\n70lv - AGI- Attack\n90lv - Rage +% (20)\nPrefect - Farm\nWarlord - Liangzhou-N Loot+Banner - Lu Bu```");
     }
-if (args ===`LiRu||args ===`liru||args ===`Liru`){
+if (args ===`LiRu`||args ===`liru`||args ===`Liru`){
       message.channel.send("```[Li Ru (Tactician)]\nCost - 15\nStat - 50/93/68/69/75\n30lv - Summon the Four Gods\n50lv - Tactics ACC + (15)\n70lv - Offensive Tactics +% (10)\n90lv - Double ATK Immunity\nPrefect - Stockpile\nWarlord - Sizhou Tax+Banner - Lu Bu```");
     }
-if (args ===`Suigao||args ===`suigao||args ===`Suigao`){
+if (args ===`Suigao`||args ===`suigao`||args ===`Suigao`){
       message.channel.send("```[Suigao (Outlaw)]\nCost - 16\nStat - 74/38/67/71/82\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - MRL Boost % (10)\n90lv - Double ATK Immunity\nPrefect - Treasury\nWarlord - Yongzhou-E Tax+Banner - Lu Bu```");
     }
-if (args ===`WangYun||args ===`wangyun||args ===`Wangyun`){
+if (args ===`WangYun`||args ===`wangyun`||args ===`Wangyun`){
       message.channel.send("```[Wang Yun (Geomancer)]\nCost - 15\nStat - 26/83/65/74/76\n30lv - Supply Tactics +% (8)\n50lv - MP Boost % (15)\n70lv - Ranged DMG -% (10)\n90lv - Reach WIS+\nPrefect - Market\nWarlord - Bingzhou Loot+Banner - Lu Bu```");
     }
-if (args ===`ZhangMiao||args ===`zhangmiao||args ===`Zhangmiao`){
+if (args ===`ZhangMiao`||args ===`zhangmiao`||args ===`Zhangmiao`){
       message.channel.send("```[Zhang Miao (Light Cavalry)]\nCost - 17\nStat - 60/70/84/74/72\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Enhanced Double ATK % (15)\n90lv - Physical Damage -% (10)\nPrefect - Lumbermill\nWarlord - Yanzhou Tax+Banner - Lu Bu```");
     }
-if (args ===`XuRong||args ===`xurong||args ===`Xurong`){
+if (args ===`XuRong`||args ===`xurong`||args ===`Xurong`){
       message.channel.send("```[Xu Rong (Heavy Cavalry)]\nCost - 16\nStat - 75/62/80/67/77\n30lv - Physical Damage Reflection % (10)\n50lv - Ranged DMG -% (10)\n70lv - MRL- Attack\n90lv - Critical Attack Immunity\nPrefect - Lumbermill\nWarlord - Yongzhou-W Loot+Banner - Lu Bu```");
     }
-if (args ===`DongZhuo||args ===`dongzhuo||args ===`Dongzhuo`){
+if (args ===`DongZhuo`||args ===`dongzhuo`||args ===`Dongzhuo`){
       message.channel.send("```[Dong Zhuo (Chariot)]\nCost - 22\nStat - 87/73/90/67/91\n30lv - % Charge Attack (2)\n50lv - Forceful Blow\n70lv - Terrain Effect +\n90lv - Critical Attack\nPrefect - Master Tax\nWarlord - All Loot+Banner - Lu Bu```");
     }
-if (args ===`GaoShun||args ===`gaoshun||args ===`Gaoshun`){
+if (args ===`GaoShun`||args ===`gaoshun`||args ===`Gaoshun`){
       message.channel.send("```[Gao Shun (Chariot)]\nCost - 19\nStat - 85/60/87/62/78\n30lv - % Charge Attack (2)\n50lv - DEF Boost % (13)\n70lv - Reach DEF-\n90lv - Leading Attack\nPrefect - Lumbermill\nWarlord - Bingzhou Loot+Banner - Lu Bu```");
     }
-if (args ===`ChenGong||args ===`chengong||args ===`Chengong`){
+if (args ===`ChenGong`||args ===`chengong`||args ===`Chengong`){
       message.channel.send("```[Chen Gong (Tactician)]\nCost - 17\nStat - 68/89/84/62/92\n30lv - Tactics Damage Reflection % (10)\n50lv - Tactics ACC + (15)\n70lv - Offensive Tactics +% (10)\n90lv - Summon the Four Gods\nPrefect - Market\nWarlord - Bingzhou Loot+Banner - Lu Bu```");
     }
-if (args ===`HuaXiong||args ===`huaxiong||args ===`Huaxiong`){
+if (args ===`HuaXiong`||args ===`huaxiong`||args ===`Huaxiong`){
       message.channel.send("```[Hua Xiong (Chariot)]\nCost - 20\nStat - 92/61/88/76/54\n30lv - Physical Attack +% (12)\n50lv - Forceful Blow\n70lv - DEF Boost % (11)\n90lv - Damage Transfer\nPrefect - Market\nWarlord - Scout+Banner - Lu Bu```");
     }
-if (args ===`LuBu||args ===`lubu||args ===`Lubu`){
+if (args ===`LuBu`||args ===`lubu`||args ===`Lubu`){
       message.channel.send("```[Lu Bu (Mountain Cavalry)]\nCost - 24\nStat - 100/26/97/93/85\n30lv - Reach ATK-\n50lv - Chain Attack\n70lv - Forceful Blow\n90lv - Ranged Attack Immunity\nPrefect - Silver Coin Tax\nWarlord - All Loot+Banner - Lu Bu```");
     }
-if (args ===`ZhangBaek||args ===`zhangbaek||args ===`Zhangbaek`){
+if (args ===`ZhangBaek`||args ===`zhangbaek`||args ===`Zhangbaek`){
       message.channel.send("```[Zhang Baek (Geomancer)]\nCost - 14\nStat - 30/70/30/60/60\n30lv - All DEF Rate + (7)\n50lv - Ranged DMG -% (10)\n70lv - Supply Tactics +% (9)\n90lv - Reach WIS+\nPrefect - Absolute Protection\nWarlord - Yanzhou Tax+Banner - Chosen Officer```");
     }
-if (args ===`YangXin||args ===`yangxin||args ===`Yangxin`){
+if (args ===`YangXin`||args ===`yangxin`||args ===`Yangxin`){
       message.channel.send("```[Yang Xin (Soldier)]\nCost - 14\nStat - 60/30/60/70/50\n30lv - Self AGI+\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - Double Counter\nPrefect - Market\nWarlord - Bingzhou Tax+Banner - Chosen Officer```");
     }
-if (args ===`SiZun||args ===`sizun||args ===`Sizun`){
+if (args ===`SiZun`||args ===`sizun`||args ===`Sizun`){
       message.channel.send("```[Si Zun (Geomancer)]\nCost - 14\nStat - 30/70/30/60/60\n30lv - Reach Awaken\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Ranged DMG -% (20)\nPrefect - Fishery\nWarlord - Jingzhou-S Tax+Banner - Chosen Officer```");
     }
-if (args ===`GuoJin||args ===`guojin||args ===`Guojin`){
+if (args ===`GuoJin`||args ===`guojin`||args ===`Guojin`){
       message.channel.send("```[Guo Jin (Spearman)]\nCost - 14\nStat - 60/50/60/50/50\n30lv - Reach AGI-\n50lv - Expand ATK RNG (7)\n70lv - Random- Attack\n90lv - Reach WIS-\nPrefect - Ration Tax\nWarlord - Yizhou-C Tax+Banner - Chosen Officer```");
     }
-if (args ===`PangSun||args ===`pangsun||args ===`Pangsun`){
+if (args ===`PangSun`||args ===`pangsun`||args ===`Pangsun`){
       message.channel.send("```[Pang Sun (Catapult)]\nCost - 14\nStat - 60/70/50/40/60\n30lv - Physical Damage -% (10)\n50lv - Random- Attack\n70lv - Attack ACC + (17)\n90lv - Self AGI+\nPrefect - Farm\nWarlord - Jingzhou-N Tax+Banner - Chosen Officer```");
     }
-if (args ===`GuiHwan||args ===`guihwan||args ===`Guihwan`){
+if (args ===`GuiHwan`||args ===`guihwan`||args ===`Guihwan`){
       message.channel.send("```[Gui Hwan (Geomancer)]\nCost - 14\nStat - 30/70/30/60/60\n30lv - Supply Tactics +% (8)\n50lv - Ranged DMG -% (10)\n70lv - MP Boost % (13)\n90lv - Reach AGI+\nPrefect - Tailor\nWarlord - Yongzhou-E Tax+Banner - Chosen Officer```");
     }
-if (args ===`GengWu||args ===`gengwu||args ===`Gengwu`){
+if (args ===`GengWu`||args ===`gengwu`||args ===`Gengwu`){
       message.channel.send("```[Geng Wu (Mountain Cavalry)]\nCost - 14\nStat - 60/50/50/60/50\n30lv - Physical Damage -% (10)\n50lv - % Charge Attack (4)\n70lv - AGI Boost % (10)\n90lv - Good from Evil\nPrefect - Stockpile\nWarlord - Yongzhou-W Tax+Banner - Chosen Officer```");
     }
-if (args ===`UiRe||args ===`uire||args ===`Uire`){
+if (args ===`UiRe`||args ===`uire`||args ===`Uire`){
       message.channel.send("```[Ui Re (Tactician)]\nCost - 14\nStat - 40/70/50/50/50\n30lv - Tactics ACC + (15)\n50lv - Elemental Tactics +% (5)\n70lv - Fire Tactics +% (15)\n90lv - Imitate Tactics\nPrefect - Fishery\nWarlord - Xuzhou Tax+Banner - Chosen Officer```");
     }
-if (args ===`LiuHe||args ===`liuhe||args ===`Liuhe`){
+if (args ===`LiuHe`||args ===`liuhe`||args ===`Liuhe`){
       message.channel.send("```[Liu He (Geomancer)]\nCost - 14\nStat - 30/70/30/60/60\n30lv - Ranged DMG -% (10)\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Reach Awaken\nPrefect - Silver Coin Tax\nWarlord - Youzhou Tax+Banner - Chosen Officer```");
     }
-if (args ===`XiahouDun||args ===`xiahoudun||args ===`Xiahoudun`){
+if (args ===`XiahouDun`||args ===`xiahoudun`||args ===`Xiahoudun`){
       message.channel.send("```[Xiahou Dun (Swordsman)]\nCost - 21\nStat - 98/64/82/90/66\n30lv - Attack DEF Rate Pierce (15)\n50lv - Good from Evil\n70lv - Leading Attack\n90lv - Veteran (35)\nPrefect - Market\nWarlord - Yizhou Pillage Boost+Banner - Destined One```");
     }
-if (args ===`BianYueXiang||args ===`bianyuexiang||args ===`Bianyuexiang`){
+if (args ===`BianYueXiang`||args ===`bianyuexiang`||args ===`Bianyuexiang`){
       message.channel.send("```[Bian Yue Xiang (Musician)]\nCost - 16\nStat - 43/88/69/97/82\n30lv - Double ATK Immunity\n50lv - Rough Terrain Move\n70lv - Decrease Area Tactics Damage (70)\n90lv - Reach SPD+\nPrefect - Tailor\nWarlord - General Tax+Banner - Destined One```");
     }
-if (args ===`CaoCao||args ===`caocao||args ===`Caocao`){
+if (args ===`CaoCao`||args ===`caocao`||args ===`Caocao`){
       message.channel.send("```[Cao Cao (Swordsman)]\nCost - 24\nStat - 82/92/98/80/84\n30lv - Counterattack+\n50lv - Tactics DEF Rate Pierce (15)\n70lv - Deadly Poison Attack % (50)\n90lv - Reversal\nPrefect - Master Tax\nWarlord - Battle Ration+Banner - Destined One```");
     }
-if (args ===`GuanYing||args ===`guanying||args ===`Guanying`){
+if (args ===`GuanYing`||args ===`guanying`||args ===`Guanying`){
       message.channel.send("```[Guan Ying (Light Cavalry)]\nCost - 20\nStat - 95/39/71/92/88\n30lv - Oppressive Assault\n50lv - Expand ATK RNG (16)\n70lv - ATK Boost % (15)\n90lv - Raking Blow\nPrefect - Farm\nWarlord - Occupation+Banner - Liu Bang```");
     }
-if (args ===`WangLing||args ===`wangling||args ===`Wangling`){
+if (args ===`WangLing`||args ===`wangling`||args ===`Wangling`){
       message.channel.send("```[Wang Ling (Chariot)]\nCost - 20\nStat - 93/85/82/72/86\n30lv - % Charge Attack (3)\n50lv - Good from Evil\n70lv - Double Tactics Immunity\n90lv - Penetration Attack\nPrefect - Pig Farm\nWarlord - All Loot+Banner - Liu Bang```");
     }
-if (args ===`ChenPing||args ===`chenping||args ===`Chenping`){
+if (args ===`ChenPing`||args ===`chenping`||args ===`Chenping`){
       message.channel.send("```[Chen Ping (Taoist)]\nCost - 19\nStat - 13/97/67/82/93\n30lv - Interrupt Tactics +% (15)\n50lv - Critical Attack Immunity\n70lv - Tactics DEF Rate Pierce (10)\n90lv - Defense Stat Switch\nPrefect - Master Tax\nWarlord - Battle Ration+Banner - Liu Bang```");
     }
-if (args ===`LuZhi||args ===`luzhi||args ===`Luzhi`){
+if (args ===`LuZhi`||args ===`luzhi`||args ===`Luzhi`){
       message.channel.send("```[Lu Zhi (Dancer)]\nCost - 18\nStat - 81/66/73/95/89\n30lv - Oppressive Assault\n50lv - Confusion Attack % (30)\n70lv - Double Counter\n90lv - First Strike Immunity\nPrefect - Tailor\nWarlord - Yizhou Pillage Boost+Banner - Liu Bang```");
     }
-if (args ===`PengYue||args ===`pengyue||args ===`Pengyue`){
+if (args ===`PengYue`||args ===`pengyue`||args ===`Pengyue`){
       message.channel.send("```[Peng Yue (Mountain Cavalry)]\nCost - 20\nStat - 91/35/86/98/61\n30lv - Naval Battle +\n50lv - Surprise Attack (3)\n70lv - % Charge Attack (4)\n90lv - Charge Move\nPrefect - Lumbermill\nWarlord - Qingzhou Tax+Banner - Liu Bang```");
     }
-if (args ===`ZhouBo||args ===`zhoubo||args ===`Zhoubo`){
+if (args ===`ZhouBo`||args ===`zhoubo`||args ===`Zhoubo`){
       message.channel.send("```[Zhou Bo (Mounted Archer)]\nCost - 20\nStat - 86/51/88/81/85\n30lv - Critical Attack+ (30)\n50lv - Deadly Attack (50)\n70lv - Unstoppable\n90lv - Guiding Attack\nPrefect - Lumbermill\nWarlord - Yuzhou Loot+Banner - Liu Bang```");
     }
-if (args ===`CaoShen||args ===`caoshen||args ===`Caoshen`){
+if (args ===`CaoShen`||args ===`caoshen`||args ===`Caoshen`){
       message.channel.send("```[Cao Shen (Heavy Cavalry)]\nCost - 22\nStat - 92/87/92/83/89\n30lv - Expand ATK RNG (26)\n50lv - Veteran (35)\n70lv - Deadly Attack (50)\n90lv - Good from Evil\nPrefect - Pig Farm\nWarlord - Yuzhou Loot+Banner - Liu Bang```");
     }
-if (args ===`XiahouYing||args ===`xiahouying||args ===`Xiahouying`){
+if (args ===`XiahouYing`||args ===`xiahouying`||args ===`Xiahouying`){
       message.channel.send("```[Xiahou Ying (Crossbow Chariot)]\nCost - 21\nStat - 85/57/84/92/78\n30lv - Self SPD+\n50lv - Double Tactics Immunity\n70lv - Unstoppable\n90lv - Critical Attack\nPrefect - Tailor\nWarlord - Scout+Banner - Liu Bang```");
     }
-if (args ===`XianHe||args ===`xianhe||args ===`Xianhe`){
+if (args ===`XianHe`||args ===`xianhe`||args ===`Xianhe`){
       message.channel.send("```[Xian He (Geomancer)]\nCost - 19\nStat - 6/96/87/73/69\n30lv - Critical Attack Immunity\n50lv - Reach SPD+\n70lv - Reach WIS+\n90lv - Summon the Four Gods\nPrefect - Market\nWarlord - Battle Ration+Banner - Liu Bang```");
     }
-if (args ===`FanKuai||args ===`fankuai||args ===`Fankuai`){
+if (args ===`FanKuai`||args ===`fankuai`||args ===`Fankuai`){
       message.channel.send("```[Fan Kuai (Swordsman)]\nCost - 23\nStat - 97/45/85/86/84\n30lv - Elusive (10)\n50lv - EP Saving % (30)\n70lv - Tactics ACC + (15)\n90lv - Double Tactics\nPrefect - Pottery Works\nWarlord - All Loot+Banner - Liu Bang```");
     }
-if (args ===`HanXin||args ===`hanxin||args ===`Hanxin`){
+if (args ===`HanXin`||args ===`hanxin`||args ===`Hanxin`){
       message.channel.send("```[Han Xin (Marine)]\nCost - 24\nStat - 84/98/100/89/49\n30lv - Mountain Battle Specialization\n50lv - Special Attack Immunity\n70lv - Peerless % (20)\n90lv - Quantify (4)\nPrefect - Master Tax\nWarlord - Yizhou Pillage Boost+Banner - Liu Bang```");
     }
-if (args ===`ZhangLiang||args ===`zhangliang||args ===`Zhangliang`){
+if (args ===`ZhangLiang`||args ===`zhangliang`||args ===`Zhangliang`){
       message.channel.send("```[Zhang Liang (Sage)]\nCost - 24\nStat - 39/100/75/82/90\n30lv - Double Tactics +%\n50lv - Godly Tactics (25)\n70lv - Ranged DMG -% (70)\n90lv - Hell Gate (4)\nPrefect - Silver Coin Tax\nWarlord - Ration Tax+Banner - Liu Bang```");
     }
-if (args ===`LiuBang||args ===`liubang||args ===`Liubang`){
+if (args ===`LiuBang`||args ===`liubang`||args ===`Liubang`){
       message.channel.send("```[Liu Bang (Emperor)]\nCost - 19\nStat - 77/81/89/90/100\n30lv - MRL Boost % (30)\n50lv - Reach ATK+\n70lv - Reach AGI+\n90lv - Narrow Escape (1)\nPrefect - Ration Tax\nWarlord - General Tax+Banner - Liu Bang```");
     }
-if (args ===`XiangBo||args ===`xiangbo||args ===`Xiangbo`){
+if (args ===`XiangBo`||args ===`xiangbo`||args ===`Xiangbo`){
       message.channel.send("```[Xiang Bo (Geomancer)]\nCost - 15\nStat - 67/76/81/63/73\n30lv - Status Effect Immunity\n50lv - Double ATK Immunity\n70lv - Reach DEF+\n90lv - Physical Damage -% (20)\nPrefect - Pottery Works\nWarlord - Occupation+Banner - Xiang Yu```");
     }
-if (args ===`XiangLiang||args ===`xiangliang||args ===`Xiangliang`){
+if (args ===`XiangLiang`||args ===`xiangliang`||args ===`Xiangliang`){
       message.channel.send("```[Xiang Liang (Warlord)]\nCost - 17\nStat - 85/54/96/59/65\n30lv - HP Boost % (15)\n50lv - Double Tactics Immunity\n70lv - Expand ATK RNG (7)\n90lv - First Strike\nPrefect - Market\nWarlord - Yizhou Pillage Boost+Banner - Xiang Yu```");
     }
-if (args ===`YuYing||args ===`yuying||args ===`Yuying`){
+if (args ===`YuYing`||args ===`yuying`||args ===`Yuying`){
       message.channel.send("```[Yu Ying (Soldier)]\nCost - 20\nStat - 90/47/81/96/78\n30lv - Double Tactics Immunity\n50lv - Deadly Attack (50)\n70lv - Unstoppable\n90lv - All DEF Rate + (20)\nPrefect - Market\nWarlord - Sizhou Tax+Banner - Xiang Yu```");
     }
-if (args ===`HuanChu||args ===`huanchu||args ===`Huanchu`){
+if (args ===`HuanChu`||args ===`huanchu`||args ===`Huanchu`){
       message.channel.send("```[Huan Chu (Outlaw)]\nCost - 21\nStat - 95/39/79/92/76\n30lv - Charge Move\n50lv - Comeback\n70lv - Good from Evil\n90lv - Enhanced Double ATK % (50)\nPrefect - Pig Farm\nWarlord - All Loot+Banner - Xiang Yu```");
     }
-if (args ===`ZhouLan||args ===`zhoulan||args ===`Zhoulan`){
+if (args ===`ZhouLan`||args ===`zhoulan`||args ===`Zhoulan`){
       message.channel.send("```[Zhou Lan (Archer)]\nCost - 20\nStat - 91/77/79/85/98\n30lv - Silence Attack % (30)\n50lv - Phalanx Strike\n70lv - Expand AoE (4)\n90lv - Blind Attack % (30)\nPrefect - Fishery\nWarlord - Premium Shop+Banner - Xiang Yu```");
     }
-if (args ===`JiBu||args ===`jibu||args ===`Jibu`){
+if (args ===`JiBu`||args ===`jibu`||args ===`Jibu`){
       message.channel.send("```[Ji Bu (Spearman)]\nCost - 20\nStat - 89/58/91/71/77\n30lv - DEF Boost % (10)\n50lv - Oathkeeper (50)\n70lv - Expand ATK RNG (7)\n90lv - Raking Blow\nPrefect - Fruit Grove\nWarlord - Trader+Banner - Xiang Yu```");
     }
-if (args ===`LongJu||args ===`longju||args ===`Longju`){
+if (args ===`LongJu`||args ===`longju`||args ===`Longju`){
       message.channel.send("```[Long Ju (Swift Cavalry)]\nCost - 22\nStat - 97/37/78/83/79\n30lv - % Charge Attack (5)\n50lv - Rough Terrain Move\n70lv - Surprise Attack (3)\n90lv - Leading Attack\nPrefect - Port\nWarlord - Liangzhou-S Tax+Banner - Xiang Yu```");
     }
-if (args ===`ZhongliMo||args ===`zhonglimo||args ===`Zhonglimo`){
+if (args ===`ZhongliMo`||args ===`zhonglimo`||args ===`Zhonglimo`){
       message.channel.send("```[Zhongli Mo (Crossbow Chariot)]\nCost - 23\nStat - 93/81/84/97/88\n30lv - Elusive (10)\n50lv - Naval Battle +\n70lv - Deadly Attack (50)\n90lv - Charge Move\nPrefect - Pottery Works\nWarlord - Battle Ration+Banner - Xiang Yu```");
     }
-if (args ===`YingBu||args ===`yingbu||args ===`Yingbu`){
+if (args ===`YingBu`||args ===`yingbu`||args ===`Yingbu`){
       message.channel.send("```[Ying Bu (Swift Cavalry)]\nCost - 23\nStat - 96/49/86/77/81\n30lv - Good from Evil\n50lv - Unstoppable\n70lv - Guiding Attack\n90lv - Critical Attack\nPrefect - Market\nWarlord - Liangzhou-N Loot+Banner - Xiang Yu```");
     }
-if (args ===`FanZeng||args ===`fanzeng||args ===`Fanzeng`){
+if (args ===`FanZeng`||args ===`fanzeng`||args ===`Fanzeng`){
       message.channel.send("```[Fan Zeng (Tactician)]\nCost - 21\nStat - 37/97/88/80/75\n30lv - Double Tactics +%\n50lv - Double ATK Immunity\n70lv - Tactics ACC + (15)\n90lv - Union\nPrefect - Master Tax\nWarlord - Battle Ration+Banner - Xiang Yu```");
     }
-if (args ===`YuMiaoyi||args ===`yumiaoyi||args ===`Yumiaoyi`){
+if (args ===`YuMiaoyi`||args ===`yumiaoyi`||args ===`Yumiaoyi`){
       message.channel.send("```[Yu Miaoyi (Musician)]\nCost - 14\nStat - 73/69/82/99/78\n30lv - Ranged DMG -% (15)\n50lv - MP Saving % (25)\n70lv - Physical Damage -% (15)\n90lv - Reach Awaken\nPrefect - Fishery\nWarlord - Xuzhou Tax+Banner - Xiang Yu```");
     }
-if (args ===`XiangYu||args ===`xiangyu||args ===`Xiangyu`){
+if (args ===`XiangYu`||args ===`xiangyu`||args ===`Xiangyu`){
       message.channel.send("```[Xiang Yu (Swift Cavalry)]\nCost - 25\nStat - 100/59/99/90/73\n30lv - Hero of the Ages (25)\n50lv - Give and Take (15)\n70lv - Desperate Attack\n90lv - Overwhelm (25)\nPrefect - Master Tax\nWarlord - Yizhou Pillage Boost+Banner - Xiang Yu```");
     }
-    
     
     
 //보병    
