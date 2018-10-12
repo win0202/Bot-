@@ -3165,6 +3165,1483 @@ if (args ===`XiangYu` ||args ===`xiangyu` ||args ===`Xiangyu`){
   }
   if (cmd === `${prefix}장수` || cmd === `${prefix}cm`){
 
+    //영어 장수
+    
+    
+    if (args ===`JiangFu || args ===`jiangfu || args ===`Jiangfu`){
+      message.channel.send("```asciidoc\n[Jiang Fu]\nCost - 14\nStat - 60/70/80/60/60\n30lv - All DEF Rate + (5)\n50lv - Reach DEF+\n70lv - HP Boost % (15)\n90lv - Union\nPrefect - Market\nWarlord - Trader+\nBanner - Cao Cao```")
+    }
+if (args ===`Manji || args ===`manji || args ===`Manji`){
+      message.channel.send("```asciidoc\n[Manji]\nCost - 15\nStat - 80/60/70/60/60\n30lv - Physical Attack +% (12)\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - Physical Damage -% (10)\nPrefect - Port\nWarlord - Occupation+\nBanner - Cao Cao```")
+    }
+if (args ===`LiuGong || args ===`liugong || args ===`Liugong`){
+      message.channel.send("```asciidoc\n[Liu Gong]\nCost - 14\nStat - 70/60/60/60/80\n30lv - Physical Attack +% (12)\n50lv - Mounted ATK +% (15)\n70lv - Immobilization ATK % (15)\n90lv - Phalanx Strike\nPrefect - Market\nWarlord - Sizhou Loot+\nBanner - Cao Cao```")
+    }
+if (args ===`XiahouYuan || args ===`xiahouyuan || args ===`Xiahouyuan`){
+      message.channel.send("```asciidoc\n[Xiahou Yuan]\nCost - 21\nStat - 92/62/80/84/75\n30lv - Counterattack+\n50lv - Mounted ATK +% (15)\n70lv - Attack ACC + (17)\n90lv - Unstoppable\nPrefect - Pig Farm\nWarlord - Xuzhou Tax+\nBanner - Cao Cao```")
+    }
+if (args ===`XiahouDun || args ===`xiahoudun || args ===`Xiahoudun`){
+      message.channel.send("```asciidoc\n[Xiahou Dun]\nCost - 21\nStat - 90/64/77/94/66\n30lv - Enhanced Double ATK % (50)\n50lv - Leading Attack\n70lv - Good from Evil\n90lv - Veteran (35)\nPrefect - Market\nWarlord - Premium Shop+\nBanner - Cao Cao```")
+    }
+if (args ===`YueJin || args ===`yuejin || args ===`Yuejin`){
+      message.channel.send("```asciidoc\n[Yue Jin]\nCost - 20\nStat - 84/54/80/76/86\n30lv - All DEF Rate + (7)\n50lv - HP Boost % (15)\n70lv - Reach ATK-\n90lv - Leading Attack\nPrefect - Farm\nWarlord - Qingzhou Loot+\nBanner - Cao Cao```")
+    }
+if (args ===`LiDian || args ===`lidian || args ===`Lidian`){
+      message.channel.send("```asciidoc\n[Li Dian]\nCost - 19\nStat - 77/81/78/73/92\n30lv - Self MRL+\n50lv - Double Tactics Immunity\n70lv - WIS- Attack\n90lv - Critical Attack\nPrefect - Fishery\nWarlord - Yanzhou Tax+\nBanner - Cao Cao```")
+    }
+if (args ===`CaoHong || args ===`caohong || args ===`Caohong`){
+      message.channel.send("```asciidoc\n[Cao Hong]\nCost - 16\nStat - 64/82/78/66/70\n30lv - Physical Damage -% (10)\n50lv - ATK DEF Rate + (20)\n70lv - Reach DEF-\n90lv - Reversal\nPrefect - Farm\nWarlord - Yuzhou Loot+\nBanner - Cao Cao```")
+    }
+if (args ===`CaoRen || args ===`caoren || args ===`Caoren`){
+      message.channel.send("```asciidoc\n[Cao Ren]\nCost - 21\nStat - 93/67/90/63/85\n30lv - Self DEF+\n50lv - Damage Transfer\n70lv - ATK- Attack\n90lv - Union\nPrefect - Lumbermill\nWarlord - Yanzhou Tax+\nBanner - Cao Cao```")
+    }
+if (args ===`DianWei || args ===`dianwei || args ===`Dianwei`){
+      message.channel.send("```asciidoc\n[Dian Wei]\nCost - 21\nStat - 95/32/72/97/68\n30lv - Good from Evil\n50lv - Guiding Attack\n70lv - Expand AoE (4)\n90lv - Unstoppable\nPrefect - Fruit Grove\nWarlord - Practice Battle+\nBanner - Cao Cao```")
+    }
+if (args ===`XunYu || args ===`xunyu || args ===`Xunyu`){
+      message.channel.send("```asciidoc\n[Xun Yu]\nCost - 20\nStat - 54/97/77/56/76\n30lv - Double Tactics +%\n50lv - Tactics ACC + (15)\n70lv - Fire Tactics Specialization % (20)\n90lv - Double Tactics\nPrefect - Stockpile\nWarlord - Yanzhou Tax+\nBanner - Cao Cao```")
+    }
+if (args ===`XunYou || args ===`xunyou || args ===`Xunyou`){
+      message.channel.send("```asciidoc\n[Xun You]\nCost - 18\nStat - 34/94/77/66/78\n30lv - Supply Tactics +% (8)\n50lv - Reach Awaken\n70lv - Double ATK Immunity\n90lv - Summon the Four Gods\nPrefect - Treasury\nWarlord - Yanzhou Tax+\nBanner - Cao Cao```")
+    }
+if (args ===`CaoCao || args ===`caocao || args ===`Caocao`){
+      message.channel.send("```asciidoc\n[Cao Cao]\nCost - 21\nStat - 75/96/97/73/76\n30lv - Counterattack+\n50lv - Reach MRL+\n70lv - Terrain Effect +\n90lv - Reversal\nPrefect - Ration Tax\nWarlord - Battle Ration+\nBanner - Cao Cao```")
+    }
+if (args ===`GuoJia || args ===`guojia || args ===`Guojia`){
+      message.channel.send("```asciidoc\n[Guo Jia]\nCost - 20\nStat - 22/96/71/77/87\n30lv - Interrupt Tactics +% (8)\n50lv - Imitate Tactics\n70lv - Double Tactics\n90lv - Summon the Four Gods\nPrefect - Farm\nWarlord - Jizhou Tax+\nBanner - Sima Yi```")
+    }
+if (args ===`ChengYu || args ===`chengyu || args ===`Chengyu`){
+      message.channel.send("```asciidoc\n[Cheng Yu]\nCost - 18\nStat - 69/91/89/78/86\n30lv - Double Tactics +%\n50lv - Elemental Tactics +% (5)\n70lv - Tactics ACC + (12)\n90lv - Defense Stat Switch\nPrefect - Fruit Grove\nWarlord - Yanzhou Tax+\nBanner - Sima Yi```")
+    }
+if (args ===`YuJin || args ===`yujin || args ===`Yujin`){
+      message.channel.send("```asciidoc\n[Yu Jin]\nCost - 19\nStat - 77/72/85/92/63\n30lv - Mounted ATK +% (15)\n50lv - Physical Attack +% (12)\n70lv - Status Effect ATK % (15)\n90lv - Leading Attack\nPrefect - Port\nWarlord - Yanzhou Tax+\nBanner - Sima Yi```")
+    }
+if (args ===`LiuYe || args ===`liuye || args ===`Liuye`){
+      message.channel.send("```asciidoc\n[Liu Ye]\nCost - 18\nStat - 72/92/78/52/82\n30lv - Random- Attack\n50lv - Self AGI+\n70lv - Attack ACC + (17)\n90lv - Double ATK Immunity\nPrefect - Absolute Protection\nWarlord - Liangzhou-N Loot+\nBanner - Sima Yi```")
+    }
+if (args ===`XuChu || args ===`xuchu || args ===`Xuchu`){
+      message.channel.send("```asciidoc\n[Xu Chu]\nCost - 21\nStat - 97/36/74/68/98\n30lv - Deadly Attack (50)\n50lv - Good from Evil\n70lv - Counterattack+\n90lv - Unstoppable\nPrefect - Farm\nWarlord - Premium Shop+\nBanner - Sima Yi```")
+    }
+if (args ===`XuHuang || args ===`xuhuang || args ===`Xuhuang`){
+      message.channel.send("```asciidoc\n[Xu Huang]\nCost - 21\nStat - 90/78/91/68/86\n30lv - Mounted ATK +% (15)\n50lv - Expand ATK RNG (7)\n70lv - Random- Attack\n90lv - Guiding Attack\nPrefect - Market\nWarlord - Practice Battle+\nBanner - Sima Yi```")
+    }
+if (args ===`ManChong || args ===`manchong || args ===`Manchong`){
+      message.channel.send("```asciidoc\n[Man Chong]\nCost - 17\nStat - 71/90/84/78/70\n30lv - MP Boost % (15)\n50lv - Summon the Four Gods\n70lv - Reach WIS+\n90lv - Imitate Tactics\nPrefect - Farm\nWarlord - Yanzhou Tax+\nBanner - Sima Yi```")
+    }
+if (args ===`Diaochan || args ===`diaochan || args ===`Diaochan`){
+      message.channel.send("```asciidoc\n[Diaochan]\nCost - 20\nStat - 71/83/67/100/87\n30lv - Physical Damage -% (10)\n50lv - MP Attack (10)\n70lv - Reach ATK+\n90lv - Leading Attack\nPrefect - Market\nWarlord - Yongzhou-E Tax+\nBanner - Sima Yi```")
+    }
+if (args ===`ZhangLiao || args ===`zhangliao || args ===`Zhangliao`){
+      message.channel.send("```asciidoc\n[Zhang Liao]\nCost - 21\nStat - 94/80/83/75/91\n30lv - Enhanced Double ATK % (15)\n50lv - Leading Attack\n70lv - Elusive (10)\n90lv - Union\nPrefect - Port\nWarlord - Bingzhou Loot+\nBanner - Sima Yi```")
+    }
+if (args ===`JiaXu || args ===`jiaxu || args ===`Jiaxu`){
+      message.channel.send("```asciidoc\n[Jia Xu]\nCost - 19\nStat - 52/97/68/85/75\n30lv - Interrupt Tactics +% (8)\n50lv - Imitate Tactics\n70lv - Reach ATK-\n90lv - Defense Stat Switch\nPrefect - Fishery\nWarlord - Yongzhou-E Loot+\nBanner - Sima Yi```")
+    }
+if (args ===`ZhangHe || args ===`zhanghe || args ===`Zhanghe`){
+      message.channel.send("```asciidoc\n[Zhang He]\nCost - 20\nStat - 89/82/68/74/92\n30lv - Phalanx Strike\n50lv - Mounted ATK +% (15)\n70lv - Physical Attack +% (12)\n90lv - Union\nPrefect - Farm\nWarlord - Yongzhou-E Loot+\nBanner - Sima Yi```")
+    }
+if (args ===`CaoPi || args ===`caopi || args ===`Caopi`){
+      message.channel.send("```asciidoc\n[Cao Pi]\nCost - 17\nStat - 75/84/92/58/93\n30lv - Status Effect Reflection\n50lv - Critical Attack+ (30)\n70lv - Reach WIS+\n90lv - Critical Attack\nPrefect - Fishery\nWarlord - Yanzhou Tax+\nBanner - Sima Yi```")
+    }
+if (args ===`SimaYi || args ===`simayi || args ===`Simayi`){
+      message.channel.send("```asciidoc\n[Sima Yi]\nCost - 21\nStat - 67/98/98/79/86\n30lv - Imitate Tactics\n50lv - Defense Stat Switch\n70lv - Wind Tactics +% (15)\n90lv - Ranged DMG -% (20)\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+\nBanner - Sima Yi```")
+    }
+if (args ===`YanZheng || args ===`yanzheng || args ===`Yanzheng`){
+      message.channel.send("```asciidoc\n[Yan Zheng]\nCost - 14\nStat - 52/63/59/64/71\n30lv - Self AGI+\n50lv - Attack ACC + (20)\n70lv - Deadly Poison Attack % (50)\n90lv - ATK Boost % (15)\nPrefect - Silver Coin Tax\nWarlord - Jizhou Tax+\nBanner - Zhang Jue```")
+    }
+if (args ===`PeiYuanshao || args ===`peiyuanshao || args ===`Peiyuanshao`){
+      message.channel.send("```asciidoc\n[Pei Yuanshao]\nCost - 15\nStat - 72/26/55/56/74\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - Counterattack+\n90lv - Double Counter\nPrefect - Lumbermill\nWarlord - Jizhou Tax+\nBanner - Zhang Jue```")
+    }
+if (args ===`GongDu || args ===`gongdu || args ===`Gongdu`){
+      message.channel.send("```asciidoc\n[Gong Du]\nCost - 14\nStat - 72/36/55/58/82\n30lv - Reach MRL-\n50lv - Ranged DMG -% (10)\n70lv - MRL Boost % (10)\n90lv - Enhanced Double ATK % (15)\nPrefect - Fishery\nWarlord - Occupation+\nBanner - Zhang Jue```")
+    }
+if (args ===`GaoSheng || args ===`gaosheng || args ===`Gaosheng`){
+      message.channel.send("```asciidoc\n[Gao Sheng]\nCost - 14\nStat - 74/18/58/69/77\n30lv - Earth Tactics+ % (10)\n50lv - Reach MRL-\n70lv - MRL Boost % (10)\n90lv - Double ATK Immunity\nPrefect - Farm\nWarlord - Jizhou Tax+\nBanner - Zhang Jue```")
+    }
+if (args ===`ChengYuanzhi || args ===`chengyuanzhi || args ===`Chengyuanzhi`){
+      message.channel.send("```asciidoc\n[Cheng Yuanzhi]\nCost - 14\nStat - 74/22/69/72/58\n30lv - % Charge Attack (2)\n50lv - Reach ATK-\n70lv - MRL- Attack\n90lv - Expand ATK RNG (7)\nPrefect - Fishery\nWarlord - Youzhou Loot+\nBanner - Zhang Jue```")
+    }
+if (args ===`EmpressHe || args ===`empresshe || args ===`Empresshe`){
+      message.channel.send("```asciidoc\n[Empress He]\nCost - 15\nStat - 46/69/55/76/61\n30lv - ATK DEF Rate + (25)\n50lv - Counterattack+\n70lv - All DEF Rate + (10)\n90lv - Rage +% (20)\nPrefect - Ration Tax\nWarlord - Silver Coin Tax+\nBanner - Zhang Jue```")
+    }
+if (args ===`ZhangWei || args ===`zhangwei || args ===`Zhangwei`){
+      message.channel.send("```asciidoc\n[Zhang Wei]\nCost - 14\nStat - 74/55/70/61/65\n30lv - Physical Attack +% (12)\n50lv - Reach WIS-\n70lv - Reach MRL+\n90lv - Double Tactics Immunity\nPrefect - Port\nWarlord - Yongzhou-E Tax+\nBanner - Zhang Jue```")
+    }
+if (args ===`ZhangLu || args ===`zhanglu || args ===`Zhanglu`){
+      message.channel.send("```asciidoc\n[Zhang Lu]\nCost - 14\nStat - 52/78/60/52/76\n30lv - Counterattack+\n50lv - Reach MRL+\n70lv - Critical Attack+ (30)\n90lv - Terrain Effect +\nPrefect - Treasury\nWarlord - Yongzhou-E Loot+\nBanner - Zhang Jue```")
+    }
+if (args ===`YanPu || args ===`yanpu || args ===`Yanpu`){
+      message.channel.send("```asciidoc\n[Yan Pu]\nCost - 15\nStat - 49/85/56/62/65\n30lv - Elemental Tactics +% (5)\n50lv - Double Tactics +%\n70lv - Earth Tactics+ % (15)\n90lv - Status Effect Immunity\nPrefect - Market\nWarlord - Yizhou-C Loot+\nBanner - Zhang Jue```")
+    }
+if (args ===`HeJin || args ===`hejin || args ===`Hejin`){
+      message.channel.send("```asciidoc\n[He Jin]\nCost - 14\nStat - 45/28/48/72/97\n30lv - Ranged DMG -% (10)\n50lv - Rage +% (20)\n70lv - Abnormality ATK % (15)\n90lv - Veteran (35)\nPrefect - Silver Coin Tax\nWarlord - Battle Ration+\nBanner - Zhang Jue```")
+    }
+if (args ===`GuanHai || args ===`guanhai || args ===`Guanhai`){
+      message.channel.send("```asciidoc\n[Guan Hai]\nCost - 16\nStat - 84/34/73/77/52\n30lv - Reach AGI-\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - % Charge Attack (4)\nPrefect - Lumbermill\nWarlord - Practice Battle+\nBanner - Zhang Jue```")
+    }
+if (args ===`LiuPi || args ===`liupi || args ===`Liupi`){
+      message.channel.send("```asciidoc\n[Liu Pi]\nCost - 14\nStat - 68/51/74/52/80\n30lv - Enhanced Double ATK % (10)\n50lv - Self AGI+\n70lv - Deadly Poison Attack % (50)\n90lv - ATK Boost % (15)\nPrefect - Ration Tax\nWarlord - Scout+\nBanner - Zhang Jue```")
+    }
+if (args ===`ZhangLiang || args ===`zhangliang || args ===`Zhangliang`){
+      message.channel.send("```asciidoc\n[Zhang Liang]\nCost - 14\nStat - 80/74/78/74/56\n30lv - Imitate Tactics\n50lv - Status Effect Reflection\n70lv - Reach DEF-\n90lv - Summon the Four Gods\nPrefect - Master Storage\nWarlord - Jizhou Tax+\nBanner - Zhang Jue```")
+    }
+if (args ===`ZhangBao || args ===`zhangbao || args ===`Zhangbao`){
+      message.channel.send("```asciidoc\n[Zhang Bao]\nCost - 14\nStat - 71/81/83/72/62\n30lv - Imitate Tactics\n50lv - Status Effect Reflection\n70lv - Reach WIS-\n90lv - Summon the Four Gods\nPrefect - Farm\nWarlord - Premium Shop+\nBanner - Zhang Jue```")
+    }
+if (args ===`BoCai || args ===`bocai || args ===`Bocai`){
+      message.channel.send("```asciidoc\n[Bo Cai]\nCost - 14\nStat - 64/52/85/81/61\n30lv - Physical Damage Reflection % (10)\n50lv - All DEF Rate + (7)\n70lv - DEF- Attack\n90lv - % Charge Attack (4)\nPrefect - Treasury\nWarlord - Trader+\nBanner - Zhang Jue```")
+    }
+if (args ===`ZhangMancheng || args ===`zhangmancheng || args ===`Zhangmancheng`){
+      message.channel.send("```asciidoc\n[Zhang Mancheng]\nCost - 17\nStat - 84/46/77/69/89\n30lv - Interrupt Tactics +% (8)\n50lv - Tactics Damage -% (10)\n70lv - WIS- Attack\n90lv - Enhanced Double ATK % (15)\nPrefect - Market\nWarlord - Qingzhou Tax+\nBanner - Zhang Jue```")
+    }
+if (args ===`ZhangJue || args ===`zhangjue || args ===`Zhangjue`){
+      message.channel.send("```asciidoc\n[Zhang Jue]\nCost - 19\nStat - 27/86/90/88/96\n30lv - Reach WIS+\n50lv - Double Tactics\n70lv - Elemental Tactics +% (10)\n90lv - Tactics ACC + (15)\nPrefect - Master Tax\nWarlord - Battle Ration+\nBanner - Zhang Jue```")
+    }
+if (args ===`YuanShu || args ===`yuanshu || args ===`Yuanshu`){
+      message.channel.send("```asciidoc\n[Yuan Shu]\nCost - 17\nStat - 64/75/58/82/81\n30lv - Reach MRL+\n50lv - Counterattack+\n70lv - DEF Boost % (11)\n90lv - Critical Attack\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+\nBanner - Guan Yu```")
+    }
+if (args ===`GaoRou || args ===`gaorou || args ===`Gaorou`){
+      message.channel.send("```asciidoc\n[Gao Rou]\nCost - 15\nStat - 52/77/67/56/76\n30lv - Tactics DEF Rate + (15)\n50lv - MP Boost % (15)\n70lv - Reach AGI+\n90lv - Status Effect Immunity\nPrefect - Market\nWarlord - Yizhou-N Loot+\nBanner - Guan Yu```")
+    }
+if (args ===`CaoAnmin || args ===`caoanmin || args ===`Caoanmin`){
+      message.channel.send("```asciidoc\n[Cao Anmin]\nCost - 15\nStat - 71/64/61/53/84\n30lv - Mounted ATK +% (15)\n50lv - Counterattack+\n70lv - Immobilization ATK % (15)\n90lv - Forceful Blow\nPrefect - Fruit Grove\nWarlord - Yuzhou Loot+\nBanner - Guan Yu```")
+    }
+if (args ===`YangYan || args ===`yangyan || args ===`Yangyan`){
+      message.channel.send("```asciidoc\n[Yang Yan]\nCost - 16\nStat - 34/81/56/72/79\n30lv - Physical Damage -% (10)\n50lv - Counterattack+\n70lv - Oppressive Assault\n90lv - AGI Boost % (10)\nPrefect - Market\nWarlord - Yongzhou-W Tax+\nBanner - Guan Yu```")
+    }
+if (args ===`XunYi || args ===`xunyi || args ===`Xunyi`){
+      message.channel.send("```asciidoc\n[Xun Yi]\nCost - 14\nStat - 26/74/59/72/63\n30lv - Status Effect Reflection\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach AGI-\n90lv - MP Defense\nPrefect - Fishery\nWarlord - Yuzhou Tax+\nBanner - Guan Yu```")
+    }
+if (args ===`PangDe || args ===`pangde || args ===`Pangde`){
+      message.channel.send("```asciidoc\n[Pang De]\nCost - 20\nStat - 91/77/89/62/60\n30lv - Physical Damage -% (7)\n50lv - Reach DEF+\n70lv - Physical Damage -% (10)\n90lv - Good from Evil\nPrefect - Pig Farm\nWarlord - Scout+\nBanner - Guan Yu```")
+    }
+if (args ===`LuQian || args ===`luqian || args ===`Luqian`){
+      message.channel.send("```asciidoc\n[Lu Qian]\nCost - 17\nStat - 78/65/63/66/86\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - Mounted ATK +% (15)\n90lv - DEF- Attack\nPrefect - Lumbermill\nWarlord - Yanzhou Loot+\nBanner - Guan Yu```")
+    }
+if (args ===`CaoAng || args ===`caoang || args ===`Caoang`){
+      message.channel.send("```asciidoc\n[Cao Ang]\nCost - 18\nStat - 84/67/74/62/91\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Unstoppable\n90lv - Physical Damage -% (10)\nPrefect - Master Storage\nWarlord - Yuzhou Loot+\nBanner - Guan Yu```")
+    }
+if (args ===`CaoZhang || args ===`caozhang || args ===`Caozhang`){
+      message.channel.send("```asciidoc\n[Cao Zhang]\nCost - 19\nStat - 92/58/76/84/63\n30lv - Blind Attack % (15)\n50lv - Good from Evil\n70lv - Critical Attack+ (30)\n90lv - Unstoppable\nPrefect - Ration Tax\nWarlord - Youzhou Loot+\nBanner - Guan Yu```")
+    }
+if (args ===`WeiYou || args ===`weiyou || args ===`Weiyou`){
+      message.channel.send("```asciidoc\n[Wei You]\nCost - 15\nStat - 62/75/71/65/79\n30lv - Self MRL+\n50lv - Double Tactics Immunity\n70lv - Critical Attack+ (30)\n90lv - Physical Attack +% (12)\nPrefect - Tailor\nWarlord - Youzhou Loot+\nBanner - Guan Yu```")
+    }
+if (args ===`YangFeng || args ===`yangfeng || args ===`Yangfeng`){
+      message.channel.send("```asciidoc\n[Yang Feng]\nCost - 14\nStat - 68/48/71/59/68\n30lv - Counterattack+\n50lv - Physical Damage -% (10)\n70lv - AGI- Attack\n90lv - Tactics Damage -% (15)\nPrefect - Fruit Grove\nWarlord - Xuzhou Tax+\nBanner - Guan Yu```")
+    }
+if (args ===`YanLiang || args ===`yanliang || args ===`Yanliang`){
+      message.channel.send("```asciidoc\n[Yan Liang]\nCost - 22\nStat - 93/42/92/84/66\n30lv - Reach WIS-\n50lv - Damage Transfer\n70lv - Unstoppable\n90lv - Reversal\nPrefect - Ration Tax\nWarlord - Ration Loot+\nBanner - Guan Yu```")
+    }
+if (args ===`GuanYu || args ===`guanyu || args ===`Guanyu`){
+      message.channel.send("```asciidoc\n[Guan Yu]\nCost - 23\nStat - 97/82/96/68/89\n30lv - Ignore Mounted Attack+\n50lv - Double Counter\n70lv - Abnormality ATK % (15)\n90lv - Reversal\nPrefect - Master Storage\nWarlord - Ration Tax+\nBanner - Guan Yu```")
+    }
+if (args ===`HuoJun || args ===`huojun || args ===`Huojun`){
+      message.channel.send("```asciidoc\n[Huo Jun]\nCost - 15\nStat - 66/73/73/76/54\n30lv - Tactics DEF Rate + (10)\n50lv - Reach DEF+\n70lv - All DEF Rate + (6)\n90lv - Forceful Blow\nPrefect - Farm\nWarlord - Jingzhou-N Tax+\nBanner - Taishi Ci```")
+    }
+if (args ===`ChenLin || args ===`chenlin || args ===`Chenlin`){
+      message.channel.send("```asciidoc\n[Chen Lin]\nCost - 15\nStat - 26/80/77/72/74\n30lv - Tactics DEF Rate + (15)\n50lv - MP Boost % (15)\n70lv - Reach WIS+\n90lv - Status Effect Immunity\nPrefect - Pig Farm\nWarlord - Xuzhou Loot+\nBanner - Taishi Ci```")
+    }
+if (args ===`XingDaorong || args ===`xingdaorong || args ===`Xingdaorong`){
+      message.channel.send("```asciidoc\n[Xing Daorong]\nCost - 15\nStat - 72/52/67/57/81\n30lv - Counterattack+\n50lv - Ignore Mounted Attack+\n70lv - AGI- Attack\n90lv - Reversal\nPrefect - Farm\nWarlord - Jingzhou-S Tax+\nBanner - Taishi Ci```")
+    }
+if (args ===`DongCheng || args ===`dongcheng || args ===`Dongcheng`){
+      message.channel.send("```asciidoc\n[Dong Cheng]\nCost - 14\nStat - 59/68/69/70/66\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach DEF-\n90lv - Special Attack Immunity\nPrefect - Lumbermill\nWarlord - Jizhou Loot+\nBanner - Taishi Ci```")
+    }
+if (args ===`XieJing || args ===`xiejing || args ===`Xiejing`){
+      message.channel.send("```asciidoc\n[Xie Jing]\nCost - 14\nStat - 71/22/64/74/61\n30lv - Reach WIS-\n50lv - Physical Attack +% (12)\n70lv - Enhanced Double ATK % (15)\n90lv - Mounted ATK +% (15)\nPrefect - Ration Tax\nWarlord - Liangzhou-S Tax+\nBanner - Taishi Ci```")
+    }
+if (args ===`KongRong || args ===`kongrong || args ===`Kongrong`){
+      message.channel.send("```asciidoc\n[Kong Rong]\nCost - 14\nStat - 25/79/30/52/91\n30lv - Tactics ACC + (15)\n50lv - Summon the Four Gods\n70lv - Fire Tactics +% (15)\n90lv - Status Effect Immunity\nPrefect - Market\nWarlord - Trader+\nBanner - Taishi Ci```")
+    }
+if (args ===`WangJing || args ===`wangjing || args ===`Wangjing`){
+      message.channel.send("```asciidoc\n[Wang Jing]\nCost - 14\nStat - 69/70/71/58/72\n30lv - Counterattack+\n50lv - Physical Damage -% (10)\n70lv - MRL- Attack\n90lv - Reach AGI-\nPrefect - Absolute Protection\nWarlord - Jizhou Tax+\nBanner - Taishi Ci```")
+    }
+if (args ===`MaMiao || args ===`mamiao || args ===`Mamiao`){
+      message.channel.send("```asciidoc\n[Ma Miao]\nCost - 14\nStat - 66/44/56/56/62\n30lv - Attack ACC + (15)\n50lv - Physical Damage -% (10)\n70lv - DEF- Attack\n90lv - Self AGI+\nPrefect - Fruit Grove\nWarlord - Yongzhou-E Loot+\nBanner - Taishi Ci```")
+    }
+if (args ===`ZhouTai || args ===`zhoutai || args ===`Zhoutai`){
+      message.channel.send("```asciidoc\n[Zhou Tai]\nCost - 21\nStat - 91/48/84/88/67\n30lv - Naval Battle +\n50lv - DEF Boost % (13)\n70lv - Counterattack+\n90lv - Double Counter\nPrefect - Ration Tax\nWarlord - Silver Coin Loot+\nBanner - Taishi Ci```")
+    }
+if (args ===`WuAnguo || args ===`wuanguo || args ===`Wuanguo`){
+      message.channel.send("```asciidoc\n[Wu Anguo]\nCost - 18\nStat - 87/49/72/69/76\n30lv - Earth Tactics+ % (7)\n50lv - Good from Evil\n70lv - Blind Attack % (15)\n90lv - Veteran (35)\nPrefect - Market\nWarlord - Qingzhou Loot+\nBanner - Taishi Ci```")
+    }
+if (args ===`ZhuJun || args ===`zhujun || args ===`Zhujun`){
+      message.channel.send("```asciidoc\n[Zhu Jun]\nCost - 18\nStat - 70/72/89/74/72\n30lv - Physical Attack +% (12)\n50lv - Critical Attack+ (30)\n70lv - Double Tactics Immunity\n90lv - Double ATK Immunity\nPrefect - Fishery\nWarlord - Yongzhou-W Tax+\nBanner - Taishi Ci```")
+    }
+if (args ===`ZhuLing || args ===`zhuling || args ===`Zhuling`){
+      message.channel.send("```asciidoc\n[Zhu Ling]\nCost - 18\nStat - 78/68/81/62/85\n30lv - Critical Attack+ (30)\n50lv - Tactics Damage -% (10)\n70lv - Enhanced Double ATK % (15)\n90lv - AGI- Attack\nPrefect - Market\nWarlord - Jizhou Tax+\nBanner - Taishi Ci```")
+    }
+if (args ===`TaishiCi || args ===`taishici || args ===`Taishici`){
+      message.channel.send("```asciidoc\n[Taishi Ci]\nCost - 23\nStat - 93/69/90/95/72\n30lv - Physical Attack +% (12)\n50lv - Second Wind % (25)\n70lv - Penetration Attack\n90lv - Damage Transfer\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+\nBanner - Taishi Ci```")
+    }
+if (args ===`HoGong || args ===`hogong || args ===`Hogong`){
+      message.channel.send("```asciidoc\n[Ho Gong]\nCost - 16\nStat - 73/53/62/79/59\n30lv - Interrupt Tactics +% (8)\n50lv - Tactics Damage -% (10)\n70lv - ATK- Attack\n90lv - Leading Attack\nPrefect - Market\nWarlord - Jingzhou-S Tax+\nBanner - Xu Shu```")
+    }
+if (args ===`CaoMao || args ===`caomao || args ===`Caomao`){
+      message.channel.send("```asciidoc\n[Cao Mao]\nCost - 16\nStat - 50/72/81/66/68\n30lv - HP Boost % (15)\n50lv - Physical Damage -% (10)\n70lv - Reach DEF-\n90lv - Oppressive Assault\nPrefect - Lumbermill\nWarlord - Yanzhou Loot+\nBanner - Xu Shu```")
+    }
+if (args ===`KongZhou || args ===`kongzhou || args ===`Kongzhou`){
+      message.channel.send("```asciidoc\n[Kong Zhou]\nCost - 14\nStat - 56/69/44/61/82\n30lv - Tactics DEF Rate + (10)\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach Awaken\nPrefect - Market\nWarlord - Yanzhou Loot+\nBanner - Xu Shu```")
+    }
+if (args ===`HuZhi || args ===`huzhi || args ===`Huzhi`){
+      message.channel.send("```asciidoc\n[Hu Zhi]\nCost - 14\nStat - 58/78/78/66/76\n30lv - Physical Damage -% (10)\n50lv - Reach AGI-\n70lv - WIS- Attack\n90lv - Reach MRL-\nPrefect - Farm\nWarlord - Bingzhou Tax+\nBanner - Xu Shu```")
+    }
+if (args ===`BaoXin || args ===`baoxin || args ===`Baoxin`){
+      message.channel.send("```asciidoc\n[Bao Xin]\nCost - 15\nStat - 68/74/71/57/64\n30lv - Ignore Mounted Attack+\n50lv - Counterattack+\n70lv - DEF- Attack\n90lv - Veteran (35)\nPrefect - Port\nWarlord - Yanzhou Loot+\nBanner - Xu Shu```")
+    }
+if (args ===`GuoYouzhi || args ===`guoyouzhi || args ===`Guoyouzhi`){
+      message.channel.send("```asciidoc\n[Guo Youzhi]\nCost - 16\nStat - 33/77/42/64/81\n30lv - Self AGI+\n50lv - Physical Certain Hit\n70lv - Tactics Damage -% (15)\n90lv - Poison Attack % (20)\nPrefect - Market\nWarlord - Yizhou-S Tax+\nBanner - Xu Shu```")
+    }
+if (args ===`LiuFu || args ===`liufu || args ===`Liufu`){
+      message.channel.send("```asciidoc\n[Liu Fu]\nCost - 14\nStat - 58/78/54/66/88\n30lv - Status Effect Reflection\n50lv - Interrupt Tactics +% (10)\n70lv - HP Boost % (15)\n90lv - Summon the Four Gods\nPrefect - Tailor\nWarlord - Yanzhou Tax+\nBanner - Xu Shu```")
+    }
+if (args ===`BianXi || args ===`bianxi || args ===`Bianxi`){
+      message.channel.send("```asciidoc\n[Bian Xi]\nCost - 15\nStat - 74/62/56/84/56\n30lv - Good from Evil\n50lv - Counterattack+\n70lv - AGI- Attack\n90lv - Critical Attack+ (30)\nPrefect - Master Storage\nWarlord - Jizhou Tax+\nBanner - Xu Shu```")
+    }
+if (args ===`ZhangYan || args ===`zhangyan || args ===`Zhangyan`){
+      message.channel.send("```asciidoc\n[Zhang Yan]\nCost - 19\nStat - 88/54/87/61/85\n30lv - Self MRL+\n50lv - Good from Evil\n70lv - AGI Boost % (10)\n90lv - Forceful Blow\nPrefect - Master Storage\nWarlord - Bingzhou Tax+\nBanner - Xu Shu```")
+    }
+if (args ===`ZhangJi || args ===`zhangji || args ===`Zhangji`){
+      message.channel.send("```asciidoc\n[Zhang Ji]\nCost - 16\nStat - 61/82/77/56/77\n30lv - Reach WIS-\n50lv - Physical Attack +% (12)\n70lv - Enhanced Double ATK % (15)\n90lv - Counterattack+\nPrefect - Farm\nWarlord - Xuzhou Loot+\nBanner - Xu Shu```")
+    }
+if (args ===`MengDa || args ===`mengda || args ===`Mengda`){
+      message.channel.send("```asciidoc\n[Meng Da]\nCost - 17\nStat - 77/75/82/50/76\n30lv - Mounted ATK +% (15)\n50lv - Expand ATK RNG (7)\n70lv - Random- Attack\n90lv - Oppressive Assault\nPrefect - Farm\nWarlord - Sizhou Loot+\nBanner - Xu Shu```")
+    }
+if (args ===`JianYong || args ===`jianyong || args ===`Jianyong`){
+      message.channel.send("```asciidoc\n[Jian Yong]\nCost - 16\nStat - 61/75/72/64/77\n30lv - Mounted ATK +% (15)\n50lv - Poison Attack % (15)\n70lv - Status Effect ATK % (15)\n90lv - Phalanx Strike\nPrefect - Master Storage\nWarlord - Silver Coin Tax+\nBanner - Xu Shu```")
+    }
+if (args ===`XuShu || args ===`xushu || args ===`Xushu`){
+      message.channel.send("```asciidoc\n[Xu Shu]\nCost - 19\nStat - 73/93/81/75/80\n30lv - Elemental Tactics +% (5)\n50lv - MP Attack (10)\n70lv - Expand ATK RNG (7)\n90lv - Attack Stat Switch\nPrefect - Ration Tax\nWarlord - General Tax+\nBanner - Xu Shu```")
+    }
+if (args ===`YuanTan || args ===`yuantan || args ===`Yuantan`){
+      message.channel.send("```asciidoc\n[Yuan Tan]\nCost - 14\nStat - 73/52/68/66/66\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Reach MRL+\n90lv - Enhanced Double ATK % (15)\nPrefect - Fruit Grove\nWarlord - Yuzhou Loot+\nBanner - Yuan Shao```")
+    }
+if (args ===`XuYou || args ===`xuyou || args ===`Xuyou`){
+      message.channel.send("```asciidoc\n[Xu You]\nCost - 14\nStat - 46/80/30/66/83\n30lv - MP Boost % (15)\n50lv - Tactics DEF Rate + (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach MRL+\nPrefect - Fishery\nWarlord - Practice Battle+\nBanner - Yuan Shao```")
+    }
+if (args ===`DongZhao || args ===`dongzhao || args ===`Dongzhao`){
+      message.channel.send("```asciidoc\n[Dong Zhao]\nCost - 16\nStat - 39/80/65/61/62\n30lv - Attack ACC + (15)\n50lv - Double Tactics Immunity\n70lv - AGI- Attack\n90lv - Self MRL+\nPrefect - Farm\nWarlord - Yanzhou Loot+\nBanner - Yuan Shao```")
+    }
+if (args ===`JuGu || args ===`jugu || args ===`Jugu`){
+      message.channel.send("```asciidoc\n[Ju Gu]\nCost - 14\nStat - 66/50/62/78/56\n30lv - Physical Attack +% (10)\n50lv - Mounted ATK +% (15)\n70lv - Abnormality ATK % (15)\n90lv - Phalanx Strike\nPrefect - Lumbermill\nWarlord - Jizhou Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`YuanXi || args ===`yuanxi || args ===`Yuanxi`){
+      message.channel.send("```asciidoc\n[Yuan Xi]\nCost - 14\nStat - 66/63/75/52/54\n30lv - Self DEF+\n50lv - Counterattack+\n70lv - MRL- Attack\n90lv - Damage Transfer\nPrefect - Fishery\nWarlord - Yuzhou Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`GaoGan || args ===`gaogan || args ===`Gaogan`){
+      message.channel.send("```asciidoc\n[Gao Gan]\nCost - 15\nStat - 66/62/74/56/74\n30lv - Critical Attack+ (30)\n50lv - Phalanx Strike\n70lv - Counterattack+\n90lv - DEF- Attack\nPrefect - Farm\nWarlord - Yanzhou Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`XinPi || args ===`xinpi || args ===`Xinpi`){
+      message.channel.send("```asciidoc\n[Xin Pi]\nCost - 14\nStat - 52/81/48/68/76\n30lv - Reach Awaken\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Ranged DMG -% (20)\nPrefect - Market\nWarlord - Practice Battle+\nBanner - Yuan Shao```")
+    }
+if (args ===`JiangYiqu || args ===`jiangyiqu || args ===`Jiangyiqu`){
+      message.channel.send("```asciidoc\n[Jiang Yiqu]\nCost - 14\nStat - 65/62/75/68/63\n30lv - Physical Damage -% (7)\n50lv - Reach DEF+\n70lv - Ranged DMG -% (10)\n90lv - Union\nPrefect - Treasury\nWarlord - Youzhou Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`ChenZhen || args ===`chenzhen || args ===`Chenzhen`){
+      message.channel.send("```asciidoc\n[Chen Zhen]\nCost - 17\nStat - 62/76/83/71/72\n30lv - Physical Damage -% (10)\n50lv - Reach DEF+\n70lv - All DEF Rate + (6)\n90lv - Self SPD+\nPrefect - Silver Coin Tax\nWarlord - Yizhou-N Loot+\nBanner - Yuan Shao```")
+    }
+if (args ===`GuoTu || args ===`guotu || args ===`Guotu`){
+      message.channel.send("```asciidoc\n[Guo Tu]\nCost - 15\nStat - 50/82/53/73/80\n30lv - Tactics Damage Reflection % (10)\n50lv - Status Effect Reflection\n70lv - Ranged DMG -% (10)\n90lv - Imitate Tactics\nPrefect - Port\nWarlord - Premium Shop+\nBanner - Yuan Shao```")
+    }
+if (args ===`GaoLan || args ===`gaolan || args ===`Gaolan`){
+      message.channel.send("```asciidoc\n[Gao Lan]\nCost - 18\nStat - 82/68/76/80/76\n30lv - Tactics Damage -% (10)\n50lv - Mounted ATK +% (15)\n70lv - Physical Attack +% (12)\n90lv - ATK- Attack\nPrefect - Ration Tax\nWarlord - Jizhou Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`ChunyuQiong || args ===`chunyuqiong || args ===`Chunyuqiong`){
+      message.channel.send("```asciidoc\n[Chunyu Qiong]\nCost - 17\nStat - 77/45/69/68/81\n30lv - Mounted ATK +% (15)\n50lv - Physical Damage -% (10)\n70lv - DEF- Attack\n90lv - Damage Transfer\nPrefect - Stockpile\nWarlord - Jizhou Loot+\nBanner - Yuan Shao```")
+    }
+if (args ===`YuanShang || args ===`yuanshang || args ===`Yuanshang`){
+      message.channel.send("```asciidoc\n[Yuan Shang]\nCost - 16\nStat - 75/56/70/62/75\n30lv - Enhanced Double ATK % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach MRL+\n90lv - Expand AoE (4)\nPrefect - Master Storage\nWarlord - Yuzhou Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`FengJi || args ===`fengji || args ===`Fengji`){
+      message.channel.send("```asciidoc\n[Feng Ji]\nCost - 15\nStat - 48/85/65/74/76\n30lv - Supply Tactics +% (8)\n50lv - Tactics DEF Rate + (15)\n70lv - MP Boost % (13)\n90lv - Reach DEF+\nPrefect - Fruit Grove\nWarlord - Jingzhou-N Loot+\nBanner - Yuan Shao```")
+    }
+if (args ===`GuoYi || args ===`guoyi || args ===`Guoyi`){
+      message.channel.send("```asciidoc\n[Guo Yi]\nCost - 18\nStat - 83/51/72/80/64\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - Mounted ATK +% (15)\n90lv - Phalanx Strike\nPrefect - Port\nWarlord - Yizhou-N Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`XinPing || args ===`xinping || args ===`Xinping`){
+      message.channel.send("```asciidoc\n[Xin Ping]\nCost - 16\nStat - 69/79/72/48/82\n30lv - Physical Certain Hit\n50lv - Self AGI+\n70lv - Physical Damage -% (10)\n90lv - Poison Attack % (20)\nPrefect - Absolute Protection\nWarlord - Premium Shop+\nBanner - Yuan Shao```")
+    }
+if (args ===`WenChou || args ===`wenchou || args ===`Wenchou`){
+      message.channel.send("```asciidoc\n[Wen Chou]\nCost - 22\nStat - 95/36/86/72/91\n30lv - Ignore Mounted Attack+\n50lv - Damage Transfer\n70lv - DEF- Attack\n90lv - Union\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+\nBanner - Yuan Shao```")
+    }
+if (args ===`ShenPei || args ===`shenpei || args ===`Shenpei`){
+      message.channel.send("```asciidoc\n[Shen Pei]\nCost - 17\nStat - 50/86/80/77/73\n30lv - Double Tactics +%\n50lv - Summon the Four Gods\n70lv - Reach DEF+\n90lv - Status Effect Immunity\nPrefect - Pottery Works\nWarlord - Practice Battle+\nBanner - Yuan Shao```")
+    }
+if (args ===`TianFeng || args ===`tianfeng || args ===`Tianfeng`){
+      message.channel.send("```asciidoc\n[Tian Feng]\nCost - 18\nStat - 54/93/72/87/68\n30lv - Tactics ACC + (15)\n50lv - Elemental Tactics +% (5)\n70lv - Imitate Tactics\n90lv - Double Tactics\nPrefect - Ration Tax\nWarlord - General Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`JuShou || args ===`jushou || args ===`Jushou`){
+      message.channel.send("```asciidoc\n[Ju Shou]\nCost - 18\nStat - 52/92/77/60/89\n30lv - Elemental Tactics +% (5)\n50lv - Summon the Four Gods\n70lv - Ranged DMG -% (10)\n90lv - Status Effect Immunity\nPrefect - Ration Tax\nWarlord - Ration Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`YuanShao || args ===`yuanshao || args ===`Yuanshao`){
+      message.channel.send("```asciidoc\n[Yuan Shao]\nCost - 19\nStat - 72/74/87/80/95\n30lv - Counterattack+\n50lv - Reach ATK+\n70lv - Critical Attack+ (30)\n90lv - Expand ATK RNG (7)\nPrefect - Master Storage\nWarlord - Silver Coin Tax+\nBanner - Yuan Shao```")
+    }
+if (args ===`CenHun || args ===`cenhun || args ===`Cenhun`){
+      message.channel.send("```asciidoc\n[Cen Hun]\nCost - 14\nStat - 13/33/24/55/23\n30lv - Tactics Damage Reflection % (10)\n50lv - Interrupt Tactics +% (10)\n70lv - Reach MRL-\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Liangzhou-S Tax+\nBanner - Lu Xun```")
+    }
+if (args ===`TengYin || args ===`tengyin || args ===`Tengyin`){
+      message.channel.send("```asciidoc\n[Teng Yin]\nCost - 14\nStat - 68/72/76/66/70\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach WIS-\n90lv - Naval Battle +\nPrefect - Silver Coin Tax\nWarlord - Practice Battle+\nBanner - Lu Xun```")
+    }
+if (args ===`ZhuYi || args ===`zhuyi || args ===`Zhuyi`){
+      message.channel.send("```asciidoc\n[Zhu Yi]\nCost - 17\nStat - 76/64/76/60/56\n30lv - Critical Attack+ (30)\n50lv - Mounted ATK +% (15)\n70lv - Naval Battle +\n90lv - MRL- Attack\nPrefect - Pottery Works\nWarlord - Liangzhou-S Tax+\nBanner - Lu Xun```")
+    }
+if (args ===`PuyangXing || args ===`puyangxing || args ===`Puyangxing`){
+      message.channel.send("```asciidoc\n[Puyang Xing]\nCost - 14\nStat - 44/76/69/65/72\n30lv - Interrupt Tactics +% (8)\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach DEF-\n90lv - Status Effect Immunity\nPrefect - Market\nWarlord - Yizhou-C Loot+\nBanner - Lu Xun```")
+    }
+if (args ===`ZhangYun || args ===`zhangyun || args ===`Zhangyun`){
+      message.channel.send("```asciidoc\n[Zhang Yun]\nCost - 15\nStat - 71/54/76/69/52\n30lv - Water Tactics+ % (7)\n50lv - MRL Boost % (10)\n70lv - Naval Battle +\n90lv - Tactics Damage -% (15)\nPrefect - Stockpile\nWarlord - Jingzhou-N Loot+\nBanner - Lu Xun```")
+    }
+if (args ===`ChenBiao || args ===`chenbiao || args ===`Chenbiao`){
+      message.channel.send("```asciidoc\n[Chen Biao]\nCost - 16\nStat - 56/78/75/72/67\n30lv - Double Tactics Immunity\n50lv - Self MRL+\n70lv - Enhanced Double ATK % (15)\n90lv - Unlimited Counterattack\nPrefect - Lumbermill\nWarlord - Jiaozhou Tax+\nBanner - Lu Xun```")
+    }
+if (args ===`BuXie || args ===`buxie || args ===`Buxie`){
+      message.channel.send("```asciidoc\n[Bu Xie]\nCost - 14\nStat - 65/74/78/70/68\n30lv - MRL- Attack\n50lv - Double Tactics Immunity\n70lv - Critical Attack+ (30)\n90lv - Enhanced Double ATK % (15)\nPrefect - Farm\nWarlord - Premium Shop+\nBanner - Lu Xun```")
+    }
+if (args ===`GuYong || args ===`guyong || args ===`Guyong`){
+      message.channel.send("```asciidoc\n[Gu Yong]\nCost - 16\nStat - 26/86/61/67/81\n30lv - Tactics ACC + (15)\n50lv - Imitate Tactics\n70lv - Water Tactics+ % (15)\n90lv - Double ATK Immunity\nPrefect - Fruit Grove\nWarlord - Trader+\nBanner - Lu Xun```")
+    }
+if (args ===`LiuZan || args ===`liuzan || args ===`Liuzan`){
+      message.channel.send("```asciidoc\n[Liu Zan]\nCost - 18\nStat - 81/66/82/64/62\n30lv - Physical Damage -% (10)\n50lv - ATK DEF Rate + (20)\n70lv - Reach DEF-\n90lv - HP Boost % (15)\nPrefect - Master Tax\nWarlord - Jiaozhou Tax+\nBanner - Lu Xun```")
+    }
+if (args ===`ZhongliMu || args ===`zhonglimu || args ===`Zhonglimu`){
+      message.channel.send("```asciidoc\n[Zhongli Mu]\nCost - 17\nStat - 76/74/79/74/68\n30lv - Ignore Mounted Attack+\n50lv - Reach ATK-\n70lv - Naval Battle +\n90lv - Counterattack+\nPrefect - Absolute Protection\nWarlord - Yizhou-N Tax+\nBanner - Lu Xun```")
+    }
+if (args ===`ZhouFang || args ===`zhoufang || args ===`Zhoufang`){
+      message.channel.send("```asciidoc\n[Zhou Fang]\nCost - 17\nStat - 67/82/71/84/64\n30lv - Poison Attack % (15)\n50lv - Mounted ATK +% (15)\n70lv - Confusion Attack % (15)\n90lv - Unlimited Counterattack\nPrefect - Market\nWarlord - Jiaozhou Tax+\nBanner - Lu Xun```")
+    }
+if (args ===`SunLuban || args ===`sunluban || args ===`Sunluban`){
+      message.channel.send("```asciidoc\n[Sun Luban]\nCost - 14\nStat - 74/63/62/83/84\n30lv - Interrupt Tactics +% (8)\n50lv - Imitate Tactics\n70lv - HP Boost % (15)\n90lv - Status Effect Immunity\nPrefect - Port\nWarlord - Scout+\nBanner - Lu Xun```")
+    }
+if (args ===`ChenWu || args ===`chenwu || args ===`Chenwu`){
+      message.channel.send("```asciidoc\n[Chen Wu]\nCost - 20\nStat - 87/63/76/89/78\n30lv - Physical Attack +% (12)\n50lv - Mounted ATK +% (15)\n70lv - Status Effect ATK % (15)\n90lv - DEF- Attack\nPrefect - Stockpile\nWarlord - Occupation+\nBanner - Lu Xun```")
+    }
+if (args ===`LingTong || args ===`lingtong || args ===`Lingtong`){
+      message.channel.send("```asciidoc\n[Ling Tong]\nCost - 20\nStat - 89/60/77/68/86\n30lv - Physical Damage Reflection % (10)\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - Second Wind % (25)\nPrefect - Silver Coin Tax\nWarlord - Ration Loot+\nBanner - Lu Xun```")
+    }
+if (args ===`ZhugeJin || args ===`zhugejin || args ===`Zhugejin`){
+      message.channel.send("```asciidoc\n[Zhuge Jin]\nCost - 16\nStat - 36/84/75/89/72\n30lv - MP Boost % (15)\n50lv - Summon the Four Gods\n70lv - Physical Damage -% (10)\n90lv - Reach DEF+\nPrefect - Market\nWarlord - Xuzhou Tax+\nBanner - Lu Xun```")
+    }
+if (args ===`LuKang || args ===`lukang || args ===`Lukang`){
+      message.channel.send("```asciidoc\n[Lu Kang]\nCost - 19\nStat - 72/89/91/76/86\n30lv - MP Attack (10)\n50lv - Attack Stat Switch\n70lv - AGI Boost % (10)\n90lv - Expand ATK RNG (7)\nPrefect - Master Storage\nWarlord - Silver Coin Tax+\nBanner - Lu Xun```")
+    }
+if (args ===`LuXun || args ===`luxun || args ===`Luxun`){
+      message.channel.send("```asciidoc\n[Lu Xun]\nCost - 20\nStat - 72/95/94/67/90\n30lv - Reach MRL+\n50lv - Peerless % (20)\n70lv - Expand AoE (4)\n90lv - Guiding Attack\nPrefect - Master Tax\nWarlord - Ration Loot+\nBanner - Lu Xun```")
+    }
+if (args ===`HuanJie || args ===`huanjie || args ===`Huanjie`){
+      message.channel.send("```asciidoc\n[Huan Jie]\nCost - 15\nStat - 32/78/73/66/70\n30lv - Enhanced Double ATK % (15)\n50lv - Counterattack+\n70lv - DEF- Attack\n90lv - Reach AGI-\nPrefect - Farm\nWarlord - Jizhou Tax+\nBanner - Sun Quan```")
+    }
+if (args ===`SunHao || args ===`sunhao || args ===`Sunhao`){
+      message.channel.send("```asciidoc\n[Sun Hao]\nCost - 14\nStat - 28/31/13/16/3\n30lv - Tactics Damage -% (10)\n50lv - Self MRL+\n70lv - Naval Battle +\n90lv - DEF- Attack\nPrefect - Fishery\nWarlord - Liangzhou-S Tax+\nBanner - Sun Quan```")
+    }
+if (args ===`GongsunYuan || args ===`gongsunyuan || args ===`Gongsunyuan`){
+      message.channel.send("```asciidoc\n[Gongsun Yuan]\nCost - 14\nStat - 70/66/65/67/70\n30lv - Ignore Mounted Attack+\n50lv - % Charge Attack (3)\n70lv - Mounted ATK +% (15)\n90lv - Self SPD+\nPrefect - Absolute Protection\nWarlord - Occupation+\nBanner - Sun Quan```")
+    }
+if (args ===`MaZhong || args ===`mazhong || args ===`Mazhong`){
+      message.channel.send("```asciidoc\n[Ma Zhong]\nCost - 15\nStat - 69/60/71/60/64\n30lv - Counterattack+\n50lv - Reach AGI-\n70lv - ATK- Attack\n90lv - Oppressive Assault\nPrefect - Absolute Protection\nWarlord - Yizhou-C Loot+\nBanner - Sun Quan```")
+    }
+if (args ===`GuTan || args ===`gutan || args ===`Gutan`){
+      message.channel.send("```asciidoc\n[Gu Tan]\nCost - 15\nStat - 28/78/80/72/74\n30lv - Mounted ATK +% (15)\n50lv - Physical Damage -% (10)\n70lv - AGI- Attack\n90lv - Imitate Tactics\nPrefect - Fishery\nWarlord - Liangzhou-S Loot+\nBanner - Sun Quan```")
+    }
+if (args ===`TangZi || args ===`tangzi || args ===`Tangzi`){
+      message.channel.send("```asciidoc\n[Tang Zi]\nCost - 16\nStat - 78/54/68/56/82\n30lv - MRL Boost % (10)\n50lv - Naval Battle +\n70lv - HP Boost % (15)\n90lv - Double ATK Immunity\nPrefect - Ration Tax\nWarlord - Trader+\nBanner - Sun Quan```")
+    }
+if (args ===`SunLiang || args ===`sunliang || args ===`Sunliang`){
+      message.channel.send("```asciidoc\n[Sun Liang]\nCost - 16\nStat - 56/76/74/66/72\n30lv - MRL Boost % (7)\n50lv - Reach DEF+\n70lv - Tactics DEF Rate + (15)\n90lv - Oppressive Assault\nPrefect - Farm\nWarlord - Jizhou Tax+\nBanner - Sun Quan```")
+    }
+if (args ===`XueZong || args ===`xuezong || args ===`Xuezong`){
+      message.channel.send("```asciidoc\n[Xue Zong]\nCost - 14\nStat - 26/80/69/65/78\n30lv - Tactics DEF Rate + (15)\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Reach DEF+\nPrefect - Master Storage\nWarlord - Yuzhou Tax+\nBanner - Sun Quan```")
+    }
+if (args ===`ZhangHong || args ===`zhanghong || args ===`Zhanghong`){
+      message.channel.send("```asciidoc\n[Zhang Hong]\nCost - 17\nStat - 40/89/42/74/95\n30lv - Tactics Damage Reflection % (10)\n50lv - Imitate Tactics\n70lv - MP Defense\n90lv - Status Effect Reflection\nPrefect - Silver Coin Tax\nWarlord - Jiaozhou Tax+\nBanner - Sun Quan```")
+    }
+if (args ===`SunHe || args ===`sunhe || args ===`Sunhe`){
+      message.channel.send("```asciidoc\n[Sun He]\nCost - 14\nStat - 68/67/55/88/72\n30lv - Mounted ATK +% (15)\n50lv - Physical Attack +% (12)\n70lv - Blind Attack % (15)\n90lv - DEF- Attack\nPrefect - Farm\nWarlord - Liangzhou-S Tax+\nBanner - Sun Quan```")
+    }
+if (args ===`YuFan || args ===`yufan || args ===`Yufan`){
+      message.channel.send("```asciidoc\n[Yu Fan]\nCost - 17\nStat - 67/84/66/46/90\n30lv - Physical Damage -% (10)\n50lv - Attack ACC + (20)\n70lv - WIS- Attack\n90lv - Double ATK Immunity\nPrefect - Absolute Protection\nWarlord - Scout+\nBanner - Sun Quan```")
+    }
+if (args ===`ZhangWen || args ===`zhangwen || args ===`Zhangwen`){
+      message.channel.send("```asciidoc\n[Zhang Wen]\nCost - 15\nStat - 26/79/80/73/74\n30lv - Tactics ACC + (15)\n50lv - Double Tactics +%\n70lv - Water Tactics+ % (15)\n90lv - Double ATK Immunity\nPrefect - Market\nWarlord - Jizhou Loot+\nBanner - Sun Quan```")
+    }
+if (args ===`BuLianshi || args ===`bulianshi || args ===`Bulianshi`){
+      message.channel.send("```asciidoc\n[Bu Lianshi]\nCost - 17\nStat - 64/76/57/85/89\n30lv - WIS- Attack\n50lv - Deadly Attack (50)\n70lv - Silence Attack % (15)\n90lv - Critical Attack\nPrefect - Ration Tax\nWarlord - Silver Coin Tax+\nBanner - Sun Quan```")
+    }
+if (args ===`WuJing || args ===`wujing || args ===`Wujing`){
+      message.channel.send("```asciidoc\n[Wu Jing]\nCost - 15\nStat - 69/57/78/71/86\n30lv - Double Tactics Immunity\n50lv - Tactics Damage -% (10)\n70lv - Physical Attack +% (12)\n90lv - Critical Attack+ (30)\nPrefect - Farm\nWarlord - Premium Shop+\nBanner - Sun Quan```")
+    }
+if (args ===`LuMeng || args ===`lumeng || args ===`Lumeng`){
+      message.channel.send("```asciidoc\n[Lu Meng]\nCost - 21\nStat - 86/91/93/81/64\n30lv - Naval Battle +\n50lv - Penetration Attack\n70lv - MP Attack (10)\n90lv - Leading Attack\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+\nBanner - Sun Quan```")
+    }
+if (args ===`LuoTong || args ===`luotong || args ===`Luotong`){
+      message.channel.send("```asciidoc\n[Luo Tong]\nCost - 16\nStat - 63/70/75/74/81\n30lv - Double Tactics Immunity\n50lv - Naval Battle +\n70lv - WIS Boost % (9)\n90lv - MP Attack (10)\nPrefect - Fishery\nWarlord - Liangzhou-S Tax+\nBanner - Sun Quan```")
+    }
+if (args ===`SunQuan || args ===`sunquan || args ===`Sunquan`){
+      message.channel.send("```asciidoc\n[Sun Quan]\nCost - 19\nStat - 69/84/79/89/92\n30lv - Counterattack+\n50lv - Union\n70lv - Reach DEF+\n90lv - Reach ATK+\nPrefect - Ration Tax\nWarlord - Battle Ration+\nBanner - Sun Quan```")
+    }
+if (args ===`XiahouEn || args ===`xiahouen || args ===`Xiahouen`){
+      message.channel.send("```asciidoc\n[Xiahou En]\nCost - 16\nStat - 72/58/63/62/82\n30lv - Reach WIS-\n50lv - Physical Attack +% (12)\n70lv - Mounted ATK +% (15)\n90lv - MRL Boost % (10)\nPrefect - Stockpile\nWarlord - Yuzhou Tax+\nBanner - Deng Ai```")
+    }
+if (args ===`ZhongYu || args ===`zhongyu || args ===`Zhongyu`){
+      message.channel.send("```asciidoc\n[Zhong Yu]\nCost - 15\nStat - 56/75/63/73/70\n30lv - Poison Attack % (15)\n50lv - Attack ACC + (20)\n70lv - AGI Boost % (10)\n90lv - ATK Boost % (15)\nPrefect - Lumbermill\nWarlord - Trader+\nBanner - Deng Ai```")
+    }
+if (args ===`ShiZuan || args ===`shizuan || args ===`Shizuan`){
+      message.channel.send("```asciidoc\n[Shi Zuan]\nCost - 14\nStat - 73/57/67/70/75\n30lv - Reach AGI-\n50lv - Mounted ATK +% (15)\n70lv - MRL- Attack\n90lv - Tactics Damage -% (15)\nPrefect - Treasury\nWarlord - Sizhou Tax+\nBanner - Deng Ai```")
+    }
+if (args ===`WenHu || args ===`wenhu || args ===`Wenhu`){
+      message.channel.send("```asciidoc\n[Wen Hu]\nCost - 17\nStat - 78/45/69/73/68\n30lv - Enhanced Double ATK % (15)\n50lv - Phalanx Strike\n70lv - Lifesteal Attack % (7)\n90lv - Expand AoE (4)\nPrefect - Farm\nWarlord - Premium Shop+\nBanner - Deng Ai```")
+    }
+if (args ===`WangXiu || args ===`wangxiu || args ===`Wangxiu`){
+      message.channel.send("```asciidoc\n[Wang Xiu]\nCost - 14\nStat - 34/78/70/63/72\n30lv - MP Boost % (10)\n50lv - Reach Awaken\n70lv - Supply Tactics +% (9)\n90lv - Ranged DMG -% (20)\nPrefect - Ration Tax\nWarlord - Qingzhou Loot+\nBanner - Deng Ai```")
+    }
+if (args ===`XiZhicai || args ===`xizhicai || args ===`Xizhicai`){
+      message.channel.send("```asciidoc\n[Xi Zhicai]\nCost - 16\nStat - 26/86/60/70/91\n30lv - Double Tactics +%\n50lv - Tactics Damage Reflection % (10)\n70lv - Fire Tactics +% (15)\n90lv - Imitate Tactics\nPrefect - Market\nWarlord - Yanzhou Tax+\nBanner - Deng Ai```")
+    }
+if (args ===`WangJun || args ===`wangjun || args ===`Wangjun`){
+      message.channel.send("```asciidoc\n[Wang Jun]\nCost - 18\nStat - 71/78/83/75/68\n30lv - MRL Boost % (10)\n50lv - Naval Battle +\n70lv - ATK Boost % (11)\n90lv - Good from Evil\nPrefect - Silver Coin Tax\nWarlord - Sizhou Tax+\nBanner - Deng Ai```")
+    }
+if (args ===`CaoXian || args ===`caoxian || args ===`Caoxian`){
+      message.channel.send("```asciidoc\n[Cao Xian]\nCost - 14\nStat - 72/72/65/81/71\n30lv - Double Tactics +%\n50lv - Tactics Damage Reflection % (10)\n70lv - MP Saving % (12)\n90lv - Status Effect Immunity\nPrefect - Fruit Grove\nWarlord - Yanzhou Loot+\nBanner - Deng Ai```")
+    }
+if (args ===`XiahouJie || args ===`xiahoujie || args ===`Xiahoujie`){
+      message.channel.send("```asciidoc\n[Xiahou Jie]\nCost - 18\nStat - 86/50/73/80/82\n30lv - Ranged DMG -% (10)\n50lv - Physical Damage Reflection % (12)\n70lv - DEF- Attack\n90lv - Damage Transfer\nPrefect - Ration Tax\nWarlord - Yuzhou Loot+\nBanner - Deng Ai```")
+    }
+if (args ===`ZhugeXu || args ===`zhugexu || args ===`Zhugexu`){
+      message.channel.send("```asciidoc\n[Zhuge Xu]\nCost - 14\nStat - 63/51/59/75/85\n30lv - Poison Attack % (15)\n50lv - Mounted ATK +% (15)\n70lv - AGI Boost % (10)\n90lv - AGI- Attack\nPrefect - Market\nWarlord - Yanzhou Tax+\nBanner - Deng Ai```")
+    }
+if (args ===`HuLie || args ===`hulie || args ===`Hulie`){
+      message.channel.send("```asciidoc\n[Hu Lie]\nCost - 16\nStat - 76/76/82/72/70\n30lv - Phalanx Strike\n50lv - Counterattack+\n70lv - Enhanced Double ATK % (15)\n90lv - Unlimited Counterattack\nPrefect - Fruit Grove\nWarlord - Yongzhou-E Loot+\nBanner - Deng Ai```")
+    }
+if (args ===`GuoHuai || args ===`guohuai || args ===`Guohuai`){
+      message.channel.send("```asciidoc\n[Guo Huai]\nCost - 19\nStat - 78/82/87/56/86\n30lv - HP Boost % (15)\n50lv - All DEF Rate + (7)\n70lv - Reach WIS-\n90lv - Damage Transfer\nPrefect - Pig Farm\nWarlord - Bingzhou Loot+\nBanner - Deng Ai```")
+    }
+if (args ===`DengZhong || args ===`dengzhong || args ===`Dengzhong`){
+      message.channel.send("```asciidoc\n[Deng Zhong]\nCost - 16\nStat - 83/66/72/66/75\n30lv - Ignore Mounted Attack+\n50lv - Ranged DMG -% (10)\n70lv - AGI- Attack\n90lv - Double ATK Immunity\nPrefect - Lumbermill\nWarlord - Scout+\nBanner - Deng Ai```")
+    }
+if (args ===`WeiGuan || args ===`weiguan || args ===`Weiguan`){
+      message.channel.send("```asciidoc\n[Wei Guan]\nCost - 14\nStat - 66/82/72/70/81\n30lv - Reach WIS-\n50lv - Critical Attack+ (30)\n70lv - Physical Attack +% (12)\n90lv - Ignore Mounted Attack+\nPrefect - Pig Farm\nWarlord - Premium Shop+\nBanner - Deng Ai```")
+    }
+if (args ===`ZhangHu || args ===`zhanghu || args ===`Zhanghu`){
+      message.channel.send("```asciidoc\n[Zhang Hu]\nCost - 17\nStat - 76/44/79/65/78\n30lv - Counterattack+\n50lv - Expand ATK RNG (7)\n70lv - Random- Attack\n90lv - Union\nPrefect - Stockpile\nWarlord - Yuzhou Loot+\nBanner - Deng Ai```")
+    }
+if (args ===`YueChen || args ===`yuechen || args ===`Yuechen`){
+      message.channel.send("```asciidoc\n[Yue Chen]\nCost - 15\nStat - 80/67/81/73/77\n30lv - Physical Damage -% (10)\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach ATK-\n90lv - Double ATK Immunity\nPrefect - Market\nWarlord - Liangzhou-N Tax+\nBanner - Deng Ai```")
+    }
+if (args ===`ZhongYao || args ===`zhongyao || args ===`Zhongyao`){
+      message.channel.send("```asciidoc\n[Zhong Yao]\nCost - 17\nStat - 34/90/82/69/82\n30lv - Tactics DEF Rate + (15)\n50lv - MP Boost % (15)\n70lv - Double ATK Immunity\n90lv - Summon the Four Gods\nPrefect - Fishery\nWarlord - Yuzhou Tax+\nBanner - Deng Ai```")
+    }
+if (args ===`HaoZhao || args ===`haozhao || args ===`Haozhao`){
+      message.channel.send("```asciidoc\n[Hao Zhao]\nCost - 19\nStat - 76/82/89/65/90\n30lv - All DEF Rate + (7)\n50lv - Reach DEF+\n70lv - Special Attack Immunity\n90lv - Good from Evil\nPrefect - Master Storage\nWarlord - Ration Loot+\nBanner - Deng Ai```")
+    }
+if (args ===`ChenTai || args ===`chentai || args ===`Chentai`){
+      message.channel.send("```asciidoc\n[Chen Tai]\nCost - 18\nStat - 80/84/90/65/83\n30lv - Naval Battle +\n50lv - MP Attack (10)\n70lv - Union\n90lv - Imitate Tactics\nPrefect - Market\nWarlord - Scout+\nBanner - Deng Ai```")
+    }
+if (args ===`WenYang || args ===`wenyang || args ===`Wenyang`){
+      message.channel.send("```asciidoc\n[Wen Yang]\nCost - 21\nStat - 93/67/81/88/56\n30lv - Deadly Attack (50)\n50lv - Guiding Attack\n70lv - Physical Damage -% (10)\n90lv - Expand AoE (7)\nPrefect - Ration Tax\nWarlord - Ration Loot+\nBanner - Deng Ai```")
+    }
+if (args ===`DengAi || args ===`dengai || args ===`Dengai`){
+      message.channel.send("```asciidoc\n[Deng Ai]\nCost - 21\nStat - 87/89/93/81/72\n30lv - Ignore Mounted Attack+\n50lv - Special Attack Immunity\n70lv - Forceful Blow\n90lv - Double Counter\nPrefect - Ration Tax\nWarlord - Ration Loot+\nBanner - Deng Ai```")
+    }
+if (args ===`XiZheng || args ===`xizheng || args ===`Xizheng`){
+      message.channel.send("```asciidoc\n[Xi Zheng]\nCost - 14\nStat - 26/76/66/66/71\n30lv - Tactics DEF Rate + (15)\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Reach AGI+\nPrefect - Market\nWarlord - Sizhou Tax+\nBanner - Zhao Yun```")
+    }
+if (args ===`MiFang || args ===`mifang || args ===`Mifang`){
+      message.channel.send("```asciidoc\n[Mi Fang]\nCost - 14\nStat - 62/33/56/65/84\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach WIS-\n90lv - Union\nPrefect - Silver Coin Tax\nWarlord - Xuzhou Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`GongsunYue || args ===`gongsunyue || args ===`Gongsunyue`){
+      message.channel.send("```asciidoc\n[Gongsun Yue]\nCost - 16\nStat - 72/47/74/79/56\n30lv - Mounted ATK +% (10)\n50lv - Ignore Mounted Attack+\n70lv - Mounted ATK +% (15)\n90lv - Double Counter\nPrefect - Farm\nWarlord - Youzhou Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`FanJian || args ===`fanjian || args ===`Fanjian`){
+      message.channel.send("```asciidoc\n[Fan Jian]\nCost - 14\nStat - 56/73/61/47/74\n30lv - Enhanced Double ATK % (15)\n50lv - Self AGI+\n70lv - Attack ACC + (17)\n90lv - ATK- Attack\nPrefect - Master Storage\nWarlord - Yizhou-C Tax+\nBanner - Zhao Yun```")
+    }
+if (args ===`GuanJing || args ===`guanjing || args ===`Guanjing`){
+      message.channel.send("```asciidoc\n[Guan Jing]\nCost - 14\nStat - 36/79/66/63/60\n30lv - Tactics ACC + (15)\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach SPD+\n90lv - Elemental Tactics +% (15)\nPrefect - Master Tax\nWarlord - Bingzhou Tax+\nBanner - Zhao Yun```")
+    }
+if (args ===`YanGang || args ===`yangang || args ===`Yangang`){
+      message.channel.send("```asciidoc\n[Yan Gang]\nCost - 15\nStat - 76/45/69/73/46\n30lv - Good from Evil\n50lv - Reach ATK-\n70lv - AGI Boost % (10)\n90lv - Critical Attack+ (30)\nPrefect - Port\nWarlord - Youzhou Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`ZhaoTong || args ===`zhaotong || args ===`Zhaotong`){
+      message.channel.send("```asciidoc\n[Zhao Tong]\nCost - 16\nStat - 68/65/65/72/85\n30lv - Physical Damage -% (10)\n50lv - Physical Attack +% (12)\n70lv - Reach DEF-\n90lv - First Strike\nPrefect - Stockpile\nWarlord - Yizhou-N Tax+\nBanner - Zhao Yun```")
+    }
+if (args ===`ZhaoGuang || args ===`zhaoguang || args ===`Zhaoguang`){
+      message.channel.send("```asciidoc\n[Zhao Guang]\nCost - 16\nStat - 70/58/72/71/83\n30lv - AGI Boost % (7)\n50lv - DEF Boost (30)\n70lv - % Charge Attack (3)\n90lv - First Strike\nPrefect - Fishery\nWarlord - Yizhou-N Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`LiuDu || args ===`liudu || args ===`Liudu`){
+      message.channel.send("```asciidoc\n[Liu Du]\nCost - 14\nStat - 44/46/38/67/79\n30lv - Physical Damage -% (10)\n50lv - ATK DEF Rate + (20)\n70lv - Reach MRL-\n90lv - Damage Transfer\nPrefect - Farm\nWarlord - Jingzhou-S Tax+\nBanner - Zhao Yun```")
+    }
+if (args ===`NingSui || args ===`ningsui || args ===`Ningsui`){
+      message.channel.send("```asciidoc\n[Ning Sui]\nCost - 14\nStat - 68/78/75/68/74\n30lv - Tactics Damage Reflection % (10)\n50lv - Tactics ACC + (15)\n70lv - Reach ATK+\n90lv - Earth Tactics+ % (20)\nPrefect - Absolute Protection\nWarlord - Yizhou-N Tax+\nBanner - Zhao Yun```")
+    }
+if (args ===`MaLiang || args ===`maliang || args ===`Maliang`){
+      message.channel.send("```asciidoc\n[Ma Liang]\nCost - 17\nStat - 58/89/66/60/79\n30lv - Imitate Tactics\n50lv - Double Tactics +%\n70lv - Reach WIS+\n90lv - Critical Attack Immunity\nPrefect - Market\nWarlord - Jingzhou-S Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`XiahouLan || args ===`xiahoulan || args ===`Xiahoulan`){
+      message.channel.send("```asciidoc\n[Xiahou Lan]\nCost - 14\nStat - 76/67/73/77/71\n30lv - Enhanced Double ATK % (15)\n50lv - Reach WIS-\n70lv - Mounted ATK +% (15)\n90lv - Critical Attack+ (30)\nPrefect - Market\nWarlord - Youzhou Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`FuQian || args ===`fuqian || args ===`Fuqian`){
+      message.channel.send("```asciidoc\n[Fu Qian]\nCost - 19\nStat - 84/72/77/64/83\n30lv - Physical Damage -% (10)\n50lv - Reach AGI-\n70lv - MRL- Attack\n90lv - Reach ATK-\nPrefect - Market\nWarlord - Yizhou-N Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`YinMo || args ===`yinmo || args ===`Yinmo`){
+      message.channel.send("```asciidoc\n[Yin Mo]\nCost - 16\nStat - 26/86/67/62/90\n30lv - Reach Awaken\n50lv - Supply Tactics +% (10)\n70lv - Status Effect Reflection\n90lv - Summon the Four Gods\nPrefect - Fishery\nWarlord - Trader+\nBanner - Zhao Yun```")
+    }
+if (args ===`TianYu || args ===`tianyu || args ===`Tianyu`){
+      message.channel.send("```asciidoc\n[Tian Yu]\nCost - 19\nStat - 72/82/85/76/66\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Critical Attack+ (30)\n90lv - Enhanced Double ATK % (15)\nPrefect - Market\nWarlord - Occupation+\nBanner - Zhao Yun```")
+    }
+if (args ===`TianKai || args ===`tiankai || args ===`Tiankai`){
+      message.channel.send("```asciidoc\n[Tian Kai]\nCost - 14\nStat - 74/70/79/68/77\n30lv - Physical Damage Reflection % (10)\n50lv - Counterattack+\n70lv - MRL- Attack\n90lv - Deadly Poison Attack % (50)\nPrefect - Port\nWarlord - Qingzhou Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`GongsunZan || args ===`gongsunzan || args ===`Gongsunzan`){
+      message.channel.send("```asciidoc\n[Gongsun Zan]\nCost - 19\nStat - 86/66/85/72/70\n30lv - Blind Attack % (15)\n50lv - Good from Evil\n70lv - Mounted ATK +% (15)\n90lv - Penetration Attack\nPrefect - Fruit Grove\nWarlord - Youzhou Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`LuoXian || args ===`luoxian || args ===`Luoxian`){
+      message.channel.send("```asciidoc\n[Luo Xian]\nCost - 19\nStat - 74/82/87/74/65\n30lv - Physical Damage -% (10)\n50lv - Mounted ATK +% (15)\n70lv - Reach DEF-\n90lv - Union\nPrefect - Ration Tax\nWarlord - Yizhou-C Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`LiMing || args ===`liming || args ===`Liming`){
+      message.channel.send("```asciidoc\n[Li Ming]\nCost - 17\nStat - 72/51/66/83/47\n30lv - DEF Boost % (10)\n50lv - Counterattack+\n70lv - Confusion Attack % (15)\n90lv - Oppressive Assault\nPrefect - Silver Coin Tax\nWarlord - Ration Tax+\nBanner - Zhao Yun```")
+    }
+if (args ===`ZhangNi || args ===`zhangni || args ===`Zhangni`){
+      message.channel.send("```asciidoc\n[Zhang Ni]\nCost - 18\nStat - 77/54/81/89/68\n30lv - Tactics Damage -% (10)\n50lv - Self AGI+\n70lv - AGI- Attack\n90lv - Good from Evil\nPrefect - Master Storage\nWarlord - Yizhou-C Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`ZhaoYun || args ===`zhaoyun || args ===`Zhaoyun`){
+      message.channel.send("```asciidoc\n[Zhao Yun]\nCost - 23\nStat - 96/77/92/97/72\n30lv - Ignore Mounted Attack+\n50lv - First Strike\n70lv - Unstoppable\n90lv - Tactics DEF Rate + (20)\nPrefect - Master Storage\nWarlord - Ration Loot+\nBanner - Zhao Yun```")
+    }
+if (args ===`ZhangYang || args ===`zhangyang || args ===`Zhangyang`){
+      message.channel.send("```asciidoc\n[Zhang Yang]\nCost - 16\nStat - 78/68/73/69/54\n30lv - Double Tactics Immunity\n50lv - Physical Attack +% (12)\n70lv - Mounted ATK +% (15)\n90lv - Critical Attack+ (30)\nPrefect - Master Storage\nWarlord - Bingzhou Tax+\nBanner - Sun Jian```")
+    }
+if (args ===`ShiYi || args ===`shiyi || args ===`Shiyi`){
+      message.channel.send("```asciidoc\n[Shi Yi]\nCost - 14\nStat - 64/74/69/52/78\n30lv - Tactics Damage -% (10)\n50lv - Self MRL+\n70lv - Mounted ATK +% (15)\n90lv - Critical Attack+ (30)\nPrefect - Market\nWarlord - Jiaozhou Loot+\nBanner - Sun Jian```")
+    }
+if (args ===`YuanYi || args ===`yuanyi || args ===`Yuanyi`){
+      message.channel.send("```asciidoc\n[Yuan Yi]\nCost - 15\nStat - 66/77/69/70/63\n30lv - Physical Attack +% (12)\n50lv - Poison Attack % (15)\n70lv - Immobilization ATK % (15)\n90lv - ATK- Attack\nPrefect - Market\nWarlord - Jiaozhou Tax+\nBanner - Sun Jian```")
+    }
+if (args ===`SunJing || args ===`sunjing || args ===`Sunjing`){
+      message.channel.send("```asciidoc\n[Sun Jing]\nCost - 15\nStat - 58/74/69/72/72\n30lv - Ignore Mounted Attack+\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - Deadly Poison Attack % (50)\nPrefect - Pottery Works\nWarlord - Scout+\nBanner - Sun Jian```")
+    }
+if (args ===`ZhangXiu || args ===`zhangxiu || args ===`Zhangxiu`){
+      message.channel.send("```asciidoc\n[Zhang Xiu]\nCost - 16\nStat - 56/76/78/73/66\n30lv - Self AGI+\n50lv - Physical Attack +% (12)\n70lv - MRL Boost % (10)\n90lv - ATK- Attack\nPrefect - Treasury\nWarlord - Liangzhou-S Tax+\nBanner - Sun Jian```")
+    }
+if (args ===`ShiXie || args ===`shixie || args ===`Shixie`){
+      message.channel.send("```asciidoc\n[Shi Xie]\nCost - 17\nStat - 58/80/62/52/92\n30lv - Random- Attack\n50lv - Double Tactics Immunity\n70lv - Attack ACC + (17)\n90lv - Self MRL+\nPrefect - Market\nWarlord - Jiaozhou Tax+\nBanner - Sun Jian```")
+    }
+if (args ===`ZhuZhi || args ===`zhuzhi || args ===`Zhuzhi`){
+      message.channel.send("```asciidoc\n[Zhu Zhi]\nCost - 17\nStat - 66/74/81/74/74\n30lv - WIS- Attack\n50lv - Tactics Damage -% (10)\n70lv - Mounted ATK +% (15)\n90lv - ATK Boost % (15)\nPrefect - Fishery\nWarlord - Occupation+\nBanner - Sun Jian```")
+    }
+if (args ===`SunYi || args ===`sunyi || args ===`Sunyi`){
+      message.channel.send("```asciidoc\n[Sun Yi]\nCost - 17\nStat - 79/26/74/87/56\n30lv - MRL Boost % (10)\n50lv - Water Tactics+ % (9)\n70lv - Naval Battle +\n90lv - Silence Attack % (20)\nPrefect - Stockpile\nWarlord - Liangzhou-S Tax+\nBanner - Sun Jian```")
+    }
+if (args ===`ShenRong || args ===`shenrong || args ===`Shenrong`){
+      message.channel.send("```asciidoc\n[Shen Rong]\nCost - 19\nStat - 87/64/80/74/66\n30lv - Reach AGI-\n50lv - All DEF Rate + (7)\n70lv - WIS- Attack\n90lv - Damage Transfer\nPrefect - Tailor\nWarlord - Jizhou Loot+\nBanner - Sun Jian```")
+    }
+if (args ===`SunYu || args ===`sunyu || args ===`Sunyu`){
+      message.channel.send("```asciidoc\n[Sun Yu]\nCost - 18\nStat - 73/72/80/83/70\n30lv - Water Tactics+ % (7)\n50lv - DEF Boost % (13)\n70lv - Naval Battle +\n90lv - Blind Attack % (20)\nPrefect - Lumbermill\nWarlord - Yizhou-C Tax+\nBanner - Sun Jian```")
+    }
+if (args ===`HanDang || args ===`handang || args ===`Handang`){
+      message.channel.send("```asciidoc\n[Han Dang]\nCost - 19\nStat - 85/60/76/64/82\n30lv - Earth Tactics+ % (10)\n50lv - Reach MRL-\n70lv - Naval Battle +\n90lv - Good from Evil\nPrefect - Pig Farm\nWarlord - Liangzhou-N Loot+\nBanner - Sun Jian```")
+    }
+if (args ===`ZuMao || args ===`zumao || args ===`Zumao`){
+      message.channel.send("```asciidoc\n[Zu Mao]\nCost - 18\nStat - 82/62/75/90/60\n30lv - Reach MRL-\n50lv - Earth Tactics+ % (10)\n70lv - DEF Boost % (11)\n90lv - Unstoppable\nPrefect - Farm\nWarlord - Trader+\nBanner - Sun Jian```")
+    }
+if (args ===`SunShangxiang || args ===`sunshangxiang || args ===`Sunshangxiang`){
+      message.channel.send("```asciidoc\n[Sun Shangxiang]\nCost - 21\nStat - 85/68/79/96/78\n30lv - Tactics Damage -% (10)\n50lv - Critical Attack+ (30)\n70lv - Phalanx Strike\n90lv - Critical Attack\nPrefect - Ration Tax\nWarlord - Ration Tax+\nBanner - Sun Jian```")
+    }
+if (args ===`ChengPu || args ===`chengpu || args ===`Chengpu`){
+      message.channel.send("```asciidoc\n[Cheng Pu]\nCost - 19\nStat - 79/79/84/58/93\n30lv - Physical Damage Reflection % (10)\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - HP Boost % (15)\nPrefect - Tailor\nWarlord - Liangzhou-N Loot+\nBanner - Sun Jian```")
+    }
+if (args ===`HuangGai || args ===`huanggai || args ===`Huanggai`){
+      message.channel.send("```asciidoc\n[Huang Gai]\nCost - 20\nStat - 89/70/80/90/54\n30lv - Tactics Damage -% (10)\n50lv - Counterattack+\n70lv - Naval Battle +\n90lv - Good from Evil\nPrefect - Ration Tax\nWarlord - Ration Loot+\nBanner - Sun Jian```")
+    }
+if (args ===`LuDai || args ===`ludai || args ===`Ludai`){
+      message.channel.send("```asciidoc\n[Lu Dai]\nCost - 18\nStat - 77/78/88/85/72\n30lv - Lifesteal Attack % (7)\n50lv - Reach MRL+\n70lv - ATK DEF Rate + (17)\n90lv - MP Attack (10)\nPrefect - Lumbermill\nWarlord - Jiaozhou Loot+\nBanner - Sun Jian```")
+    }
+if (args ===`SunJian || args ===`sunjian || args ===`Sunjian`){
+      message.channel.send("```asciidoc\n[Sun Jian]\nCost - 20\nStat - 90/79/94/77/89\n30lv - Counterattack+\n50lv - DEF- Attack\n70lv - Reach DEF+\n90lv - Union\nPrefect - Ration Tax\nWarlord - Ration Loot+\nBanner - Sun Jian```")
+    }
+if (args ===`LiuQi || args ===`liuqi || args ===`Liuqi`){
+      message.channel.send("```asciidoc\n[Liu Qi]\nCost - 14\nStat - 36/67/59/66/74\n30lv - All DEF Rate + (7)\n50lv - Physical Damage -% (10)\n70lv - Reach ATK-\n90lv - Rage +% (20)\nPrefect - Ration Tax\nWarlord - Jingzhou-N Tax+\nBanner - Pang Tong```")
+    }
+if (args ===`WangCan || args ===`wangcan || args ===`Wangcan`){
+      message.channel.send("```asciidoc\n[Wang Can]\nCost - 15\nStat - 61/85/68/57/68\n30lv - Self MRL+\n50lv - Critical Attack+ (0)\n70lv - Enhanced Double ATK % (15)\n90lv - Double Counter\nPrefect - Farm\nWarlord - Yanzhou Loot+\nBanner - Pang Tong```")
+    }
+if (args ===`JiaoChu || args ===`jiaochu || args ===`Jiaochu`){
+      message.channel.send("```asciidoc\n[Jiao Chu]\nCost - 17\nStat - 79/33/68/55/82\n30lv - Earth Tactics+ % (10)\n50lv - ATK DEF Rate + (20)\n70lv - Ranged DMG -% (10)\n90lv - Expand ATK RNG (7)\nPrefect - Market\nWarlord - Bingzhou Loot+\nBanner - Pang Tong```")
+    }
+if (args ===`Huchuquan || args ===`huchuquan || args ===`Huchuquan`){
+      message.channel.send("```asciidoc\n[Huchuquan]\nCost - 16\nStat - 70/36/72/83/62\n30lv - % Charge Attack (2)\n50lv - Good from Evil\n70lv - AGI Boost % (10)\n90lv - Unstoppable\nPrefect - Pottery Works\nWarlord - Bingzhou Tax+\nBanner - Pang Tong```")
+    }
+if (args ===`TangJi || args ===`tangji || args ===`Tangji`){
+      message.channel.send("```asciidoc\n[Tang Ji]\nCost - 17\nStat - 62/71/56/91/62\n30lv - Reach MRL+\n50lv - Counterattack+\n70lv - Imitate Tactics\n90lv - Lifesteal Attack % (8)\nPrefect - Fruit Grove\nWarlord - Liangzhou-N Loot+\nBanner - Pang Tong```")
+    }
+if (args ===`JinXuan || args ===`jinxuan || args ===`Jinxuan`){
+      message.channel.send("```asciidoc\n[Jin Xuan]\nCost - 14\nStat - 72/16/58/55/61\n30lv - Physical Certain Hit\n50lv - Self AGI+\n70lv - Tactics Damage -% (15)\n90lv - Poison Attack % (20)\nPrefect - Market\nWarlord - Jingzhou-S Loot+\nBanner - Pang Tong```")
+    }
+if (args ===`XiangLang || args ===`xianglang || args ===`Xianglang`){
+      message.channel.send("```asciidoc\n[Xiang Lang]\nCost - 14\nStat - 26/77/66/71/71\n30lv - MP Boost % (10)\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Reach WIS+\nPrefect - Fruit Grove\nWarlord - Jingzhou-S Tax+\nBanner - Pang Tong```")
+    }
+if (args ===`ZhouXin || args ===`zhouxin || args ===`Zhouxin`){
+      message.channel.send("```asciidoc\n[Zhou Xin]\nCost - 16\nStat - 73/76/74/68/78\n30lv - ATK Boost % (10)\n50lv - Reach MRL-\n70lv - AGI- Attack\n90lv - Double ATK Immunity\nPrefect - Fishery\nWarlord - Bingzhou Tax+\nBanner - Pang Tong```")
+    }
+if (args ===`MiZhu || args ===`mizhu || args ===`Mizhu`){
+      message.channel.send("```asciidoc\n[Mi Zhu]\nCost - 15\nStat - 65/81/76/77/83\n30lv - Tactics ACC + (15)\n50lv - Double Tactics +%\n70lv - Double ATK Immunity\n90lv - Status Effect Reflection\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+\nBanner - Pang Tong```")
+    }
+if (args ===`Tadun || args ===`tadun || args ===`Tadun`){
+      message.channel.send("```asciidoc\n[Tadun]\nCost - 18\nStat - 82/60/84/58/66\n30lv - Enhanced Double ATK % (10)\n50lv - % Charge Attack (3)\n70lv - Ignore Mounted Attack+\n90lv - Good from Evil\nPrefect - Treasury\nWarlord - Premium Shop+\nBanner - Pang Tong```")
+    }
+if (args ===`SunQian || args ===`sunqian || args ===`Sunqian`){
+      message.channel.send("```asciidoc\n[Sun Qian]\nCost - 15\nStat - 66/82/76/62/92\n30lv - Supply Tactics +% (8)\n50lv - MP Boost % (15)\n70lv - Double ATK Immunity\n90lv - Summon the Four Gods\nPrefect - Master Storage\nWarlord - Ration Tax+\nBanner - Pang Tong```")
+    }
+if (args ===`KuaiLiang || args ===`kuailiang || args ===`Kuailiang`){
+      message.channel.send("```asciidoc\n[Kuai Liang]\nCost - 17\nStat - 44/88/74/66/78\n30lv - Elemental Tactics +% (5)\n50lv - Tactics ACC + (15)\n70lv - Earth Tactics+ % (15)\n90lv - Summon the Four Gods\nPrefect - Port\nWarlord - Premium Shop+\nBanner - Pang Tong```")
+    }
+if (args ===`JiLing || args ===`jiling || args ===`Jiling`){
+      message.channel.send("```asciidoc\n[Ji Ling]\nCost - 18\nStat - 83/51/78/72/67\n30lv - Ranged DMG -% (10)\n50lv - Physical Damage Reflection % (12)\n70lv - DEF- Attack\n90lv - Second Wind % (25)\nPrefect - Farm\nWarlord - Jingzhou-N Tax+\nBanner - Pang Tong```")
+    }
+if (args ===`LuZhi || args ===`luzhi || args ===`Luzhi`){
+      message.channel.send("```asciidoc\n[Lu Zhi]\nCost - 18\nStat - 54/82/88/77/88\n30lv - Physical Damage -% (10)\n50lv - Double Tactics Immunity\n70lv - Reach WIS-\n90lv - Veteran (35)\nPrefect - Ration Tax\nWarlord - Yongzhou-W Tax+\nBanner - Pang Tong```")
+    }
+if (args ===`KuaiYue || args ===`kuaiyue || args ===`Kuaiyue`){
+      message.channel.send("```asciidoc\n[Kuai Yue]\nCost - 16\nStat - 40/83/76/80/71\n30lv - Tactics Damage Reflection % (10)\n50lv - Interrupt Tactics +% (10)\n70lv - Reach WIS-\n90lv - Status Effect Immunity\nPrefect - Pig Farm\nWarlord - Jingzhou-S Loot+\nBanner - Pang Tong```")
+    }
+if (args ===`LiuBiao || args ===`liubiao || args ===`Liubiao`){
+      message.channel.send("```asciidoc\n[Liu Biao]\nCost - 17\nStat - 68/83/72/67/85\n30lv - Counterattack+\n50lv - AGI Boost % (10)\n70lv - Reach DEF+\n90lv - Leading Attack\nPrefect - Ration Tax\nWarlord - Qingzhou Loot+\nBanner - Pang Tong```")
+    }
+if (args ===`PangTong || args ===`pangtong || args ===`Pangtong`){
+      message.channel.send("```asciidoc\n[Pang Tong]\nCost - 20\nStat - 77/97/89/68/85\n30lv - Reach WIS+\n50lv - Double Tactics\n70lv - Fire Tactics +% (15)\n90lv - Status Effect Reflection\nPrefect - Ration Tax\nWarlord - Battle Ration+\nBanner - Pang Tong```")
+    }
+if (args ===`YanBaihu || args ===`yanbaihu || args ===`Yanbaihu`){
+      message.channel.send("```asciidoc\n[Yan Baihu]\nCost - 14\nStat - 70/23/67/55/83\n30lv - Good from Evil\n50lv - ATK Boost % (13)\n70lv - Self SPD+\n90lv - Expand AoE (4)\nPrefect - Ration Tax\nWarlord - Occupation+\nBanner - Sun Ce```")
+    }
+if (args ===`LingCao || args ===`lingcao || args ===`Lingcao`){
+      message.channel.send("```asciidoc\n[Ling Cao]\nCost - 19\nStat - 84/42/79/87/59\n30lv - MRL Boost % (10)\n50lv - DEF Boost % (13)\n70lv - Naval Battle +\n90lv - Damage Transfer\nPrefect - Market\nWarlord - Qingzhou Loot+\nBanner - Sun Ce```")
+    }
+if (args ===`ChenHeng || args ===`chenheng || args ===`Chenheng`){
+      message.channel.send("```asciidoc\n[Chen Heng]\nCost - 14\nStat - 69/28/67/71/55\n30lv - MRL Boost % (10)\n50lv - Naval Battle +\n70lv - AGI Boost % (10)\n90lv - Tactics DEF Rate + (20)\nPrefect - Fruit Grove\nWarlord - Liangzhou-N Tax+\nBanner - Sun Ce```")
+    }
+if (args ===`ZhugeQiao || args ===`zhugeqiao || args ===`Zhugeqiao`){
+      message.channel.send("```asciidoc\n[Zhuge Qiao]\nCost - 16\nStat - 56/76/80/65/72\n30lv - Tactics Damage -% (10)\n50lv - Double Tactics Immunity\n70lv - Physical Attack +% (12)\n90lv - Reach MRL+\nPrefect - Farm\nWarlord - Trader+\nBanner - Sun Ce```")
+    }
+if (args ===`DongXi || args ===`dongxi || args ===`Dongxi`){
+      message.channel.send("```asciidoc\n[Dong Xi]\nCost - 18\nStat - 85/65/72/73/68\n30lv - Naval Battle +\n50lv - All DEF Rate + (7)\n70lv - Reach WIS-\n90lv - HP Boost % (15)\nPrefect - Stockpile\nWarlord - Liangzhou-N Loot+\nBanner - Sun Ce```")
+    }
+if (args ===`LiuYao || args ===`liuyao || args ===`Liuyao`){
+      message.channel.send("```asciidoc\n[Liu Yao]\nCost - 16\nStat - 72/72/69/50/77\n30lv - Ranged DMG -% (10)\n50lv - Self DEF+\n70lv - MRL- Attack\n90lv - Double ATK Immunity\nPrefect - Treasury\nWarlord - Qingzhou Loot+\nBanner - Sun Ce```")
+    }
+if (args ===`YanYu || args ===`yanyu || args ===`Yanyu`){
+      message.channel.send("```asciidoc\n[Yan Yu]\nCost - 16\nStat - 75/19/62/76/67\n30lv - Blind Attack % (15)\n50lv - Mounted ATK +% (15)\n70lv - Self SPD+\n90lv - Good from Evil\nPrefect - Market\nWarlord - Liangzhou-S Tax+\nBanner - Sun Ce```")
+    }
+if (args ===`XuGong || args ===`xugong || args ===`Xugong`){
+      message.channel.send("```asciidoc\n[Xu Gong]\nCost - 14\nStat - 52/68/67/44/73\n30lv - Interrupt Tactics +% (8)\n50lv - Imitate Tactics\n70lv - Reach AGI-\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Practice Battle+\nBanner - Sun Ce```")
+    }
+if (args ===`Daqiao || args ===`daqiao || args ===`Daqiao`){
+      message.channel.send("```asciidoc\n[Daqiao]\nCost - 19\nStat - 69/80/62/97/86\n30lv - Seduce +% (120)\n50lv - Mental Exhaustion (20)\n70lv - Double Tactics\n90lv - All DEF Rate + (7)\nPrefect - Master Storage\nWarlord - Ration Tax+\nBanner - Sun Ce```")
+    }
+if (args ===`ZhangZhao || args ===`zhangzhao || args ===`Zhangzhao`){
+      message.channel.send("```asciidoc\n[Zhang Zhao]\nCost - 18\nStat - 43/91/66/72/86\n30lv - Elemental Tactics +% (5)\n50lv - Double Tactics +%\n70lv - Tactics ACC + (12)\n90lv - Imitate Tactics\nPrefect - Master Tax\nWarlord - General Tax+\nBanner - Sun Ce```")
+    }
+if (args ===`SunJiao || args ===`sunjiao || args ===`Sunjiao`){
+      message.channel.send("```asciidoc\n[Sun Jiao]\nCost - 16\nStat - 68/75/82/87/65\n30lv - Reach MRL+\n50lv - MP Attack (10)\n70lv - AGI Boost % (10)\n90lv - Forceful Blow\nPrefect - Pig Farm\nWarlord - Trader+\nBanner - Sun Ce```")
+    }
+if (args ===`SunHuan || args ===`sunhuan || args ===`Sunhuan`){
+      message.channel.send("```asciidoc\n[Sun Huan]\nCost - 18\nStat - 77/77/79/68/80\n30lv - HP Boost % (15)\n50lv - Reach DEF+\n70lv - All DEF Rate + (6)\n90lv - Naval Battle +\nPrefect - Master Storage\nWarlord - Liangzhou-S Loot+\nBanner - Sun Ce```")
+    }
+if (args ===`LuFan || args ===`lufan || args ===`Lufan`){
+      message.channel.send("```asciidoc\n[Lu Fan]\nCost - 16\nStat - 62/78/79/72/77\n30lv - Elemental Tactics +% (5)\n50lv - Reach MRL+\n70lv - Tactics DEF Rate + (15)\n90lv - MP Attack (10)\nPrefect - Lumbermill\nWarlord - Jiaozhou Tax+\nBanner - Sun Ce```")
+    }
+if (args ===`WuCan || args ===`wucan || args ===`Wucan`){
+      message.channel.send("```asciidoc\n[Wu Can]\nCost - 15\nStat - 68/78/66/65/87\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - Naval Battle +\n90lv - Double ATK Immunity\nPrefect - Farm\nWarlord - Liangzhou-S Loot+\nBanner - Sun Ce```")
+    }
+if (args ===`QuanCong || args ===`quancong || args ===`Quancong`){
+      message.channel.send("```asciidoc\n[Quan Cong]\nCost - 18\nStat - 72/75/78/69/90\n30lv - Tactics Damage -% (10)\n50lv - Double Tactics Immunity\n70lv - Confusion Attack % (15)\n90lv - WIS- Attack\nPrefect - Market\nWarlord - Liangzhou-N Tax+\nBanner - Sun Ce```")
+    }
+if (args ===`XuSheng || args ===`xusheng || args ===`Xusheng`){
+      message.channel.send("```asciidoc\n[Xu Sheng]\nCost - 19\nStat - 83/80/86/65/84\n30lv - Tactics Damage -% (10)\n50lv - Counterattack+\n70lv - Abnormality ATK % (15)\n90lv - Leading Attack\nPrefect - Tailor\nWarlord - Premium Shop+\nBanner - Sun Ce```")
+    }
+if (args ===`SunShao || args ===`sunshao || args ===`Sunshao`){
+      message.channel.send("```asciidoc\n[Sun Shao]\nCost - 19\nStat - 78/73/83/81/70\n30lv - Counterattack+\n50lv - Interrupt Tactics +% (10)\n70lv - Critical Attack+ (30)\n90lv - Good from Evil\nPrefect - Tailor\nWarlord - Liangzhou-S Loot+\nBanner - Sun Ce```")
+    }
+if (args ===`DingFeng || args ===`dingfeng || args ===`Dingfeng`){
+      message.channel.send("```asciidoc\n[Ding Feng]\nCost - 19\nStat - 80/75/81/90/67\n30lv - Mounted ATK +% (15)\n50lv - Physical Attack +% (12)\n70lv - MRL Boost % (10)\n90lv - DEF- Attack\nPrefect - Ration Tax\nWarlord - Jiaozhou Tax+\nBanner - Sun Ce```")
+    }
+if (args ===`JiangQin || args ===`jiangqin || args ===`Jiangqin`){
+      message.channel.send("```asciidoc\n[Jiang Qin]\nCost - 20\nStat - 86/57/79/91/66\n30lv - Enhanced Double ATK % (10)\n50lv - Naval Battle +\n70lv - DEF Boost % (11)\n90lv - Double Counter\nPrefect - Market\nWarlord - Liangzhou-N Loot+\nBanner - Sun Ce```")
+    }
+if (args ===`ZhuHuan || args ===`zhuhuan || args ===`Zhuhuan`){
+      message.channel.send("```asciidoc\n[Zhu Huan]\nCost - 19\nStat - 84/77/86/66/75\n30lv - WIS- Attack\n50lv - Tactics Damage -% (10)\n70lv - Silence Attack % (15)\n90lv - Forceful Blow\nPrefect - Market\nWarlord - Liangzhou-S Loot+\nBanner - Sun Ce```")
+    }
+if (args ===`SunCe || args ===`sunce || args ===`Sunce`){
+      message.channel.send("```asciidoc\n[Sun Ce]\nCost - 21\nStat - 93/74/96/92/67\n30lv - Reach MRL+\n50lv - Unstoppable\n70lv - ATK- Attack\n90lv - Critical Attack+ (30)\nPrefect - Silver Coin Tax\nWarlord - All Loot+\nBanner - Sun Ce```")
+    }
+if (args ===`WangLang || args ===`wanglang || args ===`Wanglang`){
+      message.channel.send("```asciidoc\n[Wang Lang]\nCost - 15\nStat - 42/84/62/62/73\n30lv - Elemental Tactics +% (5)\n50lv - Double Tactics +%\n70lv - Tactics ACC + (12)\n90lv - Reach WIS+\nPrefect - Fishery\nWarlord - Occupation+\nBanner - Zhou Yu```")
+    }
+if (args ===`SuFei || args ===`sufei || args ===`Sufei`){
+      message.channel.send("```asciidoc\n[Su Fei]\nCost - 16\nStat - 71/66/73/78/65\n30lv - MRL Boost % (10)\n50lv - Naval Battle +\n70lv - AGI Boost % (10)\n90lv - Double Tactics Immunity\nPrefect - Treasury\nWarlord - Jingzhou-S Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`HuaXin || args ===`huaxin || args ===`Huaxin`){
+      message.channel.send("```asciidoc\n[Hua Xin]\nCost - 14\nStat - 42/84/26/46/56\n30lv - Tactics Damage Reflection % (10)\n50lv - Interrupt Tactics +% (10)\n70lv - Physical Damage -% (10)\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Practice Battle+\nBanner - Zhou Yu```")
+    }
+if (args ===`HeQi || args ===`heqi || args ===`Heqi`){
+      message.channel.send("```asciidoc\n[He Qi]\nCost - 18\nStat - 80/72/79/68/74\n30lv - Ranged DMG -% (10)\n50lv - Ignore Mounted Attack+\n70lv - ATK- Attack\n90lv - Critical Attack Immunity\nPrefect - Pottery Works\nWarlord - Jiaozhou Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`XuJing || args ===`xujing || args ===`Xujing`){
+      message.channel.send("```asciidoc\n[Xu Jing]\nCost - 14\nStat - 55/78/74/68/77\n30lv - Reach Awaken\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Ranged DMG -% (20)\nPrefect - Fishery\nWarlord - Liangzhou-N Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`SunJun || args ===`sunjun || args ===`Sunjun`){
+      message.channel.send("```asciidoc\n[Sun Jun]\nCost - 16\nStat - 80/68/72/58/74\n30lv - Ranged DMG -% (10)\n50lv - Ignore Mounted Attack+\n70lv - DEF- Attack\n90lv - HP Boost % (15)\nPrefect - Fruit Grove\nWarlord - Occupation+\nBanner - Zhou Yu```")
+    }
+if (args ===`WuYan || args ===`wuyan || args ===`Wuyan`){
+      message.channel.send("```asciidoc\n[Wu Yan]\nCost - 17\nStat - 72/76/73/61/72\n30lv - Critical Attack+ (30)\n50lv - Enhanced Double ATK % (15)\n70lv - Physical Attack +% (12)\n90lv - Counterattack+\nPrefect - Lumbermill\nWarlord - Liangzhou-S Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`HuangZu || args ===`huangzu || args ===`Huangzu`){
+      message.channel.send("```asciidoc\n[Huang Zu]\nCost - 17\nStat - 69/58/78/82/75\n30lv - Interrupt Tactics +% (8)\n50lv - Good from Evil\n70lv - ATK- Attack\n90lv - Counterattack+\nPrefect - Fruit Grove\nWarlord - Jingzhou-S Tax+\nBanner - Zhou Yu```")
+    }
+if (args ===`BuZhi || args ===`buzhi || args ===`Buzhi`){
+      message.channel.send("```asciidoc\n[Bu Zhi]\nCost - 15\nStat - 60/84/83/76/61\n30lv - Status Effect Reflection\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach WIS-\n90lv - MP Attack (10)\nPrefect - Pig Farm\nWarlord - Xuzhou Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`TanXiong || args ===`tanxiong || args ===`Tanxiong`){
+      message.channel.send("```asciidoc\n[Tan Xiong]\nCost - 16\nStat - 77/39/64/72/82\n30lv - Mounted ATK +% (15)\n50lv - Critical Attack+ (30)\n70lv - Counterattack+\n90lv - MRL- Attack\nPrefect - Farm\nWarlord - Liangzhou-S Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`SunXiu || args ===`sunxiu || args ===`Sunxiu`){
+      message.channel.send("```asciidoc\n[Sun Xiu]\nCost - 15\nStat - 50/81/67/63/88\n30lv - MRL Boost % (7)\n50lv - Reach DEF+\n70lv - Ranged DMG -% (10)\n90lv - Oppressive Assault\nPrefect - Lumbermill\nWarlord - Jiaozhou Tax+\nBanner - Zhou Yu```")
+    }
+if (args ===`KanZe || args ===`kanze || args ===`Kanze`){
+      message.channel.send("```asciidoc\n[Kan Ze]\nCost - 16\nStat - 56/83/72/78/67\n30lv - Attack ACC + (15)\n50lv - Double Tactics Immunity\n70lv - WIS- Attack\n90lv - Double ATK Immunity\nPrefect - Fishery\nWarlord - Qingzhou Tax+\nBanner - Zhou Yu```")
+    }
+if (args ===`PanZhang || args ===`panzhang || args ===`Panzhang`){
+      message.channel.send("```asciidoc\n[Pan Zhang]\nCost - 18\nStat - 80/74/76/64/69\n30lv - Mounted ATK +% (15)\n50lv - Physical Damage -% (10)\n70lv - AGI- Attack\n90lv - Reach DEF+\nPrefect - Farm\nWarlord - Yizhou-N Tax+\nBanner - Zhou Yu```")
+    }
+if (args ===`ZhugeKe || args ===`zhugeke || args ===`Zhugeke`){
+      message.channel.send("```asciidoc\n[Zhuge Ke]\nCost - 17\nStat - 54/92/83/68/74\n30lv - Reach MRL+\n50lv - Naval Battle +\n70lv - Elemental Tactics +% (5)\n90lv - Status Effect Reflection\nPrefect - Ration Tax\nWarlord - Liangzhou-S Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`SunDeng || args ===`sundeng || args ===`Sundeng`){
+      message.channel.send("```asciidoc\n[Sun Deng]\nCost - 17\nStat - 66/79/77/74/84\n30lv - HP Boost % (15)\n50lv - All DEF Rate + (7)\n70lv - Reach MRL-\n90lv - Naval Battle +\nPrefect - Market\nWarlord - Liangzhou-S Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`SunLuyu || args ===`sunluyu || args ===`Sunluyu`){
+      message.channel.send("```asciidoc\n[Sun Luyu]\nCost - 16\nStat - 69/86/84/56/71\n30lv - Summon the Four Gods\n50lv - Tactics Damage Reflection % (10)\n70lv - Water Tactics+ % (15)\n90lv - Status Effect Immunity\nPrefect - Silver Coin Tax\nWarlord - Liangzhou-N Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`Xiaoqiao || args ===`xiaoqiao || args ===`Xiaoqiao`){
+      message.channel.send("```asciidoc\n[Xiaoqiao]\nCost - 18\nStat - 34/86/66/81/92\n30lv - Supply Tactics +% (10)\n50lv - Tactics DEF Rate + (15)\n70lv - Imitate Tactics\n90lv - Summon the Four Gods\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Tax+\nBanner - Zhou Yu```")
+    }
+if (args ===`ZhuRan || args ===`zhuran || args ===`Zhuran`){
+      message.channel.send("```asciidoc\n[Zhu Ran]\nCost - 17\nStat - 74/75/91/78/92\n30lv - Reach MRL+\n50lv - Naval Battle +\n70lv - Water Tactics+ % (8)\n90lv - MP Attack (10)\nPrefect - Ration Tax\nWarlord - Liangzhou-S Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`GanNing || args ===`ganning || args ===`Ganning`){
+      message.channel.send("```asciidoc\n[Gan Ning]\nCost - 23\nStat - 94/76/93/95/69\n30lv - Naval Battle +\n50lv - Guiding Attack\n70lv - Forceful Blow\n90lv - Leading Attack\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+\nBanner - Zhou Yu```")
+    }
+if (args ===`LuSu || args ===`lusu || args ===`Lusu`){
+      message.channel.send("```asciidoc\n[Lu Su]\nCost - 19\nStat - 52/92/84/72/90\n30lv - Tactics ACC + (15)\n50lv - Double Tactics +%\n70lv - Water Tactics+ % (15)\n90lv - Critical Attack Immunity\nPrefect - Farm\nWarlord - Occupation+\nBanner - Zhou Yu```")
+    }
+if (args ===`ZhouYu || args ===`zhouyu || args ===`Zhouyu`){
+      message.channel.send("```asciidoc\n[Zhou Yu]\nCost - 21\nStat - 75/96/95/83/72\n30lv - Elemental Tactics +% (5)\n50lv - Elusive (10)\n70lv - Double Tactics\n90lv - Peerless % (20)\nPrefect - Master Tax\nWarlord - Ration Tax+\nBanner - Zhou Yu```")
+    }
+if (args ===`KingMidang || args ===`kingmidang || args ===`Kingmidang`){
+      message.channel.send("```asciidoc\n[King Midang]\nCost - 14\nStat - 69/31/63/46/66\n30lv - All DEF Rate + (5)\n50lv - Reach DEF-\n70lv - AGI Boost % (10)\n90lv - Forceful Blow\nPrefect - Port\nWarlord - Yongzhou-W Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`CuiYan || args ===`cuiyan || args ===`Cuiyan`){
+      message.channel.send("```asciidoc\n[Cui Yan]\nCost - 16\nStat - 69/82/65/80/58\n30lv - Self AGI+\n50lv - Physical Attack +% (12)\n70lv - Confusion Attack % (15)\n90lv - Unlimited Counterattack\nPrefect - Absolute Protection\nWarlord - Jizhou Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`CheZhou || args ===`chezhou || args ===`Chezhou`){
+      message.channel.send("```asciidoc\n[Che Zhou]\nCost - 14\nStat - 67/52/63/71/59\n30lv - Attack ACC + (15)\n50lv - All DEF Rate + (7)\n70lv - Reach MRL-\n90lv - HP Boost % (15)\nPrefect - Tailor\nWarlord - Xuzhou Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`WangZhong || args ===`wangzhong || args ===`Wangzhong`){
+      message.channel.send("```asciidoc\n[Wang Zhong]\nCost - 14\nStat - 55/65/58/68/71\n30lv - Reach AGI-\n50lv - Physical Damage -% (10)\n70lv - ATK- Attack\n90lv - Reach WIS-\nPrefect - Market\nWarlord - Yuzhou Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`YiJi || args ===`yiji || args ===`Yiji`){
+      message.channel.send("```asciidoc\n[Yi Ji]\nCost - 14\nStat - 38/81/56/72/62\n30lv - Supply Tactics +% (8)\n50lv - Reach Awaken\n70lv - MP Boost % (13)\n90lv - Reach MRL+\nPrefect - Treasury\nWarlord - Qingzhou Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`GongsunKang || args ===`gongsunkang || args ===`Gongsunkang`){
+      message.channel.send("```asciidoc\n[Gongsun Kang]\nCost - 14\nStat - 68/65/79/62/64\n30lv - Enhanced Double ATK % (10)\n50lv - Ignore Mounted Attack+\n70lv - Union\n90lv - Forceful Blow\nPrefect - Farm\nWarlord - Youzhou Loot+\nBanner - Huang Zhong```")
+    }
+if (args ===`ZhaoFan || args ===`zhaofan || args ===`Zhaofan`){
+      message.channel.send("```asciidoc\n[Zhao Fan]\nCost - 14\nStat - 36/35/28/45/71\n30lv - Attack ACC + (15)\n50lv - Self AGI+\n70lv - DEF- Attack\n90lv - Double ATK Immunity\nPrefect - Farm\nWarlord - Jingzhou-S Loot+\nBanner - Huang Zhong```")
+    }
+if (args ===`HanXuan || args ===`hanxuan || args ===`Hanxuan`){
+      message.channel.send("```asciidoc\n[Han Xuan]\nCost - 14\nStat - 22/37/33/44/38\n30lv - Physical Damage -% (10)\n50lv - MRL Boost % (10)\n70lv - Reach MRL-\n90lv - Damage Transfer\nPrefect - Farm\nWarlord - Jingzhou-S Loot+\nBanner - Huang Zhong```")
+    }
+if (args ===`DongHe || args ===`donghe || args ===`Donghe`){
+      message.channel.send("```asciidoc\n[Dong He]\nCost - 16\nStat - 62/83/73/72/66\n30lv - Poison Attack % (15)\n50lv - Physical Attack +% (12)\n70lv - Abnormality ATK % (15)\n90lv - DEF- Attack\nPrefect - Market\nWarlord - Yizhou-C Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`WuLan || args ===`wulan || args ===`Wulan`){
+      message.channel.send("```asciidoc\n[Wu Lan]\nCost - 16\nStat - 80/59/68/72/62\n30lv - Physical Damage -% (10)\n50lv - Attack ACC + (20)\n70lv - Reach ATK-\n90lv - Forceful Blow\nPrefect - Tailor\nWarlord - Yizhou-C Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`GuoYuan || args ===`guoyuan || args ===`Guoyuan`){
+      message.channel.send("```asciidoc\n[Guo Yuan]\nCost - 14\nStat - 28/78/69/72/76\n30lv - Ranged DMG -% (10)\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach WIS+\nPrefect - Market\nWarlord - Qingzhou Loot+\nBanner - Huang Zhong```")
+    }
+if (args ===`ChenDao || args ===`chendao || args ===`Chendao`){
+      message.channel.send("```asciidoc\n[Chen Dao]\nCost - 18\nStat - 82/64/84/68/62\n30lv - Physical Damage Reflection % (10)\n50lv - Physical Damage -% (10)\n70lv - ATK- Attack\n90lv - Guiding Attack\nPrefect - Stockpile\nWarlord - Occupation+\nBanner - Huang Zhong```")
+    }
+if (args ===`ZhangRen || args ===`zhangren || args ===`Zhangren`){
+      message.channel.send("```asciidoc\n[Zhang Ren]\nCost - 20\nStat - 86/78/89/66/94\n30lv - Burn Attack % (50)\n50lv - WIS- Attack\n70lv - Confusion Attack % (30)\n90lv - Critical Attack\nPrefect - Fruit Grove\nWarlord - Yizhou-C Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`ChenGui || args ===`chengui || args ===`Chengui`){
+      message.channel.send("```asciidoc\n[Chen Gui]\nCost - 15\nStat - 26/84/76/53/86\n30lv - Elemental Tactics +% (5)\n50lv - Double Tactics +%\n70lv - Reach DEF+\n90lv - Imitate Tactics\nPrefect - Farm\nWarlord - Xuzhou Loot+\nBanner - Huang Zhong```")
+    }
+if (args ===`ChenDeng || args ===`chendeng || args ===`Chendeng`){
+      message.channel.send("```asciidoc\n[Chen Deng]\nCost - 17\nStat - 70/82/89/68/72\n30lv - Reach MRL+\n50lv - MP Attack (10)\n70lv - AGI Boost % (10)\n90lv - First Strike\nPrefect - Master Storage\nWarlord - Silver Coin Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`FeiYao || args ===`feiyao || args ===`Feiyao`){
+      message.channel.send("```asciidoc\n[Fei Yao]\nCost - 18\nStat - 82/72/79/77/61\n30lv - % Charge Attack (2)\n50lv - Reach ATK-\n70lv - AGI Boost % (10)\n90lv - Status Effect Reflection\nPrefect - Absolute Protection\nWarlord - Yongzhou-E Tax+\nBanner - Huang Zhong```")
+    }
+if (args ===`HuangZhong || args ===`huangzhong || args ===`Huangzhong`){
+      message.channel.send("```asciidoc\n[Huang Zhong]\nCost - 23\nStat - 93/65/90/73/85\n30lv - Phalanx Strike\n50lv - Unlimited Counterattack\n70lv - ATK Boost % (15)\n90lv - Expand AoE (7)\nPrefect - Master Storage\nWarlord - Ration Loot+\nBanner - Huang Zhong```")
+    }
+if (args ===`FanQiang || args ===`fanqiang || args ===`Fanqiang`){
+      message.channel.send("```asciidoc\n[Fan Qiang]\nCost - 14\nStat - 54/32/52/69/66\n30lv - Counterattack+\n50lv - Reach AGI-\n70lv - AGI- Attack\n90lv - Double ATK Immunity\nPrefect - Master Tax\nWarlord - Yizhou-S Tax+\nBanner - Zhang Fei```")
+    }
+if (args ===`ZhangDa || args ===`zhangda || args ===`Zhangda`){
+      message.channel.send("```asciidoc\n[Zhang Da]\nCost - 14\nStat - 55/34/46/56/72\n30lv - Tactics Damage Reflection % (7)\n50lv - Reach DEF+\n70lv - Ranged DMG -% (10)\n90lv - Rage +% (20)\nPrefect - Market\nWarlord - Yizhou-N Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`LiYi || args ===`liyi || args ===`Liyi`){
+      message.channel.send("```asciidoc\n[Li Yi]\nCost - 14\nStat - 78/15/68/72/63\n30lv - Physical Attack +% (12)\n50lv - Enhanced Double ATK % (15)\n70lv - Counterattack+\n90lv - Mounted ATK +% (15)\nPrefect - Stockpile\nWarlord - Trader+\nBanner - Zhang Fei```")
+    }
+if (args ===`ZhaoLei || args ===`zhaolei || args ===`Zhaolei`){
+      message.channel.send("```asciidoc\n[Zhao Lei]\nCost - 16\nStat - 59/72/76/82/70\n30lv - Self MRL+\n50lv - Double Tactics Immunity\n70lv - Silence Attack % (15)\n90lv - Imitate Tactics\nPrefect - Farm\nWarlord - Jingzhou-S Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`LiuGui || args ===`liugui || args ===`Liugui`){
+      message.channel.send("```asciidoc\n[Liu Gui]\nCost - 14\nStat - 72/67/80/78/68\n30lv - % Charge Attack (2)\n50lv - Reach DEF-\n70lv - DEF Boost % (11)\n90lv - Forceful Blow\nPrefect - Fishery\nWarlord - Yizhou-C Tax+\nBanner - Zhang Fei```")
+    }
+if (args ===`LengBao || args ===`lengbao || args ===`Lengbao`){
+      message.channel.send("```asciidoc\n[Leng Bao]\nCost - 14\nStat - 70/62/79/82/61\n30lv - Counterattack+\n50lv - Mounted ATK +% (15)\n70lv - WIS- Attack\n90lv - Reach DEF-\nPrefect - Market\nWarlord - Yizhou-C Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`GaoPei || args ===`gaopei || args ===`Gaopei`){
+      message.channel.send("```asciidoc\n[Gao Pei]\nCost - 14\nStat - 73/27/69/70/58\n30lv - Double Tactics Immunity\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - Reach WIS-\nPrefect - Farm\nWarlord - Yizhou-C Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`YangHuai || args ===`yanghuai || args ===`Yanghuai`){
+      message.channel.send("```asciidoc\n[Yang Huai]\nCost - 14\nStat - 71/72/68/69/65\n30lv - Physical Damage Reflection % (10)\n50lv - All DEF Rate + (7)\n70lv - Reach DEF-\n90lv - Tactics DEF Rate + (20)\nPrefect - Fishery\nWarlord - Yizhou-C Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`LiYan || args ===`liyan || args ===`Liyan`){
+      message.channel.send("```asciidoc\n[Li Yan]\nCost - 19\nStat - 82/79/87/67/74\n30lv - Reach AGI-\n50lv - Mounted ATK +% (15)\n70lv - WIS- Attack\n90lv - Expand AoE (7)\nPrefect - Farm\nWarlord - Yizhou-S Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`FengXi || args ===`fengxi || args ===`Fengxi`){
+      message.channel.send("```asciidoc\n[Feng Xi]\nCost - 17\nStat - 68/45/77/61/79\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach ATK-\n90lv - Damage Transfer\nPrefect - Stockpile\nWarlord - Liangzhou-N Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`FaZheng || args ===`fazheng || args ===`Fazheng`){
+      message.channel.send("```asciidoc\n[Fa Zheng]\nCost - 19\nStat - 47/94/82/62/79\n30lv - Summon the Four Gods\n50lv - Double Tactics +%\n70lv - Offensive Tactics +% (10)\n90lv - Double ATK Immunity\nPrefect - Farm\nWarlord - Yizhou-C Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`LeiTong || args ===`leitong || args ===`Leitong`){
+      message.channel.send("```asciidoc\n[Lei Tong]\nCost - 16\nStat - 79/63/69/86/67\n30lv - Counterattack+\n50lv - Tactics Damage -% (10)\n70lv - Good from Evil\n90lv - Union\nPrefect - Fishery\nWarlord - Practice Battle+\nBanner - Zhang Fei```")
+    }
+if (args ===`ZhangHua || args ===`zhanghua || args ===`Zhanghua`){
+      message.channel.send("```asciidoc\n[Zhang Hua]\nCost - 15\nStat - 34/80/67/66/72\n30lv - Supply Tactics +% (8)\n50lv - Ranged DMG -% (10)\n70lv - Reach ATK+\n90lv - Status Effect Immunity\nPrefect - Stockpile\nWarlord - Youzhou Tax+\nBanner - Zhang Fei```")
+    }
+if (args ===`WuBan || args ===`wuban || args ===`Wuban`){
+      message.channel.send("```asciidoc\n[Wu Ban]\nCost - 18\nStat - 77/59/80/88/56\n30lv - HP Boost % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach WIS-\n90lv - Leading Attack\nPrefect - Absolute Protection\nWarlord - Yizhou-C Tax+\nBanner - Zhang Fei```")
+    }
+if (args ===`YanYan || args ===`yanyan || args ===`Yanyan`){
+      message.channel.send("```asciidoc\n[Yan Yan]\nCost - 18\nStat - 83/72/82/57/67\n30lv - Physical Damage Reflection % (10)\n50lv - Physical Damage -% (10)\n70lv - Random- Attack\n90lv - Expand AoE (7)\nPrefect - Stockpile\nWarlord - Yizhou-C Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`HuangQuan || args ===`huangquan || args ===`Huangquan`){
+      message.channel.send("```asciidoc\n[Huang Quan]\nCost - 16\nStat - 69/83/76/71/76\n30lv - Naval Battle +\n50lv - Double Tactics Immunity\n70lv - AGI Boost % (10)\n90lv - MP Attack (10)\nPrefect - Farm\nWarlord - Yizhou-C Tax+\nBanner - Zhang Fei```")
+    }
+if (args ===`ZhangXingcai || args ===`zhangxingcai || args ===`Zhangxingcai`){
+      message.channel.send("```asciidoc\n[Zhang Xingcai]\nCost - 21\nStat - 86/55/81/92/63\n30lv - Terrain Effect +\n50lv - Physical Attack +% (12)\n70lv - Infinite Guiding Attack\n90lv - Unstoppable\nPrefect - Ration Tax\nWarlord - Silver Coin Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`ZhangBao || args ===`zhangbao || args ===`Zhangbao`){
+      message.channel.send("```asciidoc\n[Zhang Bao]\nCost - 19\nStat - 87/48/78/81/70\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Lifesteal Attack % (7)\n90lv - Reach ATK-\nPrefect - Ration Tax\nWarlord - Occupation+\nBanner - Zhang Fei```")
+    }
+if (args ===`GuanYinping || args ===`guanyinping || args ===`Guanyinping`){
+      message.channel.send("```asciidoc\n[Guan Yinping]\nCost - 20\nStat - 84/75/79/63/88\n30lv - Double Tactics Immunity\n50lv - Double Counter\n70lv - DEF- Attack\n90lv - Oppressive Assault\nPrefect - Silver Coin Tax\nWarlord - Ration Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`WuYi || args ===`wuyi || args ===`Wuyi`){
+      message.channel.send("```asciidoc\n[Wu Yi]\nCost - 19\nStat - 79/70/83/84/52\n30lv - Counterattack+\n50lv - Tactics Damage -% (10)\n70lv - Good from Evil\n90lv - Union\nPrefect - Silver Coin Tax\nWarlord - Yizhou-N Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`ZhangFei || args ===`zhangfei || args ===`Zhangfei`){
+      message.channel.send("```asciidoc\n[Zhang Fei]\nCost - 23\nStat - 98/46/94/91/67\n30lv - Enhanced Double ATK % (15)\n50lv - Unstoppable\n70lv - Desperate Attack\n90lv - Rage +% (20)\nPrefect - Ration Tax\nWarlord - All Loot+\nBanner - Zhang Fei```")
+    }
+if (args ===`YangSong || args ===`yangsong || args ===`Yangsong`){
+      message.channel.send("```asciidoc\n[Yang Song]\nCost - 14\nStat - 25/38/22/34/55\n30lv - Enhanced Double ATK % (15)\n50lv - Double Tactics Immunity\n70lv - Attack ACC + (17)\n90lv - AGI- Attack\nPrefect - Master Tax\nWarlord - Trader+\nBanner - Ma Chao```")
+    }
+if (args ===`YangHong || args ===`yanghong || args ===`Yanghong`){
+      message.channel.send("```asciidoc\n[Yang Hong]\nCost - 14\nStat - 46/76/56/42/62\n30lv - Self AGI+\n50lv - Physical Certain Hit\n70lv - Ranged DMG -% (10)\n90lv - Poison Attack % (20)\nPrefect - Port\nWarlord - Jingzhou-N Tax+\nBanner - Ma Chao```")
+    }
+if (args ===`HanFu || args ===`hanfu || args ===`Hanfu`){
+      message.channel.send("```asciidoc\n[Han Fu]\nCost - 14\nStat - 42/63/52/36/84\n30lv - ATK DEF Rate + (15)\n50lv - Physical Damage -% (10)\n70lv - Reach MRL-\n90lv - Veteran (35)\nPrefect - Tailor\nWarlord - Scout+\nBanner - Ma Chao```")
+    }
+if (args ===`ZhangSong || args ===`zhangsong || args ===`Zhangsong`){
+      message.channel.send("```asciidoc\n[Zhang Song]\nCost - 15\nStat - 23/90/32/81/59\n30lv - Elemental Tactics +% (5)\n50lv - Tactics ACC + (15)\n70lv - Earth Tactics+ % (15)\n90lv - Imitate Tactics\nPrefect - Pig Farm\nWarlord - Yizhou-N Tax+\nBanner - Ma Chao```")
+    }
+if (args ===`WangFu || args ===`wangfu || args ===`Wangfu`){
+      message.channel.send("```asciidoc\n[Wang Fu]\nCost - 14\nStat - 58/84/76/54/60\n30lv - All DEF Rate + (5)\n50lv - Reach DEF+\n70lv - Supply Tactics +% (9)\n90lv - Ranged DMG -% (20)\nPrefect - Farm\nWarlord - Yizhou-N Loot+\nBanner - Ma Chao```")
+    }
+if (args ===`MaDai || args ===`madai || args ===`Madai`){
+      message.channel.send("```asciidoc\n[Ma Dai]\nCost - 18\nStat - 85/56/79/56/62\n30lv - % Charge Attack (2)\n50lv - Mounted ATK +% (15)\n70lv - ATK Boost % (11)\n90lv - Reversal\nPrefect - Port\nWarlord - Yongzhou-W Tax+\nBanner - Ma Chao```")
+    }
+if (args ===`YangFu || args ===`yangfu || args ===`Yangfu`){
+      message.channel.send("```asciidoc\n[Yang Fu]\nCost - 17\nStat - 69/81/79/64/82\n30lv - Physical Damage Reflection % (10)\n50lv - Self DEF+\n70lv - AGI- Attack\n90lv - Rage +% (20)\nPrefect - Market\nWarlord - Yongzhou-E Tax+\nBanner - Ma Chao```")
+    }
+if (args ===`LiHui || args ===`lihui || args ===`Lihui`){
+      message.channel.send("```asciidoc\n[Li Hui]\nCost - 15\nStat - 68/76/81/69/75\n30lv - Supply Tactics +% (8)\n50lv - MP Boost % (15)\n70lv - Reach AGI+\n90lv - Status Effect Immunity\nPrefect - Pig Farm\nWarlord - Yizhou-S Loot+\nBanner - Ma Chao```")
+    }
+if (args ===`MaXiu || args ===`maxiu || args ===`Maxiu`){
+      message.channel.send("```asciidoc\n[Ma Xiu]\nCost - 16\nStat - 75/48/72/77/68\n30lv - Phalanx Strike\n50lv - Counterattack+\n70lv - Immobilization ATK % (15)\n90lv - Forceful Blow\nPrefect - Market\nWarlord - Yongzhou-W Tax+\nBanner - Ma Chao```")
+    }
+if (args ===`ChengGongying || args ===`chenggongying || args ===`Chenggongying`){
+      message.channel.send("```asciidoc\n[Cheng Gongying]\nCost - 16\nStat - 69/80/78/74/62\n30lv - Tactics Damage Reflection % (7)\n50lv - DEF Boost (30)\n70lv - Reach DEF-\n90lv - % Charge Attack (4)\nPrefect - Pottery Works\nWarlord - Occupation+\nBanner - Ma Chao```")
+    }
+if (args ===`MaYaoji || args ===`mayaoji || args ===`Mayaoji`){
+      message.channel.send("```asciidoc\n[Ma Yaoji]\nCost - 17\nStat - 79/62/70/85/68\n30lv - Double Tactics Immunity\n50lv - Rage +% (20)\n70lv - Physical Attack +% (12)\n90lv - Double ATK Immunity\nPrefect - Market\nWarlord - Yongzhou-W Tax+\nBanner - Ma Chao```")
+    }
+if (args ===`YanXing || args ===`yanxing || args ===`Yanxing`){
+      message.channel.send("```asciidoc\n[Yan Xing]\nCost - 19\nStat - 88/38/73/72/79\n30lv - DEF Boost (25)\n50lv - Reach DEF-\n70lv - ATK Boost % (11)\n90lv - % Charge Attack (4)\nPrefect - Fruit Grove\nWarlord - Yongzhou-E Loot+\nBanner - Ma Chao```")
+    }
+if (args ===`MaTeng || args ===`mateng || args ===`Mateng`){
+      message.channel.send("```asciidoc\n[Ma Teng]\nCost - 19\nStat - 85/57/83/72/67\n30lv - Physical Damage -% (7)\n50lv - DEF Boost (30)\n70lv - % Charge Attack (3)\n90lv - Oppressive Assault\nPrefect - Fruit Grove\nWarlord - Premium Shop+\nBanner - Ma Chao```")
+    }
+if (args ===`WangYi || args ===`wangyi || args ===`Wangyi`){
+      message.channel.send("```asciidoc\n[Wang Yi]\nCost - 18\nStat - 71/85/86/82/66\n30lv - Double Tactics Immunity\n50lv - Surprise Attack (3)\n70lv - % Charge Attack (3)\n90lv - Penetration Attack\nPrefect - Ration Tax\nWarlord - Ration Tax+\nBanner - Ma Chao```")
+    }
+if (args ===`HanSui || args ===`hansui || args ===`Hansui`){
+      message.channel.send("```asciidoc\n[Han Sui]\nCost - 18\nStat - 75/82/81/61/73\n30lv - % Charge Attack (2)\n50lv - Reach DEF-\n70lv - DEF Boost % (11)\n90lv - Reversal\nPrefect - Lumbermill\nWarlord - Yongzhou-W Loot+\nBanner - Ma Chao```")
+    }
+if (args ===`MaYunlu || args ===`mayunlu || args ===`Mayunlu`){
+      message.channel.send("```asciidoc\n[Ma Yunlu]\nCost - 16\nStat - 83/46/73/62/65\n30lv - Critical Attack+ (30)\n50lv - Phalanx Strike\n70lv - Enhanced Double ATK % (15)\n90lv - Leading Attack\nPrefect - Master Storage\nWarlord - Silver Coin Loot+\nBanner - Ma Chao```")
+    }
+if (args ===`MaChao || args ===`machao || args ===`Machao`){
+      message.channel.send("```asciidoc\n[Ma Chao]\nCost - 23\nStat - 97/46/93/71/82\n30lv - Rage +% (20)\n50lv - Penetration Attack\n70lv - Unstoppable\n90lv - ATK DEF Rate + (30)\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+\nBanner - Ma Chao```")
+    }
+if (args ===`YanJun || args ===`yanjun || args ===`Yanjun`){
+      message.channel.send("```asciidoc\n[Yan Jun]\nCost - 16\nStat - 56/84/71/76/55\n30lv - Physical Attack +% (12)\n50lv - Tactics DEF Rate + (15)\n70lv - Immobilization ATK % (15)\n90lv - DEF- Attack\nPrefect - Silver Coin Tax\nWarlord - Xuzhou Loot+\nBanner - Demon```")
+    }
+if (args ===`YueJiu || args ===`yuejiu || args ===`Yuejiu`){
+      message.channel.send("```asciidoc\n[Yue Jiu]\nCost - 14\nStat - 69/58/56/79/55\n30lv - Tactics Damage -% (10)\n50lv - Good from Evil\n70lv - DEF- Attack\n90lv - Blind Attack % (20)\nPrefect - Stockpile\nWarlord - Xuzhou Loot+\nBanner - Demon```")
+    }
+if (args ===`XunChen || args ===`xunchen || args ===`Xunchen`){
+      message.channel.send("```asciidoc\n[Xun Chen]\nCost - 14\nStat - 28/78/45/62/72\n30lv - Imitate Tactics\n50lv - Interrupt Tactics +% (10)\n70lv - Reach ATK-\n90lv - Status Effect Immunity\nPrefect - Silver Coin Tax\nWarlord - Occupation+\nBanner - Demon```")
+    }
+if (args ===`ChenJiao || args ===`chenjiao || args ===`Chenjiao`){
+      message.channel.send("```asciidoc\n[Chen Jiao]\nCost - 16\nStat - 54/80/58/62/77\n30lv - Self AGI+\n50lv - Double Tactics Immunity\n70lv - Attack ACC + (17)\n90lv - Double ATK Immunity\nPrefect - Fruit Grove\nWarlord - Xuzhou Loot+\nBanner - Demon```")
+    }
+if (args ===`ZhangJi || args ===`zhangji || args ===`Zhangji`){
+      message.channel.send("```asciidoc\n[Zhang Ji]\nCost - 14\nStat - 67/55/70/73/67\n30lv - Reach WIS-\n50lv - Enhanced Double ATK % (15)\n70lv - Physical Attack +% (12)\n90lv - Mounted ATK +% (15)\nPrefect - Master Tax\nWarlord - Yongzhou-W Loot+\nBanner - Demon```")
+    }
+if (args ===`CaoShuang || args ===`caoshuang || args ===`Caoshuang`){
+      message.channel.send("```asciidoc\n[Cao Shuang]\nCost - 14\nStat - 69/63/71/61/71\n30lv - AGI Boost % (10)\n50lv - Counterattack+\n70lv - Reach ATK+\n90lv - Status Effect Reflection\nPrefect - Farm\nWarlord - Qingzhou Tax+\nBanner - Demon```")
+    }
+if (args ===`CaiZhong || args ===`caizhong || args ===`Caizhong`){
+      message.channel.send("```asciidoc\n[Cai Zhong]\nCost - 14\nStat - 47/13/44/42/55\n30lv - Physical Damage -% (10)\n50lv - Reach AGI-\n70lv - AGI- Attack\n90lv - Naval Battle +\nPrefect - Pottery Works\nWarlord - Yizhou-S Loot+\nBanner - Demon```")
+    }
+if (args ===`CaiHe || args ===`caihe || args ===`Caihe`){
+      message.channel.send("```asciidoc\n[Cai He]\nCost - 14\nStat - 51/15/42/62/33\n30lv - Naval Battle +\n50lv - Water Tactics+ % (9)\n70lv - DEF Boost % (11)\n90lv - Deadly Poison Attack % (50)\nPrefect - Farm\nWarlord - Qingzhou Loot+\nBanner - Demon```")
+    }
+if (args ===`JiaKui || args ===`jiakui || args ===`Jiakui`){
+      message.channel.send("```asciidoc\n[Jia Kui]\nCost - 15\nStat - 71/84/65/58/83\n30lv - Interrupt Tactics +% (8)\n50lv - Status Effect Reflection\n70lv - HP Boost % (15)\n90lv - Summon the Four Gods\nPrefect - Farm\nWarlord - Practice Battle+\nBanner - Demon```")
+    }
+if (args ===`XiahouDe || args ===`xiahoude || args ===`Xiahoude`){
+      message.channel.send("```asciidoc\n[Xiahou De]\nCost - 14\nStat - 72/59/68/81/62\n30lv - Ignore Mounted Attack+\n50lv - Good from Evil\n70lv - AGI Boost % (10)\n90lv - Enhanced Double ATK % (15)\nPrefect - Tailor\nWarlord - Bingzhou Tax+\nBanner - Demon```")
+    }
+if (args ===`DingYuan || args ===`dingyuan || args ===`Dingyuan`){
+      message.channel.send("```asciidoc\n[Ding Yuan]\nCost - 18\nStat - 79/45/75/87/69\n30lv - Reach ATK-\n50lv - Good from Evil\n70lv - Forceful Blow\n90lv - Leading Attack\nPrefect - Market\nWarlord - Bingzhou Tax+\nBanner - Demon```")
+    }
+if (args ===`XuMiao || args ===`xumiao || args ===`Xumiao`){
+      message.channel.send("```asciidoc\n[Xu Miao]\nCost - 15\nStat - 63/81/77/71/66\n30lv - Tactics Damage -% (10)\n50lv - Self MRL+\n70lv - MRL Boost % (10)\n90lv - WIS- Attack\nPrefect - Market\nWarlord - Youzhou Loot+\nBanner - Demon```")
+    }
+if (args ===`LiuShao || args ===`liushao || args ===`Liushao`){
+      message.channel.send("```asciidoc\n[Liu Shao]\nCost - 14\nStat - 58/82/71/68/72\n30lv - Ranged DMG -% (7)\n50lv - Reach DEF+\n70lv - All DEF Rate + (6)\n90lv - Tactics DEF Rate + (20)\nPrefect - Market\nWarlord - Premium Shop+\nBanner - Demon```")
+    }
+if (args ===`YanRou || args ===`yanrou || args ===`Yanrou`){
+      message.channel.send("```asciidoc\n[Yan Rou]\nCost - 17\nStat - 68/72/71/74/74\n30lv - Enhanced Double ATK % (15)\n50lv - Reach WIS-\n70lv - Physical Damage -% (10)\n90lv - Ranged DMG -% (10)\nPrefect - Master Storage\nWarlord - Yongzhou-E Tax+\nBanner - Demon```")
+    }
+if (args ===`CaoJie || args ===`caojie || args ===`Caojie`){
+      message.channel.send("```asciidoc\n[Cao Jie]\nCost - 18\nStat - 64/82/82/85/66\n30lv - Lifesteal Attack % (7)\n50lv - Counterattack+\n70lv - Double Counter\n90lv - Critical Attack\nPrefect - Silver Coin Tax\nWarlord - Premium Shop+\nBanner - Demon```")
+    }
+if (args ===`WenHui || args ===`wenhui || args ===`Wenhui`){
+      message.channel.send("```asciidoc\n[Wen Hui]\nCost - 16\nStat - 59/84/78/55/78\n30lv - MRL- Attack\n50lv - Tactics Damage -% (10)\n70lv - MRL Boost % (10)\n90lv - ATK Boost % (15)\nPrefect - Absolute Protection\nWarlord - Bingzhou Tax+\nBanner - Demon```")
+    }
+if (args ===`ZhouCang || args ===`zhoucang || args ===`Zhoucang`){
+      message.channel.send("```asciidoc\n[Zhou Cang]\nCost - 19\nStat - 87/42/68/68/84\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - Good from Evil\n90lv - Forceful Blow\nPrefect - Ration Tax\nWarlord - Ration Loot+\nBanner - Demon```")
+    }
+if (args ===`Huche'er || args ===`huche'er || args ===`Huche'Er`){
+      message.channel.send("```asciidoc\n[Huche'er]\nCost - 19\nStat - 85/45/70/92/69\n30lv - Interrupt Tactics +% (8)\n50lv - Tactics Damage -% (10)\n70lv - DEF- Attack\n90lv - Good from Evil\nPrefect - Farm\nWarlord - Yongzhou-W Loot+\nBanner - Demon```")
+    }
+if (args ===`WeiYan || args ===`weiyan || args ===`Weiyan`){
+      message.channel.send("```asciidoc\n[Wei Yan]\nCost - 21\nStat - 94/73/85/91/66\n30lv - Counterattack+\n50lv - SPD- Attack\n70lv - Good from Evil\n90lv - Reversal\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+\nBanner - Demon```")
+    }
+if (args ===`ZhangXiu || args ===`zhangxiu || args ===`Zhangxiu`){
+      message.channel.send("```asciidoc\n[Zhang Xiu]\nCost - 16\nStat - 75/64/80/78/61\n30lv - Reach MRL+\n50lv - Counterattack+\n70lv - Critical Attack+ (30)\n90lv - Terrain Effect +\nPrefect - Fruit Grove\nWarlord - Yizhou-N Loot+\nBanner - Demon```")
+    }
+if (args ===`ZhugeLiang || args ===`zhugeliang || args ===`Zhugeliang`){
+      message.channel.send("```asciidoc\n[Zhuge Liang]\nCost - 22\nStat - 34/100/98/77/96\n30lv - Double Tactics +%\n50lv - Ignore Tactics Weather\n70lv - Lifesteal Attack % (7)\n90lv - Seduce ACC + (20)\nPrefect - Master Tax\nWarlord - All Loot+\nBanner - Demon```")
+    }
+if (args ===`EheShaoge || args ===`eheshaoge || args ===`Eheshaoge`){
+      message.channel.send("```asciidoc\n[Ehe Shaoge]\nCost - 15\nStat - 78/12/61/56/68\n30lv - Reach DEF-\n50lv - ATK DEF Rate + (20)\n70lv - DEF Boost % (11)\n90lv - Forceful Blow\nPrefect - Market\nWarlord - Practice Battle+\nBanner - Meng Huo```")
+    }
+if (args ===`YongKai || args ===`yongkai || args ===`Yongkai`){
+      message.channel.send("```asciidoc\n[Yong Kai]\nCost - 15\nStat - 72/59/78/62/52\n30lv - All DEF Rate + (7)\n50lv - Physical Damage -% (10)\n70lv - Reach DEF-\n90lv - HP Boost % (15)\nPrefect - Tailor\nWarlord - Yizhou-S Tax+\nBanner - Meng Huo```")
+    }
+if (args ===`DailaiDongzhu || args ===`dailaidongzhu || args ===`Dailaidongzhu`){
+      message.channel.send("```asciidoc\n[Dailai Dongzhu]\nCost - 14\nStat - 62/55/61/63/72\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - AGI- Attack\n90lv - Guiding Attack\nPrefect - Port\nWarlord - Scout+\nBanner - Meng Huo```")
+    }
+if (args ===`GaoDing || args ===`gaoding || args ===`Gaoding`){
+      message.channel.send("```asciidoc\n[Gao Ding]\nCost - 14\nStat - 69/38/65/66/72\n30lv - Physical Damage -% (10)\n50lv - Reach DEF+\n70lv - HP Boost % (15)\n90lv - Tactics DEF Rate + (20)\nPrefect - Market\nWarlord - Yizhou-S Tax+\nBanner - Meng Huo```")
+    }
+if (args ===`AhuiNan || args ===`ahuinan || args ===`Ahuinan`){
+      message.channel.send("```asciidoc\n[Ahui Nan]\nCost - 14\nStat - 75/33/66/71/78\n30lv - Critical Attack+ (30)\n50lv - Reach WIS-\n70lv - Reach MRL+\n90lv - Ignore Mounted Attack+\nPrefect - Silver Coin Tax\nWarlord - Yizhou-S Tax+\nBanner - Meng Huo```")
+    }
+if (args ===`XiNi || args ===`xini || args ===`Xini`){
+      message.channel.send("```asciidoc\n[Xi Ni]\nCost - 14\nStat - 80/40/69/67/80\n30lv - Mounted ATK +% (15)\n50lv - Reach AGI-\n70lv - DEF- Attack\n90lv - Self SPD+\nPrefect - Absolute Protection\nWarlord - Yizhou-S Tax+\nBanner - Meng Huo```")
+    }
+if (args ===`HuaMan || args ===`huaman || args ===`Huaman`){
+      message.channel.send("```asciidoc\n[Hua Man]\nCost - 18\nStat - 75/57/68/89/66\n30lv - Counterattack+\n50lv - Reach AGI+\n70lv - Good from Evil\n90lv - Leading Attack\nPrefect - Fruit Grove\nWarlord - Trader+\nBanner - Meng Huo```")
+    }
+if (args ===`JinhuanSanjie || args ===`jinhuansanjie || args ===`Jinhuansanjie`){
+      message.channel.send("```asciidoc\n[Jinhuan Sanjie]\nCost - 16\nStat - 80/19/69/77/55\n30lv - Reach AGI+\n50lv - HP Boost % (15)\n70lv - Deadly Poison Attack % (50)\n90lv - First Strike\nPrefect - Fishery\nWarlord - Yizhou-S Tax+\nBanner - Meng Huo```")
+    }
+if (args ===`KingDuosi || args ===`kingduosi || args ===`Kingduosi`){
+      message.channel.send("```asciidoc\n[King Duosi]\nCost - 14\nStat - 58/75/32/78/85\n30lv - Interrupt Tactics +% (8)\n50lv - Status Effect Reflection\n70lv - Reach DEF-\n90lv - MP Attack (10)\nPrefect - Pottery Works\nWarlord - Premium Shop+\nBanner - Meng Huo```")
+    }
+if (args ===`MangYachang || args ===`mangyachang || args ===`Mangyachang`){
+      message.channel.send("```asciidoc\n[Mang Yachang]\nCost - 14\nStat - 81/22/55/81/69\n30lv - Physical Damage -% (7)\n50lv - Ignore Mounted Attack+\n70lv - DEF Boost % (11)\n90lv - Deadly Poison Attack % (50)\nPrefect - Fishery\nWarlord - Yizhou-S Tax+\nBanner - Meng Huo```")
+    }
+if (args ===`Zhurong || args ===`zhurong || args ===`Zhurong`){
+      message.channel.send("```asciidoc\n[Zhurong]\nCost - 19\nStat - 85/39/74/93/63\n30lv - Reach ATK+\n50lv - Attack Stat Switch\n70lv - Reach SPD+\n90lv - Elusive (10)\nPrefect - Ration Tax\nWarlord - Ration Tax+\nBanner - Meng Huo```")
+    }
+if (args ===`MengYou || args ===`mengyou || args ===`Mengyou`){
+      message.channel.send("```asciidoc\n[Meng You]\nCost - 14\nStat - 76/58/67/74/82\n30lv - HP Boost % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach MRL-\n90lv - Double Counter\nPrefect - Fishery\nWarlord - Occupation+\nBanner - Meng Huo```")
+    }
+if (args ===`KingWutugu || args ===`kingwutugu || args ===`Kingwutugu`){
+      message.channel.send("```asciidoc\n[King Wutugu]\nCost - 19\nStat - 89/24/72/88/56\n30lv - HP Boost % (15)\n50lv - Tactics Damage -% (10)\n70lv - Reach ATK-\n90lv - Deadly Poison Attack % (50)\nPrefect - Absolute Protection\nWarlord - Trader+\nBanner - Meng Huo```")
+    }
+if (args ===`DongTuna || args ===`dongtuna || args ===`Dongtuna`){
+      message.channel.send("```asciidoc\n[Dong Tuna]\nCost - 16\nStat - 78/33/69/66/88\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - Confusion Attack % (15)\n90lv - Deadly Poison Attack % (50)\nPrefect - Farm\nWarlord - Yizhou-S Tax+\nBanner - Meng Huo```")
+    }
+if (args ===`KingMulu || args ===`kingmulu || args ===`Kingmulu`){
+      message.channel.send("```asciidoc\n[King Mulu]\nCost - 16\nStat - 71/28/73/61/88\n30lv - HP Boost % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach DEF-\n90lv - Double Counter\nPrefect - Market\nWarlord - Yizhou-S Loot+\nBanner - Meng Huo```")
+    }
+if (args ===`Shamoke || args ===`shamoke || args ===`Shamoke`){
+      message.channel.send("```asciidoc\n[Shamoke]\nCost - 17\nStat - 85/28/66/77/68\n30lv - Reach AGI+\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - Penetration Attack\nPrefect - Treasury\nWarlord - Jingzhou-S Loot+\nBanner - Meng Huo```")
+    }
+if (args ===`MengHuo || args ===`menghuo || args ===`Menghuo`){
+      message.channel.send("```asciidoc\n[Meng Huo]\nCost - 21\nStat - 87/42/83/73/79\n30lv - Reach AGI+\n50lv - Deadly Poison Attack % (50)\n70lv - Unstoppable\n90lv - % Charge Attack (4)\nPrefect - Master Storage\nWarlord - Silver Coin Loot+\nBanner - Meng Huo```")
+    }
+if (args ===`TaoQian || args ===`taoqian || args ===`Taoqian`){
+      message.channel.send("```asciidoc\n[Tao Qian]\nCost - 14\nStat - 74/72/64/64/56\n30lv - Enhanced Double ATK % (15)\n50lv - Critical Attack+ (30)\n70lv - Reach WIS+\n90lv - Union\nPrefect - Market\nWarlord - Liangzhou-N Tax+\nBanner - Liu Bei```")
+    }
+if (args ===`LiuFeng || args ===`liufeng || args ===`Liufeng`){
+      message.channel.send("```asciidoc\n[Liu Feng]\nCost - 17\nStat - 79/57/75/68/60\n30lv - All DEF Rate + (7)\n50lv - Physical Damage -% (10)\n70lv - Reach WIS-\n90lv - Leading Attack\nPrefect - Port\nWarlord - Occupation+\nBanner - Liu Bei```")
+    }
+if (args ===`LiuZhang || args ===`liuzhang || args ===`Liuzhang`){
+      message.channel.send("```asciidoc\n[Liu Zhang]\nCost - 14\nStat - 36/63/51/73/89\n30lv - Counterattack+\n50lv - AGI Boost % (10)\n70lv - Reach DEF+\n90lv - Leading Attack\nPrefect - Farm\nWarlord - Yizhou-C Tax+\nBanner - Liu Bei```")
+    }
+if (args ===`LiuCong || args ===`liucong || args ===`Liucong`){
+      message.channel.send("```asciidoc\n[Liu Cong]\nCost - 14\nStat - 24/35/22/44/58\n30lv - DEF Boost % (10)\n50lv - MRL Boost % (10)\n70lv - Naval Battle +\n90lv - Double Tactics Immunity\nPrefect - Port\nWarlord - Jingzhou-N Loot+\nBanner - Liu Bei```")
+    }
+if (args ===`MiHeng || args ===`miheng || args ===`Miheng`){
+      message.channel.send("```asciidoc\n[Mi Heng]\nCost - 14\nStat - 29/81/33/69/66\n30lv - Imitate Tactics\n50lv - Interrupt Tactics +% (10)\n70lv - HP Boost % (15)\n90lv - Summon the Four Gods\nPrefect - Treasury\nWarlord - Practice Battle+\nBanner - Liu Bei```")
+    }
+if (args ===`GongZhi || args ===`gongzhi || args ===`Gongzhi`){
+      message.channel.send("```asciidoc\n[Gong Zhi]\nCost - 14\nStat - 59/61/45/38/82\n30lv - Attack ACC + (15)\n50lv - Double Tactics Immunity\n70lv - MRL- Attack\n90lv - Double ATK Immunity\nPrefect - Master Storage\nWarlord - Trader+\nBanner - Liu Bei```")
+    }
+if (args ===`WangKuang || args ===`wangkuang || args ===`Wangkuang`){
+      message.channel.send("```asciidoc\n[Wang Kuang]\nCost - 17\nStat - 65/66/85/83/59\n30lv - % Charge Attack (2)\n50lv - Ignore Mounted Attack+\n70lv - Mounted ATK +% (15)\n90lv - Veteran (35)\nPrefect - Treasury\nWarlord - Trader+\nBanner - Liu Bei```")
+    }
+if (args ===`TianChou || args ===`tianchou || args ===`Tianchou`){
+      message.channel.send("```asciidoc\n[Tian Chou]\nCost - 17\nStat - 72/72/79/69/82\n30lv - Attack ACC + (15)\n50lv - Physical Attack +% (12)\n70lv - MRL Boost % (10)\n90lv - AGI- Attack\nPrefect - Silver Coin Tax\nWarlord - Youzhou Tax+\nBanner - Liu Bei```")
+    }
+if (args ===`ZhangZun || args ===`zhangzun || args ===`Zhangzun`){
+      message.channel.send("```asciidoc\n[Zhang Zun]\nCost - 15\nStat - 73/78/81/75/70\n30lv - Phalanx Strike\n50lv - Critical Attack+ (30)\n70lv - Mounted ATK +% (15)\n90lv - ATK- Attack\nPrefect - Master Tax\nWarlord - Practice Battle+\nBanner - Liu Bei```")
+    }
+if (args ===`LiuYu || args ===`liuyu || args ===`Liuyu`){
+      message.channel.send("```asciidoc\n[Liu Yu]\nCost - 17\nStat - 61/84/78/62/94\n30lv - Critical Attack+ (30)\n50lv - Status Effect Reflection\n70lv - Reach ATK+\n90lv - Leading Attack\nPrefect - Tailor\nWarlord - Trader+\nBanner - Liu Bei```")
+    }
+if (args ===`Xiahoushi || args ===`xiahoushi || args ===`Xiahoushi`){
+      message.channel.send("```asciidoc\n[Xiahoushi]\nCost - 16\nStat - 24/86/46/77/92\n30lv - Tactics ACC + (15)\n50lv - Double Tactics +%\n70lv - Fire Tactics +% (15)\n90lv - Summon the Four Gods\nPrefect - Stockpile\nWarlord - Jingzhou-N Loot+\nBanner - Liu Bei```")
+    }
+if (args ===`LiuYan || args ===`liuyan || args ===`Liuyan`){
+      message.channel.send("```asciidoc\n[Liu Yan]\nCost - 18\nStat - 69/80/76/63/88\n30lv - Double Tactics Immunity\n50lv - WIS- Attack\n70lv - MRL Boost % (10)\n90lv - Reach MRL+\nPrefect - Port\nWarlord - Occupation+\nBanner - Liu Bei```")
+    }
+if (args ===`FeiGuan || args ===`feiguan || args ===`Feiguan`){
+      message.channel.send("```asciidoc\n[Fei Guan]\nCost - 14\nStat - 67/44/65/68/77\n30lv - Physical Damage -% (10)\n50lv - Reach DEF+\n70lv - Ranged DMG -% (10)\n90lv - Tactics DEF Rate + (20)\nPrefect - Stockpile\nWarlord - Occupation+\nBanner - Liu Bei```")
+    }
+if (args ===`XiangChong || args ===`xiangchong || args ===`Xiangchong`){
+      message.channel.send("```asciidoc\n[Xiang Chong]\nCost - 16\nStat - 66/76/80/63/70\n30lv - Physical Damage -% (10)\n50lv - All DEF Rate + (7)\n70lv - Reach MRL-\n90lv - Tactics DEF Rate + (20)\nPrefect - Market\nWarlord - Practice Battle+\nBanner - Liu Bei```")
+    }
+if (args ===`DongYun || args ===`dongyun || args ===`Dongyun`){
+      message.channel.send("```asciidoc\n[Dong Yun]\nCost - 17\nStat - 30/87/61/69/90\n30lv - Tactics DEF Rate + (15)\n50lv - MP Boost % (15)\n70lv - Critical Attack Immunity\n90lv - Summon the Four Gods\nPrefect - Tailor\nWarlord - Yizhou-C Loot+\nBanner - Liu Bei```")
+    }
+if (args ===`WangPing || args ===`wangping || args ===`Wangping`){
+      message.channel.send("```asciidoc\n[Wang Ping]\nCost - 19\nStat - 80/76/84/66/92\n30lv - ATK- Attack\n50lv - Mounted ATK +% (15)\n70lv - Blind Attack % (15)\n90lv - Phalanx Strike\nPrefect - Market\nWarlord - Yizhou-C Tax+\nBanner - Liu Bei```")
+    }
+if (args ===`GuanPing || args ===`guanping || args ===`Guanping`){
+      message.channel.send("```asciidoc\n[Guan Ping]\nCost - 19\nStat - 83/72/82/77/60\n30lv - Double Tactics Immunity\n50lv - Enhanced Double ATK % (15)\n70lv - Reach WIS-\n90lv - Reversal\nPrefect - Farm\nWarlord - Jingzhou-N Loot+\nBanner - Liu Bei```")
+    }
+if (args ===`BaoSanniang || args ===`baosanniang || args ===`Baosanniang`){
+      message.channel.send("```asciidoc\n[Bao Sanniang]\nCost - 19\nStat - 79/62/72/95/77\n30lv - Tactics Damage -% (10)\n50lv - Counterattack+\n70lv - Good from Evil\n90lv - Critical Attack\nPrefect - Master Storage\nWarlord - Ration Loot+\nBanner - Liu Bei```")
+    }
+if (args ===`GuanSuo || args ===`guansuo || args ===`Guansuo`){
+      message.channel.send("```asciidoc\n[Guan Suo]\nCost - 19\nStat - 88/56/74/62/93\n30lv - Critical Attack+ (30)\n50lv - Tactics Damage -% (10)\n70lv - Phalanx Strike\n90lv - Leading Attack\nPrefect - Master Tax\nWarlord - Jingzhou-N Loot+\nBanner - Liu Bei```")
+    }
+if (args ===`CaiYan || args ===`caiyan || args ===`Caiyan`){
+      message.channel.send("```asciidoc\n[Cai Yan]\nCost - 18\nStat - 42/95/75/79/90\n30lv - Double Tactics +%\n50lv - Tactics ACC + (15)\n70lv - Summon the Four Gods\n90lv - Double Tactics\nPrefect - Silver Coin Tax\nWarlord - Battle Ration+\nBanner - Liu Bei```")
+    }
+if (args ===`LiuBei || args ===`liubei || args ===`Liubei`){
+      message.channel.send("```asciidoc\n[Liu Bei]\nCost - 20\nStat - 77/78/81/91/99\n30lv - Counterattack+\n50lv - Leading Attack\n70lv - DEF- Attack\n90lv - Critical Attack+ (30)\nPrefect - Master Tax\nWarlord - General Tax+\nBanner - Liu Bei```")
+    }
+if (args ===`XiahouMao || args ===`xiahoumao || args ===`Xiahoumao`){
+      message.channel.send("```asciidoc\n[Xiahou Mao]\nCost - 14\nStat - 24/22/20/62/34\n30lv - Physical Damage Reflection % (10)\n50lv - Ranged DMG -% (10)\n70lv - ATK- Attack\n90lv - Self SPD+\nPrefect - Port\nWarlord - Yongzhou-W Tax+\nBanner - Lady Zhen```")
+    }
+if (args ===`FuJia || args ===`fujia || args ===`Fujia`){
+      message.channel.send("```asciidoc\n[Fu Jia]\nCost - 15\nStat - 44/87/68/58/69\n30lv - Tactics DEF Rate + (15)\n50lv - Supply Tactics +% (10)\n70lv - Reach Awaken\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Yongzhou-E Tax+\nBanner - Lady Zhen```")
+    }
+if (args ===`CaoHua || args ===`caohua || args ===`Caohua`){
+      message.channel.send("```asciidoc\n[Cao Hua]\nCost - 16\nStat - 61/69/56/67/83\n30lv - Physical Attack +% (12)\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - Reach WIS-\nPrefect - Market\nWarlord - Youzhou Tax+\nBanner - Lady Zhen```")
+    }
+if (args ===`ZhangTe || args ===`zhangte || args ===`Zhangte`){
+      message.channel.send("```asciidoc\n[Zhang Te]\nCost - 16\nStat - 67/81/76/77/70\n30lv - Self AGI+\n50lv - Physical Attack +% (12)\n70lv - Blind Attack % (15)\n90lv - DEF- Attack\nPrefect - Pottery Works\nWarlord - Youzhou Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`XinXianying || args ===`xinxianying || args ===`Xinxianying`){
+      message.channel.send("```asciidoc\n[Xin Xianying]\nCost - 14\nStat - 12/83/26/75/81\n30lv - Double Tactics +%\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach MRL+\n90lv - Imitate Tactics\nPrefect - Market\nWarlord - Liangzhou-S Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`HanHao || args ===`hanhao || args ===`Hanhao`){
+      message.channel.send("```asciidoc\n[Han Hao]\nCost - 18\nStat - 75/86/72/68/74\n30lv - Mounted ATK +% (15)\n50lv - Counterattack+\n70lv - DEF- Attack\n90lv - Reach MRL-\nPrefect - Market\nWarlord - Scout+\nBanner - Lady Zhen```")
+    }
+if (args ===`CaoXiu || args ===`caoxiu || args ===`Caoxiu`){
+      message.channel.send("```asciidoc\n[Cao Xiu]\nCost - 18\nStat - 82/62/81/77/62\n30lv - WIS- Attack\n50lv - Double Tactics Immunity\n70lv - Confusion Attack % (15)\n90lv - Forceful Blow\nPrefect - Farm\nWarlord - Scout+\nBanner - Lady Zhen```")
+    }
+if (args ===`WenQin || args ===`wenqin || args ===`Wenqin`){
+      message.channel.send("```asciidoc\n[Wen Qin]\nCost - 19\nStat - 87/42/79/65/74\n30lv - Physical Damage Reflection % (10)\n50lv - Ranged DMG -% (10)\n70lv - MRL- Attack\n90lv - Expand AoE (4)\nPrefect - Treasury\nWarlord - Jiaozhou Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`CaoZhen || args ===`caozhen || args ===`Caozhen`){
+      message.channel.send("```asciidoc\n[Cao Zhen]\nCost - 19\nStat - 68/70/88/71/87\n30lv - Reach DEF-\n50lv - % Charge Attack (3)\n70lv - Forceful Blow\n90lv - Unstoppable\nPrefect - Silver Coin Tax\nWarlord - Qingzhou Tax+\nBanner - Lady Zhen```")
+    }
+if (args ===`CaoZhi || args ===`caozhi || args ===`Caozhi`){
+      message.channel.send("```asciidoc\n[Cao Zhi]\nCost - 17\nStat - 30/90/62/82/78\n30lv - Imitate Tactics\n50lv - Interrupt Tactics +% (10)\n70lv - MP Attack (10)\n90lv - Summon the Four Gods\nPrefect - Absolute Protection\nWarlord - Yuzhou Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`SunLi || args ===`sunli || args ===`Sunli`){
+      message.channel.send("```asciidoc\n[Sun Li]\nCost - 19\nStat - 81/72/76/89/73\n30lv - Counterattack+\n50lv - Self AGI+\n70lv - Good from Evil\n90lv - Expand AoE (4)\nPrefect - Lumbermill\nWarlord - Trader+\nBanner - Lady Zhen```")
+    }
+if (args ===`LiangXi || args ===`liangxi || args ===`Liangxi`){
+      message.channel.send("```asciidoc\n[Liang Xi]\nCost - 18\nStat - 72/84/79/79/66\n30lv - Reach ATK-\n50lv - Status Effect Reflection\n70lv - Ignore Mounted Attack+\n90lv - Union\nPrefect - Market\nWarlord - Trader+\nBanner - Lady Zhen```")
+    }
+if (args ===`YangHu || args ===`yanghu || args ===`Yanghu`){
+      message.channel.send("```asciidoc\n[Yang Hu]\nCost - 18\nStat - 72/87/90/66/85\n30lv - MP Attack (10)\n50lv - Lifesteal Attack % (7)\n70lv - All DEF Rate + (6)\n90lv - Double Counter\nPrefect - Market\nWarlord - Yizhou-S Tax+\nBanner - Lady Zhen```")
+    }
+if (args ===`CaoChun || args ===`caochun || args ===`Caochun`){
+      message.channel.send("```asciidoc\n[Cao Chun]\nCost - 18\nStat - 75/60/81/69/91\n30lv - Self DEF+\n50lv - Physical Damage Reflection % (12)\n70lv - AGI- Attack\n90lv - Double Counter\nPrefect - Farm\nWarlord - Yanzhou Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`WenPin || args ===`wenpin || args ===`Wenpin`){
+      message.channel.send("```asciidoc\n[Wen Pin]\nCost - 20\nStat - 86/64/82/79/72\n30lv - Water Tactics+ % (7)\n50lv - All DEF Rate + (7)\n70lv - Naval Battle +\n90lv - Union\nPrefect - Farm\nWarlord - Jingzhou-N Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`CaiMao || args ===`caimao || args ===`Caimao`){
+      message.channel.send("```asciidoc\n[Cai Mao]\nCost - 17\nStat - 79/76/84/75/68\n30lv - Naval Battle +\n50lv - Elemental Tactics +% (5)\n70lv - AGI Boost % (10)\n90lv - Union\nPrefect - Tailor\nWarlord - Jingzhou-S Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`ZhugeDan || args ===`zhugedan || args ===`Zhugedan`){
+      message.channel.send("```asciidoc\n[Zhuge Dan]\nCost - 17\nStat - 74/78/81/86/65\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - Reach MRL+\n90lv - Terrain Effect +\nPrefect - Market\nWarlord - Xuzhou Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`ZhongHui || args ===`zhonghui || args ===`Zhonghui`){
+      message.channel.send("```asciidoc\n[Zhong Hui]\nCost - 17\nStat - 64/91/84/72/79\n30lv - Reach MRL+\n50lv - MP Attack (10)\n70lv - Terrain Effect +\n90lv - Defense Stat Switch\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`CaoRui || args ===`caorui || args ===`Caorui`){
+      message.channel.send("```asciidoc\n[Cao Rui]\nCost - 17\nStat - 66/85/86/72/79\n30lv - Reach MRL+\n50lv - Union\n70lv - WIS- Attack\n90lv - Critical Attack\nPrefect - Tailor\nWarlord - Jizhou Loot+\nBanner - Lady Zhen```")
+    }
+if (args ===`ChenQun || args ===`chenqun || args ===`Chenqun`){
+      message.channel.send("```asciidoc\n[Chen Qun]\nCost - 18\nStat - 26/90/71/68/96\n30lv - Summon the Four Gods\n50lv - Reach Awaken\n70lv - Critical Attack Immunity\n90lv - Defense Stat Switch\nPrefect - Master Tax\nWarlord - Ration Tax+\nBanner - Lady Zhen```")
+    }
+if (args ===`Zhenji || args ===`zhenji || args ===`Zhenji`){
+      message.channel.send("```asciidoc\n[Zhenji]\nCost - 19\nStat - 62/73/71/99/91\n30lv - MP Attack (10)\n50lv - Random- Attack\n70lv - Forceful Blow\n90lv - % Charge Attack (4)\nPrefect - Master Tax\nWarlord - Silver Coin Tax+\nBanner - Lady Zhen```")
+    }
+if (args ===`JiangBin || args ===`jiangbin || args ===`Jiangbin`){
+      message.channel.send("```asciidoc\n[Jiang Bin]\nCost - 14\nStat - 57/79/76/68/70\n30lv - Physical Attack +% (12)\n50lv - Mounted ATK +% (15)\n70lv - AGI Boost % (10)\n90lv - AGI- Attack\nPrefect - Lumbermill\nWarlord - Jizhou Loot+\nBanner - Zhuge Liang```")
+    }
+if (args ===`DongJue || args ===`dongjue || args ===`Dongjue`){
+      message.channel.send("```asciidoc\n[Dong Jue]\nCost - 14\nStat - 68/75/72/51/72\n30lv - Double Tactics Immunity\n50lv - Attack ACC + (20)\n70lv - ATK- Attack\n90lv - Self AGI+\nPrefect - Fruit Grove\nWarlord - Yizhou-S Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`ZhangYi || args ===`zhangyi || args ===`Zhangyi`){
+      message.channel.send("```asciidoc\n[Zhang Yi]\nCost - 17\nStat - 74/76/75/74/62\n30lv - ATK DEF Rate + (15)\n50lv - Physical Damage -% (10)\n70lv - Reach ATK-\n90lv - Forceful Blow\nPrefect - Market\nWarlord - Yizhou-C Loot+\nBanner - Zhuge Liang```")
+    }
+if (args ===`LuKai || args ===`lukai || args ===`Lukai`){
+      message.channel.send("```asciidoc\n[Lu Kai]\nCost - 16\nStat - 68/76/78/59/72\n30lv - Self MRL+\n50lv - Tactics Damage -% (10)\n70lv - Confusion Attack % (15)\n90lv - Unlimited Counterattack\nPrefect - Farm\nWarlord - Yizhou-S Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`HuangHao || args ===`huanghao || args ===`Huanghao`){
+      message.channel.send("```asciidoc\n[Huang Hao]\nCost - 14\nStat - 23/30/21/10/22\n30lv - Status Effect Reflection\n50lv - Imitate Tactics\n70lv - Reach ATK-\n90lv - All DEF Rate + (7)\nPrefect - Lumbermill\nWarlord - Trader+\nBanner - Zhuge Liang```")
+    }
+if (args ===`LiuShan || args ===`liushan || args ===`Liushan`){
+      message.channel.send("```asciidoc\n[Liu Shan]\nCost - 14\nStat - 34/48/56/67/86\n30lv - ATK DEF Rate + (15)\n50lv - Physical Damage -% (10)\n70lv - Reach MRL-\n90lv - Oppressive Assault\nPrefect - Master Storage\nWarlord - Yizhou-C Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`FeiYi || args ===`feiyi || args ===`Feiyi`){
+      message.channel.send("```asciidoc\n[Fei Yi]\nCost - 16\nStat - 40/84/82/70/74\n30lv - Summon the Four Gods\n50lv - MP Boost % (15)\n70lv - Ranged DMG -% (10)\n90lv - Reach ATK+\nPrefect - Market\nWarlord - Qingzhou Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`ZhugeJun || args ===`zhugejun || args ===`Zhugejun`){
+      message.channel.send("```asciidoc\n[Zhuge Jun]\nCost - 14\nStat - 52/69/45/66/72\n30lv - Self AGI+\n50lv - Poison Attack % (15)\n70lv - Confusion Attack % (15)\n90lv - Phalanx Strike\nPrefect - Master Tax\nWarlord - Premium Shop+\nBanner - Zhuge Liang```")
+    }
+if (args ===`JiangWan || args ===`jiangwan || args ===`Jiangwan`){
+      message.channel.send("```asciidoc\n[Jiang Wan]\nCost - 17\nStat - 42/87/74/58/93\n30lv - Elemental Tactics +% (5)\n50lv - Tactics ACC + (15)\n70lv - Physical Damage -% (10)\n90lv - Status Effect Reflection\nPrefect - Ration Tax\nWarlord - Jingzhou-S Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`YangYi || args ===`yangyi || args ===`Yangyi`){
+      message.channel.send("```asciidoc\n[Yang Yi]\nCost - 15\nStat - 68/82/73/56/78\n30lv - Tactics Damage -% (10)\n50lv - Self MRL+\n70lv - MRL Boost % (10)\n90lv - MRL- Attack\nPrefect - Market\nWarlord - Jingzhou-N Loot+\nBanner - Zhuge Liang```")
+    }
+if (args ===`QinMi || args ===`qinmi || args ===`Qinmi`){
+      message.channel.send("```asciidoc\n[Qin Mi]\nCost - 14\nStat - 26/73/81/71/73\n30lv - Ranged DMG -% (10)\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach Awaken\nPrefect - Market\nWarlord - Yizhou-N Loot+\nBanner - Zhuge Liang```")
+    }
+if (args ===`LiaoHua || args ===`liaohua || args ===`Liaohua`){
+      message.channel.send("```asciidoc\n[Liao Hua]\nCost - 19\nStat - 80/69/76/68/82\n30lv - Earth Tactics+ % (10)\n50lv - Good from Evil\n70lv - DEF Boost % (11)\n90lv - Forceful Blow\nPrefect - Pig Farm\nWarlord - Jingzhou-N Loot+\nBanner - Zhuge Liang```")
+    }
+if (args ===`XiahouBa || args ===`xiahouba || args ===`Xiahouba`){
+      message.channel.send("```asciidoc\n[Xiahou Ba]\nCost - 19\nStat - 87/76/85/72/64\n30lv - Ranged DMG -% (10)\n50lv - Physical Damage Reflection % (12)\n70lv - DEF- Attack\n90lv - Self SPD+\nPrefect - Tailor\nWarlord - Yizhou-S Loot+\nBanner - Zhuge Liang```")
+    }
+if (args ===`ZhugeZhan || args ===`zhugezhan || args ===`Zhugezhan`){
+      message.channel.send("```asciidoc\n[Zhuge Zhan]\nCost - 16\nStat - 68/76/78/72/66\n30lv - Physical Damage -% (10)\n50lv - Reach AGI-\n70lv - WIS- Attack\n90lv - Imitate Tactics\nPrefect - Fishery\nWarlord - Yizhou-C Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`DengZhi || args ===`dengzhi || args ===`Dengzhi`){
+      message.channel.send("```asciidoc\n[Deng Zhi]\nCost - 18\nStat - 69/82/77/65/82\n30lv - Double Tactics Immunity\n50lv - Self MRL+\n70lv - WIS- Attack\n90lv - Critical Attack\nPrefect - Lumbermill\nWarlord - Yizhou-N Loot+\nBanner - Zhuge Liang```")
+    }
+if (args ===`HuoYi || args ===`huoyi || args ===`Huoyi`){
+      message.channel.send("```asciidoc\n[Huo Yi]\nCost - 17\nStat - 69/69/73/79/88\n30lv - Physical Damage Reflection % (10)\n50lv - Physical Damage -% (10)\n70lv - MRL- Attack\n90lv - Reach DEF+\nPrefect - Absolute Protection\nWarlord - Jingzhou-N Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`MaSu || args ===`masu || args ===`Masu`){
+      message.channel.send("```asciidoc\n[Ma Su]\nCost - 16\nStat - 74/87/80/74/66\n30lv - Tactics Damage Reflection % (10)\n50lv - Double Tactics +%\n70lv - Offensive Tactics +% (10)\n90lv - Imitate Tactics\nPrefect - Port\nWarlord - Scout+\nBanner - Zhuge Liang```")
+    }
+if (args ===`HuangYueying || args ===`huangyueying || args ===`Huangyueying`){
+      message.channel.send("```asciidoc\n[Huang Yueying]\nCost - 17\nStat - 71/91/63/67/82\n30lv - Summon the Four Gods\n50lv - Tactics ACC + (15)\n70lv - MP Saving % (12)\n90lv - Defense Stat Switch\nPrefect - Master Storage\nWarlord - Ration Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`GuanXing || args ===`guanxing || args ===`Guanxing`){
+      message.channel.send("```asciidoc\n[Guan Xing]\nCost - 19\nStat - 86/67/76/62/82\n30lv - Counterattack+\n50lv - Ignore Mounted Attack+\n70lv - AGI- Attack\n90lv - Double Counter\nPrefect - Market\nWarlord - Jingzhou-S Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`JiangWei || args ===`jiangwei || args ===`Jiangwei`){
+      message.channel.send("```asciidoc\n[Jiang Wei]\nCost - 21\nStat - 89/90/92/79/64\n30lv - Reach ATK-\n50lv - Veteran (35)\n70lv - Unstoppable\n90lv - Tactics Damage -% (50)\nPrefect - Master Tax\nWarlord - Ration Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`ZhugeLiang || args ===`zhugeliang || args ===`Zhugeliang`){
+      message.channel.send("```asciidoc\n[Zhuge Liang]\nCost - 21\nStat - 34/100/98/77/96\n30lv - Double Tactics +%\n50lv - Ignore Tactics Terrain\n70lv - Earth Tactics+ % (15)\n90lv - Status Effect Immunity\nPrefect - Ration Tax\nWarlord - General Tax+\nBanner - Zhuge Liang```")
+    }
+if (args ===`MaoJie || args ===`maojie || args ===`Maojie`){
+      message.channel.send("```asciidoc\n[Mao Jie]\nCost - 15\nStat - 65/75/70/58/74\n30lv - Double Tactics Immunity\n50lv - WIS- Attack\n70lv - Critical Attack+ (30)\n90lv - Imitate Tactics\nPrefect - Stockpile\nWarlord - Yanzhou Tax+\nBanner - Empress ```")
+    }
+if (args ===`YangZhi || args ===`yangzhi || args ===`Yangzhi`){
+      message.channel.send("```asciidoc\n[Yang Zhi]\nCost - 15\nStat - 25/82/62/67/71\n30lv - Double Tactics +%\n50lv - Tactics ACC + (15)\n70lv - MP Attack (10)\n90lv - Imitate Tactics\nPrefect - Treasury\nWarlord - Yongzhou-E Tax+\nBanner - Empress ```")
+    }
+if (args ===`YangXiu || args ===`yangxiu || args ===`Yangxiu`){
+      message.channel.send("```asciidoc\n[Yang Xiu]\nCost - 15\nStat - 26/87/49/62/68\n30lv - Elemental Tactics +% (5)\n50lv - Tactics Damage Reflection % (10)\n70lv - Reach AGI+\n90lv - Status Effect Immunity\nPrefect - Farm\nWarlord - Sizhou Tax+\nBanner - Empress ```")
+    }
+if (args ===`YangJi || args ===`yangji || args ===`Yangji`){
+      message.channel.send("```asciidoc\n[Yang Ji]\nCost - 16\nStat - 69/72/73/66/75\n30lv - Reach AGI-\n50lv - Counterattack+\n70lv - MRL- Attack\n90lv - Reach ATK-\nPrefect - Fruit Grove\nWarlord - Sizhou Tax+\nBanner - Empress ```")
+    }
+if (args ===`XiahouHe || args ===`xiahouhe || args ===`Xiahouhe`){
+      message.channel.send("```asciidoc\n[Xiahou He]\nCost - 15\nStat - 62/74/71/68/70\n30lv - ATK DEF Rate + (15)\n50lv - Physical Damage -% (10)\n70lv - Reach Deterrence\n90lv - Forceful Blow\nPrefect - Master Tax\nWarlord - Yongzhou-E Loot+\nBanner - Empress ```")
+    }
+if (args ===`SimaLang || args ===`simalang || args ===`Simalang`){
+      message.channel.send("```asciidoc\n[Sima Lang]\nCost - 14\nStat - 32/79/52/66/68\n30lv - Tactics DEF Rate + (10)\n50lv - Tactics DEF Rate + (15)\n70lv - Supply Tactics +% (9)\n90lv - Reach Awaken\nPrefect - Farm\nWarlord - Jiaozhou Loot+\nBanner - Empress ```")
+    }
+if (args ===`XiahouHui || args ===`xiahouhui || args ===`Xiahouhui`){
+      message.channel.send("```asciidoc\n[Xiahou Hui]\nCost - 14\nStat - 35/79/62/77/68\n30lv - Tactics Damage Reflection % (10)\n50lv - Status Effect Reflection\n70lv - Reach ATK-\n90lv - Imitate Tactics\nPrefect - Master Tax\nWarlord - Sizhou Loot+\nBanner - Empress ```")
+    }
+if (args ===`GuanqiuJian || args ===`guanqiujian || args ===`Guanqiujian`){
+      message.channel.send("```asciidoc\n[Guanqiu Jian]\nCost - 16\nStat - 74/55/77/66/72\n30lv - Reach ATK-\n50lv - % Charge Attack (3)\n70lv - Ignore Mounted Attack+\n90lv - Enhanced Double ATK % (15)\nPrefect - Farm\nWarlord - Sizhou Tax+\nBanner - Empress ```")
+    }
+if (args ===`ZhangChunhua || args ===`zhangchunhua || args ===`Zhangchunhua`){
+      message.channel.send("```asciidoc\n[Zhang Chunhua]\nCost - 16\nStat - 58/88/66/82/69\n30lv - Imitate Tactics\n50lv - Status Effect Reflection\n70lv - AGI Boost % (10)\n90lv - Attack Stat Switch\nPrefect - Master Storage\nWarlord - Ration Tax+\nBanner - Empress ```")
+    }
+if (args ===`YangHuiyu || args ===`yanghuiyu || args ===`Yanghuiyu`){
+      message.channel.send("```asciidoc\n[Yang Huiyu]\nCost - 17\nStat - 65/65/72/86/75\n30lv - Random- Attack\n50lv - Counterattack+\n70lv - Expand ATK RNG (7)\n90lv - MP Attack (10)\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+\nBanner - Empress ```")
+    }
+if (args ===`JiaNanfeng || args ===`jiananfeng || args ===`Jiananfeng`){
+      message.channel.send("```asciidoc\n[Jia Nanfeng]\nCost - 16\nStat - 65/86/59/68/72\n30lv - Tactics Damage Reflection % (10)\n50lv - Status Effect Reflection\n70lv - Physical Damage -% (10)\n90lv - Summon the Four Gods\nPrefect - Master Tax\nWarlord - Jiaozhou Loot+\nBanner - Empress ```")
+    }
+if (args ===`XiahouShang || args ===`xiahoushang || args ===`Xiahoushang`){
+      message.channel.send("```asciidoc\n[Xiahou Shang]\nCost - 18\nStat - 76/78/83/61/77\n30lv - Counterattack+\n50lv - Tactics Damage -% (10)\n70lv - Mounted ATK +% (15)\n90lv - Unlimited Counterattack\nPrefect - Farm\nWarlord - Bingzhou Loot+\nBanner - Empress ```")
+    }
+if (args ===`WangJi || args ===`wangji || args ===`Wangji`){
+      message.channel.send("```asciidoc\n[Wang Ji]\nCost - 18\nStat - 82/76/83/74/66\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Critical Attack+ (30)\n90lv - Ranged DMG -% (10)\nPrefect - Port\nWarlord - Qingzhou Tax+\nBanner - Empress ```")
+    }
+if (args ===`XiahouXuan || args ===`xiahouxuan || args ===`Xiahouxuan`){
+      message.channel.send("```asciidoc\n[Xiahou Xuan]\nCost - 17\nStat - 46/89/69/65/88\n30lv - Summon the Four Gods\n50lv - Double Tactics +%\n70lv - Ranged DMG -% (10)\n90lv - Status Effect Immunity\nPrefect - Fishery\nWarlord - Jizhou Loot+\nBanner - Empress ```")
+    }
+if (args ===`WangShuang || args ===`wangshuang || args ===`Wangshuang`){
+      message.channel.send("```asciidoc\n[Wang Shuang]\nCost - 19\nStat - 89/28/69/91/62\n30lv - Tactics Damage -% (10)\n50lv - Counterattack+\n70lv - Confusion Attack % (15)\n90lv - Good from Evil\nPrefect - Lumbermill\nWarlord - Yongzhou-E Loot+\nBanner - Empress ```")
+    }
+if (args ===`HuangfuSong || args ===`huangfusong || args ===`Huangfusong`){
+      message.channel.send("```asciidoc\n[Huangfu Song]\nCost - 19\nStat - 74/72/93/63/66\n30lv - ATK DEF Rate + (15)\n50lv - Reach DEF+\n70lv - Tactics DEF Rate + (15)\n90lv - Veteran (35)\nPrefect - Fishery\nWarlord - Jizhou Loot+\nBanner - Empress ```")
+    }
+if (args ===`SimaZhao || args ===`simazhao || args ===`Simazhao`){
+      message.channel.send("```asciidoc\n[Sima Zhao]\nCost - 17\nStat - 72/82/76/77/70\n30lv - Counterattack+\n50lv - AGI Boost % (10)\n70lv - Reach WIS+\n90lv - Imitate Tactics\nPrefect - Pig Farm\nWarlord - Sizhou Loot+\nBanner - Empress ```")
+    }
+if (args ===`SimaShi || args ===`simashi || args ===`Simashi`){
+      message.channel.send("```asciidoc\n[Sima Shi]\nCost - 17\nStat - 69/89/83/66/79\n30lv - Critical Attack+ (30)\n50lv - Enhanced Double ATK % (15)\n70lv - Reach MRL+\n90lv - Status Effect Reflection\nPrefect - Treasury\nWarlord - Occupation+\nBanner - Empress ```")
+    }
+if (args ===`DuYu || args ===`duyu || args ===`Duyu`){
+      message.channel.send("```asciidoc\n[Du Yu]\nCost - 18\nStat - 52/87/89/67/81\n30lv - Elemental Tactics +% (5)\n50lv - MP Attack (10)\n70lv - AGI Boost % (10)\n90lv - % Charge Attack (4)\nPrefect - Lumbermill\nWarlord - Jiaozhou Loot+\nBanner - Empress ```")
+    }
+if (args ===`SimaYan || args ===`simayan || args ===`Simayan`){
+      message.channel.send("```asciidoc\n[Sima Yan]\nCost - 17\nStat - 64/80/79/78/78\n30lv - Reach MRL+\n50lv - Counterattack+\n70lv - Self Inspire\n90lv - Oppressive Assault\nPrefect - Lumbermill\nWarlord - Sizhou Loot+\nBanner - Empress ```")
+    }
+if (args ===`WangYuanji || args ===`wangyuanji || args ===`Wangyuanji`){
+      message.channel.send("```asciidoc\n[Wang Yuanji]\nCost - 20\nStat - 81/88/66/82/95\n30lv - HP Boost % (15)\n50lv - Expand ATK RNG (7)\n70lv - First Strike\n90lv - Random- Attack\nPrefect - Silver Coin Tax\nWarlord - Battle Ration+\nBanner - Empress ```")
+    }
+if (args ===`CaoXing || args ===`caoxing || args ===`Caoxing`){
+      message.channel.send("```asciidoc\n[Cao Xing]\nCost - 14\nStat - 74/37/65/61/75\n30lv - Counterattack+\n50lv - Critical Attack+ (30)\n70lv - Enhanced Double ATK % (15)\n90lv - AGI- Attack\nPrefect - Fishery\nWarlord - Bingzhou Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`LiJue || args ===`lijue || args ===`Lijue`){
+      message.channel.send("```asciidoc\n[Li Jue]\nCost - 16\nStat - 73/44/71/71/59\n30lv - Physical Damage -% (10)\n50lv - Tactics DEF Rate + (15)\n70lv - Reach Deterrence\n90lv - Damage Transfer\nPrefect - Tailor\nWarlord - Yongzhou-W Tax+\nBanner - Lu Bu```")
+    }
+if (args ===`FanChou || args ===`fanchou || args ===`Fanchou`){
+      message.channel.send("```asciidoc\n[Fan Chou]\nCost - 14\nStat - 75/45/66/61/80\n30lv - Self DEF+\n50lv - Physical Damage Reflection % (12)\n70lv - MRL- Attack\n90lv - Expand AoE (4)\nPrefect - Stockpile\nWarlord - Yongzhou-W Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`HouCheng || args ===`houcheng || args ===`Houcheng`){
+      message.channel.send("```asciidoc\n[Hou Cheng]\nCost - 14\nStat - 76/68/74/52/54\n30lv - HP Boost % (15)\n50lv - Physical Damage -% (10)\n70lv - Reach MRL-\n90lv - Tactics DEF Rate + (20)\nPrefect - Tailor\nWarlord - Xuzhou Tax+\nBanner - Lu Bu```")
+    }
+if (args ===`LiSu || args ===`lisu || args ===`Lisu`){
+      message.channel.send("```asciidoc\n[Li Su]\nCost - 14\nStat - 69/73/46/72/59\n30lv - Tactics Damage Reflection % (10)\n50lv - Interrupt Tactics +% (10)\n70lv - Ranged DMG -% (10)\n90lv - Imitate Tactics\nPrefect - Farm\nWarlord - Bingzhou Tax+\nBanner - Lu Bu```")
+    }
+if (args ===`WeiXu || args ===`weixu || args ===`Weixu`){
+      message.channel.send("```asciidoc\n[Wei Xu]\nCost - 14\nStat - 78/42/67/69/58\n30lv - Reach WIS-\n50lv - Physical Attack +% (12)\n70lv - Counterattack+\n90lv - Enhanced Double ATK % (15)\nPrefect - Market\nWarlord - Xuzhou Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`SongXian || args ===`songxian || args ===`Songxian`){
+      message.channel.send("```asciidoc\n[Song Xian]\nCost - 14\nStat - 77/38/68/67/60\n30lv - Poison Attack % (15)\n50lv - Mounted ATK +% (15)\n70lv - Deadly Poison Attack % (50)\n90lv - ATK- Attack\nPrefect - Treasury\nWarlord - Xuzhou Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`GuoSi || args ===`guosi || args ===`Guosi`){
+      message.channel.send("```asciidoc\n[Guo Si]\nCost - 15\nStat - 76/33/64/58/74\n30lv - Reach AGI-\n50lv - Mounted ATK +% (15)\n70lv - ATK- Attack\n90lv - Reach DEF-\nPrefect - Fruit Grove\nWarlord - Yongzhou-W Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`LuLingqi || args ===`lulingqi || args ===`Lulingqi`){
+      message.channel.send("```asciidoc\n[Lu Lingqi]\nCost - 19\nStat - 85/33/62/88/75\n30lv - Forceful Blow\n50lv - Physical Attack +% (12)\n70lv - Terrain Effect +\n90lv - Leading Attack\nPrefect - Silver Coin Tax\nWarlord - Silver Coin Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`ZangBa || args ===`zangba || args ===`Zangba`){
+      message.channel.send("```asciidoc\n[Zang Ba]\nCost - 19\nStat - 80/53/75/72/90\n30lv - Earth Tactics+ % (10)\n50lv - Self MRL+\n70lv - MRL Boost % (10)\n90lv - Forceful Blow\nPrefect - Farm\nWarlord - Yongzhou-W Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`HuZhen || args ===`huzhen || args ===`Huzhen`){
+      message.channel.send("```asciidoc\n[Hu Zhen]\nCost - 14\nStat - 77/34/86/68/82\n30lv - Ranged DMG -% (10)\n50lv - Physical Damage Reflection % (12)\n70lv - AGI- Attack\n90lv - Rage +% (20)\nPrefect - Farm\nWarlord - Liangzhou-N Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`LiRu || args ===`liru || args ===`Liru`){
+      message.channel.send("```asciidoc\n[Li Ru]\nCost - 15\nStat - 50/93/68/69/75\n30lv - Summon the Four Gods\n50lv - Tactics ACC + (15)\n70lv - Offensive Tactics +% (10)\n90lv - Double ATK Immunity\nPrefect - Stockpile\nWarlord - Sizhou Tax+\nBanner - Lu Bu```")
+    }
+if (args ===`Suigao || args ===`suigao || args ===`Suigao`){
+      message.channel.send("```asciidoc\n[Suigao]\nCost - 16\nStat - 74/38/67/71/82\n30lv - Earth Tactics+ % (10)\n50lv - ATK Boost % (13)\n70lv - MRL Boost % (10)\n90lv - Double ATK Immunity\nPrefect - Treasury\nWarlord - Yongzhou-E Tax+\nBanner - Lu Bu```")
+    }
+if (args ===`WangYun || args ===`wangyun || args ===`Wangyun`){
+      message.channel.send("```asciidoc\n[Wang Yun]\nCost - 15\nStat - 26/83/65/74/76\n30lv - Supply Tactics +% (8)\n50lv - MP Boost % (15)\n70lv - Ranged DMG -% (10)\n90lv - Reach WIS+\nPrefect - Market\nWarlord - Bingzhou Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`ZhangMiao || args ===`zhangmiao || args ===`Zhangmiao`){
+      message.channel.send("```asciidoc\n[Zhang Miao]\nCost - 17\nStat - 60/70/84/74/72\n30lv - Physical Attack +% (12)\n50lv - Double Tactics Immunity\n70lv - Enhanced Double ATK % (15)\n90lv - Physical Damage -% (10)\nPrefect - Lumbermill\nWarlord - Yanzhou Tax+\nBanner - Lu Bu```")
+    }
+if (args ===`XuRong || args ===`xurong || args ===`Xurong`){
+      message.channel.send("```asciidoc\n[Xu Rong]\nCost - 16\nStat - 75/62/80/67/77\n30lv - Physical Damage Reflection % (10)\n50lv - Ranged DMG -% (10)\n70lv - MRL- Attack\n90lv - Critical Attack Immunity\nPrefect - Lumbermill\nWarlord - Yongzhou-W Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`DongZhuo || args ===`dongzhuo || args ===`Dongzhuo`){
+      message.channel.send("```asciidoc\n[Dong Zhuo]\nCost - 22\nStat - 87/73/90/67/91\n30lv - % Charge Attack (2)\n50lv - Forceful Blow\n70lv - Terrain Effect +\n90lv - Critical Attack\nPrefect - Master Tax\nWarlord - All Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`GaoShun || args ===`gaoshun || args ===`Gaoshun`){
+      message.channel.send("```asciidoc\n[Gao Shun]\nCost - 19\nStat - 85/60/87/62/78\n30lv - % Charge Attack (2)\n50lv - DEF Boost % (13)\n70lv - Reach DEF-\n90lv - Leading Attack\nPrefect - Lumbermill\nWarlord - Bingzhou Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`ChenGong || args ===`chengong || args ===`Chengong`){
+      message.channel.send("```asciidoc\n[Chen Gong]\nCost - 17\nStat - 68/89/84/62/92\n30lv - Tactics Damage Reflection % (10)\n50lv - Tactics ACC + (15)\n70lv - Offensive Tactics +% (10)\n90lv - Summon the Four Gods\nPrefect - Market\nWarlord - Bingzhou Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`HuaXiong || args ===`huaxiong || args ===`Huaxiong`){
+      message.channel.send("```asciidoc\n[Hua Xiong]\nCost - 20\nStat - 92/61/88/76/54\n30lv - Physical Attack +% (12)\n50lv - Forceful Blow\n70lv - DEF Boost % (11)\n90lv - Damage Transfer\nPrefect - Market\nWarlord - Scout+\nBanner - Lu Bu```")
+    }
+if (args ===`LuBu || args ===`lubu || args ===`Lubu`){
+      message.channel.send("```asciidoc\n[Lu Bu]\nCost - 24\nStat - 100/26/97/93/85\n30lv - Reach ATK-\n50lv - Chain Attack\n70lv - Forceful Blow\n90lv - Ranged Attack Immunity\nPrefect - Silver Coin Tax\nWarlord - All Loot+\nBanner - Lu Bu```")
+    }
+if (args ===`ZhangBaek || args ===`zhangbaek || args ===`Zhangbaek`){
+      message.channel.send("```asciidoc\n[Zhang Baek]\nCost - 14\nStat - 30/70/30/60/60\n30lv - All DEF Rate + (7)\n50lv - Ranged DMG -% (10)\n70lv - Supply Tactics +% (9)\n90lv - Reach WIS+\nPrefect - Absolute Protection\nWarlord - Yanzhou Tax+\nBanner - Chosen Officer```")
+    }
+if (args ===`YangXin || args ===`yangxin || args ===`Yangxin`){
+      message.channel.send("```asciidoc\n[Yang Xin]\nCost - 14\nStat - 60/30/60/70/50\n30lv - Self AGI+\n50lv - Counterattack+\n70lv - ATK- Attack\n90lv - Double Counter\nPrefect - Market\nWarlord - Bingzhou Tax+\nBanner - Chosen Officer```")
+    }
+if (args ===`SiZun || args ===`sizun || args ===`Sizun`){
+      message.channel.send("```asciidoc\n[Si Zun]\nCost - 14\nStat - 30/70/30/60/60\n30lv - Reach Awaken\n50lv - MP Boost % (15)\n70lv - Supply Tactics +% (9)\n90lv - Ranged DMG -% (20)\nPrefect - Fishery\nWarlord - Jingzhou-S Tax+\nBanner - Chosen Officer```")
+    }
+if (args ===`GuoJin || args ===`guojin || args ===`Guojin`){
+      message.channel.send("```asciidoc\n[Guo Jin]\nCost - 14\nStat - 60/50/60/50/50\n30lv - Reach AGI-\n50lv - Expand ATK RNG (7)\n70lv - Random- Attack\n90lv - Reach WIS-\nPrefect - Ration Tax\nWarlord - Yizhou-C Tax+\nBanner - Chosen Officer```")
+    }
+if (args ===`PangSun || args ===`pangsun || args ===`Pangsun`){
+      message.channel.send("```asciidoc\n[Pang Sun]\nCost - 14\nStat - 60/70/50/40/60\n30lv - Physical Damage -% (10)\n50lv - Random- Attack\n70lv - Attack ACC + (17)\n90lv - Self AGI+\nPrefect - Farm\nWarlord - Jingzhou-N Tax+\nBanner - Chosen Officer```")
+    }
+if (args ===`GuiHwan || args ===`guihwan || args ===`Guihwan`){
+      message.channel.send("```asciidoc\n[Gui Hwan]\nCost - 14\nStat - 30/70/30/60/60\n30lv - Supply Tactics +% (8)\n50lv - Ranged DMG -% (10)\n70lv - MP Boost % (13)\n90lv - Reach AGI+\nPrefect - Tailor\nWarlord - Yongzhou-E Tax+\nBanner - Chosen Officer```")
+    }
+if (args ===`GengWu || args ===`gengwu || args ===`Gengwu`){
+      message.channel.send("```asciidoc\n[Geng Wu]\nCost - 14\nStat - 60/50/50/60/50\n30lv - Physical Damage -% (10)\n50lv - % Charge Attack (4)\n70lv - AGI Boost % (10)\n90lv - Good from Evil\nPrefect - Stockpile\nWarlord - Yongzhou-W Tax+\nBanner - Chosen Officer```")
+    }
+if (args ===`UiRe || args ===`uire || args ===`Uire`){
+      message.channel.send("```asciidoc\n[Ui Re]\nCost - 14\nStat - 40/70/50/50/50\n30lv - Tactics ACC + (15)\n50lv - Elemental Tactics +% (5)\n70lv - Fire Tactics +% (15)\n90lv - Imitate Tactics\nPrefect - Fishery\nWarlord - Xuzhou Tax+\nBanner - Chosen Officer```")
+    }
+if (args ===`LiuHe || args ===`liuhe || args ===`Liuhe`){
+      message.channel.send("```asciidoc\n[Liu He]\nCost - 14\nStat - 30/70/30/60/60\n30lv - Ranged DMG -% (10)\n50lv - Supply Tactics +% (10)\n70lv - MP Boost % (13)\n90lv - Reach Awaken\nPrefect - Silver Coin Tax\nWarlord - Youzhou Tax+\nBanner - Chosen Officer```")
+    }
+if (args ===`XiahouDun || args ===`xiahoudun || args ===`Xiahoudun`){
+      message.channel.send("```asciidoc\n[Xiahou Dun]\nCost - 21\nStat - 98/64/82/90/66\n30lv - Attack DEF Rate Pierce (15)\n50lv - Good from Evil\n70lv - Leading Attack\n90lv - Veteran (35)\nPrefect - Market\nWarlord - Yizhou Pillage Boost+\nBanner - Destined One```")
+    }
+if (args ===`BianYueXiang || args ===`bianyuexiang || args ===`Bianyuexiang`){
+      message.channel.send("```asciidoc\n[Bian Yue Xiang]\nCost - 16\nStat - 43/88/69/97/82\n30lv - Double ATK Immunity\n50lv - Rough Terrain Move\n70lv - Decrease Area Tactics Damage (70)\n90lv - Reach SPD+\nPrefect - Tailor\nWarlord - General Tax+\nBanner - Destined One```")
+    }
+if (args ===`CaoCao || args ===`caocao || args ===`Caocao`){
+      message.channel.send("```asciidoc\n[Cao Cao]\nCost - 24\nStat - 82/92/98/80/84\n30lv - Counterattack+\n50lv - Tactics DEF Rate Pierce (15)\n70lv - Deadly Poison Attack % (50)\n90lv - Reversal\nPrefect - Master Tax\nWarlord - Battle Ration+\nBanner - Destined One```")
+    }
+if (args ===`GuanYing || args ===`guanying || args ===`Guanying`){
+      message.channel.send("```asciidoc\n[Guan Ying]\nCost - 20\nStat - 95/39/71/92/88\n30lv - Oppressive Assault\n50lv - Expand ATK RNG (16)\n70lv - ATK Boost % (15)\n90lv - Raking Blow\nPrefect - Farm\nWarlord - Occupation+\nBanner - Liu Bang```")
+    }
+if (args ===`WangLing || args ===`wangling || args ===`Wangling`){
+      message.channel.send("```asciidoc\n[Wang Ling]\nCost - 20\nStat - 93/85/82/72/86\n30lv - % Charge Attack (3)\n50lv - Good from Evil\n70lv - Double Tactics Immunity\n90lv - Penetration Attack\nPrefect - Pig Farm\nWarlord - All Loot+\nBanner - Liu Bang```")
+    }
+if (args ===`ChenPing || args ===`chenping || args ===`Chenping`){
+      message.channel.send("```asciidoc\n[Chen Ping]\nCost - 19\nStat - 13/97/67/82/93\n30lv - Interrupt Tactics +% (15)\n50lv - Critical Attack Immunity\n70lv - Tactics DEF Rate Pierce (10)\n90lv - Defense Stat Switch\nPrefect - Master Tax\nWarlord - Battle Ration+\nBanner - Liu Bang```")
+    }
+if (args ===`LuZhi || args ===`luzhi || args ===`Luzhi`){
+      message.channel.send("```asciidoc\n[Lu Zhi]\nCost - 18\nStat - 81/66/73/95/89\n30lv - Oppressive Assault\n50lv - Confusion Attack % (30)\n70lv - Double Counter\n90lv - First Strike Immunity\nPrefect - Tailor\nWarlord - Yizhou Pillage Boost+\nBanner - Liu Bang```")
+    }
+if (args ===`PengYue || args ===`pengyue || args ===`Pengyue`){
+      message.channel.send("```asciidoc\n[Peng Yue]\nCost - 20\nStat - 91/35/86/98/61\n30lv - Naval Battle +\n50lv - Surprise Attack (3)\n70lv - % Charge Attack (4)\n90lv - Charge Move\nPrefect - Lumbermill\nWarlord - Qingzhou Tax+\nBanner - Liu Bang```")
+    }
+if (args ===`ZhouBo || args ===`zhoubo || args ===`Zhoubo`){
+      message.channel.send("```asciidoc\n[Zhou Bo]\nCost - 20\nStat - 86/51/88/81/85\n30lv - Critical Attack+ (30)\n50lv - Deadly Attack (50)\n70lv - Unstoppable\n90lv - Guiding Attack\nPrefect - Lumbermill\nWarlord - Yuzhou Loot+\nBanner - Liu Bang```")
+    }
+if (args ===`CaoShen || args ===`caoshen || args ===`Caoshen`){
+      message.channel.send("```asciidoc\n[Cao Shen]\nCost - 22\nStat - 92/87/92/83/89\n30lv - Expand ATK RNG (26)\n50lv - Veteran (35)\n70lv - Deadly Attack (50)\n90lv - Good from Evil\nPrefect - Pig Farm\nWarlord - Yuzhou Loot+\nBanner - Liu Bang```")
+    }
+if (args ===`XiahouYing || args ===`xiahouying || args ===`Xiahouying`){
+      message.channel.send("```asciidoc\n[Xiahou Ying]\nCost - 21\nStat - 85/57/84/92/78\n30lv - Self SPD+\n50lv - Double Tactics Immunity\n70lv - Unstoppable\n90lv - Critical Attack\nPrefect - Tailor\nWarlord - Scout+\nBanner - Liu Bang```")
+    }
+if (args ===`XianHe || args ===`xianhe || args ===`Xianhe`){
+      message.channel.send("```asciidoc\n[Xian He]\nCost - 19\nStat - 6/96/87/73/69\n30lv - Critical Attack Immunity\n50lv - Reach SPD+\n70lv - Reach WIS+\n90lv - Summon the Four Gods\nPrefect - Market\nWarlord - Battle Ration+\nBanner - Liu Bang```")
+    }
+if (args ===`FanKuai || args ===`fankuai || args ===`Fankuai`){
+      message.channel.send("```asciidoc\n[Fan Kuai]\nCost - 23\nStat - 97/45/85/86/84\n30lv - Elusive (10)\n50lv - EP Saving % (30)\n70lv - Tactics ACC + (15)\n90lv - Double Tactics\nPrefect - Pottery Works\nWarlord - All Loot+\nBanner - Liu Bang```")
+    }
+if (args ===`HanXin || args ===`hanxin || args ===`Hanxin`){
+      message.channel.send("```asciidoc\n[Han Xin]\nCost - 24\nStat - 84/98/100/89/49\n30lv - Mountain Battle Specialization\n50lv - Special Attack Immunity\n70lv - Peerless % (20)\n90lv - Quantify (4)\nPrefect - Master Tax\nWarlord - Yizhou Pillage Boost+\nBanner - Liu Bang```")
+    }
+if (args ===`ZhangLiang || args ===`zhangliang || args ===`Zhangliang`){
+      message.channel.send("```asciidoc\n[Zhang Liang]\nCost - 24\nStat - 39/100/75/82/90\n30lv - Double Tactics +%\n50lv - Godly Tactics (25)\n70lv - Ranged DMG -% (70)\n90lv - Hell Gate (4)\nPrefect - Silver Coin Tax\nWarlord - Ration Tax+\nBanner - Liu Bang```")
+    }
+if (args ===`LiuBang || args ===`liubang || args ===`Liubang`){
+      message.channel.send("```asciidoc\n[Liu Bang]\nCost - 19\nStat - 77/81/89/90/100\n30lv - MRL Boost % (30)\n50lv - Reach ATK+\n70lv - Reach AGI+\n90lv - Narrow Escape (1)\nPrefect - Ration Tax\nWarlord - General Tax+\nBanner - Liu Bang```")
+    }
+if (args ===`XiangBo || args ===`xiangbo || args ===`Xiangbo`){
+      message.channel.send("```asciidoc\n[Xiang Bo]\nCost - 15\nStat - 67/76/81/63/73\n30lv - Status Effect Immunity\n50lv - Double ATK Immunity\n70lv - Reach DEF+\n90lv - Physical Damage -% (20)\nPrefect - Pottery Works\nWarlord - Occupation+\nBanner - Xiang Yu```")
+    }
+if (args ===`XiangLiang || args ===`xiangliang || args ===`Xiangliang`){
+      message.channel.send("```asciidoc\n[Xiang Liang]\nCost - 17\nStat - 85/54/96/59/65\n30lv - HP Boost % (15)\n50lv - Double Tactics Immunity\n70lv - Expand ATK RNG (7)\n90lv - First Strike\nPrefect - Market\nWarlord - Yizhou Pillage Boost+\nBanner - Xiang Yu```")
+    }
+if (args ===`YuYing || args ===`yuying || args ===`Yuying`){
+      message.channel.send("```asciidoc\n[Yu Ying]\nCost - 20\nStat - 90/47/81/96/78\n30lv - Double Tactics Immunity\n50lv - Deadly Attack (50)\n70lv - Unstoppable\n90lv - All DEF Rate + (20)\nPrefect - Market\nWarlord - Sizhou Tax+\nBanner - Xiang Yu```")
+    }
+if (args ===`HuanChu || args ===`huanchu || args ===`Huanchu`){
+      message.channel.send("```asciidoc\n[Huan Chu]\nCost - 21\nStat - 95/39/79/92/76\n30lv - Charge Move\n50lv - Comeback\n70lv - Good from Evil\n90lv - Enhanced Double ATK % (50)\nPrefect - Pig Farm\nWarlord - All Loot+\nBanner - Xiang Yu```")
+    }
+if (args ===`ZhouLan || args ===`zhoulan || args ===`Zhoulan`){
+      message.channel.send("```asciidoc\n[Zhou Lan]\nCost - 20\nStat - 91/77/79/85/98\n30lv - Silence Attack % (30)\n50lv - Phalanx Strike\n70lv - Expand AoE (4)\n90lv - Blind Attack % (30)\nPrefect - Fishery\nWarlord - Premium Shop+\nBanner - Xiang Yu```")
+    }
+if (args ===`JiBu || args ===`jibu || args ===`Jibu`){
+      message.channel.send("```asciidoc\n[Ji Bu]\nCost - 20\nStat - 89/58/91/71/77\n30lv - DEF Boost % (10)\n50lv - Oathkeeper (50)\n70lv - Expand ATK RNG (7)\n90lv - Raking Blow\nPrefect - Fruit Grove\nWarlord - Trader+\nBanner - Xiang Yu```")
+    }
+if (args ===`LongJu || args ===`longju || args ===`Longju`){
+      message.channel.send("```asciidoc\n[Long Ju]\nCost - 22\nStat - 97/37/78/83/79\n30lv - % Charge Attack (5)\n50lv - Rough Terrain Move\n70lv - Surprise Attack (3)\n90lv - Leading Attack\nPrefect - Port\nWarlord - Liangzhou-S Tax+\nBanner - Xiang Yu```")
+    }
+if (args ===`ZhongliMo || args ===`zhonglimo || args ===`Zhonglimo`){
+      message.channel.send("```asciidoc\n[Zhongli Mo]\nCost - 23\nStat - 93/81/84/97/88\n30lv - Elusive (10)\n50lv - Naval Battle +\n70lv - Deadly Attack (50)\n90lv - Charge Move\nPrefect - Pottery Works\nWarlord - Battle Ration+\nBanner - Xiang Yu```")
+    }
+if (args ===`YingBu || args ===`yingbu || args ===`Yingbu`){
+      message.channel.send("```asciidoc\n[Ying Bu]\nCost - 23\nStat - 96/49/86/77/81\n30lv - Good from Evil\n50lv - Unstoppable\n70lv - Guiding Attack\n90lv - Critical Attack\nPrefect - Market\nWarlord - Liangzhou-N Loot+\nBanner - Xiang Yu```")
+    }
+if (args ===`FanZeng || args ===`fanzeng || args ===`Fanzeng`){
+      message.channel.send("```asciidoc\n[Fan Zeng]\nCost - 21\nStat - 37/97/88/80/75\n30lv - Double Tactics +%\n50lv - Double ATK Immunity\n70lv - Tactics ACC + (15)\n90lv - Union\nPrefect - Master Tax\nWarlord - Battle Ration+\nBanner - Xiang Yu```")
+    }
+if (args ===`YuMiaoyi || args ===`yumiaoyi || args ===`Yumiaoyi`){
+      message.channel.send("```asciidoc\n[Yu Miaoyi]\nCost - 14\nStat - 73/69/82/99/78\n30lv - Ranged DMG -% (15)\n50lv - MP Saving % (25)\n70lv - Physical Damage -% (15)\n90lv - Reach Awaken\nPrefect - Fishery\nWarlord - Xuzhou Tax+\nBanner - Xiang Yu```")
+    }
+if (args ===`XiangYu || args ===`xiangyu || args ===`Xiangyu`){
+      message.channel.send("```asciidoc\n[Xiang Yu]\nCost - 25\nStat - 100/59/99/90/73\n30lv - Hero of the Ages (25)\n50lv - Give and Take (15)\n70lv - Desperate Attack\n90lv - Overwhelm (25)\nPrefect - Master Tax\nWarlord - Yizhou Pillage Boost+\nBanner - Xiang Yu```")
+    }
+    
+    
+    
+    
 //보병    
     if (args ===`강보`){
       message.channel.send("```asciidoc\n[강보 (보병)]\nCOST - 14\n능력치 - 60/70/80/60/60\n30lv - 전 방어율 증가 (5%)\n50lv - HP 보조% (15%)\n70lv - 주위 견고\n90lv - 일치단결\n태수효과 - 시장 특화\n군주효과 - 무역 상점 보조\n계보 - 난세간웅 ```")
