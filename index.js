@@ -2138,89 +2138,89 @@ bot.on("message", async message => {
     
     
      if (args ===`footman` || args ===`Footman`){
-      message.channel.send("```asciidoc\n[Footman]\nYue Jin (20)\nHao Zhao (19)\nPang De (20)\nYue Chen (15)\nGuo Huai (19)\nSun Huan (18)\nLuo Xian (19)\nDong Xi (18)\nKing Wutugu (19)\nSun Deng (17)\nLu Zhi (18)\nHuangfu Song (19)\nLiu Zan (18)\nZhang Yi (17)\nZhao Tong (16)\nWu Lan (16)\nChen Zhen (17)\nLiu Feng (17)\nTeng Yin (14)\nXiang Chong (16)\nCao Hong (16)\nFeng Xi (17)\nYang Huai (14)\nHuo Jun (15)\nLi Jue (16)\nXiahou He (15)\nFei Guan (14)\nLiu Shao (14)\nJiang Yiqu (14)\nYong Kai (15)\nGao Ding (14)\nSun Liang (16)\nHou Cheng (14)\nSun Xiu (15)\nDong Cheng (14)\nJiang Fu (14)\nCao Mao (16)\nChe Zhou (14)\nMi Fang (17)\nLiu Shan (14)\nLiu Qi (14)\nZhang Da (14)\nLiu Du (14)\nHan Fu (14)\nHan Xuan (14) ```")
+      message.channel.send("```asciidoc\n[Footman]\nYue Jin (20)	YueHao Zhao (19)	Pang De (20)	Yue Chen (15)\nGuo Huai (19)	Sun Huan (18)	Luo Xian (19)	Dong Xi (18)\nKing Wutugu (19)	Sun Deng (17)	Lu Zhi (18)	Huangfu Song (19)\nLiu Zan (18)	Zhang Yi (17)	Zhao Tong (16)	Wu Lan (16)\nChen Zhen (17)	Liu Feng (17)	Teng Yin (14)	Xiang Chong (16)	Cao Hong (16)\nFeng Xi (17)	Yang Huai (14)	Huo Jun (15)	Li Jue (16)\nXiahou He (15)	Fei Guan (14)	Liu Shao (14)	Jiang Yiqu (14)\nYong Kai (15)	Gao Ding (14)	Sun Liang (16)	Hou Cheng (14)\nSun Xiu (15)	Dong Cheng (14)	Jiang Fu (14)	Cao Mao (16)\nChe Zhou (14)	Mi Fang (17)	Liu Shan (14)	Liu Qi (14)\nZhang Da (14)	Liu Du (14)	Han Fu (14)	Han Xuan (14) ```")
      }
      if (args ===`archer` || args ===`Archer`){
-      message.channel.send("```asciidoc\n[Archer]\nChen Wu (20)\nWang Ping (19)\nXu Sheng (19)\nDing Feng (19)\nYu Jin (19)\nTian Chou (17)\nZhang Te (16)\nZhou Fang (17)\nSun He (14)\nCui Yan (16)\nDong He (16)\nZhuge Xu (14)\nJian Yong (16)\nYuan Yi (15)\nLiu Gong (14)\nLiu Pi (14)\nSong Xian (14)\nZhang Xiu (16)\nJiang Bin (14)\nZhong Yu (15)\nYan Jun (16)\nJu Gu (14)\nYan Zheng (14)\nZhuge Jun (14)\nZhou Lan (20) ```")
+      message.channel.send("```asciidoc\n[Archer]\nChen Wu (20)	Wang Ping (19)	Xu Sheng (19)	Ding Feng (19)\nYu Jin (19)	Tian Chou (17)	Zhang Te (16)	Zhou Fang (17)\nSun He (14)	Cui Yan (16)	Dong He (16)	Zhuge Xu (14)\nJian Yong (16)	Yuan Yi (15)	Liu Gong (14)	Liu Pi (14)\nSong Xian (14)	Zhang Xiu (16)	Jiang Bin (14)	Zhong Yu (15)\nYan Jun (16)	Ju Gu (14)	Yan Zheng (14)	Zhuge Jun (14)\nZhou Lan (20) ```")
      }
      if (args ===`Catapult` || args ===`catapult`){
-      message.channel.send("```asciidoc\n[Catapult]\nLiu Ye (18)\nXin Ping (16)\nYu Fan (17)\nKan Ze (16)\nDong Jue (14)\nShi Xie (17)\nChen Jiao (16)\nFan Jian (14)\nJin Xuan (14)\nMa Miao (14)\nGong Zhi (14)\nDong Zhao (16)\nPang Sun (14)\nGuo Youzhi (16)\nYang Hong (14)\nZhao Fan (14)\nYang Song (14) ```")
+      message.channel.send("```asciidoc\n[Catapult]\nLiu Ye (18)	Xin Ping (16)	Yu Fan (17)	Kan Ze (16)\nDong Jue (14)	Shi Xie (17)	Chen Jiao (16)	Fan Jian (14)\nJin Xuan (14)	Ma Miao (14)	Gong Zhi (14)	Dong Zhao (16)\nPang Sun (14)	Guo Youzhi (16)	Yang Hong (14)	Zhao Fan (14)\nYang Song (14) ```")
      }
      if (args ===`Chariot` || args ===`chariot`){
-      message.channel.send("```asciidoc\n[Chariot]\nDong Zhuo (22)\nHua Xiong (20)\nGao Shun (19)\nYan Xing (19)\nCao Zhen (19)\nMa Teng (19)\nLiu Gui (14)\nHan Sui (18)\nZhao Guang (16)\nMa Dai (18)\nCheng Gongying (16)\nEhe Shaoge (15)\nKing Midang (14)\nWang Ling (20) ```")
+      message.channel.send("```asciidoc\n[Chariot]\nDong Zhuo (22)	Hua Xiong (20)	Gao Shun (19)	Yan Xing (19)\nCao Zhen (19)	Ma Teng (19)	Liu Gui (14)	Han Sui (18)\nZhao Guang (16)	Ma Dai (18)	Cheng Gongying (16)	Ehe Shaoge (15)\nKing Midang (14)	Wang Ling (20) ```")
      }
      if (args ===`CrossbowChariot` || args ===`Crossbowchariot`||args ===`crossbowchariot`){
-      message.channel.send("```asciidoc\n[Crossbow Chariot]\nXiahou Ying (21)\nZhongli Mo (23) ```")
+      message.channel.send("```asciidoc\n[Crossbow Chariot]\nXiahou Ying (21)	Zhongli Mo (23) ```")
      }
      if (args ===`Crossbowman` || args ===`crossbowman`){
-      message.channel.send("```asciidoc\n[Crossbowman]\nZhang Ren (20)\nLi Dian (19)\nZhu Huan (19)\nQuan Cong (18)\nCao Xiu (18)\nWu Jing (15)\nLiu Yan (18)\nDeng Zhi (18)\nZhu Zhi (17)\nBu Lianshi (17)\nZhao Lei (16)\nBu Xie (14)\nYang Yi (15)\nLu Kai (16)\nXu Miao (15)\nWei You (15)\nWen Hui (16)\nZhuge Qiao (16)\nMao Jie (15)\nChen Biao (16)\nShi Yi (14)\nWang Can (15)\nSun Hao (14) ```")
+      message.channel.send("```asciidoc\n[Crossbowman]\nZhang Ren (20)	Li Dian (19)	Zhu Huan (19)	Quan Cong (18)\nCao Xiu (18)	Wu Jing (15)	Liu Yan (18)	Deng Zhi (18)\nZhu Zhi (17)	Bu Lianshi (17)	Zhao Lei (16)	Bu Xie (14)\nYang Yi (15)	Lu Kai (16)	Xu Miao (15)	Wei You (15)\nWen Hui (16)	Zhuge Qiao (16)	Mao Jie (15)	Chen Biao (16)\nShi Yi (14)	Wang Can (15)	Sun Hao (14) ```")
      }
      if (args ===`Dancer` || args ===`dancer`){
-      message.channel.send("```asciidoc\n[Dancer]\nWang Yuanji (20)\nDiaochan (20)\nZhenji (19)\nDaqiao (19)\nZhurong (19)\nCao Jie (18)\nYang Huiyu (17)\nTang Ji (17)\nEmpress He (15)\nYang Yan (16)\nLu Zhi (18) ```")
+      message.channel.send("```asciidoc\n[Dancer]\nWang Yuanji (20)	Diaochan (20)	Zhenji (19)	Daqiao (19)\nZhurong (19)	Cao Jie (18)	Yang Huiyu (17)	Tang Ji (17)\nEmpress He (15)	Yang Yan (16)	Lu Zhi (18) ```")
      }
      if (args ===`Demon` || args ===`demon`){
       message.channel.send("```asciidoc\n[Demon]\nZhuge Liang (22) ```")
      }
      if (args ===`Emperor` || args ===`emperor`){
-      message.channel.send("```asciidoc\n[Emperor]\nLiu Bang (19)\nXiang Liang (17)```")
+      message.channel.send("```asciidoc\n[Emperor]\nLiu Bang (19)	Xiang Liang (17)```")
      }
      if (args ===`Geomancer` || args ===`geomancer`){
-      message.channel.send("```asciidoc\n[Geomancer]\nMan Chong (17)\nZhong Yao (17)\nXiaoqiao (18)\nChen Qun (18)\nXun You (18)\nSun Qian (15)\nZhuge Jin (16)\nFei Yi (16)\nDong Yun (17)\nLi Hui (15)\nFeng Ji (15)\nXu Jing (14)\nChen Lin (15)\nWang Yun (15)\nGuo Yuan (14)\nQin Mi (14)\nFu Jia (15)\nXue Zong (14)\nZhang Hua (15)\nWang Fu (14)\nWang Xiu (14)\nXiang Lang (14)\nGao Rou (15)\nXin Pi (14)\nXi Zheng (14)\nYi Ji (14)\nSima Lang (14)\nXu You (14)\nKong Zhou (14)\nLiu He (14)\nGui Hwan (14)\nSi Zun (14)\nZhang Baek (14)\nXian He (19)\nXiang Bo (15) ```")
+      message.channel.send("```asciidoc\n[Geomancer]\nMan Chong (17)	Zhong Yao (17)	Xiaoqiao (18)	Chen Qun (18)\nXun You (18)	Sun Qian (15)	Zhuge Jin (16)	Fei Yi (16)\nDong Yun (17)	Li Hui (15)	Feng Ji (15)	Xu Jing (14)\nChen Lin (15)	Wang Yun (15)	Guo Yuan (14)	Qin Mi (14)\nFu Jia (15)	Xue Zong (14)	Zhang Hua (15)	Wang Fu (14)\nWang Xiu (14)	Xiang Lang (14)	Gao Rou (15)	Xin Pi (14)\nXi Zheng (14)	Yi Ji (14)	Sima Lang (14)	Xu You (14)\nKong Zhou (14)	Liu He (14)	Gui Hwan (14)	Si Zun (14)\nZhang Baek (14)	Xian He (19)	Xiang Bo (15) ```")
      }
      if (args ===`HeavyCavalry` || args ===`Heavycavalry` || args ===`heavycavalry`){
-      message.channel.send("```asciidoc\n[Heavy Cavalry]\nGuan Yu (23)\nWen Chou (22)\nCao Ren (21)\nLing Tong (20)\nXiahou Jie (18)\nCheng Pu (19)\nXiahou Ba (19)\nCao Chun (18)\nGuan Xing (19)\nHe Qi (18)\nWen Qin (19)\nHu Zhen (14)\nDeng Zhong (16)\nJi Ling (18)\nTian Kai (14)\nXu Rong (16)\nYang Fu (17)\nSun Jun (16)\nFan Chou (14)\nXing Daorong (15)\nLiu Yao (16)\nSun Jing (15)\nBao Xin (15)\nYuan Xi (14)\nHe Jin (14)\nXiahou Mao (14)\nCao Shen (22) ```")
+      message.channel.send("```asciidoc\n[Heavy Cavalry]\nGuan Yu (23)	Wen Chou (22)	Cao Ren (21)	Ling Tong (20)\nXiahou Jie (18)	Cheng Pu (19)	Xiahou Ba (19)	Cao Chun (18)\nGuan Xing (19)	He Qi (18)	Wen Qin (19)	Hu Zhen (14)\nDeng Zhong (16)	Ji Ling (18)	Tian Kai (14)	Xu Rong (16)\nYang Fu (17)	Sun Jun (16)	Fan Chou (14)	Xing Daorong (15)\nLiu Yao (16)	Sun Jing (15)	Bao Xin (15)	Yuan Xi (14)\nHe Jin (14)	Xiahou Mao (14)	Cao Shen (22) ```")
      }
      if (args ===`LightCavalry` || args ===`Lightcavalry` ||  args ===`lightCavalry`){
-      message.channel.send("```asciidoc\n[Light Cavalry]\nTaishi Ci (23)\nZhang Liao (21)\nZhang Fei (23)\nYan Liang (22)\nXiahou Dun (21)\nWen Yang (21)\nZhang Xingcai (21)\nGuan Yinping (20)\nZhang Bao (19)\nCao Ang (18)\nWang Ji (18)\nGuan Ping (19)\nWang Yi (18)\nLu Lingqi (19)\nZhu Jun (18)\nMa Yaoji (17)\nTian Yu (19)\nXiahou Lan (14)\nWei Guan (14)\nYan Rou (17)\nZhang Miao (17)\nWu Yan (17)\nAhui Nan (14)\nZhang Yang (16)\nXiahou En (16)\nMan Ji (15)\nZhang Ji (14)\nYuan Tan (14)\nZhang Ji (16)\nLi Yi (14)\nWei Xu (14)\nZhang Wei (14)\nCao Hua (16)\nGao Pei (14)\nXie Jing (14)\nGuan Ying (20) ```")
+      message.channel.send("```asciidoc\n[Light Cavalry]\nTaishi Ci (23)	Zhang Liao (21)	Zhang Fei (23)	Yan Liang (22)\nXiahou Dun (21)	Wen Yang (21)	Zhang Xingcai (21)	Guan Yinping (20)\nZhang Bao (19)	Cao Ang (18)	Wang Ji (18)	Guan Ping (19)\nWang Yi (18)	Lu Lingqi (19)	Zhu Jun (18)	Ma Yaoji (17)\nTian Yu (19)	Xiahou Lan (14)	Wei Guan (14)	Yan Rou (17)\nZhang Miao (17)	Wu Yan (17)	Ahui Nan (14)	Zhang Yang (16)\nXiahou En (16)	Man Ji (15)	Zhang Ji (14)	Yuan Tan (14)\nZhang Ji (16)	Li Yi (14)	Wei Xu (14)	Zhang Wei (14)\nCao Hua (16)	Gao Pei (14)	Xie Jing (14)	Guan Ying (20) ```")
      }
      if (args ===`Marine` || args ===`marine`){
-      message.channel.send("```asciidoc\n[Marine]\nZhou Yu (21)\nLu Xun (20)\nLu Kang (19)\nLu Meng (21)\nZhu Ran (17)\nYang Hu (18)\nChen Tai (18)\nLu Dai (18)\nZhong Hui (17)\nDu Yu (18)\nChen Deng (17)\nZhuge Ke (17)\nCai Mao (17)\nHuang Quan (16)\nSun Jiao (16)\nLu Fan (16)\nLuo Tong (16)\nHan Xin (24) ```")
+      message.channel.send("```asciidoc\n[Marine]\nZhou Yu (21)	Lu Xun (20)	Lu Kang (19)	Lu Meng (21)\nZhu Ran (17)	Yang Hu (18)	Chen Tai (18)	Lu Dai (18)\nZhong Hui (17)	Du Yu (18)	Chen Deng (17)	Zhuge Ke (17)\nCai Mao (17)	Huang Quan (16)	Sun Jiao (16)	Lu Fan (16)\nLuo Tong (16)	Han Xin (24) ```")
      }
      if (args ===`MountainCavalry` || args ===`Mountaincavalry`|| args ===`mountaincavalry`){
-      message.channel.send("```asciidoc\n[Mountain Cavalry]\nLu bu (24)\nZhao Yun (23)Ma Chao (23)\nDeng Ai (21)\nJiang Wei (21)\nCao Zhang (19)\nGongsun Zan (19)\nFei Yao (18)\nDing Yuan (18)\nZhongli Mu (17)\nLiang Xi (18)\nTadun (18)\nWang Kuang (17)\nGuanqiu Jian (16)\nXiahou De (14)\nMang Yachang (14)\nHuchuquan (16)\nGongsun Yue (16)\nGongsun Yuan (14)\nGongsun Kang (14)\nYan Yu (16)\nYan Gang (15)\nGeng Wu (14)\nPeng Yue (20) ```")
+      message.channel.send("```asciidoc\n[Mountain Cavalry]\nLu bu (24)	Zhao Yun (23)	Ma Chao (23)	Deng Ai (21)\nJiang Wei (21)	Cao Zhang (19)	Gongsun Zan (19)	Fei Yao (18)\nDing Yuan (18)	Zhongli Mu (17)	Liang Xi (18)	Tadun (18)\nWang Kuang (17)	Guanqiu Jian (16)	Xiahou De (14)	Mang Yachang (14)\nHuchuquan (16)	Gongsun Yue (16)	Gongsun Yuan (14)	Gongsun Kang (14)\nYan Yu (16)	Yan Gang (15)	Geng Wu (14)	Peng Yue (20) ```")
      }
      if (args ===`MountedArcher` || args ===`Mountedarcher` || args ===`mountedarcher`){
-      message.channel.send("```asciidoc\n[Mounted Archer]\nHuang Zhong (23)\nSun Shangxiang (21)\nXiahou Yuan (21)\nZhang He (20)\nGuan Suo (19)\nGao Lan (18)\nZhu Ling (18)\nHu Lie (16)\nZhang Zun (15)\nXiahou Shang (18)\nGuo Yi (18)\nLu Qian (17)\nTan Xiong (16)\nMa Xiu (16)\nMa Yunlu (16)\nWen Hu (17)\nZhu Yi (17)\nCao Anmin (15)\nCao Xing (14)\nGao Gan (15)\nZhou Bo (20) ```")
+      message.channel.send("```asciidoc\n[Mounted Archer]\nHuang Zhong (23)	Sun Shangxiang (21)	Xiahou Yuan (21)	Zhang He (20)\nGuan Suo (19)	Gao Lan (18)	Zhu Ling (18)	Hu Lie (16)\nZhang Zun (15)	Xiahou Shang (18)	Guo Yi (18)	Lu Qian (17)\nTan Xiong (16)	Ma Xiu (16)	Ma Yunlu (16)	Wen Hu (17)\nZhu Yi (17)	Cao Anmin (15)	Cao Xing (14)	Gao Gan (15)\nZhou Bo (20) ```")
      }
      if (args ===`Musician` || args ===`musician`){
-      message.channel.send("```asciidoc\n[Musician]\nBian Yue Xiang (16)\nYu Miaoyi (14) ```")
+      message.channel.send("```asciidoc\n[Musician]\nBian Yue Xiang (16)	Yu Miaoyi (14) ```")
      }
      if (args ===`Navy` || args ===`navy`){
-      message.channel.send("```asciidoc\n[Navy]\nGan Ning (23)\nZhou Tai (21)\nJiang Qin (20)\nWen Pin (20)\nLing Cao (19)\nSun Yu (18)\nWang Jun (18)\nSun Yi (17)\nSu Fei (16)\nTang Zi (16)\nZhang Yun (15)\nChen Heng (14)\nCai He (14)\nLiu Cong (14) ```")
+      message.channel.send("```asciidoc\n[Navy]\nGan Ning (23)	Zhou Tai (21)	Jiang Qin (20)	Wen Pin (20)\nLing Cao (19)	Sun Yu (18)	Wang Jun (18)	Sun Yi (17)\nSu Fei (16)	Tang Zi (16)	Zhang Yun (15)	Chen Heng (14)\nCai He (14)	Liu Cong (14) ```")
      }
      if (args ===`Outlaw` || args ===`outlaw`){
-      message.channel.send("```asciidoc\n[Outlaw]\nXu Chu (21)\nZhang Yan (19)\nZang Ba (19)\nHan Dang (19)\nZu Mao (18)\nLiao Hua (19)\nZhou Cang (19)\nWu Anguo (18)\nZhou Xin (16)\nDong Tuna (16)\nWu Can (15)\nSuigao (16)\nJiao Chu (17)\nGao Sheng (14)\nYan Baihu (14)\nGong Du (14)\nPei Yuanshao (15)\nHuan Chu (21) ```")
+      message.channel.send("```asciidoc\n[Outlaw]\nXu Chu (21)	Zhang Yan (19)	Zang Ba (19)	Han Dang (19)\nZu Mao (18)	Liao Hua (19)	Zhou Cang (19)	Wu Anguo (18)\nZhou Xin (16)	Dong Tuna (16)	Wu Can (15)	Suigao (16)\nJiao Chu (17)	Gao Sheng (14)	Yan Baihu (14)	Gong Du (14)\nPei Yuanshao (15)	Huan Chu (21) ```")
      }
      if (args ===`Pantheran` || args ===`pantheran`){
-      message.channel.send("```asciidoc\n[Pantheran]\nWu Ban (18)\nMeng You (14)\nShamoke (17)\nJinhuan Sanjie (16)\nLi Ming (17)\nDailai Donzhu (14) ```")
+      message.channel.send("```asciidoc\n[Pantheran]\nWu Ban (18)	Meng You (14)	Shamoke (17)	Jinhuan Sanjie (16)\nLi Ming (17)	Dailai Donzhu (14) ```")
      }
      if (args ===`sage` || args ===`Sage`){
-      message.channel.send("```asciidoc\n[Sage]\nPang Tong (20)\nSima Yi (21)\nZhang Jue (19)\nZhuge Liang (21)\nZhang Liang (24) ```")
+      message.channel.send("```asciidoc\n[Sage]\nPang Tong (20)	Sima Yi (21)	Zhang Jue (19)	Zhuge Liang (21)\nZhang Liang (24) ```")
      }
      if (args ===`Spearman` || args ===`spearman`){
-      message.channel.send("```asciidoc\n[Spearman]\nXu Huang (21)\nGuan Hai (16)\nBo Cai (14)\nYang Feng (14)\nWang Jing (14)\nHu Zhi (14)\nMeng Da (17)\nChunyu Qiong (17)\nHuan Jie (15)\nMa Zhong (15)\nGu Tan (15)\nShi Zuan (14)\nZhang Hu (17)\nFu Qian (19)\nShen Rong (19)\nPan Zhang (18)\nWang Zhong (14)\nChen Dao (18)\nFan Qiang (14)\nLeng Bao (14)\nLi Yan (19)\nYan Yan (18)\nCai Zhong (14)\nXi Ni (14)\nHan Hao (18)\nZhuge Zhan (16)\nHuo Yi (17)\nYang Ji (16)\nGuo Si (15)\nGuo Jin (14)\nJi Bu (20) ```")
+      message.channel.send("```asciidoc\n[Spearman]\nXu Huang (21)	Guan Hai (16)	Bo Cai (14)	Yang Feng (14)\nWang Jing (14)	Hu Zhi (14)	Meng Da (17)	Chunyu Qiong (17)\nHuan Jie (15)	Ma Zhong (15)	Gu Tan (15)	Shi Zuan (14)\nZhang Hu (17)	Fu Qian (19)	Shen Rong (19)	Pan Zhang (18)\nWang Zhong (14)	Chen Dao (18)	Fan Qiang (14)	Leng Bao (14)\nLi Yan (19)	Yan Yan (18)	Cai Zhong (14)	Xi Ni (14)\nHan Hao (18)	Zhuge Zhan (16)	Huo Yi (17)	Yang Ji (16)\nGuo Si (15)	Guo Jin (14)	Ji Bu (20) ```")
      }
      if (args ===`Soldier` || args ===`soldier`){
-      message.channel.send("```asciidoc\n[Soldier]\nWei Yan (21)\nDian Wei (21)\nSun Li (19)\nBao Sanniang (19)\nHuang Gai (20)\nZhang Mancheng (17)\nSun Shao (19)\nHuche'er (19)\nZhang Ni (18)\nWang Shuang (19)\nLei Tong (16)\nWu Yi (19)\nHuang Zu (17)\nBian Xi (15)\nHo Gong (16)\nCheng Yuanzhi (14)\nYue Jiu (14)\nYang Xin (14)\nYu Ying (20) ```")
+      message.channel.send("```asciidoc\n[Soldier]\nWei Yan (21)	Dian Wei (21)	Sun Li (19)	Bao Sanniang (19)\nHuang Gai (20)	Zhang Mancheng (17)	Sun Shao (19)	Huche'er (19)\nZhang Ni (18)	Wang Shuang (19)	Lei Tong (16)	Wu Yi (19)\nHuang Zu (17)	Bian Xi (15)	Ho Gong (16)	Cheng Yuanzhi (14)\nYue Jiu (14)	Yang Xin (14)	Yu Ying (20) ```")
      }
      if (args ===`SwiftCavalry` || args ===`Swiftcavalry` || args === `swiftcavalry`){
-      message.channel.send("```asciidoc\n[Swift Cavalry]\nXiang Yu (25)\nYing Bu (23)\nLong Ju (22) ```")
+      message.channel.send("```asciidoc\n[Swift Cavalry]\nXiang Yu (25)	Ying Bu (23)	Long Ju (22) ```")
      }     
     
     if (args ===`Swordsman` || args ===`swordsman`){
-      message.channel.send("```asciidoc\n[Swordsman]\nYoung Cao Cao (24)\nYoung Xiahou Dun (21)\nFan Kuai (23) ```")
+      message.channel.send("```asciidoc\n[Swordsman]\nYoung Cao Cao (24)	Young Xiahou Dun (21)	Fan Kuai (23) ```")
      }
      if (args ===`Tactician` || args ===`tactician`){
-      message.channel.send("```asciidoc\n[Tactician]\nCheng Yu (18)\nLu Su (19)\nCai Yan (18)\nXu Shu (19)\nChen Gong (17)\nTian Feng (18)\nJu Shou (18)\nFa Zheng (19)\nMi Zhu (15)\nShen Pei (17)\nZhang Zhao (18)\nMa Su (16)\nXun Yu (20)\nHuang Yueying (17)\nXiahou Xuan (17)\nJiang Wan (17)\nLi Ru (15)\nKuai Liang (17)\nSun Luyu (16)\nXi Zhicai (16)\nMa Liang (17)\nNing Sui (14)\nZhang Wen (15)\nXiahoushi (16)\nChen Gui (15)\nCao Xian (14)\nGu Yong (16)\nWang Lang (15)\nYang Zhi (15)\nYan Pu (15)\nGuan Jing (14)\nYang Xiu (15)\nZhang Song (15)\nXin Xianying (14)\nKong Rong (14)\nUi Re (14)\nFan Zeng (21) ```")
+      message.channel.send("```asciidoc\n[Tactician]\nCheng Yu (18)	Lu Su (19)	Cai Yan (18)	Xu Shu (19)\nChen Gong (17)	Tian Feng (18)	Ju Shou (18)	Fa Zheng (19)\nMi Zhu (15)	Shen Pei (17)	Zhang Zhao (18)	Ma Su (16)\nXun Yu (20)	Huang Yueying (17)	Xiahou Xuan (17)	Jiang Wan (17)\nLi Ru (15)	Kuai Liang (17)	Sun Luyu (16)	Xi Zhicai (16)\nMa Liang (17)	Ning Sui (14)	Zhang Wen (15)	Xiahoushi (16)\nChen Gui (15)	Cao Xian (14)	Gu Yong (16)	Wang Lang (15)\nYang Zhi (15)	Yan Pu (15)	Guan Jing (14)	Yang Xiu (15)\nZhang Song (15)	Xin Xianying (14)	Kong Rong (14)	Ui Re (14)\nFan Zeng (21) ```")
      }
      if (args ===`Taoist` || args ===`taoist`){
-      message.channel.send("```asciidoc\n[Taoist]\nGuo Jia (20)\nJia Xu (19)\nZhang Hong (17)\nCao Zhi (17)\nJia Kui (15)\nZhang Chunhua (16)\nLiu Fu (14)\nKuai Yue (16)\nGuo Tu (15)\nJia Nanfeng (16)\nBu Zhi (15)\nSun Luban (14)\nZhang Bao (14)\nKing Duosi (14)\nPuyang Xing (14)\nXiahou Hui (14)\nZhang Liang (14)\nXun Chen (14)\nXu Gong (14)\nXun Yi (14)\nMi Heng (14)\nLi Su (14)\nHua Xin (14)\nCen Hun (14)\nHuang Hao (14)\nChen Ping (19) ```")
+      message.channel.send("```asciidoc\n[Taoist]\nGuo Jia (20)	Jia Xu (19)	Zhang Hong (17)	Cao Zhi (17)\nJia Kui (15)	Zhang Chunhua (16)	Liu Fu (14)	Kuai Yue (16)\nGuo Tu (15)	Jia Nanfeng (16)	Bu Zhi (15)	Sun Luban (14)\nZhang Bao (14)	King Duosi (14)	Puyang Xing (14)	Xiahou Hui (14)\nZhang Liang (14)	Xun Chen (14)	Xu Gong (14)	Xun Yi (14)\nMi Heng (14)	Li Su (14)	Hua Xin (14)	Cen Hun (14)\nHuang Hao (14)	Chen Ping (19) ```")
      }
      if (args ===`Ursari` || args ===`ursari`){
-      message.channel.send("```asciidoc\n[Ursari]\nMeng Huo (21)\nHua Man (18)\nKing Mulu (16) ```")
+      message.channel.send("```asciidoc\n[Ursari]\nMeng Huo (21)	Hua Man (18)	King Mulu (16) ```")
      }
      if (args ===`Warlord` || args ===`warlord`){
-      message.channel.send("```asciidoc\n[Warlord]\nSun Jian (20)\nSun Ce (21)\nLiu Bei (20)\nCao Cao (21)\nSun Quan (19)\nYuan Shao (19)\nCao Pi (17)\nZhuge Dan (17)\nCao Rui (17)\nSima Shi (17)\nSima Yan (17)\nSima Zhao (17)\nLiu Yu (17)\nLiu Biao (17)\nZhang Xiu (16)\nYuan Shu (17)\nYuan Shang (16)\nCao Shuang  (14)\nTao Qian (14)\nZhang Lu (14)\nLiu Zhang (14) ```")
+      message.channel.send("```asciidoc\n[Warlord]\nSun Jian (20)	Sun Ce (21)	Liu Bei (20)	Cao Cao (21)\nSun Quan (19)	Yuan Shao (19)	Cao Pi (17)	Zhuge Dan (17)\nCao Rui (17)	Sima Shi (17)	Sima Yan (17)	Sima Zhao (17)\nLiu Yu (17)	Liu Biao (17)	Zhang Xiu (16)	Yuan Shu (17)\nYuan Shang (16)	Cao Shuang  (14)	Tao Qian (14)	Zhang Lu (14)\nLiu Zhang (14) ```")
      }
      
      
