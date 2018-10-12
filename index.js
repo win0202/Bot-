@@ -32,6 +32,185 @@ bot.on("message", async message => {
   
   
   if (cmd === `${prefix}번역` || cmd === `${prefix}tr`){
+    
+// 병종 class
+    
+    
+        if (args ===`보병`){
+        message.channel.send("```asciidoc\nFootman```");
+    }
+    if (args ===`풍수사`){
+      message.channel.send("```asciidoc\nGeomancer```")
+     }
+     if (args ===`도사`){
+      message.channel.send("```asciidoc\nTaoist```")
+     }
+     if (args ===`웅술사`){
+      message.channel.send("```asciidoc\nUrsari```")
+     }
+     if (args ===`포차`){
+      message.channel.send("```asciidoc\nCatapult```")
+     }
+     if (args ===`현자`){
+      message.channel.send("```asciidoc\nSage```")
+     }
+     if (args ===`마왕`){
+      message.channel.send("```asciidoc\ndemon```")
+     }
+     if (args ===`책사`){
+      message.channel.send("```asciidoc\nTactician```")
+     }
+     if (args ===`노병`){
+      message.channel.send("```asciidoc\nCrossbowman```")
+     }
+     if (args ===`궁병`){
+      message.channel.send("```asciidoc\nArcher```")
+     }
+     if (args ===`호술사`){
+      message.channel.send("```asciidoc\nPantheran```")
+     }
+     if (args ===`산악기병`){
+      message.channel.send("```asciidoc\nMountain Cavalry```")
+     }
+     if (args ===`도독`){
+      message.channel.send("```asciidoc\nMarine```")
+     }
+     if (args ===`무인`){
+      message.channel.send("```asciidoc\nSoldier```")
+     }
+     if (args ===`적병`){
+      message.channel.send("```asciidoc\nOutlaw```")
+     }
+     if (args ===`무희`){
+      message.channel.send("```asciidoc\nDancer```")
+     }
+     if (args ===`수군`){
+      message.channel.send("```asciidoc\nNavy```")
+     }
+     if (args ===`효기병`){
+      message.channel.send("```asciidoc\nwift Cavalry```")
+     }
+     if (args ===`검사`){
+      message.channel.send("```asciidoc\nSwordsman```")
+     }
+     if (args ===`군주`){
+      message.channel.send("```asciidoc\nWarlord```")
+     }
+     if (args ===`천자`){
+      message.channel.send("```asciidoc\nemperor```")
+     }
+     if (args ===`중기병`){
+      message.channel.send("```asciidoc\nHeavy Cavalry```")
+     }
+     if (args ===`전차`){
+      message.channel.send("```asciidoc\nChariot```")
+     }
+     if (args ===`창병`){
+      message.channel.send("```asciidoc\nSpearman```")
+     }
+     if (args ===`경기병`){
+      message.channel.send("```asciidoc\nLight Cavalry```")
+     }
+    if (args ===`궁기병`){
+      message.channel.send("```asciidoc\nMounted Archer```")
+     }    
+    if (args ===`노전차`){
+      message.channel.send("```asciidoc\nCrossbow Chariot```")
+     }
+    if (args ===`군악대`){
+      message.channel.send("```asciidoc\nMusician```")
+   }
+        
+     if (args ===`footman` || args ===`Footman`){
+      message.channel.send("```asciidoc\n보병 ```")
+     }
+     if (args ===`archer` || args ===`Archer`){
+      message.channel.send("```asciidoc\n궁병 ```")
+     }
+     if (args ===`Catapult` || args ===`catapult`){
+      message.channel.send("```asciidoc\n포차 ```")
+     }
+     if (args ===`Chariot` || args ===`chariot`){
+      message.channel.send("```asciidoc\n전차 ```")
+     }
+     if (args ===`CrossbowChariot` || args ===`Crossbowchariot`||args ===`crossbowchariot`){
+      message.channel.send("```asciidoc\n노전차 ```")
+     }
+     if (args ===`Crossbowman` || args ===`crossbowman`){
+      message.channel.send("```asciidoc\n노병 ```")
+     }
+     if (args ===`Dancer` || args ===`dancer`){
+      message.channel.send("```asciidoc\n무희 ```")
+     }
+     if (args ===`Demon` || args ===`demon`){
+      message.channel.send("```asciidoc\n마왕 ```")
+     }
+     if (args ===`Emperor` || args ===`emperor`){
+      message.channel.send("```asciidoc\n천자 ```")
+     }
+     if (args ===`Geomancer` || args ===`geomancer`){
+      message.channel.send("```asciidoc\n풍수사 ```")
+     }
+     if (args ===`HeavyCavalry` || args ===`Heavycavalry` || args ===`heavycavalry`){
+      message.channel.send("```asciidoc\n중기병 ```")
+     }
+     if (args ===`LightCavalry` || args ===`Lightcavalry` ||  args ===`lightCavalry`){
+      message.channel.send("```asciidoc\n경기병 ```")
+     }
+     if (args ===`Marine` || args ===`marine`){
+      message.channel.send("```asciidoc\n도독 ```")
+     }
+     if (args ===`MountainCavalry` || args ===`Mountaincavalry`|| args ===`mountaincavalry`){
+      message.channel.send("```asciidoc\n산악기병 ```")
+     }
+     if (args ===`MountedArcher` || args ===`Mountedarcher` || args ===`mountedarcher`){
+      message.channel.send("```asciidoc\n궁기병 ```")
+     }
+     if (args ===`Musician` || args ===`musician`){
+      message.channel.send("```asciidoc\n군악대 ```")
+     }
+     if (args ===`Navy` || args ===`navy`){
+      message.channel.send("```asciidoc\n수군 ```")
+     }
+     if (args ===`Outlaw` || args ===`outlaw`){
+      message.channel.send("```asciidoc\n적병 ```")
+     }
+     if (args ===`Pantheran` || args ===`pantheran`){
+      message.channel.send("```asciidoc\n호술사 ```")
+     }
+     if (args ===`sage` || args ===`Sage`){
+      message.channel.send("```asciidoc\n현자 ```")
+     }
+     if (args ===`Spearman` || args ===`spearman`){
+      message.channel.send("```asciidoc\n창병 ```")
+     }
+     if (args ===`Soldier` || args ===`soldier`){
+      message.channel.send("```asciidoc\n무인 ```")
+     }
+     if (args ===`SwiftCavalry` || args ===`Swiftcavalry` || args === `swiftcavalry`){
+      message.channel.send("```asciidoc\n효기병 ```")
+ }     
+    
+    if (args ===`Swordsman` || args ===`swordsman`){
+      message.channel.send("```asciidoc\n검사 ```")
+     }
+     if (args ===`Tactician` || args ===`tactician`){
+      message.channel.send("```asciidoc\n책사 ```")
+     }
+     if (args ===`Taoist` || args ===`taoist`){
+      message.channel.send("```asciidoc\n도사 ```")
+     }
+     if (args ===`Ursari` || args ===`ursari`){
+      message.channel.send("```asciidoc\n웅술사 ```")
+     }
+     if (args ===`Warlord` || args ===`warlord`){
+      message.channel.send("```asciidoc\n군주```")
+     }
+    
+    
+    
+    
+// commander 장수    
     if (args ===`강보`){
        message.channel.send("```JiangFu```");
     }
