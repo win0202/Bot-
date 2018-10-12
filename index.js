@@ -2172,7 +2172,7 @@ bot.on("message", async message => {
      if (args ===`Geomancer` || args ===`geomancer`){
       message.channel.send("```asciidoc\n[Geomancer]\nMan Chong (17)\nZhong Yao (17)\nXiaoqiao (18)\nChen Qun (18)\nXun You (18)\nSun Qian (15)\nZhuge Jin (16)\nFei Yi (16)\nDong Yun (17)\nLi Hui (15)\nFeng Ji (15)\nXu Jing (14)\nChen Lin (15)\nWang Yun (15)\nGuo Yuan (14)\nQin Mi (14)\nFu Jia (15)\nXue Zong (14)\nZhang Hua (15)\nWang Fu (14)\nWang Xiu (14)\nXiang Lang (14)\nGao Rou (15)\nXin Pi (14)\nXi Zheng (14)\nYi Ji (14)\nSima Lang (14)\nXu You (14)\nKong Zhou (14)\nLiu He (14)\nGui Hwan (14)\nSi Zun (14)\nZhang Baek (14)\nXian He (19)\nXiang Bo (15) ```")
      }
-     if (args ===`HeavyCavalry` || args ===`Heavycavalry` || || args ===`heavycavalry`){
+     if (args ===`HeavyCavalry` || args ===`Heavycavalry` || args ===`heavycavalry`){
       message.channel.send("```asciidoc\n[Heavy Cavalry]\nGuan Yu (23)\nWen Chou (22)\nCao Ren (21)\nLing Tong (20)\nXiahou Jie (18)\nCheng Pu (19)\nXiahou Ba (19)\nCao Chun (18)\nGuan Xing (19)\nHe Qi (18)\nWen Qin (19)\nHu Zhen (14)\nDeng Zhong (16)\nJi Ling (18)\nTian Kai (14)\nXu Rong (16)\nYang Fu (17)\nSun Jun (16)\nFan Chou (14)\nXing Daorong (15)\nLiu Yao (16)\nSun Jing (15)\nBao Xin (15)\nYuan Xi (14)\nHe Jin (14)\nXiahou Mao (14)\nCao Shen (22) ```")
      }
      if (args ===`LightCavalry` || args ===`Lightcavalry` || || args ===`lightCavalry`){
