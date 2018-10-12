@@ -5996,6 +5996,111 @@ if (args ===`XiangYu`||args ===`xiangyu`||args ===`Xiangyu`){
      }
  
 //경기병
+    if (args ===`고패`){
+      message.channel.send("```asciidoc\n[고패 (경기병)\nCOST - 14\n능력치 - 73/27/69/70/58\n30lv - 연속 책략 면역\n50lv - 연속 공격 강화% (15%)\n70lv - 회심 공격 강화\n90lv - 주위 방해\n태수효과 - 경작 특화\n군주효과 - 익주(중) 약탈 보조\n계보 - 용장익덕 ```")
+     }
+    if (args ===`관영`){
+      message.channel.send("```asciidoc\n[관영 (경기병)\nCOST - 20\n능력치 - 95/39/71/92/88\n30lv - 무반격 공격\n50lv - 물리 공격 강화% (12%)\n70lv - 공격 범위 확장 (대폭염)\n90lv - 갈퀴 공격\n태수효과 - 경작 특화\n군주효과 - 점령 보조\n계보 - 태조고제 ```")
+     }
+    if (args ===`관은병`){
+      message.channel.send("```asciidoc\n[관은병 (경기병)\nCOST - 20\n능력치 - 84/75/79/63/88\n30lv - 연속 책략 면역\n50lv - 방어력 하강 공격\n70lv - 연속 반격\n90lv - 무반격 공격\n태수효과 - 은전 징세 특화\n군주효과 - 군량 약탈 보조\n계보 - 용장익덕 ```")
+     }
+    if (args ===`관평`){
+      message.channel.send("```asciidoc\n[관평 (경기병)\nCOST - 19\n능력치 - 83/72/82/77/60\n30lv - 연속 책략 면역\n50lv - 주위 방해\n70lv - 연속 공격 강화% (15%)\n90lv - 재반격\n태수효과 - 경작 특화\n군주효과 - 형주(북) 약탈 보조\n계보 - 황숙현덕 ```")
+     }
+    if (args ===`마요희`){
+      message.channel.send("```asciidoc\n[마요희 (경기병)\nCOST - 17\n능력치 - 79/62/70/85/68\n30lv - 연속 책략 면역\n50lv - 물리 공격 강화% (12%)\n70lv - 분노 축적% (20%)\n90lv - 연속 공격 면역\n태수효과 - 시장 특화\n군주효과 - 옹주(서) 징세 보조\n계보 - 만족맹기 ```")
+     }
+    if (args ===`만기`){
+      message.channel.send("```asciidoc\n[만기 (경기병)\nCOST - 15\n능력치 - 80/60/70/60/60\n30lv - 물리 공격 강화% (12%)\n50lv - 연속 공격 강화% (15%)\n70lv - 회심 공격 강화\n90lv - 물리 피해 감소% (10%)\n태수효과 - 항만 특화\n군주효과 - 점령 보조\n계보 - 난세간웅 ```")
+     }
+    if (args ===`문앙`){
+      message.channel.send("```asciidoc\n[문앙 (경기병)\nCOST - 21\n능력치 - 93/67/81/88/56\n30lv - 일격 필살\n50lv - 물리 피해 감소% (10%)\n70lv - 인도 공격\n90lv - 피해 범위 확장 (3격)\n태수효과 - 군량 징세 특화\n군주효과 - 군량 약탈 보조\n계보 - 등후사재 ```")
+     }
+    if (args ===`사정`){
+      message.channel.send("```asciidoc\n[사정 (경기병)\nCOST - 14\n능력치 - 71/22/64/74/61\n30lv - 주위 방해\n50lv - 연속 공격 강화% (15%)\n70lv - 물리 공격 강화% (12%)\n90lv - 기마 공격 강화% (15%)\n태수효과 - 군량 징세 특화\n군주효과 - 양주(남) 징세 보조\n계보 - 동래자의 ```")
+     }
+    if (args ===`아회남`){
+      message.channel.send("```asciidoc\n[아회남 (경기병)\nCOST - 14\n능력치 - 75/33/66/71/78\n30lv - 회심 공격 강화\n50lv - 주위 고양\n70lv - 주위 방해\n90lv - 기마 공격 강화 무시\n태수효과 - 은전 징세 특화\n군주효과 - 익주(남) 징세 보조\n계보 - 칠금만왕 ```")
+     }
+    if (args ===`안량`){
+      message.channel.send("```asciidoc\n[안량 (경기병)\nCOST - 22\n능력치 - 93/42/92/84/66\n30lv - 주위 방해\n50lv - 일기당천\n70lv - 피해 전가\n90lv - 재반격\n태수효과 - 군량 징세 특화\n군주효과 - 군량 약탈 보조\n계보 - 군신운장 ```")
+     }
+    if (args ===`여령기`){
+      message.channel.send("```asciidoc\n[여령기 (경기병)\nCOST - 19\n능력치 - 85/33/62/88/75\n30lv - 돌파 공격\n50lv - \n형 효과 보조\n70lv - 물리 공격 강화% (12%)\n90lv - 주동 공격\n태수효과 - 은전 징세 특화\n군주효과 - 은전 약탈 보조\n계보 - 비장봉선 ```")
+     }
+    if (args ===`염유`){
+      message.channel.send("```asciidoc\n[염유 (경기병)\nCOST - 17\n능력치 - 68/72/71/74/74\n30lv - 연속 공격 강화% (15%)\n50lv - 물리 피해 감소% (10%)\n70lv - 주위 방해\n90lv - 간접 피해 감소% (10%)\n태수효과 - 보관의 달인\n군주효과 - 옹주(동) 징세 보조\n계보 - 마왕패도 ```")
+     }
+    if (args ===`오언`){
+      message.channel.send("```asciidoc\n[오언 (경기병)\nCOST - 17\n능력치 - 72/76/73/61/72\n30lv - 회심 공격 강화\n50lv - 물리 공격 강화% (12%)\n70lv - 연속 공격 강화% (15%)\n90lv - 반격 강화\n태수효과 - 제재소 특화\n군주효과 - 양주(남) 약탈 보조\n계보 - 미주공근 ```")
+     }
+    if (args ===`왕기`){
+      message.channel.send("```asciidoc\n[왕기 (경기병)\nCOST - 18\n능력치 - 82/76/83/74/66\n30lv - 물리 공격 강화% (12%)\n50lv - 회심 공격 강화\n70lv - 연속 책략 면역\n90lv - 간접 피해 감소% (10%)\n태수효과 - 항만 특화\n군주효과 - 청주 징세 보조\n계보 - 문명황후 ```")
+     }
+    if (args ===`왕이`){
+      message.channel.send("```asciidoc\n[왕이 (경기병)\nCOST - 18\n능력치 - 71/85/86/82/66\n30lv - 연속 책략 면역\n50lv - 돌진 공격% (3%)\n70lv - 기습 공격 (3%)\n90lv - 파진 공격\n태수효과 - 군량 징세 특화\n군주효과 - 군량 징세 보조\n계보 - 만족맹기 ```")
+     }
+    if (args ===`원담`){
+      message.channel.send("```asciidoc\n[원담 (경기병)\nCOST - 14\n능력치 - 73/52/68/66/66\n30lv - 물리 공격 강화% (12%)\n50lv - 주위 고양\n70lv - 연속 책략 면역\n90lv - 연속 공격 강화% (15%)\n태수효과 - 과수 특화\n군주효과 - 예주 약탈 보조\n계보 - 패왕본초 ```")
+     }
+    if (args ===`위관`){
+      message.channel.send("```asciidoc\n[위관 (경기병)\nCOST - 14\n능력치 - 66/82/72/70/81\n30lv - 주위 방해\n50lv - 물리 공격 강화% (12%)\n70lv - 회심 공격 강화\n90lv - 기마 공격 강화 무시\n태수효과 - 양돈 특화\n군주효과 - 명품 상점 보조\n계보 - 등후사재 ```")
+     }
+    if (args ===`위속`){
+      message.channel.send("```asciidoc\n[위속 (경기병)\nCOST - 14\n능력치 - 78/42/67/69/58\n30lv - 주위 방해\n50lv - 반격 강화\n70lv - 물리 공격 강화% (12%)\n90lv - 연속 공격 강화% (15%)\n태수효과 - 시장 특화\n군주효과 - 서주 약탈 보조\n계보 - 비장봉선 ```")
+     }
+    if (args ===`이이`){
+      message.channel.send("```asciidoc\n[이이 (경기병)\nCOST - 14\n능력치 - 78/15/68/72/63\n30lv - 물리 공격 강화% (12%)\n50lv - 반격 강화\n70lv - 연속 공격 강화% (15%)\n90lv - 기마 공격 강화% (15%)\n태수효과 - 군량 보관 특화\n군주효과 - 무역 상점 보조\n계보 - 용장익덕 ```")
+     }
+    if (args ===`장기`){
+      message.channel.send("```asciidoc\n[장기 (경기병)\nCOST - 16\n능력치 - 61/82/77/56/77\n30lv - 주위 방해\n50lv - 연속 공격 강화% (15%)\n70lv - 물리 공격 강화% (12%)\n90lv - 반격 강화\n태수효과 - 경작 특화\n군주효과 - 서주 약탈 보조\n계보 - 임협원직 ```")
+     }
+    if (args ===`장료`){
+      message.channel.send("```asciidoc\n[장료 (경기병)\nCOST - 21\n능력치 - 94/80/83/75/91\n30lv - 연속 공격 강화% (15%)\n50lv - 신출귀몰\n70lv - 주동 공격\n90lv - 일치단결\n태수효과 - 항만 특화\n군주효과 - 병주 약탈 보조\n계보 - 낭고중달 ```")
+     }
+    if (args ===`장막`){
+      message.channel.send("```asciidoc\n[장막 (경기병)\nCOST - 17\n능력치 - 60/70/84/74/72\n30lv - 물리 공격 강화% (12%)\n50lv - 연속 공격 강화% (15%)\n70lv - 연속 책략 면역\n90lv - 물리 피해 감소% (10%)\n태수효과 - 제재소 특화\n군주효과 - 연주 징세 보조\n계보 - 비장봉선 ```")
+     }
+	if (args ===`장비`){
+      message.channel.send("```asciidoc\n[장비 (경기병)\nCOST - 23\n능력치 - 98/46/94/91/67\n30lv - 연속 공격 강화% (15%)\n50lv - 분전 공격\n70lv - 일기당천\n90lv - 분노 축적% (20%)\n태수효과 - 군량 징세 특화\n군주효과 - 전 약탈 보조\n계보 - 용장익덕 ```")
+     }
+    if (args ===`장성채`){
+      message.channel.send("```asciidoc\n[장성채 (경기병)\nCOST - 21\n능력치 - 86/55/81/92/63\n30lv - \n형 효과 보조\n50lv - 무한 인도 공격\n70lv - 물리 공격 강화% (12%)\n90lv - 일기당천\n태수효과 - 군량 징세 특화\n군주효과 - 은전 약탈 보조\n계보 - 용장익덕 ```")
+     }
+	if (args ===`장양`){
+      message.channel.send("```asciidoc\n[장양 (경기병)\nCOST - 16\n능력치 - 78/68/73/69/54\n30lv - 연속 책략 면역\n50lv - 회심 공격 강화\n70lv - 물리 공격 강화% (12%)\n90lv - 기마 공격 강화% (15%)\n태수효과 - 보관의 달인\n군주효과 - 병주 징세 보조\n계보 - 영웅문대 ```")
+     }
+    if (args ===`장위`){
+      message.channel.send("```asciidoc\n[장위 (경기병)\nCOST - 14\n능력치 - 74/55/70/61/65\n30lv - 물리 공격 강화% (12%)\n50lv - 주위 고양\n70lv - 주위 방해\n90lv - 연속 책략 면역\n태수효과 - 항만 특화\n군주효과 - 옹주(동) 징세 보조\n계보 - 대현량사 ```")
+     }
+	if (args ===`장제`){
+      message.channel.send("```asciidoc\n[장제 (경기병)\nCOST - 14\n능력치 - 67/55/70/73/67\n30lv - 주위 방해\n50lv - 물리 공격 강화% (12%)\n70lv - 연속 공격 강화% (15%)\n90lv - 기마 공격 강화% (15%)\n태수효과 - 징세의 달인\n군주효과 - 옹주(서) 약탈 보조\n계보 - 마왕패도 ```")
+     }
+    if (args ===`장포`){
+      message.channel.send("```asciidoc\n[장포 (경기병)\nCOST - 19\n능력치 - 87/48/78/81/70\n30lv - 물리 공격 강화% (12%)\n50lv - 흡혈 공격% (7%)\n70lv - 연속 책략 면역\n90lv - 주위 압박\n태수효과 - 군량 징세 특화\n군주효과 - 점령 보조\n계보 - 용장익덕 ```")
+     }
+	if (args ===`전예`){
+      message.channel.send("```asciidoc\n[전예 (경기병)\nCOST - 19\n능력치 - 72/82/85/76/66\n30lv - 물리 공격 강화% (12%)\n50lv - 회심 공격 강화\n70lv - 연속 책략 면역\n90lv - 연속 공격 강화% (15%)\n태수효과 - 시장 특화\n군주효과 - 점령 보조\n계보 - 상산자룡 ```")
+     }
+    if (args ===`조앙`){
+      message.channel.send("```asciidoc\n[조앙 (경기병)\nCOST - 18\n능력치 - 84/67/74/62/91\n30lv - 물리 공격 강화% (12%)\n50lv - 일기당천\n70lv - 연속 책략 면역\n90lv - 물리 피해 감소% (10%)\n태수효과 - 보관의 달인\n군주효과 - 예주 약탈 보조\n계보 - 군신운장 ```")
+     }
+    if (args ===`조화`){
+      message.channel.send("```asciidoc\n[조화 (경기병)\nCOST - 16\n능력치 - 61/69/56/67/83\n30lv - 물리 공격 강화% (12%)\n50lv - 연속 공격 강화% (15%)\n70lv - 회심 공격 강화\n90lv - 주위 방해\n태수효과 - 시장 특화\n군주효과 - 유주 징세 보조\n계보 - 문소황후 ```")
+     }
+    if (args ===`주준`){
+      message.channel.send("```asciidoc\n[주준 (경기병)\nCOST - 18\n능력치 - 70/72/89/74/72\n30lv - 물리 공격 강화% (12%)\n50lv - 연속 책략 면역\n70lv - 회심 공격 강화\n90lv - 연속 공격 면역\n태수효과 - 수산물 특화\n군주효과 - 옹주(서) 징세 보조\n계보 - 동래자의 ```")
+     }
+    if (args ===`태사자`){
+      message.channel.send("```asciidoc\n[태사자 (경기병)\nCOST - 23\n능력치 - 93/69/90/95/72\n30lv - 물리 공격 강화% (12%)\n50lv - 파진 공격\n70lv - 천하무쌍% (25%)\n90lv - 피해 전가\n태수효과 - 은전 징세 특화\n군주효과 - 은전 약탈 보조\n계보 - 동래자의 ```")
+     }
+    if (args ===`하후란`){
+      message.channel.send("```asciidoc\n[하후란 (경기병)\nCOST - 14\n능력치 - 76/67/73/77/71\n30lv - 연속 공격 강화% (15%)\n50lv - 기마 공격 강화% (15%)\n70lv - 주위 방해\n90lv - 회심 공격 강화\n태수효과 - 시장 특화\n군주효과 - 유주 약탈 보조\n계보 - 상산자룡 ```")
+     }
+    if (args ===`하후은`){
+      message.channel.send("```asciidoc\n[하후은 (경기병)\nCOST - 16\n능력치 - 72/58/63/62/82\n30lv - 주위 방해\n50lv - 기마 공격 강화% (15%)\n70lv - 물리 공격 강화% (12%)\n90lv - 사기 보조% (10%)\n태수효과 - 군량 보관 특화\n군주효과 - 예주 징세 보조\n계보 - 등후사재 ```")
+     }
 
  
 //궁기병
@@ -6066,9 +6171,25 @@ if (args ===`XiangYu`||args ===`xiangyu`||args ===`Xiangyu`){
     
     
 //노전차
+    if (args ===`종리말`){
+      message.channel.send("```asciidoc\n[종리말 (노전차)]\nCOST - 23\n능력치 - 93/81/84/97/88\n30lv - 신출귀몰\n50lv - 수전 보조\n70lv - 일격 필살\n90lv - 돌격 이동\n태수효과 - 공방 특화\n군주효과 - 출진 군량 보조\n계보 - 패왕항우 ```")
+     }
+    if (args ===`하후영`){
+      message.channel.send("```asciidoc\n[하후영 (노전차)]\nCOST - 21\n능력치 - 85/57/84/92/78\n30lv - 본대 강행\n50lv - 일기당천\n70lv - 연속 책략 면역\n90lv - 회심 공격\n태수효과 - 견직 특화\n군주효과 - 정찰 보조\n계보 - 태조고제 ```")
+     }
 
  
 //군악대    
+        if (args ===`변월향`){
+      message.channel.send("```asciidoc\n[변월향 (군악대)]\nCOST - 16\n능력치 - 43/88/69/97/82\n30lv - 연속 공격 면역\n50lv - 험로 이동\n70lv - 범위 책략 피해 감소 (70%)\n90lv - 주위 강행\n태수효과 - 견직 특화\n군주효과 - 전 징세 보조\n계보 - 풍운아만 ```")
+     }
+    if (args ===`우희`){
+      message.channel.send("```asciidoc\n[우희 (군악대)]\nCOST - 14\n능력치 - 73/69/82/99/78\n30lv - 간접 피해 감소% (15%)\n50lv - MP 절약% (25%)\n70lv - 물리 피해 감소% (15%)\n90lv - 주위 각성\n태수효과 - 수산물 특화\n군주효과 - 서주 징세 보조\n계보 - 패왕항우 ```")
+     }
+    if (args ===`조령`){
+      message.channel.send("```asciidoc\n[조령 (군악대)]\nCOST - 15\n능력치 - 37/73/68/92/83\n30lv - 보급계 책략 강화% (15%)\n50lv - MP 절약% (25%)\n70lv - 회심 면역\n90lv - 주위 기합\n태수효과 - 견직 특화\n군주효과 - 전 징세 보조\n계보 - 난세여걸 ```")
+     }
+
 /* 
     if (args ===``){
       message.channel.send("```asciidoc\n[ ```")
@@ -8446,7 +8567,7 @@ if (args ===`classicofmountainsandseas` || args ===`Classicofmountainsandseas` |
       message.channel.send("```asciidoc\n[창병]\n계포 (20)\n고담 (15)\n곽사 (15)\n곽익 (17)\n곽진 (14)\n관해 (16)\n냉포 (14)\n마충 (15)\n맹달 (17)\n반장 (18)\n범강 (14)\n부첨 (19)\n사찬 (14)\n서황 (21)\n순우경 (17)\n심영 (19)\n양봉 (14)\n양제 (16)\n엄안 (18)\n왕경 (14)\n왕충 (14)\n이엄 (19)\n장호 (17)\n제갈첨 (16)\n진도 (18)\n채중 (14)\n파재 (14)\n한호 (18)\n해니 (14)\n호질 (14)\n환계 (15) ```")
      }
      if (args ===`경기병`){
-      message.channel.send("```asciidoc\n[경기병]\n ```")
+      message.channel.send("```asciidoc\n[경기병]\n고패 (14)\n관영 (20)\n관은병 (20)\n관평 (19)\n마요희 (17)\n만기 (15)\n문앙 (21)\n사정 (14)\n아회남 (14)\n안량 (22)\n여령기 (19)\n염유 (17)\n오언 (17)\n왕기 (18)\n왕이 (18)\n원담 (14)\n위관 (14)\n위속 (14)\n이이 (14)\n장기 (16)\n장료 (21)\n장막 (17)\n장비 (23)\n장성채 (21)\n장양 (16)\n장위 (14)\n장제 (14)\n장포 (19)\n전예 (19)\n조앙 (18)\n조화 (16)\n주준 (18)\n태사자 (23)\n하후돈 (21)\n하후란 (14)\n하후은 (16) ```")
      }
     if (args ===`궁기병`){
       message.channel.send("```asciidoc\n[궁기병]\n고간 (15)\n고람 (18)\n관색 (19)\n국의 (18)\n담웅 (16)\n마운록 (16)\n마휴 (16)\n문호 (17)\n손상향 (21)\n여건 (17)\n장준 (15)\n장합 (20)\n조성 (14)\n조안민 (15)\n주령 (18)\n주발 (20)\n주이 (17)\n하후상 (18)\n하후연 (21)\n호열 (16)\n황충 (23) ```")
@@ -8455,7 +8576,7 @@ if (args ===`classicofmountainsandseas` || args ===`Classicofmountainsandseas` |
       message.channel.send("```asciidoc\n[노전차]\n종리말 (23)\n하후영 (21) ```")
      }
     if (args ===`군악대`){
-      message.channel.send("```asciidoc\n[군악대]\n ```")
+      message.channel.send("```asciidoc\n[군악대]\n변월향 (16)\n우희 (14)\n조령 (15) ```")
      }    
     
         
@@ -8484,7 +8605,7 @@ if (args ===`classicofmountainsandseas` || args ===`Classicofmountainsandseas` |
       message.channel.send("```asciidoc\n[Demon]\nZhuge Liang (22) ```")
      }
      if (args ===`Emperor` || args ===`emperor`){
-      message.channel.send("```asciidoc\n[Emperor]\nLiu Bang (19)\nXiang Liang (17)```")
+      message.channel.send("```asciidoc\n[Emperor]\nLiu Bang (19)```")
      }
      if (args ===`Geomancer` || args ===`geomancer`){
       message.channel.send("```asciidoc\n[Geomancer]\nMan Chong (17)\nZhong Yao (17)\nXiaoqiao (18)\nChen Qun (18)\nXun You (18)\nSun Qian (15)\nZhuge Jin (16)\nFei Yi (16)\nDong Yun (17)\nLi Hui (15)\nFeng Ji (15)\nXu Jing (14)\nChen Lin (15)\nWang Yun (15)\nGuo Yuan (14)\nQin Mi (14)\nFu Jia (15)\nXue Zong (14)\nZhang Hua (15)\nWang Fu (14)\nWang Xiu (14)\nXiang Lang (14)\nGao Rou (15)\nXin Pi (14)\nXi Zheng (14)\nYi Ji (14)\nSima Lang (14)\nXu You (14)\nKong Zhou (14)\nLiu He (14)\nGui Hwan (14)\nSi Zun (14)\nZhang Baek (14)\nXian He (19)\nXiang Bo (15) ```")
@@ -8542,7 +8663,7 @@ if (args ===`classicofmountainsandseas` || args ===`Classicofmountainsandseas` |
       message.channel.send("```asciidoc\n[Ursari]\nMeng Huo (21)\nHua Man (18)\nKing Mulu (16) ```")
      }
      if (args ===`Warlord` || args ===`warlord`){
-      message.channel.send("```asciidoc\n[Warlord]\nSun Jian (20)\nSun Ce (21)\nLiu Bei (20)\nCao Cao (21)\nSun Quan (19)\nYuan Shao (19)\nCao Pi (17)\nZhuge Dan (17)\nCao Rui (17)\nSima Shi (17)\nSima Yan (17)\nSima Zhao (17)\nLiu Yu (17)\nLiu Biao (17)\nZhang Xiu (16)\nYuan Shu (17)\nYuan Shang (16)\nCao Shuang  (14)\nTao Qian (14)\nZhang Lu (14)\nLiu Zhang (14) ```")
+      message.channel.send("```asciidoc\n[Warlord]\nSun Jian (20)\nSun Ce (21)\nLiu Bei (20)\nCao Cao (21)\nSun Quan (19)\nYuan Shao (19)\nCao Pi (17)\nZhuge Dan (17)\nCao Rui (17)\nSima Shi (17)\nSima Yan (17)\nSima Zhao (17)\nLiu Yu (17)\nLiu Biao (17)\nZhang Xiu (16)\nYuan Shu (17)\nYuan Shang (16)\nCao Shuang  (14)\nTao Qian (14)\nZhang Lu (14)\nLiu Zhang (14)\nXiang Liang (17)```")
      }
   
   }
@@ -8557,7 +8678,84 @@ if (args ===`classicofmountainsandseas` || args ===`Classicofmountainsandseas` |
     message.channel.send("https://www.plug.game/OfficialCaocao_nexon");
   } 
   
+  if(cmd === `${prefix}co`){
+      if (args ===`14`){
+         message.channel.send("```asciidoc\nJiang Fu (Footman)\nLiu Gong (Archer)\nYan Zheng (Archer)\nGong Du (Outlaw)\nGao Sheng (Outlaw)\nCheng Yuanzhi (Soldier)\nZhang Wei (Light Cavalry)\nZhang Lu (Warlord)\nHe Jin (Heavy Cavalry)\nLiu Pi (Archer)\nZhang Liang (Taoist)\nZhang Bao (Taoist)\nBo Cai (Spearman)\nXun Yi (Taoist)\nYang Feng (Spearman)\nDong Cheng (Footman)\nXie Jing (Light Cavalry)\nKong Rong (Tactician)\nWang Jing (Spearman)\nMa Miao (Catapult)\nKong Zhou (Geomancer)\nHu Zhi (Spearman)\nLiu Fu (Taoist)\nYuan Tan (Light Cavalry)\nXu You (Geomancer)\nJu Gu (Archer)\nYuan Xi (Heavy Cavalry)\nXin Pi (Geomancer)\nJiang Yiqu (Footman)\nCen Hun (Taoist)\nTeng Yin (Footman)\nPuyang Xing (Taoist)\nBu Xie (Crossbowman)\nSun Luban (Taoist)\nSun Hao (Crossbowman)\nGongsun Yuan (Mountain Cavalry)\nXue Zong (Geomancer)\nSun He (Archer)\nShi Zuan (Spearman)\nWang Xiu (Geomancer)\nCao Xian (Tactician)\nZhuge Xu (Archer)\nWei Guan (Light Cavalry)\nXi Zheng (Geomancer)\nMi Fang (Footman)\nFan Jian (Catapult)\nGuan Jing (Tactician)\nLiu Du (Footman)\nNing Sui (Tactician)\nXiahou Lan (Light Cavalry)\nTian Kai (Heavy Cavalry)\nShi Yi (Crossbowman)\nLiu Qi (Footman)\nJin Xuan (Catapult)\nXiang Lang (Geomancer)\nYan Baihu (Outlaw)\nChen Heng (Navy)\nXu Gong (Taoist)\nHua Xin (Taoist)\nXu Jing (Geomancer)\nKing Midang (Chariot)\nChe Zhou (Footman)\nWang Zhong (Spearman)\nYi Ji (Geomancer)\nGongsun Kang (Mountain Cavalry)\nZhao Fan (Catapult)\nHan Xuan (Footman)\nGuo Yuan (Geomancer)\nFan Qiang (Spearman)\nZhang Da (Footman)\nLi Yi (Light Cavalry)\nLiu Gui (Chariot)\nLeng Bao (Spearman)\nGao Pei (Light Cavalry)\nYang Huai (Footman)\nYang Song (Catapult)\nYang Hong (Catapult)\nHan Fu (Footman)\nWang Fu (Geomancer)\nYue Jiu (Soldier)\nXun Chen (Taoist)\nZhang Ji (Light Cavalry)\nCao Shuang (Warlord)\nCai Zhong (Spearman)\nCai He (Navy)\nXiahou De (Mountain Cavalry)\nLiu Shao (Footman)\nDailai Dongzhu (Pantheran)\nGao Ding (Footman)\nAhui Nan (Light Cavalry)\nXi Ni (Spearman)\nKing Duosi (Taoist)\nMang Yachang (Mountain Cavalry)\nMeng You (Pantheran)\nTao Qian (Warlord)\nLiu Zhang (Warlord)\nLiu Cong (Navy)\nMi Heng (Taoist)\nGong Zhi (Catapult)\nFei Guan (Footman)\nXiahou Mao (Heavy Cavalry)\nXin Xianying (Tactician)\nJiang Bin (Archer)\nDong Jue (Catapult)\nHuang Hao (Taoist)\nLiu Shan (Footman)\nZhuge Jun (Archer)\nQin Mi (Geomancer)\nSima Lang (Geomancer)\nXiahou Hui (Taoist)\nCao Xing (Mounted Archer)\nFan Chou (Heavy Cavalry)\nHou Cheng (Footman)\nLi Su (Taoist)\nWei Xu (Light Cavalry)\nSong Xian (Archer)\nHu Zhen (Heavy Cavalry)\nZhang Baek (Geomancer)\nYang Xin (Soldier)\nSi Zun (Geomancer)\nGuo Jin (Spearman)\nPang Sun (Catapult)\nGui Hwan (Geomancer)\nGeng Wu (Mountain Cavalry)\nUi Re (Tactician)\nLiu He (Geomancer)\nYu Miaoyi (Musician)```")
+       }
+    if (args ===`15`){
+         message.channel.send("```asciidoc\nManji (Light Cavalry)\nPei Yuanshao (Outlaw)\nEmpress He (Dancer)\nYan Pu (Tactician)\nGao Rou (Geomancer)\nCao Anmin (Mounted Archer)\nWei You (Crossbowman)\nHuo Jun (Footman)\nChen Lin (Geomancer)\nXing Daorong (Heavy Cavalry)\nBao Xin (Heavy Cavalry)\nBian Xi (Soldier)\nGao Gan (Mounted Archer)\nGuo Tu (Taoist)\nFeng Ji (Geomancer)\nZhang Yun (Navy)\nHuan Jie (Spearman)\nMa Zhong (Spearman)\nGu Tan (Spearman)\nZhang Wen (Tactician)\nWu Jing (Crossbowman)\nZhong Yu (Archer)\nYue Chen (Footman)\nYan Gang (Mountain Cavalry)\nYuan Yi (Archer)\nSun Jing (Heavy Cavalry)\nWang Can (Crossbowman)\nMi Zhu (Tactician)\nSun Qian (Geomancer)\nWu Can (Outlaw)\nWang Lang (Tactician)\nBu Zhi (Taoist)\nSun Xiu (Footman)\nChen Gui (Tactician)\nZhang Hua (Geomancer)\nZhang Song (Tactician)\nLi Hui (Geomancer)\nJia Kui (Taoist)\nXu Miao (Crossbowman)\nEhe Shaoge (Chariot)\nYong Kai (Footman)\nZhang Zun (Mounted Archer)\nFu Jia (Geomancer)\nYang Yi (Crossbowman)\nMao Jie (Crossbowman)\nYang Zhi (Tactician)\nYang Xiu (Tactician)\nXiahou He (Footman)\nGuo Si (Spearman)\nLi Ru (Tactician)\nWang Yun (Geomancer)\nXiang Bo (Geomancer)```")
+       }
+    if (args ===`16`){
+         message.channel.send("```asciidoc\nCao Hong (Footman)\nGuan Hai (Spearman)\nYang Yan (Dancer)\nHo Gong (Soldier)\nCao Mao (Footman)\nGuo Youzhi (Catapult)\nZhang Ji (Light Cavalry)\nJian Yong (Archer)\nDong Zhao (Catapult)\nYuan Shang (Warlord)\nXin Ping (Catapult)\nChen Biao (Crossbowman)\nGu Yong (Tactician)\nZhuge Jin (Geomancer)\nTang Zi (Navy)\nSun Liang (Footman)\nLuo Tong (Marine)\nXiahou En (Light Cavalry)\nXi Zhicai (Tactician)\nHu Lie (Mounted Archer)\nDeng Zhong (Heavy Cavalry)\nGongsun Yue (Mountain Cavalry)\nZhao Tong (Footman)\nZhao Guang (Chariot)\nYin Mo (Geomancer)\nZhang Yang (Light Cavalry)\nZhang Xiu (Archer)\nHuchuquan (Mountain Cavalry)\nZhou Xin (Outlaw)\nKuai Yue (Taoist)\nZhuge Qiao (Crossbowman)\nLiu Yao (Heavy Cavalry)\nYan Yu (Mountain Cavalry)\nSun Jiao (Marine)\nLu Fan (Marine)\nSu Fei (Navy)\nSun Jun (Heavy Cavalry)\nTan Xiong (Mounted Archer)\nKan Ze (Catapult)\nSun Luyu (Tactician)\nCui Yan (Archer)\nDong He (Archer)\nWu Lan (Footman)\nZhao Lei (Crossbowman)\nLei Tong (Soldier)\nHuang Quan (Marine)\nMa Xiu (Mounted Archer)\nCheng Gongying (Chariot)\nMa Yunlu (Mounted Archer)\nYan Jun (Archer)\nChen Jiao (Catapult)\nWen Hui (Crossbowman)\nZhang Xiu (Warlord)\nJinhuan Sanjie (Pantheran)\nDong Tuna (Outlaw)\nKing Mulu (Ursari)\nXiahoushi (Tactician)\nXiang Chong (Footman)\nCao Hua (Light Cavalry)\nZhang Te (Archer)\nLu Kai (Crossbowman)\nFei Yi (Geomancer)\nZhuge Zhan (Spearman)\nMa Su (Tactician)\nYang Ji (Spearman)\nGuanqiu Jian (Mountain Cavalry)\nZhang Chunhua (Taoist)\nJia Nanfeng (Taoist)\nLi Jue (Footman)\nSuigao (Outlaw)\nXu Rong (Heavy Cavalry)\nBian Yue Xiang (Musician)```")
+       }
+    if (args ===`17`){
+         message.channel.send("```asciidoc\nMan Chong (Geomancer)\nCao Pi (Warlord)\nZhang Mancheng (Soldier)\nYuan Shu (Warlord)\nLu Qian (Mounted Archer)\nMeng Da (Spearman)\nChen Zhen (Footman)\nChunyu Qiong (Spearman)\nShen Pei (Tactician)\nZhu Yi (Mounted Archer)\nZhongli Mu (Mountain Cavalry)\nZhou Fang (Archer)\nZhang Hong (Taoist)\nYu Fan (Catapult)\nBu Lianshi (Crossbowman)\nWen Hu (Mounted Archer)\nZhang Hu (Spearman)\nZhong Yao (Geomancer)\nMa Liang (Tactician)\nLi Ming (Pantheran)\nShi Xie (Catapult)\nZhu Zhi (Crossbowman)\nSun Yi (Navy)\nJiao Chu (Outlaw)\nTang Ji (Dancer)\nKuai Liang (Tactician)\nLiu Biao (Warlord)\nWu Yan (Light Cavalry)\nHuang Zu (Soldier)\nZhuge Ke (Marine)\nSun Deng (Footman)\nZhu Ran (Marine)\nChen Deng (Marine)\nFeng Xi (Footman)\nYang Fu (Heavy Cavalry)\nMa Yaoji (Light Cavalry)\nYan Rou (Light Cavalry)\nShamoke (Pantheran)\nLiu Feng (Footman)\nWang Kuang (Mountain Cavalry)\nTian Chou (Archer)\nLiu Yu (Warlord)\nDong Yun (Geomancer)\nCao Zhi (Taoist)\nCai Mao (Marine)\nZhuge Dan (Warlord)\nZhong Hui (Marine)\nCao Rui (Warlord)\nZhang Yi (Footman)\nJiang Wan (Tactician)\nHuo Yi (Spearman)\nHuang Yueying (Tactician)\nYang Huiyu (Dancer)\nXiahou Xuan (Tactician)\nSima Zhao (Warlord)\nSima Shi (Warlord)\nSima Yan (Warlord)\nZhang Miao (Light Cavalry)\nChen Gong (Tactician)\nXiang Liang (Warlord)```")
+       }
+    if (args ===`18`){
+         message.channel.send("```asciidoc\nXun You (Geomancer)\nCheng Yu (Tactician)\nLiu Ye (Catapult)\nCao Ang (Light Cavalry)\nWu Anguo (Outlaw)\nZhu Jun (Light Cavalry)\nZhu Ling (Mounted Archer)\nGao Lan (Mounted Archer)\nGuo Yi (Mounted Archer)\nTian Feng (Tactician)\nJu Shou (Tactician)\nLiu Zan (Footman)\nWang Jun (Navy)\nXiahou Jie (Heavy Cavalry)\nChen Tai (Marine)\nZhang Ni (Soldier)\nSun Yu (Navy)\nZu Mao (Outlaw)\nLu Dai (Marine)\nTadun (Mountain Cavalry)\nJi Ling (Heavy Cavalry)\nLu Zhi (Footman)\nDong Xi (Footman)\nZhang Zhao (Tactician)\nSun Huan (Footman)\nQuan Cong (Crossbowman)\nHe Qi (Heavy Cavalry)\nPan Zhang (Spearman)\nXiaoqiao (Geomancer)\nChen Dao (Spearman)\nFei Yao (Mountain Cavalry)\nWu Ban (Pantheran)\nYan Yan (Spearman)\nMa Dai (Chariot)\nWang Yi (Light Cavalry)\nHan Sui (Chariot)\nDing Yuan (Mountain Cavalry)\nCao Jie (Dancer)\nHua Man (Ursari)\nLiu Yan (Crossbowman)\nCai Yan (Tactician)\nHan Hao (Spearman)\nCao Xiu (Crossbowman)\nLiang Xi (Mountain Cavalry)\nYang Hu (Marine)\nCao Chun (Heavy Cavalry)\nChen Qun (Geomancer)\nDeng Zhi (Crossbowman)\nXiahou Shang (Mounted Archer)\nWang Ji (Light Cavalry)\nDu Yu (Marine)\nLu Zhi (Dancer)```")
+       }
+    if (args ===`19`){
+         message.channel.send("```asciidoc\nLi Dian (Crossbowman)\nYu Jin (Archer)\nJia Xu (Taoist)\nZhang Jue (Sage)\nCao Zhang (Mountain Cavalry)\nZhang Yan (Outlaw)\nXu Shu (Tactician)\nYuan Shao (Warlord)\nLu Kang (Marine)\nSun Quan (Warlord)\nGuo Huai (Footman)\nHao Zhao (Footman)\nFu Qian (Spearman)\nTian Yu (Light Cavalry)\nGongsun Zan (Mountain Cavalry)\nLuo Xian (Footman)\nShen Rong (Spearman)\nHan Dang (Outlaw)\nCheng Pu (Heavy Cavalry)\nLing Cao (Navy)\nDaqiao (Dancer)\nXu Sheng (Archer)\nSun Shao (Soldier)\nDing Feng (Archer)\nZhu Huan (Crossbowman)\nLu Su (Tactician)\nLi Yan (Spearman)\nFa Zheng (Tactician)\nZhang Bao (Light Cavalry)\nWu Yi (Soldier)\nYan Xing (Chariot)\nMa Teng (Chariot)\nZhou Cang (Outlaw)\nHuche'er (Soldier)\nZhurong (Dancer)\nKing Wutugu (Footman)\nWang Ping (Archer)\nGuan Ping (Light Cavalry)\nBao Sanniang (Soldier)\nGuan Suo (Mounted Archer)\nWen Qin (Heavy Cavalry)\nCao Zhen (Chariot)\nSun Li (Soldier)\nZhenji (Dancer)\nLiao Hua (Outlaw)\nXiahou Ba (Heavy Cavalry)\nGuan Xing (Heavy Cavalry)\nWang Shuang (Soldier)\nHuangfu Song (Footman)\nLu Lingqi (Light Cavalry)\nZang Ba (Outlaw)\nGao Shun (Chariot)\nChen Ping (Taoist)\nXian He (Geomancer)\nLiu Bang (Emperor)```")
+       }
+    if (args ===`20`){
+         message.channel.send("```asciidoc\nYue Jin (Footman)\nXun Yu (Tactician)\nGuo Jia (Taoist)\nDiaochan (Dancer)\nZhang He (Mounted Archer)\nPang De (Footman)\nChen Wu (Archer)\nLing Tong (Heavy Cavalry)\nLu Xun (Marine)\nHuang Gai (Soldier)\nSun Jian (Warlord)\nPang Tong (Sage)\nJiang Qin (Navy)\nZhang Ren (Crossbowman)\nGuan Yinping (Light Cavalry)\nLiu Bei (Warlord)\nWen Pin (Navy)\nWang Yuanji (Dancer)\nHua Xiong (Chariot)\nGuan Ying (Light Cavalry)\nWang Ling (Chariot)\nPeng Yue (Mountain Cavalry)\nZhou Bo (Mounted Archer)\nYu Ying (Soldier)\nZhou Lan (Archer)\nJi Bu (Spearman)```")
+       }
+      if (args ===`21`){
+         message.channel.send("```asciidoc\nXiahou Yuan (Mounted Archer)\nXiahou Dun (Light Cavalry)\nCao Ren (Heavy Cavalry)\nDian Wei (Soldier)\nCao Cao (Warlord)\nXu Chu (Outlaw)\nXu Huang (Spearman)\nZhang Liao (Light Cavalry)\nSima Yi (Sage)\nZhou Tai (Navy)\nLu Meng (Marine)\nWen Yang (Light Cavalry)\nDeng Ai (Mountain Cavalry)\nSun Shangxiang (Mounted Archer)\nSun Ce (Warlord)\nZhou Yu (Marine)\nZhang Xingcai (Light Cavalry)\nWei Yan (Soldier)\nMeng Huo (Ursari)\nJiang Wei (Mountain Cavalry)\nZhuge Liang (Sage)\nXiahou Dun (Swordsman)\nXiahou Ying (Crossbow Chariot)\nHuan Chu (Outlaw)\nFan Zeng (Tactician)```")
+       }
+        if (args ===`22`){
+         message.channel.send("```asciidoc\nYan Liang (Light Cavalry)\nWen Chou (Heavy Cavalry)\nZhuge Liang (Demon)\nDong Zhuo (Chariot)\nCao Shen (Heavy Cavalry)\nLong Ju (Swift Cavalry)```")
+       }
+        if (args ===`23`){
+         message.channel.send("```asciidoc\nGuan Yu (Heavy Cavalry)\nTaishi Ci (Light Cavalry)\nZhao Yun (Mountain Cavalry)\nGan Ning (Navy)\nHuang Zhong (Mounted Archer)\nZhang Fei (Light Cavalry)\nMa Chao (Mountain Cavalry)\nFan Kuai (Swordsman)\nZhongli Mo (Crossbow Chariot)\nYing Bu (Swift Cavalry)```")
+       }
+        if (args ===`24`){
+         message.channel.send("```asciidoc\nLu Bu (Mountain Cavalry)\nCao Cao (Swordsman)\nHan Xin (Marine)\nZhang Liang (Sage)```")
+       }
+        if (args ===`25`){
+         message.channel.send("```asciidoc\nXiang Yu (Swift Cavalry)```")
+       }
+  }
   
+    if(cmd === `${prefix}코`){
+      if (args ===`14`){
+         message.channel.send("```asciidoc\n가환 (풍수사)\n강보 (보병)\n경무 (산악기병)\n고승 (적병)\n고정 (보병)\n고패 (경기병)\n공도 (적병)\n공손강 (산악기병)\n공손연 (산악기병)\n공융 (책사)\n공주 (풍수사)\n공지 (포차)\n곽진 (창병)\n관정 (책사)\n국연 (풍수사)\n극정 (풍수사)\n금선 (포차)\n냉포 (창병)\n대래동주 (호술사)\n도겸 (군주)\n동궐 (포차)\n동승 (보병)\n등윤 (보병)\n마막 (포차)\n망아장 (산악기병)\n맹우 (호술사)\n미당대왕 (전차)\n미방 (보병)\n방선 (포차)\n번건 (포차)\n번조 (중기병)\n범강 (창병)\n보협 (노병)\n복양흥 (도사)\n비관 (보병)\n사마랑 (풍수사)\n사일 (노병)\n사정 (경기병)\n사준 (풍수사)\n사찬 (창병)\n설종 (풍수사)\n손노반 (도사)\n손호 (노병)\n손화 (궁병)\n송헌 (궁병)\n순심 (도사)\n순의 (도사)\n신비 (풍수사)\n신헌영 (책사)\n아회남 (경기병)\n악취 (무인)\n양봉 (창병)\n양송 (포차)\n양진 (무인)\n양홍 (포차)\n양회 (보병)\n엄백호 (적병)\n엄정 (궁병)\n영수 (책사)\n예형 (도사)\n왕경 (창병)\n왕보 (풍수사)\n왕수 (풍수사)\n왕충 (창병)\n우희 (군악대)\n원담 (경기병)\n원희 (중기병)\n위관 (경기병)\n위속 (경기병)\n유괴 (전차)\n유궁 (궁병)\n유기 (보병)\n유도 (보병)\n유벽 (궁병)\n유복 (도사)\n유선 (보병)\n유소 (보병)\n유장 (군주)\n유종 (수군)\n유화 (풍수사)\n이래 (책사)\n이숙 (도사)\n이이 (경기병)\n이적 (풍수사)\n잠혼 (도사)\n장달 (보병)\n장량 (도사)\n장로 (군주)\n장백 (풍수사)\n장보 (도사)\n장빈 (궁병)\n장위 (경기병)\n장의거 (보병)\n장제 (경기병)\n저곡 (궁병)\n전해 (중기병)\n정원지 (무인)\n제갈균 (궁병)\n제갈서 (궁병)\n조범 (포차)\n조상 (군주)\n조성 (궁기병)\n조헌 (책사)\n진밀 (풍수사)\n진횡 (수군)\n차주 (보병)\n채중 (창병)\n채화 (수군)\n타사대왕 (도사)\n파재 (창병)\n하진 (중기병)\n하후덕 (산악기병)\n하후란 (경기병)\n하후무 (중기병)\n하후휘 (도사)\n한복 (보병)\n한현 (보병)\n해니 (창병)\n향랑 (풍수사)\n허공 (도사)\n허유 (풍수사)\n허정 (풍수사)\n호진 (중기병)\n호질 (창병)\n화흠 (도사)\n황호 (도사)\n후성 (보병)```")
+      }
+            if (args ===`15`){
+         message.channel.send("```asciidoc\n가규 (도사)\n고간 (궁기병)\n고담 (창병)\n고유 (풍수사)\n곽도 (도사)\n곽사 (창병)\n곽준 (보병)\n마충 (창병)\n만기 (경기병)\n모개 (노병)\n미축 (책사)\n배원소 (적병)\n변희 (무인)\n보즐 (도사)\n봉기 (풍수사)\n부하 (풍수사)\n서막 (노병)\n손건 (풍수사)\n손정 (중기병)\n손휴 (보병)\n아하소과 (전차)\n악침 (보병)\n양수 (책사)\n양의 (노병)\n양지 (책사)\n엄강 (산악기병)\n염포 (책사)\n오경 (노병)\n오찬 (적병)\n옹개 (보병)\n왕랑 (책사)\n왕윤 (풍수사)\n왕찬 (노병)\n원유 (궁병)\n위유 (노병)\n이유 (책사)\n이회 (풍수사)\n장송 (책사)\n장온 (책사)\n장윤 (수군)\n장준 (궁기병)\n장화 (풍수사)\n조령 (군악대)\n조안민 (궁기병)\n종육 (궁병)\n진규 (책사)\n진림 (풍수사)\n포신 (중기병)\n하태후 (무희)\n하후화 (보병)\n항백 (풍수사)\n형도영 (중기병)\n환계 (창병)```")
+      }
+            if (args ===`16`){
+         message.channel.send("```asciidoc\n가남풍 (도사)\n간옹 (궁병)\n감택 (포차)\n고옹 (책사)\n공손월 (산악기병)\n곽유지 (포차)\n관구검 (산악기병)\n관해 (창병)\n괴월 (도사)\n금환삼결 (호술사)\n낙통 (도독)\n뇌동 (무인)\n담웅 (궁기병)\n당자 (수군)\n동도나 (적병)\n동소 (포차)\n동화 (궁병)\n등충 (중기병)\n마속 (책사)\n마운록 (궁기병)\n마휴 (궁기병)\n목록대왕 (웅술사)\n번궁 (무인)\n변월향 (군악대)\n비의 (풍수사)\n서영 (중기병)\n성공영 (전차)\n소비 (수군)\n손교 (도독)\n손노육 (책사)\n손량 (보병)\n손준 (중기병)\n수고 (적병)\n신평 (포차)\n양염 (무희)\n양제 (창병)\n엄여 (산악기병)\n엄준 (궁병)\n여개 (노병)\n여범 (도독)\n오란 (보병)\n온회 (노병)\n왕도 (궁병)\n원상 (군주)\n유요 (중기병)\n윤묵 (풍수사)\n이각 (보병)\n장기 (경기병)\n장수 (군주)\n장양 (경기병)\n장춘화 (도사)\n장특 (궁병)\n장휴 (궁병)\n제갈교 (노병)\n제갈근 (풍수사)\n제갈첨 (창병)\n조광 (전차)\n조루 (노병)\n조모 (보병)\n조통 (보병)\n조홍 (보병)\n조화 (경기병)\n주흔 (적병)\n진교 (포차)\n진표 (노병)\n최염 (궁병)\n하후은 (경기병)\n하후홍 (책사)\n향총 (보병)\n호열 (궁기병)\n호주천 (산악기병)\n황권 (도독)\n희지재 (책사)```")
+      }
+            if (args ===`17`){
+         message.channel.send("```asciidoc\n곽익 (창병)\n괴량 (책사)\n당희 (무희)\n동백 (전차)\n동윤 (풍수사)\n마량 (책사)\n마요희 (경기병)\n만총 (풍수사)\n맹달 (창병)\n문호 (궁기병)\n보연사 (노병)\n사마가 (호술사)\n사마사 (군주)\n사마소 (군주)\n사마염 (군주)\n사섭 (포차)\n손등 (보병)\n손익 (수군)\n순우경 (창병)\n심배 (책사)\n양부 (중기병)\n양휘유 (무희)\n여건 (궁기병)\n염유 (경기병)\n오언 (경기병)\n왕광 (산악기병)\n왕열 (보병)\n우번 (포차)\n원술 (군주)\n유봉 (보병)\n유우 (군주)\n유표 (군주)\n이명 (호술사)\n장굉 (도사)\n장막 (경기병)\n장만성 (무인)\n장완 (책사)\n장익 (보병)\n장호 (창병)\n전주 (궁병)\n제갈각 (도독)\n제갈탄 (군주)\n조비 (군주)\n조식 (도사)\n조예 (군주)\n종리목 (산악기병)\n종요 (풍수사)\n종회 (도독)\n주방 (궁병)\n주연 (도독)\n주이 (궁기병)\n주치 (노병)\n진궁 (책사)\n진등 (도독)\n진진 (보병)\n채모 (도독)\n초촉 (적병)\n풍습 (보병)\n하후현 (책사)\n항량 (군주)\n황월영 (책사)\n황조 (무인)```")
+      }
+            if (args ===`18`){
+         message.channel.send("```asciidoc\n고람 (궁기병)\n국의 (궁기병)\n기령 (중기병)\n노식 (보병)\n답돈 (산악기병)\n동습 (보병)\n두예 (도독)\n등지 (노병)\n마대 (전차)\n무안국 (적병)\n반장 (창병)\n비요 (산악기병)\n소교 (풍수사)\n손유 (수군)\n손환 (보병)\n순유 (풍수사)\n양습 (산악기병)\n양호 (도독)\n엄안 (창병)\n여대 (도독)\n여치 (무희)\n오반 (호술사)\n왕기 (경기병)\n왕이 (경기병)\n왕준 (수군)\n유언 (노병)\n유엽 (포차)\n유찬 (보병)\n장소 (책사)\n장억 (무인)\n저수 (책사)\n전종 (노병)\n전풍 (책사)\n정욱 (책사)\n정원 (산악기병)\n조무 (적병)\n조순 (중기병)\n조앙 (경기병)\n조절 (무희)\n조휴 (노병)\n주령 (궁기병)\n주준 (경기병)\n진군 (풍수사)\n진도 (창병)\n진태 (도독)\n채염 (책사)\n하제 (중기병)\n하후걸 (중기병)\n하후상 (궁기병)\n한수 (전차)\n한호 (창병)\n화만 (웅술사)```")
+      }
+            if (args ===`19`){
+         message.channel.send("```asciidoc\n가후 (도사)\n견희 (무희)\n고순 (전차)\n공손찬 (산악기병)\n곽회 (보병)\n관색 (궁기병)\n관평 (경기병)\n관흥 (중기병)\n나헌 (보병)\n노숙 (책사)\n능조 (수군)\n대교 (무희)\n마등 (전차)\n문흠 (중기병)\n법정 (책사)\n부첨 (창병)\n서서 (책사)\n서성 (궁병)\n소하 (풍수사)\n손권 (군주)\n손례 (무인)\n손소 (무인)\n심영 (창병)\n아린 (현자)\n여령기 (경기병)\n염행 (전차)\n오의 (무인)\n올돌골 (보병)\n왕쌍 (무인)\n왕평 (궁병)\n요화 (적병)\n우금 (궁병)\n원소 (군주)\n유방 (천자)\n육항 (도독)\n이엄 (창병)\n이전 (노병)\n장각 (현자)\n장연 (적병)\n장패 (적병)\n장포 (경기병)\n전예 (경기병)\n정보 (중기병)\n정봉 (궁병)\n조진 (전차)\n조창 (산악기병)\n주창 (적병)\n주환 (노병)\n진평 (도사)\n축융 (무희)\n포삼랑 (무인)\n하후패 (중기병)\n학소 (보병)\n한당 (적병)\n호거아 (무인)\n황보숭 (보병)```")
+      }
+            if (args ===`20`){
+         message.channel.send("```asciidoc\n계포 (창병)\n곽가 (도사)\n관영 (경기병)\n관은병 (경기병)\n능통 (중기병)\n문빙 (수군)\n방덕 (보병)\n방통 (현자)\n손견 (군주)\n순욱 (책사)\n악진 (보병)\n왕릉 (전차)\n왕원희 (무희)\n우영 (무인)\n유비 (군주)\n육손 (도독)\n장임 (노병)\n장합 (궁기병)\n장흠 (수군)\n주란 (궁병)\n주발 (궁기병)\n진무 (궁병)\n초선 (무희)\n팽월 (산악기병)\n화웅 (전차)\n황개 (무인)```")
+      }
+            if (args ===`21`){
+         message.channel.send("```asciidoc\n강유 (산악기병)\n등애 (산악기병)\n맹획 (웅술사)\n문앙 (경기병)\n범증 (책사)\n사마의 (현자)\n서황 (창병)\n손상향 (궁기병)\n손책 (군주)\n여몽 (도독)\n위연 (무인)\n장료 (경기병)\n장성채 (경기병)\n전위 (무인)\n제갈량 (현자)\n조인 (중기병)\n조조 (군주)\n주유 (도독)\n주태 (수군)\n하후돈 (검사)\n하후돈 (경기병)\n하후연 (궁기병)\n하후영 (노전차)\n허저 (적병)\n환초 (적병)```")
+      }
+            if (args ===`22`){
+         message.channel.send("```asciidoc\n동탁 (전차)\n문추 (중기병)\n안량 (경기병)\n용저 (효기병)\n제갈량 (마왕)\n조참 (중기병)```")
+      }
+            if (args ===`23`){
+         message.channel.send("```asciidoc\n감녕 (수군)\n관우 (중기병)\n마초 (산악기병)\n번쾌 (검사)\n영포 (효기병)\n장비 (경기병)\n조운 (산악기병)\n종리말 (노전차)\n태사자 (경기병)\n황충 (궁기병)```")
+      }
+            if (args ===`24`){
+         message.channel.send("```asciidoc\n여포 (산악기병)\n장량 (현자)\n조조 (검사)\n한신 (도독)```")
+      }
+            if (args ===`25`){
+         message.channel.send("```asciidoc\n항적 (효기병)```")
+      }
+    
+    }
   
   if (cmd === `${prefix}코스트`){
     message.channel.send("https://jojo.jy.is/cost/");
