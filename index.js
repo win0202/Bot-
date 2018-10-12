@@ -2135,45 +2135,7 @@ bot.on("message", async message => {
       message.channel.send("```asciidoc\n[군악대]\n ```")
      }    
     
-    
-    
-     if (args ===`footman` || args ===`Footman`){
-      message.channel.send("```asciidoc\n[Footman]\nYue Jin (20)	YueHao Zhao (19)	Pang De (20)	Yue Chen (15)\nGuo Huai (19)	Sun Huan (18)	Luo Xian (19)	Dong Xi (18)\nKing Wutugu (19)	Sun Deng (17)	Lu Zhi (18)	Huangfu Song (19)\nLiu Zan (18)	Zhang Yi (17)	Zhao Tong (16)	Wu Lan (16)\nChen Zhen (17)	Liu Feng (17)	Teng Yin (14)	Xiang Chong (16)	Cao Hong (16)\nFeng Xi (17)	Yang Huai (14)	Huo Jun (15)	Li Jue (16)\nXiahou He (15)	Fei Guan (14)	Liu Shao (14)	Jiang Yiqu (14)\nYong Kai (15)	Gao Ding (14)	Sun Liang (16)	Hou Cheng (14)\nSun Xiu (15)	Dong Cheng (14)	Jiang Fu (14)	Cao Mao (16)\nChe Zhou (14)	Mi Fang (17)	Liu Shan (14)	Liu Qi (14)\nZhang Da (14)	Liu Du (14)	Han Fu (14)	Han Xuan (14) ```")
-     }
-     if (args ===`archer` || args ===`Archer`){
-      message.channel.send("```asciidoc\n[Archer]\nChen Wu (20)	Wang Ping (19)	Xu Sheng (19)	Ding Feng (19)\nYu Jin (19)	Tian Chou (17)	Zhang Te (16)	Zhou Fang (17)\nSun He (14)	Cui Yan (16)	Dong He (16)	Zhuge Xu (14)\nJian Yong (16)	Yuan Yi (15)	Liu Gong (14)	Liu Pi (14)\nSong Xian (14)	Zhang Xiu (16)	Jiang Bin (14)	Zhong Yu (15)\nYan Jun (16)	Ju Gu (14)	Yan Zheng (14)	Zhuge Jun (14)\nZhou Lan (20) ```")
-     }
-     if (args ===`Catapult` || args ===`catapult`){
-      message.channel.send("```asciidoc\n[Catapult]\nLiu Ye (18)	Xin Ping (16)	Yu Fan (17)	Kan Ze (16)\nDong Jue (14)	Shi Xie (17)	Chen Jiao (16)	Fan Jian (14)\nJin Xuan (14)	Ma Miao (14)	Gong Zhi (14)	Dong Zhao (16)\nPang Sun (14)	Guo Youzhi (16)	Yang Hong (14)	Zhao Fan (14)\nYang Song (14) ```")
-     }
-     if (args ===`Chariot` || args ===`chariot`){
-      message.channel.send("```asciidoc\n[Chariot]\nDong Zhuo (22)	Hua Xiong (20)	Gao Shun (19)	Yan Xing (19)\nCao Zhen (19)	Ma Teng (19)	Liu Gui (14)	Han Sui (18)\nZhao Guang (16)	Ma Dai (18)	Cheng Gongying (16)	Ehe Shaoge (15)\nKing Midang (14)	Wang Ling (20) ```")
-     }
-     if (args ===`CrossbowChariot` || args ===`Crossbowchariot`||args ===`crossbowchariot`){
-      message.channel.send("```asciidoc\n[Crossbow Chariot]\nXiahou Ying (21)	Zhongli Mo (23) ```")
-     }
-     if (args ===`Crossbowman` || args ===`crossbowman`){
-      message.channel.send("```asciidoc\n[Crossbowman]\nZhang Ren (20)	Li Dian (19)	Zhu Huan (19)	Quan Cong (18)\nCao Xiu (18)	Wu Jing (15)	Liu Yan (18)	Deng Zhi (18)\nZhu Zhi (17)	Bu Lianshi (17)	Zhao Lei (16)	Bu Xie (14)\nYang Yi (15)	Lu Kai (16)	Xu Miao (15)	Wei You (15)\nWen Hui (16)	Zhuge Qiao (16)	Mao Jie (15)	Chen Biao (16)\nShi Yi (14)	Wang Can (15)	Sun Hao (14) ```")
-     }
-     if (args ===`Dancer` || args ===`dancer`){
-      message.channel.send("```asciidoc\n[Dancer]\nWang Yuanji (20)	Diaochan (20)	Zhenji (19)	Daqiao (19)\nZhurong (19)	Cao Jie (18)	Yang Huiyu (17)	Tang Ji (17)\nEmpress He (15)	Yang Yan (16)	Lu Zhi (18) ```")
-     }
-     if (args ===`Demon` || args ===`demon`){
-      message.channel.send("```asciidoc\n[Demon]\nZhuge Liang (22) ```")
-     }
-     if (args ===`Emperor` || args ===`emperor`){
-      message.channel.send("```asciidoc\n[Emperor]\nLiu Bang (19)	Xiang Liang (17)```")
-     }
-     if (args ===`Geomancer` || args ===`geomancer`){
-      message.channel.send("```asciidoc\n[Geomancer]\nMan Chong (17)	Zhong Yao (17)	Xiaoqiao (18)	Chen Qun (18)\nXun You (18)	Sun Qian (15)	Zhuge Jin (16)	Fei Yi (16)\nDong Yun (17)	Li Hui (15)	Feng Ji (15)	Xu Jing (14)\nChen Lin (15)	Wang Yun (15)	Guo Yuan (14)	Qin Mi (14)\nFu Jia (15)	Xue Zong (14)	Zhang Hua (15)	Wang Fu (14)\nWang Xiu (14)	Xiang Lang (14)	Gao Rou (15)	Xin Pi (14)\nXi Zheng (14)	Yi Ji (14)	Sima Lang (14)	Xu You (14)\nKong Zhou (14)	Liu He (14)	Gui Hwan (14)	Si Zun (14)\nZhang Baek (14)	Xian He (19)	Xiang Bo (15) ```")
-     }
-     if (args ===`HeavyCavalry` || args ===`Heavycavalry` || args ===`heavycavalry`){
-      message.channel.send("```asciidoc\n[Heavy Cavalry]\nGuan Yu (23)	Wen Chou (22)	Cao Ren (21)	Ling Tong (20)\nXiahou Jie (18)	Cheng Pu (19)	Xiahou Ba (19)	Cao Chun (18)\nGuan Xing (19)	He Qi (18)	Wen Qin (19)	Hu Zhen (14)\nDeng Zhong (16)	Ji Ling (18)	Tian Kai (14)	Xu Rong (16)\nYang Fu (17)	Sun Jun (16)	Fan Chou (14)	Xing Daorong (15)\nLiu Yao (16)	Sun Jing (15)	Bao Xin (15)	Yuan Xi (14)\nHe Jin (14)	Xiahou Mao (14)	Cao Shen (22) ```")
-     }
-     if (args ===`LightCavalry` || args ===`Lightcavalry` ||  args ===`lightCavalry`){
-      message.channel.send("```asciidoc\n[Light Cavalry]\nTaishi Ci (23)	Zhang Liao (21)	Zhang Fei (23)	Yan Liang (22)\nXiahou Dun (21)	Wen Yang (21)	Zhang Xingcai (21)	Guan Yinping (20)\nZhang Bao (19)	Cao Ang (18)	Wang Ji (18)	Guan Ping (19)\nWang Yi (18)	Lu Lingqi (19)	Zhu Jun (18)	Ma Yaoji (17)\nTian Yu (19)	Xiahou Lan (14)	Wei Guan (14)	Yan Rou (17)\nZhang Miao (17)	Wu Yan (17)	Ahui Nan (14)	Zhang Yang (16)\nXiahou En (16)	Man Ji (15)	Zhang Ji (14)	Yuan Tan (14)\nZhang Ji (16)	Li Yi (14)	Wei Xu (14)	Zhang Wei (14)\nCao Hua (16)	Gao Pei (14)	Xie Jing (14)	Guan Ying (20) ```")
-     }
-    
+        
      if (args ===`footman` || args ===`Footman`){
       message.channel.send("```asciidoc\n[Footman]\nYue Jin (20)\nHao Zhao (19)\nPang De (20)\nYue Chen (15)\nGuo Huai (19)\nSun Huan (18)\nLuo Xian (19)\nDong Xi (18)\nKing Wutugu (19)\nSun Deng (17)\nLu Zhi (18)\nHuangfu Song (19)\nLiu Zan (18)\nZhang Yi (17)\nZhao Tong (16)\nWu Lan (16)\nChen Zhen (17)\nLiu Feng (17)\nTeng Yin (14)\nXiang Chong (16)\nCao Hong (16)\nFeng Xi (17)\nYang Huai (14)\nHuo Jun (15)\nLi Jue (16)\nXiahou He (15)\nFei Guan (14)\nLiu Shao (14)\nJiang Yiqu (14)\nYong Kai (15)\nGao Ding (14)\nSun Liang (16)\nHou Cheng (14)\nSun Xiu (15)\nDong Cheng (14)\nJiang Fu (14)\nCao Mao (16)\nChe Zhou (14)\nMi Fang (17)\nLiu Shan (14)\nLiu Qi (14)\nZhang Da (14)\nLiu Du (14)\nHan Fu (14)\nHan Xuan (14) ```")
      }
@@ -2259,7 +2221,6 @@ bot.on("message", async message => {
      if (args ===`Warlord` || args ===`warlord`){
       message.channel.send("```asciidoc\n[Warlord]\nSun Jian (20)\nSun Ce (21)\nLiu Bei (20)\nCao Cao (21)\nSun Quan (19)\nYuan Shao (19)\nCao Pi (17)\nZhuge Dan (17)\nCao Rui (17)\nSima Shi (17)\nSima Yan (17)\nSima Zhao (17)\nLiu Yu (17)\nLiu Biao (17)\nZhang Xiu (16)\nYuan Shu (17)\nYuan Shang (16)\nCao Shuang  (14)\nTao Qian (14)\nZhang Lu (14)\nLiu Zhang (14) ```")
      }
-  
   
   }
   
