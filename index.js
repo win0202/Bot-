@@ -8732,7 +8732,18 @@ if (args ===`classicofmountainsandseas` || args ===`Classicofmountainsandseas` |
       }
     
     }
-  
+  if (cmd === `${prefix}청룡`){
+    message.channel.send("청룡보패 : https://cdn.discordapp.com/attachments/499127334843187222/499129420347473922/1528900861218.jpg \n조생아/조린이용 중급청룡 : https://www.fmkorea.com/994952570 \n개인 최상급 청룡 : https://cafe.naver.com/nexonjojo/556225 \n청룡 자동위임 : https://cafe.naver.com/nexonjojo/558040");
+  }
+	
+	if (cmd === `${prefix}주작`){
+    message.channel.send("주작보패 : https://cdn.discordapp.com/attachments/499129361966956545/499129453872545805/KakaoTalk_20180613_233952069.png \n개인 최상급 주작\nhttps://cafe.naver.com/nexonjojo/530760 \nhttps://cafe.naver.com/nexonjojo/530114");
+  }  
+	
+	  if (cmd === `${prefix}코스트`){
+    message.channel.send("https://jojo.jy.is/cost/");
+  }
+	
   if (cmd === `${prefix}코스트`){
     message.channel.send("https://jojo.jy.is/cost/");
   }
@@ -8795,7 +8806,7 @@ if (args ===`classicofmountainsandseas` || args ===`Classicofmountainsandseas` |
   
   
   if (cmd === `${prefix}?`){
-    message.channel.send("```asciidoc\n/번역 [이름] : 보물/장수/병종/특성 번역 ex)/번역 제갈량\n/특성 [이름] : 특성 검색 ex)/특성 연속 책략\n/장수 [이름] : 장수 상세 정보 ex)/장수 제갈량\n/병종 [이름] : 병종 상세 정보 ex)/병종 보병\n/병종목록 [이름] : 해당 병종 장수 리스트 ex)/병종목록 보병\n/보물 [이름] : 보물 상세 정보 ex)/보물 백학선\n/위키 : 조조전 온라인 나무위키\n/네이버 : 네이버 공식 카페\n/플러그 : 글로벌서버 공식 페이지\n/코스트 : 코스트 계산기\n/전장순서 : 섬멸전 전장 순서\n/지형 : 지형별 상성표\n/이동 : 각 섬멸맵 병종별 이동력 소모\n/디버프 : 디버프효과 상세정보\n/vip [5~12] : vip 5~12레벨 무료상자\n/?? : in Eng\n= 이름 적을때 스페이스 없이 적으세요 =```");
+    message.channel.send("```asciidoc\n/번역 [이름] : 보물/장수/병종/특성 번역 ex)/번역 제갈량\n/특성 [이름] : 특성 검색 ex)/특성 연속 책략\n/장수 [이름] : 장수 상세 정보 ex)/장수 제갈량\n/병종 [이름] : 병종 상세 정보 ex)/병종 보병\n/병종목록 [이름] : 해당 병종 장수 리스트 ex)/병종목록 보병\n/보물 [이름] : 보물 상세 정보 ex)/보물 백학선\n/위키 : 조조전 온라인 나무위키\n/네이버 : 네이버 공식 카페\n/플러그 : 글로벌서버 공식 페이지\n/코스트 : 코스트 계산기\n/전장순서 : 섬멸전 전장 순서\n/지형 : 지형별 상성표\n/이동 : 각 섬멸맵 병종별 이동력 소모\n/디버프 : 디버프효과 상세정보\n/vip [5~12] : vip 5~12레벨 무료상자\n/청룡 : 청룡 공략\n/주작 : 주작 공략\n/?? : in Eng\n= 이름 적을때 스페이스 없이 적으세요 =```");
   }
   if (cmd === `${prefix}??`){
     message.channel.send("```asciidoc\n/tr [name] : Translate name of artifact/commander/class/passive ex)/tr jiangfu\n/pa [name] : Passive Search ex)/pa doubletactics\n/cm [name] : Commander Description ex)/co jiangfu\n/cl [name] : Class Description ex)/cl footman\n/cll [name] : Class Commander List ex)/cll footman\n/ar [name] : Artifacts Description ex)/ar soulstaff\n/plug\n/cost : Team builder by Wolfgard\n/maprot : Annihilation Map Rotation \n/terrain : Terrain Bonus\n/move : SPD required to move in anni-map\n/debuff : debuff description\n/? : in Kor\n= There should be no space character in names =```");
