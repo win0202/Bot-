@@ -1198,9 +1198,6 @@ if (args ===`위연`){
 if (args ===`장수`){
        message.channel.send("```ZhangXiu```");
     }
-if (args ===`제갈량`){
-       message.channel.send("```ZhugeLiang```");
-    }
 if (args ===`아하소과`){
        message.channel.send("```EheShaoge```");
     }
