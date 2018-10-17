@@ -8733,11 +8733,11 @@ if (args ===`classicofmountainsandseas` || args ===`Classicofmountainsandseas` |
     
     }
   if (cmd === `${prefix}청룡`){
-    message.channel.send("청룡보패 : https://cdn.discordapp.com/attachments/499127334843187222/499129420347473922/1528900861218.jpg \n조생아/조린이용 중급청룡 : https://www.fmkorea.com/994952570 \n개인 최상급 청룡 : https://cafe.naver.com/nexonjojo/556225 \n청룡 자동위임 : https://cafe.naver.com/nexonjojo/558040");
+    message.channel.send("청룡보패 : https://cdn.discordapp.com/attachments/499127334843187222/499129420347473922/1528900861218.jpg \n조생아/조린이용 중급청룡 : https://www.fmkorea.com/994952570 \n개인 최상급 청룡 : https://cafe.naver.com/nexonjojo/556225 \n청룡 자동위임 : https://cafe.naver.com/nexonjojo/558040\n8men by JOB : https://cdn.discordapp.com/attachments/418439200170573827/496039432462532628/image0.jpg\n7men by JOB : https://cdn.discordapp.com/attachments/418439200170573827/496039723287183370/image0.jpg");
   }
 	
 	if (cmd === `${prefix}주작`){
-    message.channel.send("주작보패 : https://cdn.discordapp.com/attachments/499129361966956545/499129453872545805/KakaoTalk_20180613_233952069.png \n개인 최상급 주작\nhttps://cafe.naver.com/nexonjojo/530760 \nhttps://cafe.naver.com/nexonjojo/530114");
+    message.channel.send("주작보패 : https://cdn.discordapp.com/attachments/499129361966956545/499129453872545805/KakaoTalk_20180613_233952069.png \n개인 최상급 주작\nhttps://cafe.naver.com/nexonjojo/530760 \nhttps://cafe.naver.com/nexonjojo/530114\nby JOB : https://cdn.discordapp.com/attachments/418439200170573827/502222208161153038/team_basic_VBraid.jpg");
   }  
 	
 	  if (cmd === `${prefix}코스트`){
